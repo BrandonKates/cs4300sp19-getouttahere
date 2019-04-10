@@ -19,23 +19,9 @@
             
             <div class="form-group">
                 <input id="input" type="text" name="search" class="form-control" placeholder="Your Input">
-            </div>
-			
-            <button type="submit" class="btn btn-info"> Go! </button>
-        </form>
-        <form class="form-inline global-search">
-        {% if data %}
-            <h1>{{output_message}}</h1>
-            {% for d in data %}  
-                <br>
-                <p>{{d}}</p>
-            {% endfor %}
-        {% endif %}
-        </form>
-		
-		<form class = "form-inline global-search">
+            </div><br><br><br>
 			<button type = "button" class = "btn btn-info" data-toggle="collapse" data-target="#advsearch">Advanced Search </button>
-			<br>
+			
 			<div id = "advsearch" class = "collapse form-group"><br>
 				<select id = "input" name = "price" class = "form-control">
 					<option value = "" selected = "selected" hidden="hidden">Price Range</option>
@@ -50,14 +36,27 @@
 					<option value = "friends">Friends</option>
 					<option value = "individual">Romance</option>
 				</select>
-				<select id = "input" name = "weather" class = "form-control">
+				<select id = "input" name = "climate" class = "form-control">
 					<option value = "" selected = "selected" hidden="hidden">Climate</option>
 					<option value = "tropical">Tropical</option>
 					<option value = "temperate">Temperate</option>
 					<option value = "cold">Cold</option>
 				</select>				
-			</div>
-		</form>
+			</div><br>
+            <button type="submit" class="btn btn-info"> Go! </button>
+        </form>		
+		
+        <form class="form-inline global-search">
+        {% if data %}
+            <h1>{{output_message}}</h1>
+            {% for d in data %}  
+                <br>
+                <p>{{d}}</p>
+            {% endfor %}
+        {% endif %}
+        </form>
+
+		
 		
     </body>
 
