@@ -6,11 +6,10 @@
 }
 @media (min-width:400px){
 .global-search {
-/*padding: 20px 0;*/
+padding: 20px 0;
 text-align:center;
 }
 body {
-padding-top: 15%;
 padding-bottom: 15px;
 }
 .global-search {
@@ -29,6 +28,13 @@ margin-bottom:0;
 position:absolute;
 top:2%;
 right:2%;
+z-index: -1;
+}
+.top{
+position: absolute;
+top: 0;
+right: 0;
+z-index: -1;
 }
 .btn{
 background-color: #4285F4;
