@@ -1,11 +1,12 @@
 @media (min-width: 1200px) {
 .container {
     max-width: 970px;
+	
 }
 }
 @media (min-width:400px){
 .global-search {
-padding: 20px 0;
+/*padding: 20px 0;*/
 text-align:center;
 }
 body {
@@ -14,7 +15,7 @@ padding-bottom: 15px;
 }
 .global-search {
 text-align:center;
-padding:10px;
+/*padding:10px*/;
 }
 .global-search .form-control {
 width:500px;

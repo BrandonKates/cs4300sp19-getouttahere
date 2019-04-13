@@ -11,12 +11,12 @@ def search():
 	price = request.args.get('price')
 	group = request.args.get('group')
 	climate = request.args.get('climate')
-	
+	activities = request.args.get('activities')
 	if not query:
 		data = []
 		output_message = ''
 	else:
-		output_message = "Your search: " + " "  + query + " " + price + " " + group + " " + climate
+		output_message = "Your search: " + " "  + query + " " + price + " " + group + " " + climate + " " + activities
 		data = range(5)
 	return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data)
 
