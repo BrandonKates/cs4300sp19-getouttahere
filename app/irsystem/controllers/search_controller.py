@@ -13,10 +13,20 @@ net_id = "ams698, bjk224, dpm247, ne236, sn529"
 @irsystem.route('/', methods=['GET'])
 def search():
 	query = request.args.get('search')
+	if query == None:
+		query = ""
 	price = request.args.get('price')
+	if price == None:
+		price = ""
 	group = request.args.get('group')
+	if group == None:
+		group = ""
 	climate = request.args.get('climate')
+	if climate == None:
+		climate = ""
 	activities = request.args.get('activities')
+	if activities == None:
+		activities = ""
 	
 	advanced_query = query + " " + price + " " + group + " " + climate + " " + activities
 	
