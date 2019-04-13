@@ -1,4 +1,4 @@
-apiVersion: apps/v1beta2
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: flask
@@ -14,11 +14,11 @@ spec:
     spec:
       containers:
       - name: flask
-        image: bmets/canoe:v1
+        image: bmets/kanoe:v1
         env:
         - name: APP_SETTINGS
           value: config.DevelopmentConfig
         - name: DATABASE_URL
-          value: postgresql://localhost/canoe
+          value: postgresql://localhost/kanoe
         ports:
         - containerPort: 5000
