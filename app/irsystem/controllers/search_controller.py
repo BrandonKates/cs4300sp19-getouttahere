@@ -39,6 +39,7 @@ def search():
 			tf_idf = tf_idf['arr_0']
 			vocab = np.load(tfidf_files+"tfidf_vocab.npy").item()
 			cities = np.load(tfidf_files+"city_names.npy")
+			city_country_dict = np.load(tfidf_files+"city_country_dict.npy").item()
 			
 			query_vec = vectorize_query(advanced_query, vocab)
 			
@@ -46,9 +47,18 @@ def search():
 				output_message = "Your search did not return any results. Please try a new query."
 				data = []
 			else:
+				data = []
 				scores = cos_sim(query_vec, tf_idf)
 				idx =  np.argmax(scores)
-				data = [cities[idx]]
+				idxs = (np.argsort(-1*scores))[:5]
+				best_cities = cities[idxs]
+				for count, i in enumerate(idxs):
+					country = city_country_dict[cities[i]]
+					if str(country) == 'nan':
+						country = ' (Country Unknown)'
+					else:
+						country = ",  " + country
+					data.append(str(count+1) + ")  " + cities[i] + str(country))
 
 				output_message= "Your search: " + advanced_query
 
