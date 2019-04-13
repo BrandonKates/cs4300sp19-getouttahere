@@ -2,7 +2,7 @@ from . import *
 from app.irsystem.models.helpers import *
 from app.irsystem.models.helpers import NumpyEncoder as NumpyEncoder
 
-project_name = "Get Outta Here: Travel Destination Wizard"
+project_name = "Kanoe: Travel Destination Wizard"
 net_id = "ams698, bjk224, dpm247, ne236, sn529"
 
 @irsystem.route('/', methods=['GET'])
