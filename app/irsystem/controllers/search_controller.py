@@ -7,6 +7,11 @@ import os
 dirpath = os.getcwd()
 tfidf_files = dirpath + "/app/irsystem/controllers/tfidf_data/"
 
+vocab = np.load(tfidf_files+"tfidf_vocab.npy").item()
+city_country_dict = np.load(tfidf_files+"city_country_dict.npy").item()
+cities = np.load(tfidf_files+"city_names.npy")
+tf_idf = np.load(tfidf_files+"tfidf_matrix.npz")['arr_0']
+
 project_name = "Kanoe"
 net_id = "ams698, bjk224, dpm247, ne236, sn529"
 
@@ -35,32 +40,26 @@ def search():
 		output_message = ''
 	else:
         # Read in pre-computed tf-idf and data tables
-		with np.load(tfidf_files+"tfidf_matrix.npz") as tf_idf:
-			tf_idf = tf_idf['arr_0']
-			vocab = np.load(tfidf_files+"tfidf_vocab.npy").item()
-			cities = np.load(tfidf_files+"city_names.npy")
-			city_country_dict = np.load(tfidf_files+"city_country_dict.npy").item()
-			
-			query_vec = vectorize_query(advanced_query, vocab)
-			
-			if query_vec is None:
-				output_message = "Your search did not return any results. Please try a new query."
-				data = []
-			else:
-				data = []
-				scores = cos_sim(query_vec, tf_idf)
-				idx =  np.argmax(scores)
-				idxs = (np.argsort(-1*scores))[:5]
-				best_cities = cities[idxs]
-				for count, i in enumerate(idxs):
-					country = city_country_dict[cities[i]]
-					if str(country) == 'nan':
-						country = ' (Country Unknown)'
-					else:
-						country = ",  " + country
-					data.append(str(count+1) + ")  " + cities[i] + str(country))
+		
+		query_vec = vectorize_query(advanced_query, vocab)
+		if query_vec is None:
+			output_message = "Your search did not return any results. Please try a new query."
+			data = []
+		else:
+			data = []
+			scores = cos_sim(query_vec, tf_idf)
+			idx =  np.argmax(scores)
+			idxs = (np.argsort(-1*scores))[:5]
+			best_cities = cities[idxs]
+			for count, i in enumerate(idxs):
+				country = city_country_dict[cities[i]]
+				if str(country) == 'nan':
+					country = ' (Country Unknown)'
+				else:
+					country = ",  " + country
+				data.append(str(count+1) + ")  " + cities[i] + str(country))
 
-				output_message= "Your search: " + advanced_query
+			output_message= "Your search: " + advanced_query
 
 
 	return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data)
