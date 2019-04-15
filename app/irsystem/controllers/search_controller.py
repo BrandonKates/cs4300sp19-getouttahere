@@ -10,7 +10,6 @@ tfidf_files = dirpath + "/app/irsystem/controllers/tfidf_data/"
 vocab = np.load(tfidf_files+"tfidf_vocab.npy").item()
 city_country_dict = np.load(tfidf_files+"city_country_dict.npy").item()
 cities = np.load(tfidf_files+"city_names.npy")
-tf_idf = np.load(tfidf_files+"tfidf_matrix.npz")['arr_0']
 
 project_name = "Kanoe"
 net_id = "ams698, bjk224, dpm247, ne236, sn529"
@@ -40,7 +39,8 @@ def search():
 		output_message = ''
 	else:
         # Read in pre-computed tf-idf and data tables
-		
+		tf_idf = np.load(tfidf_files+"tfidf_matrix.npz")['arr_0']
+
 		query_vec = vectorize_query(advanced_query, vocab)
 		if query_vec is None:
 			output_message = "Your search did not return any results. Please try a new query."
