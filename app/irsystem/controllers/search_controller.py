@@ -61,7 +61,7 @@ def search():
 					country = ' (Country Unknown)'
 				else:
 					country = ",  " + country
-				data.append(cities[i] + str(country))
+				data.append(str(count + 1) + ") " + cities[i] + str(country))
 
 			output_message= "You searched for places with " + advanced_query
 
