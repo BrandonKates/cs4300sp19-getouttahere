@@ -61,9 +61,9 @@ def search():
 					country = ' (Country Unknown)'
 				else:
 					country = ",  " + country
-				data.append(str(count+1) + ")  " + cities[i] + str(country))
+				data.append(cities[i] + str(country))
 
-			output_message= "Your search: " + advanced_query
+			output_message= "You searched for places with " + advanced_query
 
 
 	return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data)

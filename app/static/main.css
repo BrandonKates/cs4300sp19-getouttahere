@@ -34,7 +34,7 @@ right:2%;
 position: absolute;
 top: 0;
 right: 0;
-z-index: -1;
+z-index: -10;
 }
 .btn{
 background-color: #4285F4;
@@ -42,4 +42,8 @@ border: none
 }
 .step-links a{
 color: #4285F4;
+}
+
+a:hover{
+color:blue;
 }
