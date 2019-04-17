@@ -6,3 +6,6 @@ vagrant/site.retry
 vagrant/a4keypair.pem
 cs4300
 *-checkpoint*.ipynb
+tripadvisor_scraper/tripadvisor_scraper
+tripadvisor_scraper
+Data Exploration
