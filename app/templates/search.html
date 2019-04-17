@@ -5,6 +5,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		
 	</head>
     <body>
         <div class="topcorner">
@@ -21,7 +22,7 @@
             <br><br>
             
             <div class="form-group">
-                <input id="input" type="text" name="search" class="form-control" placeholder="Your Input">
+                <input id="input" type="text" name="search" class="form-control" placeholder="Your ideal trip">
             </div><br><br><br>
 			
 			<button type = "button" class = "btn btn-info" data-toggle="collapse" data-target="#advsearch" aria-expanded="false" aria-controls="collapseExample">Advanced Search </button>
@@ -51,18 +52,21 @@
 			</div><br><br>
             <button type="submit" class="btn btn-info"> Go! </button>
         </form>		
-		
-        <form class="form-inline global-search">
+		<img class = "top img-responsive" alt = "Fisherman" src="/static/boat-canoe-fishermen.jpg">
+        <form class="text-center">
         {% if data %}
-            <h1>{{output_message}}</h1>
+            <h2 class = "display-3">{{output_message}}</h2>
+			<h3 class = "display-4">We found:</h2></br>
             {% for d in data %}  
-                <br>
-                <p>{{d}}</p>
+				<div class = "card">
+					<div class = "card-body font-weight-light display-4 link-div">
+						<a href = "http://www.google.com/search?q={{d}}">{{d}}</a>
+					</div>
+				</div>
             {% endfor %}
         {% endif %}
         </form>
 		</div>
-		<img class = "top img-responsive" alt = "Fisherman" src="/static/boat-canoe-fishermen.jpg">
 
 		
     </body>
