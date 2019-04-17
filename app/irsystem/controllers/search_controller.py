@@ -47,13 +47,13 @@ def search():
 		data = []
 		count = 0
 		for city, score in results[0:5]:
-      count += 1;
+			count += 1
 			country = city_country_dict[city]
 			if str(country) == 'nan':
 				country = ' (Country Unknown)'
 			else:
 				country = ",  " + country
-			data.append(str(count + 1) + ") " + city + str(country))
+			data.append(str(count) + ") " + city + str(country))
 		
 		output_message= "You searched for places with " + advanced_query
 
