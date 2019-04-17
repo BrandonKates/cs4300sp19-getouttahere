@@ -5,6 +5,7 @@ from nltk.tokenize import RegexpTokenizer
 import numpy as np
 import os 
 
+
 dirpath = os.getcwd()
 tfidf_files = dirpath + "/app/irsystem/controllers/tfidf_data/"
 inv_idx = np.load(tfidf_files+"inv_idx.npy").item()
@@ -41,7 +42,6 @@ def search():
 		data = []
 		output_message = ''
 	else:
-    # Load the pre-computed tfidf statistics
 		
 		results = index_search(advanced_query, inv_idx, idf, doc_norms)
 		data = []
