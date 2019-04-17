@@ -47,6 +47,7 @@ def search():
 		data = []
 		count = 0
 		for city, score in results[0:5]:
+      count += 1;
 			country = city_country_dict[city]
 			if str(country) == 'nan':
 				country = ' (Country Unknown)'
