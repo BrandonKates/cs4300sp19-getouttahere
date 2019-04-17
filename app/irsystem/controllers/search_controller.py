@@ -42,7 +42,6 @@ def search():
 		data = []
 		output_message = ''
 	else:
-		
 		results = index_search(advanced_query, inv_idx, idf, doc_norms)
 		data = []
 		count = 0
@@ -54,7 +53,6 @@ def search():
 			else:
 				country = ",  " + country
 			data.append(str(count) + ") " + city + str(country))
-		
 		output_message= "You searched for places with " + advanced_query
 
 	return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data)
