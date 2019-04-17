@@ -13,7 +13,7 @@ net_id = "ams698, bjk224, dpm247, ne236, sn529"
 
 @irsystem.route('/', methods=['GET'])
 def search():
-	query = request.args.get('search').lower()
+	query = request.args.get('search')
 	if query == None:
 		query = ""
 	price = request.args.get('price')
@@ -35,7 +35,7 @@ def search():
 		data = []
 		output_message = ''
 	else:
-        # Load the pre-computed tfidf statistics
+    # Load the pre-computed tfidf statistics
 		inv_idx = np.load(tfidf_files+"inv_idx.npy").item()
 		idf = np.load(tfidf_files+"idf_dict.npy").item()
 		doc_norms = np.load(tfidf_files+"doc_norms.npy").item()
