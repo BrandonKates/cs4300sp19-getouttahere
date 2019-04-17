@@ -5,6 +5,14 @@ from nltk.tokenize import RegexpTokenizer
 import numpy as np
 import os 
 
+# Load the pre-computed tfidf statistics
+inv_idx = np.load(tfidf_files+"inv_idx.npy").item()
+idf = np.load(tfidf_files+"idf_dict.npy").item()
+doc_norms = np.load(tfidf_files+"doc_norms.npy").item()
+
+# Mapping of cities to their countries
+city_country_dict = np.load(tfidf_files+"city_country_dict.npy").item()
+
 dirpath = os.getcwd()
 tfidf_files = dirpath + "/app/irsystem/controllers/tfidf_data/"
 
@@ -35,13 +43,7 @@ def search():
 		data = []
 		output_message = ''
 	else:
-    # Load the pre-computed tfidf statistics
-		inv_idx = np.load(tfidf_files+"inv_idx.npy").item()
-		idf = np.load(tfidf_files+"idf_dict.npy").item()
-		doc_norms = np.load(tfidf_files+"doc_norms.npy").item()
-		
-		# Mapping of cities to their countries
-		city_country_dict = np.load(tfidf_files+"city_country_dict.npy").item()
+    
 		
 		results = index_search(advanced_query, inv_idx, idf, doc_norms)
 		data = []
