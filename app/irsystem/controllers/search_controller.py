@@ -35,6 +35,13 @@ def search():
 	activities = request.args.get('activities')
 	if activities == None:
 		activities = ""
+	urban = request.args.get('urban')
+	if urban == None:
+		urban = ""
+	numLocs = request.args.get('numberLocs')
+	if numLocs == None:
+		numLocs = 6
+	numLocs = int(numLocs)
 	
 	advanced_query = query + " " + price + " " + group + " " + climate + " " + activities
 
@@ -45,7 +52,7 @@ def search():
 		results = index_search(advanced_query, inv_idx, idf, doc_norms)
 		data = []
 		count = 0
-		for city, score in results[0:5]:
+		for city, score in results[0:numLocs]:
 			count += 1
 			country = city_country_dict[city]
 			if str(country) == 'nan':
