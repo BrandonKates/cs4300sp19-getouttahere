@@ -22,7 +22,7 @@
             <br><br>
             
             <div class="form-group">
-                <input id="input" type="text" name="search" class="form-control" placeholder="Your ideal trip">
+                <input id="input" type="text" name="search" class="form-control" placeholder="Your ideal trip" autocomplete = "">
             </div><br><br><br>
 			
 			<button type = "button" class = "btn btn-info" data-toggle="collapse" data-target="#advsearch" aria-expanded="false" aria-controls="collapseExample">Advanced Search </button>
@@ -48,20 +48,50 @@
 					<option value = "tropical">Tropical</option>
 					<option value = "temperate">Temperate</option>
 					<option value = "cold">Cold</option>
-				</select><br><br>			
+				</select><br><br>
+				<div class = "form-group">
+					Rural
+					<input type = "range" min = "0" max = "10" value = "5" name = "urban" class = "form-control" id = "urbanrange">
+					Urban
+				</div>
+				<input type = "text" id = "input2" name = "currentloc" class = "form-control" placeholder = "Your current location">
+				
 			</div><br><br>
             <button type="submit" class="btn btn-info"> Go! </button>
         </form>		
 		<img class = "top img-responsive" alt = "Fisherman" src="/static/boat-canoe-fishermen.jpg">
-        <form class="text-center">
+        <form class= "text-center">
         {% if data %}
             <h2 class = "display-3">{{output_message}}</h2>
 			<h3 class = "display-4">We found:</h2></br>
             {% for d in data %}  
 				<div class = "card">
 					<div class = "card-body font-weight-light display-4 link-div">
-						<a href = "http://www.google.com/search?q={{d}}">{{d}}</a>
+						<a data-toggle="collapse" href = "#collapse{{loop.index}}">{{d}}</a>
 					</div>
+					
+					<div id = "collapse{{loop.index}}" class = "panel-collapse collapse">
+						<div class = "container" style = "height: 100px">
+							<div class = "row">
+								<div class = "col-sm-4">
+									Eat
+								</div>
+								<div class = "col-sm-4">
+									Drink
+								</div>
+								<div class = "col-sm-4">
+									Do
+								</div>
+							</div>
+						</div>
+						<div>
+						Cost:
+						</div>
+						<div>
+						Because you searched for:
+						</div>
+					</div>
+					
 				</div>
             {% endfor %}
         {% endif %}
