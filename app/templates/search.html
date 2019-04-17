@@ -25,7 +25,7 @@
                 <input id="input" type="text" name="search" class="form-control" placeholder="Your ideal trip" autocomplete = "">
             </div><br><br><br>
 			
-			<button type = "button" class = "btn btn-info" data-toggle="collapse" data-target="#advsearch" aria-expanded="false" aria-controls="collapseExample">Advanced Search </button>
+			<button type = "button" class = "btn btn-info" data-toggle="collapse" data-target="#advsearch" aria-expanded="false" aria-controls="collapseExample">Guided Search </button>
 			<br>
 			<div id = "advsearch" class = "collapse form-group" aria-expanded = "false" style = "height: 0px"><br>
 				<input type = "text" id = "input1" name = "activities" class = "form-control" placeholder = "Activities">
@@ -64,36 +64,41 @@
         {% if data %}
             <h2 class = "display-3">{{output_message}}</h2>
 			<h3 class = "display-4">We found:</h2></br>
-            {% for d in data %}  
-				<div class = "card">
-					<div class = "card-body font-weight-light display-4 link-div">
-						<a data-toggle="collapse" href = "#collapse{{loop.index}}">{{d}}</a>
-					</div>
-					
-					<div id = "collapse{{loop.index}}" class = "panel-collapse collapse">
-						<div class = "container" style = "height: 100px">
-							<div class = "row">
-								<div class = "col-sm-4">
+            <div class = "row row-no-gutters">
+			{% for d in data %}  
+				<div class = "col-md-4 col-sm-6 col-xs-12">
+					<div id = "card{{loop.index}}" class = "card">
+						<div class = "card-header">
+							{{d}}
+						</div>
+						<div class = "container-fluid" style = "height: 100px">
+							<div class = "row row-no-gutters">
+								<div class = "col-md-4">
 									Eat
 								</div>
-								<div class = "col-sm-4">
+								<div class = "col-md-4">
 									Drink
 								</div>
-								<div class = "col-sm-4">
+								<div class = "col-md-4">
 									Do
 								</div>
 							</div>
+							<div class = "row row-no-gutters">
+								<div class = "col-md-6">
+									Cost:
+								</div>
+								<div class = "col-md-6">
+									Because you searched for:
+								</div>
+							</div>
 						</div>
-						<div>
-						Cost:
-						</div>
-						<div>
-						Because you searched for:
-						</div>
+						
 					</div>
 					
 				</div>
             {% endfor %}
+			
+			</div>
         {% endif %}
         </form>
 		</div>
