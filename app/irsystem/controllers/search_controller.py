@@ -5,9 +5,11 @@ from nltk.tokenize import RegexpTokenizer
 import numpy as np
 import os 
 import ijson
+from zipfile import ZipFile
 
 dirpath = os.getcwd()
-tfidf_files = dirpath + "/app/static/data/tfidf_data/"
+data_files = dirpath + "/app/static/data/"
+tfidf_files = data_files + "tfidf_data/"
 inv_idx = np.load(tfidf_files+"inv_idx.npy").item()
 idf = np.load(tfidf_files+"idf_dict.npy").item()
 doc_norms = np.load(tfidf_files+"doc_norms.npy").item()
@@ -53,6 +55,7 @@ def search():
 		data = []
 		count = 0
 		for city, score in results[0:numLocs]:
+			city_dict = {}
 			count += 1
 			country = city_country_dict[city]
 			if str(country) == 'nan':
