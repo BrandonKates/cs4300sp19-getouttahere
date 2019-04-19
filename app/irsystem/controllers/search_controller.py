@@ -4,10 +4,10 @@ from app.irsystem.models.helpers import NumpyEncoder as NumpyEncoder
 from nltk.tokenize import RegexpTokenizer
 import numpy as np
 import os 
-
+import ijson
 
 dirpath = os.getcwd()
-tfidf_files = dirpath + "/app/irsystem/controllers/tfidf_data/"
+tfidf_files = dirpath + "/app/static/data/tfidf_data/"
 inv_idx = np.load(tfidf_files+"inv_idx.npy").item()
 idf = np.load(tfidf_files+"idf_dict.npy").item()
 doc_norms = np.load(tfidf_files+"doc_norms.npy").item()
@@ -39,7 +39,7 @@ def search():
 	if urban == None:
 		urban = ""
 	numLocs = request.args.get('numberLocs')
-	if numLocs == None:
+	if numLocs == None or numLocs == '':
 		numLocs = 6
 	numLocs = int(numLocs)
 	
