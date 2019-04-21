@@ -13,7 +13,9 @@ tfidf_files = data_files + "tfidf_data/"
 inv_idx = np.load(tfidf_files+"inv_idx.npy").item()
 idf = np.load(tfidf_files+"idf_dict.npy").item()
 doc_norms = np.load(tfidf_files+"doc_norms.npy").item()
-		
+zip = ZipFile(data_files + "full_data_as_string.zip", 'r')
+json_data = zip.read("full_data_as_string.json")
+
 # Mapping of cities to their countries
 city_country_dict = np.load(tfidf_files+"city_country_dict.npy").item()
 		
@@ -55,18 +57,61 @@ def search():
 		data = []
 		count = 0
 		for city, score in results[0:numLocs]:
+			count = count + 1
 			city_dict = {}
-			count += 1
+			data_dict = {}
+			
+			# Get country data
 			country = city_country_dict[city]
 			if str(country) == 'nan':
 				country = ' (Country Unknown)'
 			else:
 				country = ",  " + country
+			data_dict['country'] = country
+			
+			# Get attraction information
+			#attractions = get_city_info(city, json_data)
+			#for a in attractions:
+			
+			city_dict[city] = data_dict
+			#data.append(
 			data.append(str(count) + ") " + city + str(country))
 		output_message= "You searched for places with " + advanced_query
 
 	return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data)
 
+def get_city_info(city, datafile):
+	"""
+	Queries the json file to get information about the current 
+	recommended city
+	"""
+	all_attractions = {}
+	with open(datafile, 'r') as json_data:
+		parser = ijson.parse(json_data)
+		attraction = ''
+		last_att = ''
+		att_desc = []
+		for prefix, event, value in parser:
+			# New attraction
+			if (prefix, event) == (city+'.attractions', 'map_key'):
+				attraction = value
+			
+			# Add the current attraction description to dictionary
+			if attraction != last_att:
+				all_attractions[last_att] = att_desc
+				att_desc = []
+				
+			# Add term to attraction description, last term is URL
+			elif city+'.attractions.'in prefix :
+				if prefix.endswith('.description.item'):
+					att_desc.append(value)
+				elif prefix.endswith('.website'):
+					att_desc.append(value)
+
+			last_att = attraction
+	return all_attractions
+	
+	
 def index_search(query, index, idf, doc_norms):
     """ Search the collection of documents for the given query
     Arguments
@@ -130,3 +175,5 @@ def index_search(query, index, idf, doc_norms):
     output_results.sort(key = lambda t: t[1], reverse=True)
 
     return output_results
+
+zip.close()
