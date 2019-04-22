@@ -4,17 +4,17 @@ from app.irsystem.models.helpers import NumpyEncoder as NumpyEncoder
 from nltk.tokenize import RegexpTokenizer
 import numpy as np
 import os 
-import ijson
-from zipfile import ZipFile
+#import ijson
+#from zipfile import ZipFile
 
 dirpath = os.getcwd()
 data_files = dirpath + "/app/static/data/"
 tfidf_files = data_files + "tfidf_data/"
-inv_idx = np.load(tfidf_files+"inv_idx.npy").item()
-idf = np.load(tfidf_files+"idf_dict.npy").item()
-doc_norms = np.load(tfidf_files+"doc_norms.npy").item()
-zip = ZipFile(data_files + "full_data_as_string.zip", 'r')
-json_data = zip.read("full_data_as_string.json")
+inv_idx = np.load(tfidf_files+"inv_idx_largecities.npy").item()
+idf = np.load(tfidf_files+"idf_dict_largecities.npy").item()
+doc_norms = np.load(tfidf_files+"doc_norms_largecities.npy").item()
+#zip = ZipFile(data_files + "full_data_as_string.zip", 'r')
+#json_data = zip.read("full_data_as_string.json")
 
 # Mapping of cities to their countries
 city_country_dict = np.load(tfidf_files+"city_country_dict.npy").item()
@@ -176,4 +176,4 @@ def index_search(query, index, idf, doc_norms):
 
     return output_results
 
-zip.close()
+#zip.close()
