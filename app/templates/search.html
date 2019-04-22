@@ -76,15 +76,21 @@
 					<div id = "card{{loop.index}}" class = "card">
 						<div class = "card-header">
 							{{d['city']}}
-							{{d['country']}}
+							{{d['country']}}<br>
+							Similarity: {{d['score']}}
 						</div>
 						<div class = "container-fluid" style = "height: 100px">
 							<div class = "row row-no-gutters">
 								{% for place in d['attractions'] %}
-									{{place['name']}}
+									{{place['name']}},
 									{{place['type']}}<br>
-									<a href = {{place['website']}}>{{place['website']}}</a><br>
+									{% if place['website'] != 'nan': %}
+										<a href = {{place['website']}}>{{place['website']}}</a><br>
+									{% else %}
+										<a href = "http://www.google.com/search?q={{place['name']}}">Search for this place</a><br>
+									{% endif %}
 								{% endfor %}
+								<!--
 								<div class = "col-md-4">
 									Eat
 								</div>
@@ -103,6 +109,7 @@
 									Because you searched for:
 								</div>
 							</div>
+							-->
 						</div>
 						
 					</div>
