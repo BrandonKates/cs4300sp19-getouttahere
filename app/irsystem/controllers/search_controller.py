@@ -4,8 +4,6 @@ from app.irsystem.models.helpers import NumpyEncoder as NumpyEncoder
 from nltk.tokenize import RegexpTokenizer
 import numpy as np
 import os 
-#import ijson
-#from zipfile import ZipFile
 
 dirpath = os.getcwd()
 data_files = dirpath + "/app/static/data/"
@@ -13,8 +11,7 @@ tfidf_files = data_files + "tfidf_data/"
 inv_idx = np.load(tfidf_files+"inv_idx_largecities.npy").item()
 idf = np.load(tfidf_files+"idf_dict_largecities.npy").item()
 doc_norms = np.load(tfidf_files+"doc_norms_largecities.npy").item()
-#zip = ZipFile(data_files + "full_data_as_string.zip", 'r')
-#json_data = zip.read("full_data_as_string.json")
+json_data = data_files + "data_jsons/"
 
 # Mapping of cities to their countries
 city_country_dict = np.load(tfidf_files+"city_country_dict.npy").item()
@@ -70,47 +67,51 @@ def search():
 			data_dict['country'] = country
 			
 			# Get attraction information
-			#attractions = get_city_info(city, json_data)
-			#for a in attractions:
+			city_info = organize_city_info(city, json_data, 3)
 			
-			city_dict[city] = data_dict
-			#data.append(
-			data.append(str(count) + ") " + city + str(country))
+			data.append(city_info)
+			#data.append(str(count) + ") " + city + str(country))
 		output_message= "You searched for places with " + advanced_query
 
 	return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data)
 
-def get_city_info(city, datafile):
-	"""
-	Queries the json file to get information about the current 
-	recommended city
-	"""
-	all_attractions = {}
-	with open(datafile, 'r') as json_data:
-		parser = ijson.parse(json_data)
-		attraction = ''
-		last_att = ''
-		att_desc = []
-		for prefix, event, value in parser:
-			# New attraction
-			if (prefix, event) == (city+'.attractions', 'map_key'):
-				attraction = value
-			
-			# Add the current attraction description to dictionary
-			if attraction != last_att:
-				all_attractions[last_att] = att_desc
-				att_desc = []
-				
-			# Add term to attraction description, last term is URL
-			elif city+'.attractions.'in prefix :
-				if prefix.endswith('.description.item'):
-					att_desc.append(value)
-				elif prefix.endswith('.website'):
-					att_desc.append(value)
-
-			last_att = attraction
-	return all_attractions
 	
+def get_city_info(city, folder):
+	alphabet = ['A', 'B', 'C','D','E','F','G','H','I','J','K','L','M','N',
+						'O','P','Q','R','S','T','U','V','W','X','Y','Z']
+	firstletter = city[0]
+	if firstletter <= alphabet[0]:
+		filename = 'A.json'
+	else:
+		for i,letter in enumerate(alphabet[1:]):
+			if firstletter > alphabet[i] and firstletter <= letter:
+				filename = alphabet[i+1]+'.json'
+	if firstletter > alphabet[-1]:
+		filename='Z.json'
+	#print(firstletter, filename)
+	
+	with open(folder+filename, 'r') as f:
+		data = json.load(f)
+		return data[city]
+
+def organize_city_info(city, folder, num_attrs):
+	data = get_city_info(city, folder)
+	num_atts_flag = False
+	if int(data['size']) < num_attrs:
+		num_attrs = data['size']
+		num_atts_flag = True
+		
+	output_dict = {}
+	output_dict[city] = {}
+	attractions = data['attractions']
+	for a in attractions:
+		print(a)
+		output_dict[city][a] = attractions[a]
+		num_attrs -= 1
+		if num_attrs == 0:
+			break
+	
+	return output_dict
 	
 def index_search(query, index, idf, doc_norms):
     """ Search the collection of documents for the given query
