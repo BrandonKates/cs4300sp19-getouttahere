@@ -55,7 +55,7 @@ def search():
 		count = 0
 		for city, score in results[0:numLocs]:
 			count = count + 1
-			city_dict = {}
+			#city_dict = {}
 			data_dict = {}
 			
 			# Get country data
@@ -68,6 +68,10 @@ def search():
 			
 			# Get attraction information
 			city_info = organize_city_info(city, json_data, 3)
+			city_info['country'] = country
+			city_info['city'] = city
+			city_info['score'] = score
+			
 			
 			data.append(city_info)
 			#data.append(str(count) + ") " + city + str(country))
@@ -102,11 +106,11 @@ def organize_city_info(city, folder, num_attrs):
 		num_atts_flag = True
 		
 	output_dict = {}
-	output_dict[city] = {}
+	output_dict['attractions'] = []
 	attractions = data['attractions']
-	for a in attractions:
-		print(a)
-		output_dict[city][a] = attractions[a]
+	for key,value in attractions.items():
+		value['name'] = key
+		output_dict['attractions'].append(value)
 		num_attrs -= 1
 		if num_attrs == 0:
 			break
