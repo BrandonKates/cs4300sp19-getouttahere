@@ -252,7 +252,11 @@ def index_search(query, index, idf, doc_norms):
         for (city, d_tf) in index[t]:
             if city not in scores_array:
                 scores_array[city] = 0
-            scores_array[city] += q_tf[t]*idf[t]*d_tf*idf[t]
+            # Fix this mysterious issue in the future
+            #idf_t = idf[t]
+            
+            if idf.get(t) is not None:
+                scores_array[city] += q_tf[t]*idf[t]*d_tf*idf[t]
         
     # Normalize
     for key in scores_array.keys():
