@@ -67,7 +67,7 @@ def search():
 			data_dict['country'] = country
 			
 			# Get attraction information
-			city_info = organize_city_info(city, json_data, 3)
+			city_info = organize_city_info(city, json_data, advanced_query, 3)
 			city_info['country'] = country
 			city_info['city'] = city
 			city_info['score'] = score
@@ -97,8 +97,18 @@ def get_city_info(city, folder):
 	with open(folder+filename, 'r') as f:
 		data = json.load(f)
 		return data[city]
-
-def organize_city_info(city, folder, num_attrs):
+		
+def attraction_score(query, desc):
+	#print(query, '\n', desc)
+	score = 0
+	for term in desc:
+		if term in query.lower():
+			score += 1
+	score /= len(desc)
+	return score
+	
+	
+def organize_city_info(city, folder, query, num_attrs):
 	data = get_city_info(city, folder)
 	num_atts_flag = False
 	if int(data['size']) < num_attrs:
@@ -108,13 +118,59 @@ def organize_city_info(city, folder, num_attrs):
 	output_dict = {}
 	output_dict['attractions'] = []
 	attractions = data['attractions']
-	for key,value in attractions.items():
-		value['name'] = key
-		output_dict['attractions'].append(value)
-		num_attrs -= 1
-		if num_attrs == 0:
-			break
 	
+	# Get attraction scores
+	top_eat = ''
+	top_eat_score = 0
+	top_do = ''
+	top_do_score = 0
+	top_drink = ''
+	top_drink_score = 0
+	fill_in = ['', '', '']
+	for key, value in attractions.items():
+		if value is not None:
+			score = attraction_score(query, value['description'])
+			if city == "New York City" and score > 0:
+				print(key, value)
+			attractions[key]['score'] = score
+			if value['type'] == 'see' or value['type'] == 'do':
+				if score >= top_do_score:
+					top_do_score = score
+					top_do = key
+			elif value['type'] == 'eat':
+				if score >= top_eat_score:
+					top_eat_score = score
+					top_eat = key
+			elif value['type'] == 'drink':
+				if score >= top_drink_score:
+					top_drink_score = score
+					top_drink = key
+			# choose 3 random attractions to fill in if no matches
+			if fill_in[0] == '':
+				fill_in[0] = key
+			elif fill_in[1] == '':
+				fill_in[1] = key
+			else:
+				fill_in[2] = key
+			
+	# If one of the top 3 attractions is empty, pick one at random
+
+	if top_eat == '':
+		top_eat = fill_in[0]
+	if top_do == '':
+		top_do = fill_in[1]
+	if top_drink == '':
+		top_drink = fill_in[2]
+		
+	# Append top eat, do, and drink to list
+	attractions[top_eat]['name'] = top_eat
+	attractions[top_do]['name'] = top_do
+	attractions[top_drink]['name'] = top_drink
+
+	output_dict['attractions'].append(attractions[top_eat])
+	output_dict['attractions'].append(attractions[top_do])
+	output_dict['attractions'].append(attractions[top_drink])
+
 	return output_dict
 	
 def index_search(query, index, idf, doc_norms):
