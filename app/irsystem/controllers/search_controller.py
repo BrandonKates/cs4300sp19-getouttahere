@@ -43,7 +43,7 @@ def search():
 	urban = int(urban)
 	numLocs = request.args.get('numberLocs')
 	if numLocs == None or numLocs == '':
-		numLocs = 6
+		numLocs = 4
 	numLocs = int(numLocs)
 	
 	advanced_query = query + " " + price + " " + group + " " + climate + " " + activities

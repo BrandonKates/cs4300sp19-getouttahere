@@ -71,48 +71,32 @@
 			</div>
 			<div class = "row row-no-gutters">
 			{% for d in data %}  
-				<div class = "col-md-6 col-sm-6 col-xs-12">
+				<div class = "col-md-6 col-sm-6 col-xs-12" >
 					<div id = "card{{loop.index}}" class = "card">
 						<div class = "card-header">
 							{{d['city']}}
 							{{d['country']}}<br>
 							Similarity: {{d['score']}}
 						</div>
-						<div class = "container-fluid" style = "height: 100px">
+						<div class = "container-fluid">
 							<div class = "row row-no-gutters">
 								{% for place in d['attractions'] %}
-									{{place['name']}},
-									{{place['type']}}
-									{{place['reviews']['rating']}}<br>
-									{% for review in place['reviews']['reviews'] %}
-										{{review['rating']}} stars:
-										{{review['text']}}<br>
-									{% endfor %}	
+									{{place['type']}}:  {{place['name']}}
+									{{place['reviews']['rating']}} 
+									<button type = "button" class = "btn btn-info" data-toggle="collapse" data-target= "#reviews{{place['name'][-3:]}}" aria-expanded="false" aria-controls="collapseExample">View Reviews</button>
+									<div id = "reviews{{place['name'][-3:]}}" class = "collapse" aria-expanded = "false" style = "height: 0px">
+										{% for review in place['reviews']['reviews'] %}
+											{{review['rating']}} stars:
+											{{review['text']}}<br>
+										{% endfor %}	
+									</div><br>
 									{% if place['website'] != 'nan': %}
 										<a href = {{place['website']}}>{{place['website']}}</a><br>
 									{% else %}
 										<a href = "http://www.google.com/search?q={{place['name']}}">Search for this place</a><br>
 									{% endif %}
 								{% endfor %}
-								<!--
-								<div class = "col-md-4">
-									Eat
 								</div>
-								<div class = "col-md-4">
-									Drink
-								</div>
-								<div class = "col-md-4">
-									Do
-								</div>
-							</div>
-							<div class = "row row-no-gutters">
-								<div class = "col-md-6">
-									Cost:
-								</div>
-								<div class = "col-md-6">
-									Because you searched for:
-								</div>-->
-							</div>
 							
 						</div>
 						
