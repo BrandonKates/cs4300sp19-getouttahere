@@ -40,6 +40,7 @@ def search():
 		activities = ""
 	urban = request.args.get('urban')
 	if urban == None:
+		print("here")
 		urban = 1
 	urban = int(urban)
 	numLocs = request.args.get('numberLocs')
@@ -96,7 +97,12 @@ def get_climate(city):
 		return None
 		
 def is_urban(city):
-	return int(urban_rural[city])
+	
+	urban = urban_rural.get(city)
+	if urban is not None:
+		return urban
+	else:
+		return 1
 	
 def get_city_info(city, folder):
 	alphabet = ['A', 'B', 'C','D','E','F','G','H','I','J','K','L','M','N',
