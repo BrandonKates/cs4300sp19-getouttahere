@@ -16,7 +16,8 @@ json_data = data_files + "data_jsons/"
 urban_rural = np.load(data_files+"urban_cities.npy").item()
 # Mapping of cities to their countries
 city_country_dict = np.load(tfidf_files+"city_country_dict.npy").item()
-		
+climate = np.load(data_files+"city_climates.npy").item()
+	
 project_name = "Kanoe"
 net_id = "ams698, bjk224, dpm247, ne236, sn529"
 
@@ -59,6 +60,9 @@ def search():
 			# Skip if not rural/urban as user specified
 			if (urban==0 and is_urban(city)==1) or (urban==2 and is_urban(city)==0):
 				continue
+			# Skip if incorrect climate
+			if climate != "" and climate != get_climate(city) and get_climate(city) is not None:
+				continue
 			count = count + 1
 			#city_dict = {}
 			data_dict = {}
@@ -85,7 +89,12 @@ def search():
 
 	return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data)
 
-	
+def get_climate(city):
+	if city in climate.keys():
+		return climate[city]
+	else:
+		return None
+		
 def is_urban(city):
 	return int(urban_rural[city])
 	
