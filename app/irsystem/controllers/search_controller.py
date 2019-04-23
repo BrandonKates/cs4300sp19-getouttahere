@@ -109,11 +109,12 @@ def organize_city_info(city, folder, num_attrs):
 	output_dict['attractions'] = []
 	attractions = data['attractions']
 	for key,value in attractions.items():
-		value['name'] = key
-		output_dict['attractions'].append(value)
-		num_attrs -= 1
-		if num_attrs == 0:
-			break
+		if value is not None:
+			value['name'] = key
+			output_dict['attractions'].append(value)
+			num_attrs -= 1
+			if num_attrs == 0:
+				break
 	
 	return output_dict
 	
@@ -181,4 +182,9 @@ def index_search(query, index, idf, doc_norms):
 
     return output_results
 
+def get_review_for_location(place_id, api_key):
+	"""Gets reviews for a location based on its google place id"""
+	return
+	
+	
 #zip.close()
