@@ -4,6 +4,7 @@ from app.irsystem.models.helpers import NumpyEncoder as NumpyEncoder
 from nltk.tokenize import RegexpTokenizer
 import numpy as np
 import os 
+import requests
 
 dirpath = os.getcwd()
 data_files = dirpath + "/app/static/data/"
@@ -72,9 +73,8 @@ def search():
 			city_info['city'] = city
 			city_info['score'] = score
 			
-			
 			data.append(city_info)
-			#data.append(str(count) + ") " + city + str(country))
+			
 		output_message= "You searched for places with " + advanced_query
 
 	return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data)
@@ -130,8 +130,6 @@ def organize_city_info(city, folder, query, num_attrs):
 	for key, value in attractions.items():
 		if value is not None:
 			score = attraction_score(query, value['description'])
-			if city == "New York City" and score > 0:
-				print(key, value)
 			attractions[key]['score'] = score
 			if value['type'] == 'see' or value['type'] == 'do':
 				if score >= top_do_score:
@@ -170,7 +168,14 @@ def organize_city_info(city, folder, query, num_attrs):
 	output_dict['attractions'].append(attractions[top_eat])
 	output_dict['attractions'].append(attractions[top_do])
 	output_dict['attractions'].append(attractions[top_drink])
-
+	
+	api_key = "AIzaSyCJiRPAPsSLaY46PvyNxzISQMXFZx6h-g8"
+	for att in range(len(output_dict['attractions'])):
+		place_id = output_dict['attractions'][att]['place_id']
+		if place_id is not None and place_id != 'not found':
+			reviews = get_reviews(place_id, api_key).get('result')
+			output_dict['attractions'][att]['reviews'] = reviews
+			
 	return output_dict
 	
 def index_search(query, index, idf, doc_norms):
@@ -237,9 +242,10 @@ def index_search(query, index, idf, doc_norms):
 
     return output_results
 
-def get_review_for_location(place_id, api_key):
+def get_reviews(place_id, api_key):
 	"""Gets reviews for a location based on its google place id"""
-	return
+	reviews = requests.get("https://maps.googleapis.com/maps/api/place/details/json?placeid="+str(place_id)+"&language=en&fields=price_level,rating,review&key=" + api_key).json()
+	return reviews
 	
 	
 #zip.close()

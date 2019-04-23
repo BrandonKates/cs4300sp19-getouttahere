@@ -83,7 +83,9 @@
 							<div class = "row row-no-gutters">
 								{% for place in d['attractions'] %}
 									{{place['name']}},
-									{{place['type']}}<br>
+									{{place['type']}}
+									{{place['reviews']['rating']}}<br>
+									
 									{% if place['website'] != 'nan': %}
 										<a href = {{place['website']}}>{{place['website']}}</a><br>
 									{% else %}
