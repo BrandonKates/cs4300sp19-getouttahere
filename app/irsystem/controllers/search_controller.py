@@ -124,11 +124,11 @@ def get_city_info(city, folder):
 		
 def attraction_score(query, desc):
 	#print(query, '\n', desc)
-	score = 0
+	score = 1
 	for term in desc:
 		if term in query.lower():
 			score += 1
-	score /= len(desc)
+	score /= len(desc) + 1
 	return score
 	
 	
