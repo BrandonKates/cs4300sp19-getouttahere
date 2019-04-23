@@ -64,8 +64,8 @@ def search():
 			data_dict = {}
 			
 			# Get country data
-			country = city_country_dict[city]
-			if str(country) == 'nan':
+			country = str(city_country_dict.get(city))
+			if str(country) == 'nan' or str(country) == "None":
 				country = ' (Country Unknown)'
 			else:
 				country = ",  " + country
