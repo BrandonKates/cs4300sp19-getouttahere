@@ -13,7 +13,7 @@ inv_idx = np.load(tfidf_files+"inv_idx_largecities.npy").item()
 idf = np.load(tfidf_files+"idf_dict_largecities.npy").item()
 doc_norms = np.load(tfidf_files+"doc_norms_largecities.npy").item()
 json_data = data_files + "data_jsons/"
-
+urban_rural = np.load(data_files+"urban_cities.npy").item()
 # Mapping of cities to their countries
 city_country_dict = np.load(tfidf_files+"city_country_dict.npy").item()
 		
@@ -39,7 +39,8 @@ def search():
 		activities = ""
 	urban = request.args.get('urban')
 	if urban == None:
-		urban = ""
+		urban = 1
+	urban = int(urban)
 	numLocs = request.args.get('numberLocs')
 	if numLocs == None or numLocs == '':
 		numLocs = 6
@@ -54,7 +55,10 @@ def search():
 		results = index_search(advanced_query, inv_idx, idf, doc_norms)
 		data = []
 		count = 0
-		for city, score in results[0:numLocs]:
+		for city, score in results:
+			# Skip if not rural/urban as user specified
+			if (urban==0 and is_urban(city)==1) or (urban==2 and is_urban(city)==0):
+				continue
 			count = count + 1
 			#city_dict = {}
 			data_dict = {}
@@ -74,11 +78,16 @@ def search():
 			city_info['score'] = score
 			
 			data.append(city_info)
-			
+			numLocs -= 1
+			if numLocs == 0:
+				break
 		output_message= "You searched for places with " + advanced_query
 
 	return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data)
 
+	
+def is_urban(city):
+	return int(urban_rural[city])
 	
 def get_city_info(city, folder):
 	alphabet = ['A', 'B', 'C','D','E','F','G','H','I','J','K','L','M','N',
