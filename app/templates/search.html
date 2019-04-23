@@ -85,7 +85,10 @@
 									{{place['name']}},
 									{{place['type']}}
 									{{place['reviews']['rating']}}<br>
-									
+									{% for review in place['reviews']['reviews'] %}
+										{{review['rating']}} stars:
+										{{review['text']}}<br>
+									{% endfor %}	
 									{% if place['website'] != 'nan': %}
 										<a href = {{place['website']}}>{{place['website']}}</a><br>
 									{% else %}
