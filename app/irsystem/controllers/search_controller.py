@@ -34,9 +34,6 @@ def search():
 	climate = request.args.get('climate')
 	if climate == None:
 		climate = ""
-	activities = request.args.get('activities')
-	if activities == None:
-		activities = ""
 	urban = request.args.get('urban')
 	if urban == None:
 		urban = 1
@@ -46,8 +43,8 @@ def search():
 		numLocs = 4
 	numLocs = int(numLocs)
 	
-	advanced_query = query + " " + price + " " + group + " " + climate + " " + activities
-
+	advanced_query = query + " " + price + " " + group + " " + climate 
+	
 	if not advanced_query:
 		data = []
 		output_message = ''
@@ -114,58 +111,26 @@ def organize_city_info(city, folder, query, num_attrs):
 		
 	output_dict = {}
 	output_dict['country'] = data['country']
-	output_dict['attractions'] = []
-	attractions = data['attractions']
 	
-	# Get attraction scores
-	top_eat = ''
-	top_eat_score = 0
-	top_do = ''
-	top_do_score = 0
-	top_drink = ''
-	top_drink_score = 0
-	fill_in = ['', '', '']
+	if output_dict['country'] != output_dict['country']:	#check if nan
+		output_dict['country'] = '(Country Unknown)'
+	output_dict['attractions'] = []
+	
+	
+	attractions = data['attractions']
+	attrac_scores = []
 	for key, value in attractions.items():
 		if value is not None:
+			attractions[key]['name'] = key
 			score = attraction_score(query, value['description'])
-			attractions[key]['score'] = score
-			if value['type'] == 'see' or value['type'] == 'do':
-				if score >= top_do_score:
-					top_do_score = score
-					top_do = key
-			elif value['type'] == 'eat':
-				if score >= top_eat_score:
-					top_eat_score = score
-					top_eat = key
-			elif value['type'] == 'drink':
-				if score >= top_drink_score:
-					top_drink_score = score
-					top_drink = key
-			# choose 3 random attractions to fill in if no matches
-			if fill_in[0] == '':
-				fill_in[0] = key
-			elif fill_in[1] == '':
-				fill_in[1] = key
-			else:
-				fill_in[2] = key
+			attrac_scores.append((key, score))
 			
-	# If one of the top 3 attractions is empty, pick one at random
-
-	if top_eat == '':
-		top_eat = fill_in[0]
-	if top_do == '':
-		top_do = fill_in[1]
-	if top_drink == '':
-		top_drink = fill_in[2]
-		
-	# Append top eat, do, and drink to list
-	attractions[top_eat]['name'] = top_eat
-	attractions[top_do]['name'] = top_do
-	attractions[top_drink]['name'] = top_drink
-
-	output_dict['attractions'].append(attractions[top_eat])
-	output_dict['attractions'].append(attractions[top_do])
-	output_dict['attractions'].append(attractions[top_drink])
+	# Sort by decreasing score
+	sorted_scores = sorted(attrac_scores, key=lambda x: x[1], reverse=True)
+	
+	for i in range(num_attrs):
+		(name, score) = sorted_scores[i]
+		output_dict['attractions'].append(attractions[name])
 	
 	api_key = "AIzaSyCJiRPAPsSLaY46PvyNxzISQMXFZx6h-g8"
 	for att in range(len(output_dict['attractions'])):
