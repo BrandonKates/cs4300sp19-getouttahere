@@ -1,0 +1,964 @@
+{
+  "Oliver": {
+    "size": 45,
+    "country": NaN,
+    "full_desc": [
+      "34651",
+      "hwy",
+      "97",
+      "also",
+      "chester",
+      "fried",
+      "chicken",
+      "located",
+      "tinhorn",
+      "creek",
+      "winery",
+      "32830",
+      "tinhorn",
+      "creek",
+      "road",
+      "enjoy",
+      "mediterranean",
+      "inspired",
+      "cuisine",
+      "enjoying",
+      "breath",
+      "taking",
+      "view",
+      "valley",
+      "located",
+      "hester",
+      "creek",
+      "winery",
+      "road",
+      "8",
+      "discover",
+      "tuscan",
+      "inspired",
+      "cuisine",
+      "enjoying",
+      "view",
+      "valley",
+      "patio",
+      "place",
+      "something",
+      "everyone",
+      "lunch",
+      "dinner",
+      "smorgasbord",
+      "serving",
+      "chinese",
+      "american",
+      "cuisine",
+      "fresh",
+      "creative",
+      "cuisine",
+      "dine",
+      "take",
+      "enjoy",
+      "authentic",
+      "indian",
+      "food",
+      "comfortable",
+      "bright",
+      "decor",
+      "india",
+      "enjoy",
+      "homemade",
+      "sandwiches",
+      "salads",
+      "soups",
+      "also",
+      "great",
+      "breakfast",
+      "nice",
+      "desserts",
+      "well",
+      "great",
+      "sandwiches",
+      "daily",
+      "specials",
+      "great",
+      "organic",
+      "meal",
+      "prepared",
+      "farm",
+      "setting",
+      "place",
+      "go",
+      "great",
+      "breakfast",
+      "lunch",
+      "casual",
+      "dinner",
+      "9932",
+      "350",
+      "ave",
+      "place",
+      "serves",
+      "traditional",
+      "gelato",
+      "sorrbetp",
+      "paninis",
+      "assortment",
+      "gourmet",
+      "coffees",
+      "fries",
+      "made",
+      "fresh",
+      "cut",
+      "potatoes",
+      "fried",
+      "ordered",
+      "bar",
+      "town",
+      "serves",
+      "favourite",
+      "pub",
+      "food",
+      "also",
+      "trivia",
+      "karaoke",
+      "nights",
+      "best",
+      "donuts",
+      "town",
+      "also",
+      "sandwiches",
+      "coffee",
+      "would",
+      "thought",
+      "could",
+      "get",
+      "great",
+      "fish",
+      "chips",
+      "driving",
+      "way",
+      "coast",
+      "34882",
+      "hwy",
+      "97",
+      "enjoy",
+      "cup",
+      "coffee",
+      "nice",
+      "quiet",
+      "relaxing",
+      "atmosphere",
+      "pub",
+      "old",
+      "english",
+      "feel",
+      "inside",
+      "serving",
+      "pub",
+      "favourites",
+      "comfortable",
+      "friendly",
+      "accommodation",
+      "located",
+      "quiet",
+      "neighborhood",
+      "private",
+      "bathroom",
+      "jetted",
+      "soaker",
+      "tub",
+      "shower"
+    ],
+    "attractions": {
+      "A&W": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Tim Horton's": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJE6OdxE1RKIgR1OErg4St43s",
+        "reviews": null
+      },
+      "Subway": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ8-POppC7-IcRDtVnkkFpZ8M",
+        "reviews": {
+          "html_attributions": [],
+          "result": {
+            "price_level": 1,
+            "rating": 4.1,
+            "reviews": [
+              {
+                "author_name": "Marissa Zenda",
+                "author_url": "https://www.google.com/maps/contrib/108643508614156578943/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-p3pVREmBRCI/AAAAAAAAAAI/AAAAAAAAE50/oteN9J4I0_4/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg",
+                "rating": 2,
+                "relative_time_description": "a month ago",
+                "text": "The sandwich was a mess when i opened it up. Sauce was spilling out.",
+                "time": 1550450800
+              },
+              {
+                "author_name": "Gary Thorgerson",
+                "author_url": "https://www.google.com/maps/contrib/100280926783515088830/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-XhZz53AXrSc/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reROIRC9s6ZJPmaVNpREQArkRKhOQ/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "4 months ago",
+                "text": "Good food, good service, good price",
+                "time": 1544530888
+              },
+              {
+                "author_name": "Jason Goodland",
+                "author_url": "https://www.google.com/maps/contrib/117403313518079579333/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-QuBkjglvsuQ/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdfH00-RVPRiAvI48uRpEzwBowIrg/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "a year ago",
+                "text": "New management has done an amazing job taking this location to the next level.  Service is top notch and the food quality has improved exponentially!  Speed of service is noticably faster.  Definitely will be having more quick lunches here in the near future!",
+                "time": 1523514627
+              },
+              {
+                "author_name": "B. Duca",
+                "author_url": "https://www.google.com/maps/contrib/117941637422934963715/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh5.googleusercontent.com/-KONHNZRN5pU/AAAAAAAAAAI/AAAAAAAAAYE/lF7hMxxD8P4/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "8 months ago",
+                "text": "Agree! Food quality has gotten so much better since the old owner sold it.",
+                "time": 1532998805
+              },
+              {
+                "author_name": "Tiffany Affolter",
+                "author_url": "https://www.google.com/maps/contrib/110809993850101490273/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh4.googleusercontent.com/-ht2JppZ6c7E/AAAAAAAAAAI/AAAAAAAAEik/07R00lzRk-Y/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "5 months ago",
+                "text": "Very friendly/polite staff!",
+                "time": 1540854739
+              }
+            ]
+          },
+          "status": "OK"
+        }
+      },
+      "Buy Low Deli": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Super-Valu Deli": {
+        "type": "eat",
+        "description": [
+          "34651",
+          "hwy",
+          "97",
+          "also",
+          "chester",
+          "fried",
+          "chicken"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Miradoro": {
+        "type": "eat",
+        "description": [
+          "located",
+          "tinhorn",
+          "creek",
+          "winery",
+          "32830",
+          "tinhorn",
+          "creek",
+          "road",
+          "enjoy",
+          "mediterranean",
+          "inspired",
+          "cuisine",
+          "enjoying",
+          "breath",
+          "taking",
+          "view",
+          "valley"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Terrafina": {
+        "type": "eat",
+        "description": [
+          "located",
+          "hester",
+          "creek",
+          "winery",
+          "road",
+          "8",
+          "discover",
+          "tuscan",
+          "inspired",
+          "cuisine",
+          "enjoying",
+          "view",
+          "valley",
+          "patio"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Yum Yum's Pizza & Bistro": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Pizza 97": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Almerio's Pizza": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Asia Buffet": {
+        "type": "eat",
+        "description": [
+          "place",
+          "something",
+          "everyone",
+          "lunch",
+          "dinner",
+          "smorgasbord",
+          "serving",
+          "chinese",
+          "american",
+          "cuisine"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ4ZVyWHPAaYgRkNN0zXc5roQ",
+        "reviews": null
+      },
+      "Oliver Garden": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Sizzling Rice": {
+        "type": "eat",
+        "description": [
+          "fresh",
+          "creative",
+          "cuisine",
+          "dine",
+          "take"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Best of India": {
+        "type": "eat",
+        "description": [
+          "enjoy",
+          "authentic",
+          "indian",
+          "food",
+          "comfortable",
+          "bright",
+          "decor",
+          "india"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Canteloupe Annie's Deli": {
+        "type": "eat",
+        "description": [
+          "enjoy",
+          "homemade",
+          "sandwiches",
+          "salads",
+          "soups",
+          "also",
+          "great",
+          "breakfast"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Cock & Bull Cappuccino Bar": {
+        "type": "eat",
+        "description": [
+          "nice",
+          "desserts",
+          "well",
+          "great",
+          "sandwiches",
+          "daily",
+          "specials"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Covert Farm's Market & Restaurant": {
+        "type": "eat",
+        "description": [
+          "great",
+          "organic",
+          "meal",
+          "prepared",
+          "farm",
+          "setting"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Crucetti's Family Restaurant": {
+        "type": "eat",
+        "description": [
+          "place",
+          "go",
+          "great",
+          "breakfast",
+          "lunch",
+          "casual",
+          "dinner"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Medici's Gelateria": {
+        "type": "eat",
+        "description": [
+          "9932",
+          "350",
+          "ave",
+          "place",
+          "serves",
+          "traditional",
+          "gelato",
+          "sorrbetp",
+          "paninis",
+          "assortment",
+          "gourmet",
+          "coffees"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Mr. Spud Fry Truck": {
+        "type": "eat",
+        "description": [
+          "fries",
+          "made",
+          "fresh",
+          "cut",
+          "potatoes",
+          "fried",
+          "ordered"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Murphy's Pub": {
+        "type": "eat",
+        "description": [
+          "bar",
+          "town",
+          "serves",
+          "favourite",
+          "pub",
+          "food",
+          "also",
+          "trivia",
+          "karaoke",
+          "nights"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJK5OsaT_XDIgRTOW5MX163FI",
+        "reviews": null
+      },
+      "Oliver's Bakery & Deli": {
+        "type": "eat",
+        "description": [
+          "best",
+          "donuts",
+          "town",
+          "also",
+          "sandwiches",
+          "coffee"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Sinbad's Fish & Chips": {
+        "type": "eat",
+        "description": [
+          "would",
+          "thought",
+          "could",
+          "get",
+          "great",
+          "fish",
+          "chips",
+          "driving",
+          "way",
+          "coast"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Sunshine Cafe": {
+        "type": "eat",
+        "description": [
+          "34882",
+          "hwy",
+          "97",
+          "enjoy",
+          "cup",
+          "coffee",
+          "nice",
+          "quiet",
+          "relaxing",
+          "atmosphere"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJvX7jYecJCDERKzc4PPRyqx0",
+        "reviews": null
+      },
+      "Ye Olde Welcome Inn": {
+        "type": "eat",
+        "description": [
+          "pub",
+          "old",
+          "english",
+          "feel",
+          "inside",
+          "serving",
+          "pub",
+          "favourites"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "1 Of A Kind Sculpture B&B": {
+        "type": "sleep",
+        "description": [
+          "comfortable",
+          "friendly",
+          "accommodation",
+          "located",
+          "quiet",
+          "neighborhood",
+          "private",
+          "bathroom",
+          "jetted",
+          "soaker",
+          "tub",
+          "shower"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.oliverbedandbreakfast.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "19th Hole B&B": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.19thholebandb.com/ {{dead link|October 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Above the Orchard B&B": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.winecapitalofcanada.com/index.php/business-directory/accommodations/accommodations-bed-and-breakfast/above-the-orchard-b-a-b {{dead link|October 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Absolutely Suite": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.winecapitalofcanada.com/index.php/business-directory/accommodations/accommodations-bed-and-breakfast/absolutely-suite",
+        "place_id": null,
+        "reviews": null
+      },
+      "Adobe Rose": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.winecapitalofcanada.com/index.php/business-directory/accommodations/accommodations-bed-and-breakfast/adobe-rose-b-a-b {{dead link|October 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Burrowing Owl Guest House": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Covey Run": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.winecapitalofcanada.com/index.php/business-directory/accommodations/accommodations-bed-and-breakfast/covey-run-b-a-b {{dead link|October 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Elm Tree": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.winecapitalofcanada.com/index.php/business-directory/accommodations/accommodations-bed-and-breakfast/elm-tree-farm-b-a-b {{dead link|October 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Everest Oasis": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.winecapitalofcanada.com/index.php/business-directory/accommodations/accommodations-bed-and-breakfast/everest-oasis-bab {{dead link|October 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Happy Quail Log House": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.winecapitalofcanada.com/index.php/business-directory/accommodations/accommodations-bed-and-breakfast/happy-quail-log-house {{dead link|October 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "The Villa At Hester Creek": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Lindale Farm Guest House": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.winecapitalofcanada.com/index.php/business-directory/accommodations/accommodations-bed-and-breakfast/lindale-farm-guest-house {{dead link|October 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Morbrook Farms": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.winecapitalofcanada.com/index.php/business-directory/accommodations/accommodations-bed-and-breakfast/morbrook-farms-b-a-b {{dead link|October 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Oliver House": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.winecapitalofcanada.com/index.php/business-directory/accommodations/accommodations-bed-and-breakfast/oliver-house-b-a-b {{dead link|October 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "O'Reilly's Organic Farm": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.winecapitalofcanada.com/index.php/business-directory/accommodations/accommodations-bed-and-breakfast/oreilly-organic-farm-b-a-b {{dead link|October 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Retreat by the Lake": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.winecapitalofcanada.com/index.php/business-directory/accommodations/accommodations-bed-and-breakfast/retreat-by-the-lake {{dead link|October 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Riverside Trails": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.winecapitalofcanada.com/index.php/business-directory/accommodations/accommodations-bed-and-breakfast/riverside-trails-b-a-b {{dead link|October 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Road 6": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.winecapitalofcanada.com/index.php/business-directory/accommodations/accommodations-bed-and-breakfast/rd-6-b-a-b {{dead link|October 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Two Loons by the Lake": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.winecapitalofcanada.com/index.php/business-directory/accommodations/accommodations-bed-and-breakfast/two-loons-by-the-lake-b-a-b- {{dead link|October 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Worths on the Water": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.winecapitalofcanada.com/index.php/business-directory/accommodations/accommodations-bed-and-breakfast/worths-on-the-water-b-a-b {{dead link|October 2016}}",
+        "place_id": null,
+        "reviews": null
+      }
+    }
+  }
+}

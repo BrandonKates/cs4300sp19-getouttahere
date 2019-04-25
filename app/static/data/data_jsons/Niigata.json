@@ -1,0 +1,667 @@
+{
+  "Niigata": {
+    "size": 42,
+    "country": "Japan",
+    "full_desc": [
+      "museum",
+      "learn",
+      "history",
+      "culture",
+      "port",
+      "town",
+      "niigata",
+      "originally",
+      "wealthy",
+      "family",
+      "home",
+      "built",
+      "1885",
+      "1887",
+      "museum",
+      "comprises",
+      "several",
+      "buildings",
+      "restaurants",
+      "cafes",
+      "documents",
+      "art",
+      "collections",
+      "including",
+      "paintings",
+      "sculptures",
+      "former",
+      "households",
+      "display",
+      "worth",
+      "least",
+      "half",
+      "day",
+      "visit",
+      "toki",
+      "messe",
+      "modern",
+      "multi",
+      "use",
+      "convention",
+      "center",
+      "observation",
+      "deck",
+      "top",
+      "floor",
+      "tourist",
+      "spot",
+      "observe",
+      "panoramic",
+      "view",
+      "niigata",
+      "city",
+      "batting",
+      "cages",
+      "indoor",
+      "amusement",
+      "center",
+      "arcade",
+      "batting",
+      "cages",
+      "bowling",
+      "karaoke",
+      "squash",
+      "mini",
+      "golf",
+      "etc",
+      "niigata",
+      "isetan",
+      "department",
+      "store",
+      "sushi",
+      "japanese",
+      "foods",
+      "restaurant",
+      "website",
+      "japanese",
+      "high",
+      "speed",
+      "internet",
+      "access",
+      "lan",
+      "ports",
+      "rooms",
+      "branch",
+      "american",
+      "hotel",
+      "chain",
+      "japanese",
+      "style",
+      "spa",
+      "hotel",
+      "rooms",
+      "high",
+      "floors",
+      "22nd",
+      "29th",
+      "floor",
+      "japanese",
+      "style",
+      "inn",
+      "european",
+      "style",
+      "services",
+      "cuisine"
+    ],
+    "attractions": {
+      "MINATOPIA - Niigata City History Museum": {
+        "type": "see",
+        "description": [
+          "museum",
+          "learn",
+          "history",
+          "culture",
+          "port",
+          "town",
+          "niigata"
+        ],
+        "coordinates": [
+          37.929829999999995,
+          139.0577
+        ],
+        "website": "http://www.nchm.jp/index.html",
+        "place_id": "ChIJDRU8qxzK9F8Rx491i2ifFwU",
+        "reviews": null
+      },
+      "Northern Culture Museum": {
+        "type": "see",
+        "description": [
+          "originally",
+          "wealthy",
+          "family",
+          "home",
+          "built",
+          "1885",
+          "1887",
+          "museum",
+          "comprises",
+          "several",
+          "buildings",
+          "restaurants",
+          "cafes",
+          "documents",
+          "art",
+          "collections",
+          "including",
+          "paintings",
+          "sculptures",
+          "former",
+          "households",
+          "display",
+          "worth",
+          "least",
+          "half",
+          "day",
+          "visit"
+        ],
+        "coordinates": [
+          37.8296,
+          139.15215
+        ],
+        "website": "http://hoppou-bunka.com/",
+        "place_id": "ChIJZ7qAsivQ9F8Rzh3jl-QvTfU",
+        "reviews": null
+      },
+      "Toki Messe Observation Deck": {
+        "type": "see",
+        "description": [
+          "toki",
+          "messe",
+          "modern",
+          "multi",
+          "use",
+          "convention",
+          "center",
+          "observation",
+          "deck",
+          "top",
+          "floor",
+          "tourist",
+          "spot",
+          "observe",
+          "panoramic",
+          "view",
+          "niigata",
+          "city"
+        ],
+        "coordinates": [
+          37.926159999999996,
+          139.06
+        ],
+        "website": "http://www.nikkoniigata.com/temboushitsu/",
+        "place_id": "ChIJSxyXcB7K9F8RkFjx7GwWcZM",
+        "reviews": null
+      },
+      "The Nakano Residence - Museum of Art Foundation": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          37.75025,
+          139.1142
+        ],
+        "website": "http://www.nakanotei-muse.com/",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Niigata Sports Dome Toyano": {
+        "type": "do",
+        "description": [
+          "batting",
+          "cages"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.niigata-sports-dome.co.jp",
+        "place_id": "ChIJi4FdRL_J9F8RKaJALuvYGpA",
+        "reviews": null
+      },
+      "Round 1 - Niigata": {
+        "type": "do",
+        "description": [
+          "indoor",
+          "amusement",
+          "center",
+          "arcade",
+          "batting",
+          "cages",
+          "bowling",
+          "karaoke",
+          "squash",
+          "mini",
+          "golf",
+          "etc"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.round1.co.jp/shop/tenpo/niigata-niigata.html",
+        "place_id": "ChIJG7tv01_I9F8RJq4VAtqST6c",
+        "reviews": null
+      },
+      "Niigata Station CoCoLo": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.cocolo-station.jp/pc?sc_name=niigata",
+        "place_id": "ChIJ63M-U5rJ9F8RK3VyHvZ0qzc",
+        "reviews": null
+      },
+      "Pier Bandai - Bandaijima Fish Market": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.sakana-bandai.com/",
+        "place_id": "ChIJZfm-3x_K9F8RCjzBytLjCC0",
+        "reviews": null
+      },
+      "Niigata Isetan": {
+        "type": "buy",
+        "description": [
+          "niigata",
+          "isetan",
+          "department",
+          "store"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.isetan.co.jp/icm2/jsp/store/niigata/index.jsp",
+        "place_id": "ChIJ79LmJ5LJ9F8RhJwwV7CZUL8",
+        "reviews": null
+      },
+      "Niigata Mitsukoshi": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.mitsukoshi.co.jp/shop?EcLogicName=storeinfo.storetopInfo&tenpoCd=95",
+        "place_id": "ChIJyb1hU-7J9F8RmKqMaafO_0U",
+        "reviews": null
+      },
+      "Niigata Furusato Village - Bazzar Hall": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://furusatomura.pref.niigata.jp/",
+        "place_id": "ChIJK9LtFR7G9F8RV_GZRIKFij0",
+        "reviews": null
+      },
+      "Daishi Bank - Niigata Airport Branch": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJR7GIksHJ9F8Rl7AMGdOZF1U",
+        "reviews": null
+      },
+      "Japan Post Bank - Niigata Branch": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Japan Post Bank - Niigata Naka Branch": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Kaisen-Sushi-Ichiba Uogashi": {
+        "type": "eat",
+        "description": [
+          "sushi",
+          "japanese",
+          "foods",
+          "restaurant"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.kitakata.co.jp/uogasi/index.htm",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Sushi Kappo - Marui": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.sushi-marui.com/",
+        "place_id": "ChIJm0vuifDJ9F8RvOyoQmN6Dfc",
+        "reviews": null
+      },
+      "FuuFuu B&B Style": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.tiny.jp/~fufu/#000",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Hotel Kawai": {
+        "type": "sleep",
+        "description": [
+          "website",
+          "japanese",
+          "high",
+          "speed",
+          "internet",
+          "access",
+          "lan",
+          "ports",
+          "rooms"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.hotel-kawai.com/",
+        "place_id": "ChIJJ8rkaZDJ9F8R58-O1VTLhL4",
+        "reviews": null
+      },
+      "Niigata Terminal Hotel": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.sato-syokai.co.jp/",
+        "place_id": "ChIJP2jRZ4XJ9F8R2_mf9HlmTQU",
+        "reviews": null
+      },
+      "Super Hotel Niigata": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.superhoteljapan.com/en/s-hotels/niigata.html",
+        "place_id": "ChIJt1XhyIjJ9F8R-5qs7wTyVZs",
+        "reviews": null
+      },
+      "TOYOKO-INN Niigata Furumachi": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.toyoko-inn.com/e_hotel/00186/index.html",
+        "place_id": "ChIJbYRk8PHJ9F8RpjcDbJsXsbQ",
+        "reviews": null
+      },
+      "APA Hotel Niigata-Furumachi": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.apahotel.com/hotel/kousinetsu/03_niigata-furumachi/english/index.html",
+        "place_id": "ChIJi3MkE-7J9F8R6WvJXXnge2A",
+        "reviews": null
+      },
+      "APA Hotel Niigata-Higashinakadori": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.apahotel.com/hotel/kousinetsu/02_niigata-higashinakadori/english/index.html",
+        "place_id": "ChIJkfJ61ujJ9F8RO8vEsNgfQrA",
+        "reviews": null
+      },
+      "Bandai Silver Hotel": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ47_ZApLJ9F8RxctHqjrkU-w",
+        "reviews": null
+      },
+      "Chisun Hotel & Conference Center Niigata": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.solarehotels.com/english/",
+        "place_id": "ChIJsfl5bR6jfDURP2lQWbsQbjI",
+        "reviews": null
+      },
+      "Comfort Hotel Niigata": {
+        "type": "sleep",
+        "description": [
+          "branch",
+          "american",
+          "hotel",
+          "chain"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.comfortinn.com/hotel-niigata-japan-JP071",
+        "place_id": "ChIJ9QsTj5DJ9F8Rick_DOyh7QY",
+        "reviews": null
+      },
+      "Hotel Ohashi Yakata-no-Yu": {
+        "type": "sleep",
+        "description": [
+          "japanese",
+          "style",
+          "spa",
+          "hotel"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.oohashiya.co.jp/english.html {{dead link|May 2016}}",
+        "place_id": "ChIJU4UhnSfp9F8RhPbSV3x6uUw",
+        "reviews": null
+      },
+      "Leopalace Hotel Niigata": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.leopalacehotels.jp/english/niigata/ {{dead link|May 2016}}",
+        "place_id": "ChIJ3eKOeYXJ9F8RZiByXzbKfH8",
+        "reviews": null
+      },
+      "Niigata Tokyu Inn": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.tokyuhotelsjapan.com/en/TI/TI_NIGAT/index.html {{dead link|May 2016}}",
+        "place_id": "ChIJJf1SrZrJ9F8R_378qJYlesU",
+        "reviews": null
+      },
+      "Sunroute Hotel Niigata": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.sunroute.jp/HotelInfoSVE {{dead link|May 2016}}",
+        "place_id": "ChIJb4snmY_J9F8RMv2ETmglJ9o",
+        "reviews": null
+      },
+      "ANA Crowne Plaza Niigata": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.ichotelsgroup.com/crowneplaza/hotels/us/en/niigata-niigata/kijcp/hoteldetail {{dead link|May 2016}}",
+        "place_id": "ChIJ9bSbOIzJ9F8R1n2PVf6W04M",
+        "reviews": null
+      },
+      "Hotel Nikko Niigata": {
+        "type": "sleep",
+        "description": [
+          "rooms",
+          "high",
+          "floors",
+          "22nd",
+          "29th",
+          "floor"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.jalhotels.com/domestic/chubu_hokuriku/niigata/",
+        "place_id": "ChIJhfDmIR7K9F8R-FGlnO53QQM",
+        "reviews": null
+      },
+      "Hotel Okura Niigata": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.okura-niigata.com/english/",
+        "place_id": "ChIJu3cOTeTI9F8RNlmikPyWBSY",
+        "reviews": null
+      },
+      "Iwamuro spa Takashimaya": {
+        "type": "sleep",
+        "description": [
+          "japanese",
+          "style",
+          "inn"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.takasimaya.co.jp/english/",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "The Italia-Ken(Niigata)": {
+        "type": "sleep",
+        "description": [
+          "european",
+          "style",
+          "services",
+          "cuisine"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.newotani.co.jp/en/niigata/",
+        "place_id": "ChIJ--RWhfrJ9F8RChKB8INdVKk",
+        "reviews": null
+      },
+      "JR Information Center": null,
+      "Niigata Station Bandai Entrance Tourism Information Center": null,
+      "Niigata University Medical and Dental": null,
+      "Niigata City General Hospital": null,
+      "China": null,
+      "Republic of Korea": null,
+      "Russian Federation": null
+    }
+  }
+}

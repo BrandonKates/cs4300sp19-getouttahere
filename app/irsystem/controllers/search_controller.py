@@ -93,19 +93,7 @@ def is_urban(city):
 		return 1
 	
 def get_city_info(city, folder):
-	alphabet = ['A', 'B', 'C','D','E','F','G','H','I','J','K','L','M','N',
-						'O','P','Q','R','S','T','U','V','W','X','Y','Z']
-	firstletter = city[0]
-	if firstletter <= alphabet[0]:
-		filename = 'A.json'
-	else:
-		for i,letter in enumerate(alphabet[1:]):
-			if firstletter > alphabet[i] and firstletter <= letter:
-				filename = alphabet[i+1]+'.json'
-	if firstletter > alphabet[-1]:
-		filename='Z.json'
-	
-	with open(folder+filename, 'r') as f:
+	with open(folder+str(city) + '.json', 'r') as f:
 		data = json.load(f)
 		return data[city]
 		
@@ -116,7 +104,6 @@ def attraction_score(query, desc):
 			score += 1
 	score /= len(desc) + 1
 	return score
-	
 	
 def organize_city_info(city, folder, query, num_attrs):
 	data = get_city_info(city, folder)

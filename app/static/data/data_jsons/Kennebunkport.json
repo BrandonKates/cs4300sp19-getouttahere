@@ -1,0 +1,1206 @@
+{
+  "Kennebunkport": {
+    "size": 57,
+    "country": "United States",
+    "full_desc": [
+      "year",
+      "round",
+      "sunrise",
+      "sunset",
+      "includes",
+      "place",
+      "worship",
+      "maintained",
+      "grounds",
+      "paths",
+      "follow",
+      "course",
+      "harbor",
+      "afford",
+      "fabulous",
+      "views",
+      "ships",
+      "anchor",
+      "maintained",
+      "kennebunkport",
+      "historical",
+      "society",
+      "museum",
+      "displays",
+      "rides",
+      "including",
+      "opportunity",
+      "operate",
+      "streetcar",
+      "guidance",
+      "course",
+      "seasonal",
+      "guided",
+      "self",
+      "guided",
+      "walking",
+      "tours",
+      "open",
+      "seasonally",
+      "semi",
+      "private",
+      "18",
+      "holes",
+      "6",
+      "049",
+      "yards",
+      "center",
+      "kennebunkport",
+      "shopping",
+      "stores",
+      "closed",
+      "keep",
+      "reduced",
+      "hours",
+      "season",
+      "civil",
+      "war",
+      "art",
+      "kinkade",
+      "gallery",
+      "little",
+      "deli",
+      "aaa",
+      "five",
+      "diamond",
+      "mobil",
+      "five",
+      "star",
+      "restaurant",
+      "north",
+      "new",
+      "york",
+      "city",
+      "menu",
+      "changes",
+      "daily",
+      "four",
+      "course",
+      "fixed",
+      "price",
+      "91",
+      "00",
+      "per",
+      "person",
+      "plus",
+      "wines",
+      "also",
+      "known",
+      "federal",
+      "jack",
+      "brewery",
+      "tours",
+      "shipyard",
+      "ale",
+      "6",
+      "rooms",
+      "pool",
+      "country",
+      "location",
+      "indoor",
+      "outdoor",
+      "heated",
+      "pools",
+      "hot",
+      "tubs",
+      "complete",
+      "fitness",
+      "center",
+      "function",
+      "room",
+      "poolside",
+      "restaurant",
+      "summer",
+      "trolley",
+      "route",
+      "kids",
+      "stay",
+      "free",
+      "season",
+      "packages",
+      "downtown",
+      "location",
+      "downtown",
+      "piano",
+      "bar",
+      "providing",
+      "quality",
+      "hotel",
+      "lodging",
+      "historic",
+      "kennebunkport",
+      "since",
+      "1891",
+      "romantic",
+      "ocean",
+      "front",
+      "inn",
+      "offering",
+      "panoramic",
+      "ocean",
+      "views",
+      "across",
+      "kennebunk",
+      "beach",
+      "rooms",
+      "cost",
+      "approx",
+      "150",
+      "290",
+      "per",
+      "night",
+      "waterfront",
+      "lodging",
+      "luxury",
+      "spa",
+      "fitness",
+      "centre",
+      "stripers",
+      "seafood",
+      "restaurant",
+      "rooms",
+      "cost",
+      "approx",
+      "170",
+      "390",
+      "per",
+      "night",
+      "landscaped",
+      "grounds",
+      "kennebunk",
+      "river",
+      "15",
+      "upscale",
+      "cottages",
+      "luxury",
+      "classical",
+      "maine",
+      "inn",
+      "aaa",
+      "five",
+      "diamond",
+      "mobil",
+      "five",
+      "star",
+      "restaurant",
+      "rooms",
+      "cost",
+      "approx",
+      "230",
+      "430",
+      "per",
+      "night",
+      "waterfront",
+      "lodging",
+      "heart",
+      "kennebunkport",
+      "inn",
+      "style",
+      "rooms",
+      "nautical",
+      "theme",
+      "marina",
+      "dockage",
+      "available",
+      "main",
+      "house",
+      "listed",
+      "national",
+      "register",
+      "historic",
+      "places",
+      "offer",
+      "year",
+      "round",
+      "guest",
+      "lodging",
+      "families",
+      "welcome",
+      "private",
+      "cottages",
+      "rooms",
+      "cost",
+      "approx",
+      "229",
+      "319",
+      "per",
+      "night",
+      "inn",
+      "site",
+      "spa",
+      "rooms",
+      "suites",
+      "featuring",
+      "jacuzzi",
+      "tubs",
+      "fireplaces",
+      "complimentary",
+      "full",
+      "country",
+      "breakfast"
+    ],
+    "attractions": {
+      "The Franciscan Monastery": {
+        "type": "see",
+        "description": [
+          "year",
+          "round",
+          "sunrise",
+          "sunset",
+          "includes",
+          "place",
+          "worship",
+          "maintained",
+          "grounds",
+          "paths",
+          "follow",
+          "course",
+          "harbor",
+          "afford",
+          "fabulous",
+          "views",
+          "ships",
+          "anchor"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.franciscanguesthouse.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "The Kennebunkport History Center": {
+        "type": "see",
+        "description": [
+          "maintained",
+          "kennebunkport",
+          "historical",
+          "society"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Seashore Trolley Museum": {
+        "type": "see",
+        "description": [
+          "museum",
+          "displays",
+          "rides",
+          "including",
+          "opportunity",
+          "operate",
+          "streetcar",
+          "guidance",
+          "course"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.trolleymuseum.org",
+        "place_id": null,
+        "reviews": null
+      },
+      "Nott House": {
+        "type": "do",
+        "description": [
+          "seasonal",
+          "guided",
+          "self",
+          "guided",
+          "walking",
+          "tours"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "First Chance Whalewatch": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.firstchancewhalewatch.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "Cape Arundel Golf Course": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.capearundelgolfclub.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "Hillcrest Pitch & Putt": {
+        "type": "do",
+        "description": [
+          "open",
+          "seasonally"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Webhannet Golf Club": {
+        "type": "do",
+        "description": [
+          "semi",
+          "private",
+          "18",
+          "holes",
+          "6",
+          "049",
+          "yards"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.kennebunkgolf.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "Dock Square": {
+        "type": "buy",
+        "description": [
+          "center",
+          "kennebunkport",
+          "shopping",
+          "stores",
+          "closed",
+          "keep",
+          "reduced",
+          "hours",
+          "season"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Ebb Tide Gallery": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Clay Art": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Compliments - Gallery of Fine American Crafts": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Dayer Photography": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "P. DeSantis Gallery and Studio": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Goose Rocks Pottery": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Hendrikson Art Studio": {
+        "type": "buy",
+        "description": [
+          "civil",
+          "war",
+          "art"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Nancy St.Lawrence Studio": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Ocean Winds Art Gallery": {
+        "type": "buy",
+        "description": [
+          "kinkade",
+          "gallery"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "W. Robert Paine Gallery": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Rivertree Center for the Arts": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Alisson's": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.alissons.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "Bandaloop": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.bandaloop.biz",
+        "place_id": null,
+        "reviews": null
+      },
+      "Bartley's Dockside Dining": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.bartleysdining.com {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Cape Arundel Inn": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.capearundelinn.com/body_pages/dining.htm {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Cape Porpoise Kitchen": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Dock Square Coffee House": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Federal Jack's Restaurant and Brew Pub": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.federaljacks.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "Grissini Italian Bistro": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.restaurantgrissini.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "Hurricane Restaurant": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.hurricanerestaurant.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "Lobster Pot": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Old Salt's Pantry": {
+        "type": "eat",
+        "description": [
+          "little",
+          "deli"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.oldsaltspantry.com {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "On the Marsh Restaurant": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Pier 77 Restaurant": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Port Tavern & Grille Steakhouse": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.porttavern.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "Stripers Waterside Restaurant": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.thebreakwaterinn.com/kennebunkport-maine-me-best-seafood-dining-restaurants.jsp",
+        "place_id": null,
+        "reviews": null
+      },
+      "The White Barn Inn Restaurant": {
+        "type": "eat",
+        "description": [
+          "aaa",
+          "five",
+          "diamond",
+          "mobil",
+          "five",
+          "star",
+          "restaurant",
+          "north",
+          "new",
+          "york",
+          "city",
+          "menu",
+          "changes",
+          "daily",
+          "four",
+          "course",
+          "fixed",
+          "price",
+          "91",
+          "00",
+          "per",
+          "person",
+          "plus",
+          "wines"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.whitebarninn.com/kennebunkport-maine-me-fine-dining-restaurants.jsp",
+        "place_id": null,
+        "reviews": null
+      },
+      "Kennebunkport Brewery": {
+        "type": "drink",
+        "description": [
+          "also",
+          "known",
+          "federal",
+          "jack",
+          "brewery",
+          "tours",
+          "shipyard",
+          "ale"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Apple Blossom Bed and Breakfast": {
+        "type": "sleep",
+        "description": [
+          "6",
+          "rooms",
+          "pool"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.appleblossombandb.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "The Green Heron Inn": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.greenheroninn.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "Old Fort Inn": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.oldfortinn.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "The Welby Inn": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.welbyinn.com {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "The Lodge at Turbat's Creek": {
+        "type": "sleep",
+        "description": [
+          "country",
+          "location"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.visitkennebunkport.com/turbatshome.htm {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Rhumb Line Resort": {
+        "type": "sleep",
+        "description": [
+          "indoor",
+          "outdoor",
+          "heated",
+          "pools",
+          "hot",
+          "tubs",
+          "complete",
+          "fitness",
+          "center",
+          "function",
+          "room",
+          "poolside",
+          "restaurant",
+          "summer",
+          "trolley",
+          "route",
+          "kids",
+          "stay",
+          "free",
+          "season",
+          "packages"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.rhumblinemaine.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "King's Port Inn": {
+        "type": "sleep",
+        "description": [
+          "downtown",
+          "location"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.visitkennebunkport.com/kingsporthome.htm {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Kennebunkport Inn": {
+        "type": "sleep",
+        "description": [
+          "downtown",
+          "piano",
+          "bar"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.kennebunkportinn.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "The Seaside Inn & Cottages": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.kennebunkbeach.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "The Beach House Inn": {
+        "type": "sleep",
+        "description": [
+          "providing",
+          "quality",
+          "hotel",
+          "lodging",
+          "historic",
+          "kennebunkport",
+          "since",
+          "1891",
+          "romantic",
+          "ocean",
+          "front",
+          "inn",
+          "offering",
+          "panoramic",
+          "ocean",
+          "views",
+          "across",
+          "kennebunk",
+          "beach",
+          "rooms",
+          "cost",
+          "approx",
+          "150",
+          "290",
+          "per",
+          "night"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.beachhseinn.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "The Breakwater Inn & Spa": {
+        "type": "sleep",
+        "description": [
+          "waterfront",
+          "lodging",
+          "luxury",
+          "spa",
+          "fitness",
+          "centre",
+          "stripers",
+          "seafood",
+          "restaurant",
+          "rooms",
+          "cost",
+          "approx",
+          "170",
+          "390",
+          "per",
+          "night"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.thebreakwaterinn.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "Bufflehead Cove Inn": {
+        "type": "sleep",
+        "description": [
+          "landscaped",
+          "grounds",
+          "kennebunk",
+          "river"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.buffleheadcove.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "The Colony Hotel": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.thecolonyhotel.com/maine/home.html {{dead link|May 2016}}",
+        "place_id": "ChIJXbHV1s5s3hQRFScom8TdYRU",
+        "reviews": null
+      },
+      "Cottage Breeze Day spa & Boutique": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.cottagebreeze.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "Cottages at Cabot Cove": {
+        "type": "sleep",
+        "description": [
+          "15",
+          "upscale",
+          "cottages"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.cabotcovecottages.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "The Nonantum Resort": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.nonantumresort.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "White Barn Inn & Spa": {
+        "type": "sleep",
+        "description": [
+          "luxury",
+          "classical",
+          "maine",
+          "inn",
+          "aaa",
+          "five",
+          "diamond",
+          "mobil",
+          "five",
+          "star",
+          "restaurant",
+          "rooms",
+          "cost",
+          "approx",
+          "230",
+          "430",
+          "per",
+          "night"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.whitebarninn.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "The Yachtsman Lodge and Marina": {
+        "type": "sleep",
+        "description": [
+          "waterfront",
+          "lodging",
+          "heart",
+          "kennebunkport",
+          "inn",
+          "style",
+          "rooms",
+          "nautical",
+          "theme",
+          "marina",
+          "dockage",
+          "available"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.yachtsmanlodge.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "Maine Stay Inn & Cottages": {
+        "type": "sleep",
+        "description": [
+          "main",
+          "house",
+          "listed",
+          "national",
+          "register",
+          "historic",
+          "places",
+          "offer",
+          "year",
+          "round",
+          "guest",
+          "lodging",
+          "families",
+          "welcome",
+          "private",
+          "cottages",
+          "rooms",
+          "cost",
+          "approx",
+          "229",
+          "319",
+          "per",
+          "night"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.mainestayinn.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "The Captain Lord Mansion": {
+        "type": "sleep",
+        "description": [
+          "inn",
+          "site",
+          "spa",
+          "rooms",
+          "suites",
+          "featuring",
+          "jacuzzi",
+          "tubs",
+          "fireplaces",
+          "complimentary",
+          "full",
+          "country",
+          "breakfast"
+        ],
+        "coordinates": [
+          43.358833000000004,
+          -70.473894
+        ],
+        "website": "http://www.captainlord.com",
+        "place_id": null,
+        "reviews": null
+      }
+    }
+  }
+}

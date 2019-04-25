@@ -1,0 +1,839 @@
+{
+  "Santillana del Mar": {
+    "size": 56,
+    "country": "Spain",
+    "full_desc": [
+      "museum",
+      "cantabrian",
+      "scultpor",
+      "jesus",
+      "otero",
+      "museum",
+      "displaying",
+      "torture",
+      "tools",
+      "instruments",
+      "public",
+      "humiliation",
+      "abbey",
+      "dating",
+      "12th",
+      "cent",
+      "beautiful",
+      "romanesque",
+      "church",
+      "ancient",
+      "times",
+      "one",
+      "powerful",
+      "monasteries",
+      "spain",
+      "attracting",
+      "many",
+      "noble",
+      "families",
+      "built",
+      "houses",
+      "santillana",
+      "del",
+      "mar",
+      "romanesque",
+      "cloisters",
+      "dating",
+      "12th",
+      "13th",
+      "cent",
+      "scenes",
+      "bible",
+      "fighting",
+      "scenes",
+      "decorated",
+      "baroque",
+      "coat",
+      "arms",
+      "saying",
+      "un",
+      "bon",
+      "morir",
+      "es",
+      "onra",
+      "de",
+      "la",
+      "vida",
+      "good",
+      "dying",
+      "honours",
+      "life",
+      "cave",
+      "prehistoric",
+      "paintings",
+      "inscribed",
+      "unesco",
+      "world",
+      "heritage",
+      "list",
+      "house",
+      "calderon",
+      "de",
+      "la",
+      "barca",
+      "family",
+      "15th",
+      "cent",
+      "rock",
+      "paintings",
+      "15000",
+      "years",
+      "old",
+      "old",
+      "fashioned",
+      "restaurant",
+      "ancient",
+      "mansion",
+      "barreda",
+      "bracho",
+      "family",
+      "wooden",
+      "floors",
+      "traditional",
+      "furniture",
+      "28",
+      "rooms"
+    ],
+    "attractions": {
+      "Museo Diocesiano de Regina Coeli": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.santillanamuseodiocesiano.com {{dead link|May 2016}}",
+        "place_id": "ChIJ5d5mph8VSQ0R21uVrTtaj7A",
+        "reviews": null
+      },
+      "Museo Jes\u00fas Otero": {
+        "type": "see",
+        "description": [
+          "museum",
+          "cantabrian",
+          "scultpor",
+          "jesus",
+          "otero"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJqcrn7SEVSQ0RBaH3MaLUjwY",
+        "reviews": null
+      },
+      "Museo y Centro de Investigaci\u00f3n de Altamira": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.mcu/nmuseos/altamira {{dead link|May 2016}}",
+        "place_id": "ChIJJ3Mv6fAUSQ0RDKRpGkm1K2U",
+        "reviews": null
+      },
+      "Museo de la Inquisici\u00f3n el Solar": {
+        "type": "see",
+        "description": [
+          "museum",
+          "displaying",
+          "torture",
+          "tools",
+          "instruments",
+          "public",
+          "humiliation"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJVzeTXh8VSQ0REZAg7zYxmDU",
+        "reviews": null
+      },
+      "La Cueva Mitol\u00f3gica": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.lacuevuca.com {{dead link|May 2016}}",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Collegiata de Santa Juliana": {
+        "type": "see",
+        "description": [
+          "abbey",
+          "dating",
+          "12th",
+          "cent",
+          "beautiful",
+          "romanesque",
+          "church",
+          "ancient",
+          "times",
+          "one",
+          "powerful",
+          "monasteries",
+          "spain",
+          "attracting",
+          "many",
+          "noble",
+          "families",
+          "built",
+          "houses",
+          "santillana",
+          "del",
+          "mar"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJnQb7kiEVSQ0RL59Gel1tAQE",
+        "reviews": null
+      },
+      "Claustro de la Colegiata": {
+        "type": "see",
+        "description": [
+          "romanesque",
+          "cloisters",
+          "dating",
+          "12th",
+          "13th",
+          "cent",
+          "scenes",
+          "bible",
+          "fighting",
+          "scenes"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJoZDQ0aUVSQ0R0G8W1uf39eI",
+        "reviews": null
+      },
+      "Convento de las Clarisas": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ-RR8D-AUSQ0RMYQT0ZVGk7Q",
+        "reviews": null
+      },
+      "Convento de las Dominicas": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJVR4bVR4VSQ0Rkng01EVg0rQ",
+        "reviews": null
+      },
+      "Casas del \u00c1guila y la Parra": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ-0EvTWs-SQ0RUmIzkIBzy18",
+        "reviews": null
+      },
+      "Casa de los S\u00e1nchez Tagle": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ7ZQCKB4VSQ0Rsr-lSRuCYtU",
+        "reviews": null
+      },
+      "Palacio de Velarde": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJheELiiEVSQ0RNcFwp-lrPVI",
+        "reviews": null
+      },
+      "Casa de los Quevedo": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJNb4N5yEVSQ0Rztye3GPPp5g",
+        "reviews": null
+      },
+      "Palacio de Peredo - Barrera": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJSXjolR8VSQ0REH8B0yHL5Cs",
+        "reviews": null
+      },
+      "Casa de los Hombrones": {
+        "type": "see",
+        "description": [
+          "decorated",
+          "baroque",
+          "coat",
+          "arms",
+          "saying",
+          "un",
+          "bon",
+          "morir",
+          "es",
+          "onra",
+          "de",
+          "la",
+          "vida",
+          "good",
+          "dying",
+          "honours",
+          "life"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJX_BUvB8VSQ0REh5IUfLL7xY",
+        "reviews": null
+      },
+      "Casa del Marqu\u00e9s de Santillana": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJSQse3yEVSQ0R72fNzNesNqg",
+        "reviews": null
+      },
+      "Casa de los Bustamante": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJX_BUvB8VSQ0REh5IUfLL7xY",
+        "reviews": null
+      },
+      "Casa de los Villa": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJX_BUvB8VSQ0REh5IUfLL7xY",
+        "reviews": null
+      },
+      "Plaza Ram\u00f3n Pelayo o del Mercado": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJE3oogh8VSQ0R54uOWZJcD5s",
+        "reviews": null
+      },
+      "Casa de los Barreda - Bracho": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ-0EvTWs-SQ0RUmIzkIBzy18",
+        "reviews": null
+      },
+      "Torre del Merino": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJY4xWfx8VSQ0R0QsfBk4P6cQ",
+        "reviews": null
+      },
+      "Torre de Don Borja": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ____vx4VSQ0RsbgQJN8hw-o",
+        "reviews": null
+      },
+      "Casa de la Infanta Paz": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Casa de la Archiduquesa": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Altamira": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.hotelaltamira.com",
+        "place_id": "ChIJ-e70EqZZKowR5921tkWUtOE",
+        "reviews": null
+      },
+      "Santillana zoo": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJJWYKJSIVSQ0RT2Ry2Xd2dYM",
+        "reviews": null
+      },
+      "Comillas": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJI-KjSx4VSQ0RY6DK1LTl0zg",
+        "reviews": null
+      },
+      "San Vicente de la Barquera": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJE3oogh8VSQ0R54uOWZJcD5s",
+        "reviews": null
+      },
+      "Oyambre National Park": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Queveda": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJbVOui3oVSQ0RiUGKYaGrFYM",
+        "reviews": null
+      },
+      "La Barca de Calder\u00f3n": {
+        "type": "see",
+        "description": [
+          "house",
+          "calderon",
+          "de",
+          "la",
+          "barca",
+          "family",
+          "15th",
+          "cent"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJSRsO38s_SQ0R25iY6xvRLaM",
+        "reviews": null
+      },
+      "Santa Mar\u00eda de Viaceli": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJJaqlL-AUSQ0REEgFRIbSmfQ",
+        "reviews": null
+      },
+      "Complejo del Monte Castillo": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Cueva de Covalanas": {
+        "type": "see",
+        "description": [
+          "rock",
+          "paintings",
+          "15000",
+          "years",
+          "old"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Cueva de Chufin": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJb7aHuwUVSQ0RPpmEBXAJlQs",
+        "reviews": null
+      },
+      "Ecomuseo Saja-Nansa": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Suances": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJI-KjSx4VSQ0RY6DK1LTl0zg",
+        "reviews": null
+      },
+      "Torrelavega": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJI-KjSx4VSQ0RY6DK1LTl0zg",
+        "reviews": null
+      },
+      "Zoo": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.santillana-del-mar.com/english/zoo.htm",
+        "place_id": "ChIJm-PO_-62sw0RuAGPh-dJaq4",
+        "reviews": null
+      },
+      "Los Blasones": {
+        "type": "eat",
+        "description": [
+          "old",
+          "fashioned",
+          "restaurant"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJpwiYoR8VSQ0RKhjmPNBN6PU",
+        "reviews": null
+      },
+      "Casa Cossio": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJd8QhyB8VSQ0RxuRx6gsoFgU",
+        "reviews": null
+      },
+      "Caf\u00e9 Concana": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJi1hVLyAVSQ0RIdN9RM0CHZE",
+        "reviews": null
+      },
+      "La Joraca": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJBdn9bSAVSQ0RqdoR2QW6o6o",
+        "reviews": null
+      },
+      "Taberna del Chus": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJHaHcAJoVSQ0R6FaYSqtcJv0",
+        "reviews": null
+      },
+      "Los Nobles": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJbUMTmB8VSQ0RwgcPAWlX1Mo",
+        "reviews": null
+      },
+      "El Catillo": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ-0EvTWs-SQ0R7nQ41ecKQOA",
+        "reviews": null
+      },
+      "Casa \u00c1ngel": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJe4Am5iEVSQ0RdcsTIVxg45o",
+        "reviews": null
+      },
+      "Parador Gil Blas": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJMxAhhB8VSQ0Rgo6SMkCOFkE",
+        "reviews": null
+      },
+      "Parador de Santillana - Gil Blas": {
+        "type": "sleep",
+        "description": [
+          "ancient",
+          "mansion",
+          "barreda",
+          "bracho",
+          "family",
+          "wooden",
+          "floors",
+          "traditional",
+          "furniture",
+          "28",
+          "rooms"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.parador.es/en/cargarFichaParador.do?parador=108 {{dead link|May 2016}}",
+        "place_id": "ChIJMxAhhB8VSQ0Rgo6SMkCOFkE",
+        "reviews": null
+      },
+      "Posada Araceli": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.posadaaraceli.com",
+        "place_id": "ChIJPz3hyuEUSQ0ReWEYnPUyGm0",
+        "reviews": null
+      },
+      "Guardia Civil": null,
+      "Centro de Salud Altamira (Health Center)": null,
+      "Hospital de Sierrallana (Hospital)": null,
+      "Farmacia (Pharmacy)": null
+    }
+  }
+}

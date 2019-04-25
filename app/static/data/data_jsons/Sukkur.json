@@ -1,0 +1,586 @@
+{
+  "Sukkur": {
+    "size": 46,
+    "country": "Pakistan",
+    "full_desc": [
+      "basic",
+      "otherwise",
+      "basic",
+      "rooms",
+      "private",
+      "bathrooms",
+      "central",
+      "air",
+      "conditioning",
+      "area",
+      "code",
+      "sukkur",
+      "71",
+      "international",
+      "code",
+      "92",
+      "calling",
+      "outside",
+      "pakistan"
+    ],
+    "attractions": {
+      "Masum Shah Minaret": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Rohri Arore ( ruins of historical city )": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Shrine of Syed Sadar-Ur-Din-Shah": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ16rRFJzVNTkRcyIMPluc7Ls",
+        "reviews": null
+      },
+      "Tomb of the Seven Maidens Sateen Jo Aastan": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Sadh Belo Temple on River Indus": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJAZSw0KPVNTkRpePt16TFhrE",
+        "reviews": null
+      },
+      "Lansdowne Bridge Rohri": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJnUNQ2JvVNTkRr9LCxlr2Jg8",
+        "reviews": null
+      },
+      "Sukkur (Lloyd) Barrage": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJkTTADkjUNTkRHddR7apUJU8",
+        "reviews": null
+      },
+      "Sukkur Museum": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJkTTADkjUNTkRHddR7apUJU8",
+        "reviews": null
+      },
+      "Lab-e-Mehran": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJt1OBIqnVNTkRreVHzeIzBlw",
+        "reviews": null
+      },
+      "G. A. Shah Tomb  - Old Sukkur": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ9aW5MwvVNTkRnvytyQk23zg",
+        "reviews": null
+      },
+      "Sukkur Stadium": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJBwvReajVNTkRCPQuHw960gc",
+        "reviews": null
+      },
+      "Shopping at Shahi Bazaar, Frere Road": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJK0MY16jVNTkRjyfo5DCz6qA",
+        "reviews": null
+      },
+      "Boat ride at river Indus side": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJtf6mqJnVNTkRWjs85_pwBmU",
+        "reviews": null
+      },
+      "Fishing near Indus River": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Play cricket at Sukkur Stadium": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJBwvReajVNTkRCPQuHw960gc",
+        "reviews": null
+      },
+      "Play tennis at Sukkur Ghym khana": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Original Sindhi Handicrafts": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Sindhi Topi & Ajrak": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Ralli Quilt": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Hand made khadi cloth": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Ghuori Departmental Store": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJT58vx6jVNTkRSBxMb6oI4wI",
+        "reviews": null
+      },
+      "Gold at Sarafa Bazar": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ5aGN3qjVNTkRAJqgH8qwVsM",
+        "reviews": null
+      },
+      "Books at Qitab Ghar": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Dinner / Lunch at Taj Hotel, Rohri Toll plaza": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJr-RKQiJ_NjkR4K0yzaYyILQ",
+        "reviews": null
+      },
+      "Pizza Town on Military Road": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJbaNdqPDUNTkRdNYnyguTVUo",
+        "reviews": null
+      },
+      "KFC Fast food on Military Road": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ8WEopvDUNTkRrxC82GJ_oHk",
+        "reviews": null
+      },
+      "Chicken Karahi of Student Chicken near Clock tower": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Fruit Chat at Neem ki Chari": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Dolphin Bakery cakes": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJpXJLgajVNTkR9YdtL-wEjTw",
+        "reviews": null
+      },
+      "Mehran Sweets": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJv4OpqinVNTkRbyadgyDl8bU",
+        "reviews": null
+      },
+      "Channa Cholay with Naan": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Makhan Nihari at Thala": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Kachori": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJG33VMunUNTkRQzBjIButbyQ",
+        "reviews": null
+      },
+      "Drink Famous Thadal": {
+        "type": "drink",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Piyala Hotel Tea near Rohri": {
+        "type": "drink",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJMRyO0Ut_NjkR10LNlzwbhb8",
+        "reviews": null
+      },
+      "Milk shakes near Shikarpur sweets": {
+        "type": "drink",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ3fy0g6jVNTkRFuhDbkI98NA",
+        "reviews": null
+      },
+      "Hotel Al-Habib": {
+        "type": "sleep",
+        "description": [
+          "basic"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJtcWhluXVNTkRKDulQ9-b0aU",
+        "reviews": null
+      },
+      "Mehran Hotel": {
+        "type": "sleep",
+        "description": [
+          "otherwise",
+          "basic",
+          "rooms",
+          "private",
+          "bathrooms",
+          "central",
+          "air",
+          "conditioning"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJMZe58nc-sz4RQiSUbPeUDwY",
+        "reviews": null
+      },
+      "Forum Inn Hotel": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJowdailTUNTkRBjfc0BtL1kY",
+        "reviews": null
+      },
+      "Inter Pak Inn": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJIX3aRlrUNTkRV8W626GmiCQ",
+        "reviews": null
+      },
+      "Chansri Guest House": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJteBOMuzUNTkRCxRGLHkr70U",
+        "reviews": null
+      },
+      "Comfort Inn": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJKXFH0xKNVoYRl_jnrPpNhHI",
+        "reviews": null
+      },
+      "Sukkur Gym Khana": null,
+      "Squash Courts at Public School Sukkur": null,
+      "Religious gatherings in Largest Madrasa": null,
+      "Calling": null
+    }
+  }
+}

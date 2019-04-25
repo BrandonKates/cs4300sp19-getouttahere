@@ -1,0 +1,636 @@
+{
+  "Varese": {
+    "size": 45,
+    "country": "Italy",
+    "full_desc": [
+      "http",
+      "www",
+      "unescovarese",
+      "com",
+      "home"
+    ],
+    "attractions": {
+      "Centro storico": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.81875",
+          "8.82681"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Palazzo and estensi gardens with Villa Mirabello": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.81677",
+          "8.82344"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Villa e Parco Augusta": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.81364",
+          "8.83645"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Villa e Parco Recalcati": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.81656",
+          "8.81235"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Villa e Parco Torelli Mylius": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.82632",
+          "8.82205"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Ville Ponti e Villa Panza": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.82507",
+          "8.83146"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Castello di Masnago e Parco Mantegazza": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.82858",
+          "8.80245"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Villa e Parco Toeplitz": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.84413",
+          "8.81298"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Palace Grand Hotel": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.82185",
+          "8.80956"
+        ],
+        "website": "http://www.palacevarese.it",
+        "place_id": null,
+        "reviews": null
+      },
+      "Sacro Monte": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.8575",
+          "8.7932"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Museo Baroffio al Sacro Monte": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.86039",
+          "8.79205"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Casa museo Lodovico Pogliaghi": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.85893",
+          "8.79408"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Schiranna and lake of Varese": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.8034",
+          "8.784"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "UNESCO World Heritage Sites": {
+        "type": "see",
+        "description": [
+          "http",
+          "www",
+          "unescovarese",
+          "com",
+          "home"
+        ],
+        "coordinates": [
+          "45.81875",
+          "8.82681"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Palaghiaccio": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.83238",
+          "8.82579"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "F. Fabiano": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.81611",
+          "8.82096"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Club Laguna Blu": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.81033",
+          "8.81857"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Relais sul lago": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.80676",
+          "8.78841"
+        ],
+        "website": "http://www.relaissullago.it",
+        "place_id": null,
+        "reviews": null
+      },
+      "Robur et Fides": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.82601",
+          "8.81659"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "racecourse Le Bettole": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.83185",
+          "8.82919"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "CAI-Club Alpino Italiano": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.82064",
+          "8.82387"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Sci Club Escuriosnisti Campo dei Fiori": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.81505",
+          "8.82597"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Societ\u00e0 canottieri Varese": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.80194",
+          "8.78031"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "La locanda di Bacco": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.849248",
+          "8.820965"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Vecchia Trattoria della Pesa": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.821",
+          "8.82579"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Al Mattarello": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.81983",
+          "8.82409"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Bologna": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.82058",
+          "8.82521"
+        ],
+        "website": "nan",
+        "place_id": "ChIJ01A1b5bUf0cRfJykz824Xb8",
+        "reviews": {
+          "html_attributions": [],
+          "result": {
+            "rating": 4.3,
+            "reviews": [
+              {
+                "author_name": "Honeybeez36 3",
+                "author_url": "https://www.google.com/maps/contrib/111943503630059492801/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh3.googleusercontent.com/-aXk-gKsalU8/AAAAAAAAAAI/AAAAAAAAAMA/85twID0PWtU/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 3,
+                "relative_time_description": "a week ago",
+                "text": "Interesting history and the workers were kind. Buddha museum wasn't English friendly though. Was pleasant.",
+                "time": 1554247634
+              },
+              {
+                "author_name": "Manu\u00e9la K\u00e1rp\u00e1ti",
+                "author_url": "https://www.google.com/maps/contrib/113748278987722959677/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-CvZFL6XGoGs/AAAAAAAAAAI/AAAAAAAABMM/_Rhqk0LxwSY/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 4,
+                "relative_time_description": "2 months ago",
+                "text": "The museum is nice, worth the price. The visit is around 1,5-2 hours. Unfortunately, half of the staff is pretty rude (one of them tried to kick us out 20 minutes before closing).",
+                "time": 1548610022
+              },
+              {
+                "author_name": "Hillary Murphy",
+                "author_url": "https://www.google.com/maps/contrib/101615421534844453584/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh4.googleusercontent.com/-ScH02AkeDbM/AAAAAAAAAAI/AAAAAAABRRU/HLb_7bE4fHk/s128-c0x00000000-cc-rp-mo-ba6/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "7 months ago",
+                "text": "Cool place. 5 stars. I would definitely recommend this experience to anyone who is in town and has a few hours to pass. It is easy to find and access and for people of all ages and abilities. The staff are very friendly and knowledgeable and you know you are in good hands from start to finish. This is one thing that is not to be missed.",
+                "time": 1536705734
+              },
+              {
+                "author_name": "Andrej \u017diak",
+                "author_url": "https://www.google.com/maps/contrib/106928069819516446635/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh3.googleusercontent.com/-H5ZK7XI8rDo/AAAAAAAAAAI/AAAAAAAAJGg/GYm68EfqpVY/s128-c0x00000000-cc-rp-mo-ba6/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "3 months ago",
+                "text": "Because I love medieval times this museum was exactly for me. Inside you find from oldest times old rome remains and many interesting works and exhibitions. Relative cheap but recomended bologna card to save more money.",
+                "time": 1545741217
+              },
+              {
+                "author_name": "Julia Boechat Machado",
+                "author_url": "https://www.google.com/maps/contrib/102635032915381671735/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh5.googleusercontent.com/-v-WfeDZjvQw/AAAAAAAAAAI/AAAAAAAAZjc/oi1zqFlW9OY/s128-c0x00000000-cc-rp-mo-ba5/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "4 months ago",
+                "text": "Great medieval museum in Bologna. Free entrance for students.\nThe medieval connection is great, they speak a lot about the history of Bologna.\nThey also a modern installation, the Museum d'Ohm, where a permanent collection of objects is kept in a drawer (ask for the keys in reception).",
+                "time": 1542269013
+              }
+            ]
+          },
+          "status": "OK"
+        }
+      },
+      "Osteria del Centenate": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.81374",
+          "8.80401"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Ristorante Palace Grand Hotel": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.82246",
+          "8.80926"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Tana d'Orso": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.81777",
+          "8.7763"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Il Gestore": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.82911",
+          "8.82381"
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Al sei rooms": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.81981",
+          "8.82396"
+        ],
+        "website": "http://www.alsei.it",
+        "place_id": null,
+        "reviews": null
+      },
+      "Grifo Varese": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.82026",
+          "8.81945"
+        ],
+        "website": "http://www.grifovarese.it",
+        "place_id": null,
+        "reviews": null
+      },
+      "Villa Adriana": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.84378",
+          "8.80662"
+        ],
+        "website": "http://www.villaadriana.eu",
+        "place_id": null,
+        "reviews": null
+      },
+      "Casa Lory": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.83974",
+          "8.81062"
+        ],
+        "website": "http://www.casalory.it",
+        "place_id": null,
+        "reviews": null
+      },
+      "Hotel Ungheria": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.80404",
+          "8.83975"
+        ],
+        "website": "http://www.hotelungheria.it",
+        "place_id": null,
+        "reviews": null
+      },
+      "Hotel Europa": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.82177",
+          "8.82556"
+        ],
+        "website": "http://www.hoteleuropavarese.it",
+        "place_id": "ChIJT5GkTxMjokcRaMIASd0C1kc",
+        "reviews": null
+      },
+      "Albergo Ristorante Bologna": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.82039",
+          "8.82527"
+        ],
+        "website": "http://www.albergobolgona.it {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Albergo Sacro Monte": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.86071",
+          "8.79195"
+        ],
+        "website": "http://www.albergosacroonte.it {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Hotel Colonne": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.86055",
+          "8.79135"
+        ],
+        "website": "http://www.albergocolonne.it",
+        "place_id": null,
+        "reviews": null
+      },
+      "Hotel di Varese": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.81849",
+          "8.8298"
+        ],
+        "website": "http://www.hoteldivarese.it",
+        "place_id": null,
+        "reviews": null
+      },
+      "City Hotel": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.81584",
+          "8.83124"
+        ],
+        "website": "http://www.cityhotelvarese.it",
+        "place_id": "ChIJy_ul_utGp0cRLnNjP3Tsjdo",
+        "reviews": null
+      },
+      "Art Hotel": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "45.82528",
+          "8.82482"
+        ],
+        "website": "http://www.arthotelvarese.it",
+        "place_id": "ChIJU80ANLbKvJURsEhnXKQtZJs",
+        "reviews": null
+      }
+    }
+  }
+}
