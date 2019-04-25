@@ -111,11 +111,10 @@ def organize_city_info(city, folder, query, num_attrs):
 		
 	output_dict = {}
 	output_dict['country'] = data['country']
-	
 	if output_dict['country'] != output_dict['country']:	#check if nan
 		output_dict['country'] = '(Country Unknown)'
+		
 	output_dict['attractions'] = []
-	
 	
 	attractions = data['attractions']
 	attrac_scores = []
