@@ -1,11 +1,19 @@
 <html>
     <head>
+        <title>Kanoe</title>
         <link rel="stylesheet" href="/static/bootstrap.min.css">
         <link rel="stylesheet" href="/static/main.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="/static/bootstrap-tagsinput-latest/dist/bootstrap-tagsinput.css">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        
+        
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="/static/bootstrap-tagsinput-latest/dist/bootstrap-tagsinput.js"></script>
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-		
+		<script> $(function(){var tags = ["kayaking", "skiing"]; $( "#simpsearch" ).autocomplete({source: tags});});</script>
 	</head>
     <body>
         <div class="topcorner">
@@ -17,14 +25,14 @@
 		<div class = "row">
 			<div class = "col-lg-3 col-md-4 col-sm-5 col-xs-12" id = "search-pane">
 				<h1 style="font-size: 55px; color: #4285F4" class = "text-center">
-						Kanoe
+					Kanoe
 				</h1>
 				<form class="form-inline global-search" id = "search-main">
 
 					<br><br>
 					
-					<div class = "global-search" >
-						<input id="input" type="text" name="search" class="form-control" placeholder="Your ideal trip" autocomplete = "" id = "basic-search">
+					<div class = "global-search ui-widget" >
+						<input id="simpsearch" type="text" name="search" class="form-control" placeholder="Your ideal trip" autocomplete = "" id = "basic-search" data-role = "tagsinput">
 					</div><br><br><br>
 					
 					<button type = "button" class = "btn btn-info form-control" data-toggle="collapse" data-target="#advsearch" aria-expanded="false" aria-controls="collapseExample">Advanced Search </button>
