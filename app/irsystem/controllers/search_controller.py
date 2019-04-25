@@ -40,7 +40,6 @@ def search():
 		activities = ""
 	urban = request.args.get('urban')
 	if urban == None:
-		print("here")
 		urban = 1
 	urban = int(urban)
 	numLocs = request.args.get('numberLocs')
@@ -78,7 +77,6 @@ def search():
 			
 			# Get attraction information
 			city_info = organize_city_info(city, json_data, advanced_query, 3)
-			city_info['country'] = country
 			city_info['city'] = city
 			city_info['score'] = score
 			
@@ -134,12 +132,14 @@ def attraction_score(query, desc):
 	
 def organize_city_info(city, folder, query, num_attrs):
 	data = get_city_info(city, folder)
+	#print(data.keys())
 	num_atts_flag = False
 	if int(data['size']) < num_attrs:
 		num_attrs = data['size']
 		num_atts_flag = True
 		
 	output_dict = {}
+	output_dict['country'] = data['country']
 	output_dict['attractions'] = []
 	attractions = data['attractions']
 	
@@ -187,7 +187,6 @@ def organize_city_info(city, folder, query, num_attrs):
 	# Append top eat, do, and drink to list
 	attractions[top_eat]['name'] = top_eat
 	attractions[top_do]['name'] = top_do
-	print(attractions[top_drink])
 	attractions[top_drink]['name'] = top_drink
 
 	output_dict['attractions'].append(attractions[top_eat])
