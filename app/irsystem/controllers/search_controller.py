@@ -9,9 +9,9 @@ import requests
 dirpath = os.getcwd()
 data_files = dirpath + "/app/static/data/"
 tfidf_files = data_files + "tfidf_data/"
-inv_idx = np.load(tfidf_files+"inv_idx_largecities.npy").item()
-idf = np.load(tfidf_files+"idf_dict_largecities.npy").item()
-doc_norms = np.load(tfidf_files+"doc_norms_largecities.npy").item()
+inv_idx = np.load(tfidf_files+"inv_idx.npy").item()
+idf = np.load(tfidf_files+"idf_dict.npy").item()
+doc_norms = np.load(tfidf_files+"doc_norms.npy").item()
 json_data = data_files + "data_jsons/"
 urban_rural = np.load(data_files+"urban_cities.npy").item()
 # Mapping of cities to their countries
@@ -187,6 +187,7 @@ def organize_city_info(city, folder, query, num_attrs):
 	# Append top eat, do, and drink to list
 	attractions[top_eat]['name'] = top_eat
 	attractions[top_do]['name'] = top_do
+	print(attractions[top_drink])
 	attractions[top_drink]['name'] = top_drink
 
 	output_dict['attractions'].append(attractions[top_eat])
