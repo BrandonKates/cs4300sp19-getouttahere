@@ -129,6 +129,12 @@ def organize_city_info(city, folder, query, num_attrs):
 	
 	for i in range(num_attrs):
 		(name, score) = sorted_scores[i]
+		
+		# Find all matching terms b/w query and description
+		desc = attractions[name]['description']
+		matches = get_matching_terms(query, desc)
+		attractions[name]['matches'] = matches
+		
 		output_dict['attractions'].append(attractions[name])
 	
 	api_key = "AIzaSyCJiRPAPsSLaY46PvyNxzISQMXFZx6h-g8"
@@ -140,6 +146,20 @@ def organize_city_info(city, folder, query, num_attrs):
 			output_dict['attractions'][att]['reviews'] = reviews
 			
 	return output_dict
+
+def get_matching_terms(query, desc):
+	matches_dict = {}
+	for q in query.lower().split():
+		if q in desc:
+			if q not in matches_dict:
+				matches_dict[q] = 0
+			matches_dict[q] += 1
+	
+	# Make into tuple list to sort
+	matches_scores_list = [(key, matches_dict[key]) for key in matches_dict]
+	sorted_tuples = sorted(matches_scores_list, key=lambda x:x[1], reverse=True)
+
+	return [x[0] for x in sorted_tuples]
 	
 def index_search(query, index, idf, doc_norms):
     """ Search the collection of documents for the given query
