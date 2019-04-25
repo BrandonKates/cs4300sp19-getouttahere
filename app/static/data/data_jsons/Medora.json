@@ -1,0 +1,828 @@
+{
+  "Medora": {
+    "size": 63,
+    "country": NaN,
+    "full_desc": [
+      "books",
+      "artwork",
+      "music",
+      "3",
+      "miles",
+      "south",
+      "medora"
+    ],
+    "attractions": {
+      "Rough Riders Hotel": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Medora Musical": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Bandannas & Bows": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Western Edge": {
+        "type": "buy",
+        "description": [
+          "books",
+          "artwork",
+          "music"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Buffalo Gap": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Butte Antiques": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Chateau Nuts": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Circle C Gallery & Gifts": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Corner Store": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Dacohtah Territories Gifts": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Dakota Cyclery": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Rylee\u2019s Trunk": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "The Hitching Post": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJyzfdkQmG54kRuHO5BtnYeC4",
+        "reviews": null
+      },
+      "The Home Merchant": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "James Gang Java": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Lake Country Stitches": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Mary's Cosmetics": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Medora Convenience Store": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Medora Musical Gift Shop": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Medora's Purrfect Gifts": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Plains Treasures": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Rough Rider Gift Shop": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Rushmore Mountain Taffy": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Sacajawea Trading Post": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Sharp Shirter": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Stage Barn": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Stage Stop Leather & Gifts": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Teddy\u2019s Tees and Toys": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Todd's Old Time Photo Parlor": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Touch of Dakota": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "T. R. National Park Bookstore": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "The White House": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJCWWjK8ivOG0RiSDUo0eE2EY",
+        "reviews": null
+      },
+      "Badlands Bake Shop": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Chuckwagon": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Fudge & Ice Cream Depot": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Ice Cream Parlor": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Iron Horse Saloon & Restaurant": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Little Missouri Dining Room & Saloon": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Lunch & Munch More": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Maltese Burgers": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Mel\u2019s Ice Cream & Emporium": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Pitchfork Fondue": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "The Pizza Parlor": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Rough Riders Hotel Dining Room": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "The Wurst Shop": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "The Coffee House": {
+        "type": "drink",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ2dIYsDwOhEgRsS7xDaETOfQ",
+        "reviews": null
+      },
+      "Cowboy Cafe": {
+        "type": "drink",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "AmericInn Motel & Suites": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Badlands Motel": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Bar X Guest Ranch": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Buffalo Gap Guest Ranch": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "The Bunkhouse": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Cottonwood Campgrounds": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Custers Cottage": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Dahkotah Lodge Guest Ranch": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Diamond Bar Bed & Breakfast": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Eagle Ridge Lodge": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Little Missouri Bed & Corral": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Medora Campgrounds": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Red Trail Campground": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Sully Creek Campground": {
+        "type": "sleep",
+        "description": [
+          "3",
+          "miles",
+          "south",
+          "medora"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "T.R. Ranch House": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      }
+    }
+  }
+}

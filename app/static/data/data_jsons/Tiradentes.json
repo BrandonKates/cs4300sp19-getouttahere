@@ -1,0 +1,821 @@
+{
+  "Tiradentes": {
+    "size": 42,
+    "country": NaN,
+    "full_desc": [
+      "beautiful",
+      "church",
+      "constructed",
+      "1732",
+      "richest",
+      "gold",
+      "foil",
+      "interior",
+      "church",
+      "brazil",
+      "photography",
+      "allowed",
+      "inside",
+      "nicest",
+      "views",
+      "tiradentes",
+      "hilltop",
+      "fountain",
+      "dating",
+      "back",
+      "1700s",
+      "centro",
+      "espaco",
+      "libertas",
+      "cultural",
+      "rua",
+      "deputado",
+      "jose",
+      "bonifacio",
+      "filho",
+      "64",
+      "bichinho",
+      "centro",
+      "historico",
+      "centro",
+      "estrada",
+      "da",
+      "caixa",
+      "agua",
+      "km",
+      "04",
+      "4",
+      "km",
+      "da",
+      "estacao",
+      "de",
+      "trem",
+      "estrada",
+      "p",
+      "bichinho",
+      "002",
+      "pacu",
+      "estrada",
+      "real",
+      "fone",
+      "home",
+      "made",
+      "pasta",
+      "nice",
+      "want",
+      "take",
+      "break",
+      "brazilian",
+      "dishes",
+      "also",
+      "known",
+      "restaurante",
+      "da",
+      "beth",
+      "beth",
+      "restaurant",
+      "place",
+      "slightly",
+      "tourist",
+      "trail",
+      "well",
+      "worth",
+      "visit",
+      "fine",
+      "examples",
+      "typical",
+      "mineiro",
+      "regional",
+      "food",
+      "tropeiro",
+      "beans",
+      "dishes",
+      "expensive",
+      "local",
+      "standards",
+      "r",
+      "50",
+      "55",
+      "two",
+      "well",
+      "prepared",
+      "well",
+      "served",
+      "plate",
+      "two",
+      "may",
+      "well",
+      "fill",
+      "three",
+      "people",
+      "http",
+      "www",
+      "viradasdolargo",
+      "com",
+      "br",
+      "santissima",
+      "trindade",
+      "centro",
+      "historico",
+      "centro",
+      "centro",
+      "estrada",
+      "da",
+      "caixa",
+      "agua",
+      "km",
+      "04",
+      "4",
+      "km",
+      "da",
+      "estacao",
+      "trem",
+      "cuiaba",
+      "centro",
+      "rua",
+      "maria",
+      "augusta",
+      "nascimento",
+      "123",
+      "cuiaba",
+      "cuiaba",
+      "centro",
+      "centro",
+      "cuiaba",
+      "santissima",
+      "trindade",
+      "rua",
+      "francisco",
+      "pereira",
+      "de",
+      "moraes",
+      "69",
+      "canjica",
+      "estacao",
+      "final",
+      "da",
+      "rua",
+      "chafariz",
+      "estacao",
+      "praca",
+      "das",
+      "merces",
+      "n",
+      "centro",
+      "historico"
+    ],
+    "attractions": {
+      "Church of Saint Anthony": {
+        "type": "see",
+        "description": [
+          "beautiful",
+          "church",
+          "constructed",
+          "1732",
+          "richest",
+          "gold",
+          "foil",
+          "interior",
+          "church",
+          "brazil",
+          "photography",
+          "allowed",
+          "inside"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Ros\u00e1rio dos Pretos": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "S\u00e3o Francisco de Paula": {
+        "type": "see",
+        "description": [
+          "nicest",
+          "views",
+          "tiradentes",
+          "hilltop"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Casa da Cultura": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJqXU3nha1uQARYjSsdNDxCMs",
+        "reviews": null
+      },
+      "Padre Toledo": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Yves Alves Cultural Center": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Chafariz": {
+        "type": "see",
+        "description": [
+          "fountain",
+          "dating",
+          "back",
+          "1700s"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Old Town Council Hall": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Stone Bridge": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJG6GBeqXBn0cR2iwokAbUwLs",
+        "reviews": null
+      },
+      "Dona Xepa": {
+        "type": "eat",
+        "description": [
+          "centro"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Santa F\u00e9": {
+        "type": "eat",
+        "description": [
+          "espaco",
+          "libertas",
+          "cultural"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Tempero da \u00c2ngela": {
+        "type": "eat",
+        "description": [
+          "rua",
+          "deputado",
+          "jose",
+          "bonifacio",
+          "filho",
+          "64",
+          "bichinho"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Archote Clube - Carnes e Prepara\u00e7\u00f5es Artesanais": {
+        "type": "eat",
+        "description": [
+          "centro",
+          "historico"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.archoteclube.com.br/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Calabou\u00e7o": {
+        "type": "eat",
+        "description": [
+          "centro"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Ora-pr\u00f3-N\u00f3bis": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Sabor Rural": {
+        "type": "drink",
+        "description": [
+          "estrada",
+          "da",
+          "caixa",
+          "agua",
+          "km",
+          "04",
+          "4",
+          "km",
+          "da",
+          "estacao",
+          "trem"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Pau de Angu": {
+        "type": "eat",
+        "description": [
+          "estrada",
+          "p",
+          "bichinho"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Porta do C\u00e9u": {
+        "type": "eat",
+        "description": [
+          "002",
+          "pacu",
+          "estrada",
+          "real"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Pasta & cia": {
+        "type": "eat",
+        "description": [
+          "fone",
+          "home",
+          "made",
+          "pasta",
+          "nice",
+          "want",
+          "take",
+          "break",
+          "brazilian",
+          "dishes"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Viradas do Largo": {
+        "type": "eat",
+        "description": [
+          "also",
+          "known",
+          "restaurante",
+          "da",
+          "beth",
+          "beth",
+          "restaurant",
+          "place",
+          "slightly",
+          "tourist",
+          "trail",
+          "well",
+          "worth",
+          "visit",
+          "fine",
+          "examples",
+          "typical",
+          "mineiro",
+          "regional",
+          "food",
+          "tropeiro",
+          "beans",
+          "dishes",
+          "expensive",
+          "local",
+          "standards",
+          "r",
+          "50",
+          "55",
+          "two",
+          "well",
+          "prepared",
+          "well",
+          "served",
+          "plate",
+          "two",
+          "may",
+          "well",
+          "fill",
+          "three",
+          "people",
+          "http",
+          "www",
+          "viradasdolargo",
+          "com",
+          "br"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Atr\u00e1s da Matriz": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.tiradentesgerais.com.br/atrasdamatriz/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Sant\u00edssima Gula": {
+        "type": "eat",
+        "description": [
+          "santissima",
+          "trindade"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.santissimagula.com.br/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Santo Of\u00edcio": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.restaurantesantooficio.com.br/ {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Theatro da Villa": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.theatrodavilla.com.br/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Tragaluz": {
+        "type": "eat",
+        "description": [
+          "centro",
+          "historico"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.tragaluztiradentes.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Trattoria Via Destra": {
+        "type": "eat",
+        "description": [
+          "centro"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Confid\u00eancias mineiras - Ateli\u00ea de cacha\u00e7a": {
+        "type": "drink",
+        "description": [
+          "centro"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Pousada da \u00cdris": {
+        "type": "sleep",
+        "description": [
+          "cuiaba"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Pousada S\u00e3o Jos\u00e9 da Serra": {
+        "type": "sleep",
+        "description": [
+          "centro"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Pouso da Rita": {
+        "type": "sleep",
+        "description": [
+          "rua",
+          "maria",
+          "augusta",
+          "nascimento",
+          "123",
+          "cuiaba"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Pousada 21 de Abril": {
+        "type": "sleep",
+        "description": [
+          "cuiaba"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.pousada21deabril.com.br",
+        "place_id": null,
+        "reviews": null
+      },
+      "Pousada Cora\u00e7\u00e3o Inconfidente": {
+        "type": "sleep",
+        "description": [
+          "centro"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.pousadacoracaoinconfidente.com.br",
+        "place_id": null,
+        "reviews": null
+      },
+      "Pousada do \u00d3": {
+        "type": "sleep",
+        "description": [
+          "centro"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.pousadadoo.com.br",
+        "place_id": null,
+        "reviews": null
+      },
+      "Pousada Quatro Cora\u00e7\u00f5es": {
+        "type": "sleep",
+        "description": [
+          "cuiaba"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Pousada Brisa da Serra": {
+        "type": "sleep",
+        "description": [
+          "santissima",
+          "trindade"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.brisadaserra.com.br",
+        "place_id": null,
+        "reviews": null
+      },
+      "Pousada Dom Quixote": {
+        "type": "sleep",
+        "description": [
+          "rua",
+          "francisco",
+          "pereira",
+          "de",
+          "moraes",
+          "69",
+          "canjica"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.pousadadomquixote.com.br {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Pousada dos Inconfidentes": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.pousadadosinconfidentes.com.br",
+        "place_id": null,
+        "reviews": null
+      },
+      "Pousada Pequena Tiradentes": {
+        "type": "sleep",
+        "description": [
+          "estacao"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.pequenatiradentes.com.br",
+        "place_id": null,
+        "reviews": null
+      },
+      "Pousada Villa Paolucci": {
+        "type": "sleep",
+        "description": [
+          "final",
+          "da",
+          "rua",
+          "chafariz"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.villapaolucci.com.br",
+        "place_id": null,
+        "reviews": null
+      },
+      "Pousada Xica da Silva": {
+        "type": "sleep",
+        "description": [
+          "estacao"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.xicadasilva.com.br",
+        "place_id": null,
+        "reviews": null
+      },
+      "Solar da Ponte": {
+        "type": "sleep",
+        "description": [
+          "praca",
+          "das",
+          "merces",
+          "n",
+          "centro",
+          "historico"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.solardaponte.com.br",
+        "place_id": null,
+        "reviews": null
+      }
+    }
+  }
+}

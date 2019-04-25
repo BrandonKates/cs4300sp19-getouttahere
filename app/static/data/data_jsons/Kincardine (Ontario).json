@@ -1,0 +1,880 @@
+{
+  "Kincardine (Ontario)": {
+    "size": 42,
+    "country": NaN,
+    "full_desc": [
+      "fresh",
+      "cheese",
+      "discount",
+      "trim",
+      "ends",
+      "available",
+      "purchase",
+      "factory",
+      "store",
+      "open",
+      "every",
+      "day",
+      "summer",
+      "toys",
+      "games",
+      "jigsaw",
+      "puzzles",
+      "hobbies",
+      "children",
+      "books",
+      "playmobil",
+      "toys",
+      "webkinz",
+      "great",
+      "local",
+      "coffeehouse",
+      "without",
+      "franchise",
+      "feel",
+      "big",
+      "chain",
+      "coffeehouses",
+      "one",
+      "recently",
+      "updated",
+      "decorated",
+      "choose",
+      "cosy",
+      "spacious",
+      "nook",
+      "inside",
+      "offering",
+      "light",
+      "breakfast",
+      "lunch",
+      "fare",
+      "well",
+      "great",
+      "individually",
+      "hand",
+      "prepared",
+      "regular",
+      "specialty",
+      "coffees",
+      "teas",
+      "fair",
+      "trade",
+      "many",
+      "great",
+      "offerings",
+      "list",
+      "check",
+      "discover",
+      "taste",
+      "bruce",
+      "grey",
+      "county",
+      "want",
+      "visit",
+      "regular",
+      "visitors",
+      "kincardine",
+      "always",
+      "stop",
+      "erie",
+      "belle",
+      "deep",
+      "fried",
+      "fish",
+      "lots",
+      "lots",
+      "chips",
+      "every",
+      "town",
+      "ontario",
+      "used",
+      "hotel",
+      "kincardine",
+      "local",
+      "people",
+      "occasionally",
+      "refer",
+      "bruce",
+      "inn",
+      "canada",
+      "south",
+      "blues",
+      "society",
+      "http",
+      "www",
+      "bluessociety",
+      "ca",
+      "puts",
+      "regular",
+      "concerts",
+      "good",
+      "place",
+      "go",
+      "breakfast",
+      "chinese",
+      "canadian",
+      "cuisine",
+      "chinese",
+      "buffet",
+      "thursday",
+      "friday",
+      "saturday",
+      "nights",
+      "formerly",
+      "shelley",
+      "open",
+      "4pm",
+      "eat",
+      "peanuts",
+      "throw",
+      "shells",
+      "floor",
+      "small",
+      "motel",
+      "right",
+      "across",
+      "lighthouse",
+      "great",
+      "location",
+      "right",
+      "across",
+      "dunsmoor",
+      "park",
+      "beach"
+    ],
+    "attractions": {
+      "ABC Taxi": null,
+      "Kin Taxi": null,
+      "Freds Cab": null,
+      "Ainsdale Golf Course": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ61ublCpYKIgRsFcu7AQ_I2o",
+        "reviews": null
+      },
+      "Black Horse Golf Course": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ8TnhUKsAKYgRumIMXcvOld8",
+        "reviews": null
+      },
+      "Kincardine Golf & Country Club": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJk7e0pzpRKIgRYslbuleQkGk",
+        "reviews": null
+      },
+      "Somerhill Golf Club": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJg6kiKxpNKIgRFwGZEiLp43Q",
+        "reviews": null
+      },
+      "Pine River Cheese & Butter Cooperative": null,
+      "Fincher's": null,
+      "the new Bean's Bistro": {
+        "type": "eat",
+        "description": [
+          "great",
+          "local",
+          "coffeehouse",
+          "without",
+          "franchise",
+          "feel",
+          "big",
+          "chain",
+          "coffeehouses",
+          "one",
+          "recently",
+          "updated",
+          "decorated",
+          "choose",
+          "cosy",
+          "spacious",
+          "nook",
+          "inside",
+          "offering",
+          "light",
+          "breakfast",
+          "lunch",
+          "fare",
+          "well",
+          "great",
+          "individually",
+          "hand",
+          "prepared",
+          "regular",
+          "specialty",
+          "coffees",
+          "teas",
+          "fair",
+          "trade",
+          "many",
+          "great",
+          "offerings",
+          "list",
+          "check",
+          "discover",
+          "taste",
+          "bruce",
+          "grey",
+          "county",
+          "want",
+          "visit"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJxx-mKjBRKIgRTrhFC0F0ONE",
+        "reviews": null
+      },
+      "Subway": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.subway.com/subwayroot/index.aspx",
+        "place_id": "ChIJ8-POppC7-IcRDtVnkkFpZ8M",
+        "reviews": {
+          "html_attributions": [],
+          "result": {
+            "price_level": 1,
+            "rating": 4.1,
+            "reviews": [
+              {
+                "author_name": "Marissa Zenda",
+                "author_url": "https://www.google.com/maps/contrib/108643508614156578943/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-p3pVREmBRCI/AAAAAAAAAAI/AAAAAAAAE50/oteN9J4I0_4/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg",
+                "rating": 2,
+                "relative_time_description": "a month ago",
+                "text": "The sandwich was a mess when i opened it up. Sauce was spilling out.",
+                "time": 1550450800
+              },
+              {
+                "author_name": "Gary Thorgerson",
+                "author_url": "https://www.google.com/maps/contrib/100280926783515088830/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-XhZz53AXrSc/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reROIRC9s6ZJPmaVNpREQArkRKhOQ/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "4 months ago",
+                "text": "Good food, good service, good price",
+                "time": 1544530888
+              },
+              {
+                "author_name": "Jason Goodland",
+                "author_url": "https://www.google.com/maps/contrib/117403313518079579333/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-QuBkjglvsuQ/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdfH00-RVPRiAvI48uRpEzwBowIrg/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "a year ago",
+                "text": "New management has done an amazing job taking this location to the next level.  Service is top notch and the food quality has improved exponentially!  Speed of service is noticably faster.  Definitely will be having more quick lunches here in the near future!",
+                "time": 1523514627
+              },
+              {
+                "author_name": "B. Duca",
+                "author_url": "https://www.google.com/maps/contrib/117941637422934963715/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh5.googleusercontent.com/-KONHNZRN5pU/AAAAAAAAAAI/AAAAAAAAAYE/lF7hMxxD8P4/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "8 months ago",
+                "text": "Agree! Food quality has gotten so much better since the old owner sold it.",
+                "time": 1532998805
+              },
+              {
+                "author_name": "Tiffany Affolter",
+                "author_url": "https://www.google.com/maps/contrib/110809993850101490273/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh4.googleusercontent.com/-ht2JppZ6c7E/AAAAAAAAAAI/AAAAAAAAEik/07R00lzRk-Y/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "5 months ago",
+                "text": "Very friendly/polite staff!",
+                "time": 1540854739
+              }
+            ]
+          },
+          "status": "OK"
+        }
+      },
+      "Tim Horton's": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJE6OdxE1RKIgR1OErg4St43s",
+        "reviews": null
+      },
+      "Godfather's Pizza": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.godfathers.com/",
+        "place_id": "ChIJ13nOsDtRKIgRkX8i_YdQ-ws",
+        "reviews": null
+      },
+      "KFC": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.kfc.com/",
+        "place_id": "ChIJiQvwC8yQOzkROK0Ko3M6duE",
+        "reviews": {
+          "html_attributions": [],
+          "result": {
+            "price_level": 2,
+            "rating": 4,
+            "reviews": [
+              {
+                "author_name": "Aleena Khan",
+                "author_url": "https://www.google.com/maps/contrib/108094115179366641293/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-eeGipqWsIU8/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rc06Pxpm_JdKvFhurZuQMUXBncu7A/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 4,
+                "relative_time_description": "a week ago",
+                "text": "Almost every kind of fast food is avaible. Midnight and Noon deals have special discount. Separate family sitting area. Play area for kids.",
+                "time": 1554375625
+              },
+              {
+                "author_name": "Fawad Munir",
+                "author_url": "https://www.google.com/maps/contrib/101047444826096157356/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-VeEexYiPNbA/AAAAAAAAAAI/AAAAAAAAAIk/30Mpw6u79J8/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+                "rating": 4,
+                "relative_time_description": "in the last week",
+                "text": "Delicious food. Must visit fast food chain of Bahawalpur. Their pizza is even good",
+                "time": 1554929367
+              },
+              {
+                "author_name": "gulfam ahmad",
+                "author_url": "https://www.google.com/maps/contrib/117653354974306443229/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh4.googleusercontent.com/-14Mg7f8TXQk/AAAAAAAAAAI/AAAAAAAABG4/hk-6cfrNDWY/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 3,
+                "relative_time_description": "a week ago",
+                "text": "If you love fast food and you are lahori... U may not like much... But this restaurant is much better than others in fast food",
+                "time": 1554047092
+              },
+              {
+                "author_name": "Shoaib Asghar",
+                "author_url": "https://www.google.com/maps/contrib/117899932227123898121/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh5.googleusercontent.com/-OVb56ynotZ0/AAAAAAAAAAI/AAAAAAAADxM/wK7YqOMmLyc/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+                "rating": 4,
+                "relative_time_description": "a month ago",
+                "text": "Service is a little bit slow. but taste is good. You can visit with your family and friends. A good palace for a meetup.",
+                "time": 1551491514
+              },
+              {
+                "author_name": "Usman Ghani",
+                "author_url": "https://www.google.com/maps/contrib/112339797899174788873/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh5.googleusercontent.com/-xw3tCq_M4Wc/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdR_NauciWCugYnp7bDACo43alk_w/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+                "rating": 3,
+                "relative_time_description": "3 months ago",
+                "text": "It's a fast food chain with variety of menu including pizzas, burgers and many more. Taste is an good. It's an economical restaurant. But staff have got problem with their attitude. Management needs to sort it out.",
+                "time": 1546763254
+              }
+            ]
+          },
+          "status": "OK"
+        }
+      },
+      "McDonald's": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.mcdonalds.ca/en/index.aspx",
+        "place_id": "ChIJcR9wUxnLmjkRylkbrjkTEVU",
+        "reviews": {
+          "html_attributions": [],
+          "result": {
+            "price_level": 2,
+            "rating": 4,
+            "reviews": [
+              {
+                "author_name": "jaya ghosh",
+                "author_url": "https://www.google.com/maps/contrib/100243062570040447660/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh3.googleusercontent.com/-R5uXFpZRbzY/AAAAAAAAAAI/AAAAAAAADxs/ShjYMp3-y4s/s128-c0x00000000-cc-rp-mo-ba6/photo.jpg",
+                "rating": 3,
+                "relative_time_description": "3 months ago",
+                "text": "Situated in the heart of city.Awesome place to hangout with friends. Friends can sit together for long time . Burgers are awesome in taste. All food items are good in taste.",
+                "time": 1547214299
+              },
+              {
+                "author_name": "Hamdaan ahmad",
+                "author_url": "https://www.google.com/maps/contrib/116503253625271394043/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh4.googleusercontent.com/-W62wf-VY-6I/AAAAAAAAAAI/AAAAAAAAAIg/VN2tRiHuDAg/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "a month ago",
+                "text": "Love to come here, after my coaching classes. It is very nice place for sitting with friends",
+                "time": 1551080057
+              },
+              {
+                "author_name": "Nishi singh kathak",
+                "author_url": "https://www.google.com/maps/contrib/113973251162370643083/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-U9-7coQfPRU/AAAAAAAAAAI/AAAAAAAAq2o/-JdgvVso1ok/s128-c0x00000000-cc-rp-mo-ba5/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "a month ago",
+                "text": "Well !!!! Who doesn\u2019t know abt Mcdonald \ud83d\ude04\u2764\ufe0f and i think 90% foodies will prefer to take a quick hunger break here. I request those 10% to fill the gap sooner the better \ud83d\udd25 \ud83d\udd25\ud83d\udd25",
+                "time": 1552175374
+              },
+              {
+                "author_name": "Rishi Saxena",
+                "author_url": "https://www.google.com/maps/contrib/108376831038659617239/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh3.googleusercontent.com/-sHxqKKifitQ/AAAAAAAAAAI/AAAAAAAAAAs/GY8DkkAEvg0/s128-c0x00000000-cc-rp-mo-ba5/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "4 weeks ago",
+                "text": "It is situated in the Atlantis mall Civil lines......Prayagraj...... \nYou all are well aware of the fact that it is a place mostly crowded.... it promotes self service.... the menu is being displayed on the screen above counters.... very limited items are there in this mcD Allahabad...  but it will be freshly prepared and served hot.... drinking water is available for free but one have to ask for it..... its affordable...... one cannot have a cosy atmosphere or a silent atmosphere since its generally over crowded....\n\nI recommend you to taste ice creams...",
+                "time": 1552937606
+              },
+              {
+                "author_name": "Sahil Agrawal",
+                "author_url": "https://www.google.com/maps/contrib/114890936059341286056/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-ZN7G9Gaft90/AAAAAAAAAAI/AAAAAAAACeQ/j5zfc2hjfFc/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+                "rating": 2,
+                "relative_time_description": "in the last week",
+                "text": "I would prefer KFC for burgers. But if u want something lite than you ho for it.\nThe place is always crowded. Try the mcflurry and allu ticki",
+                "time": 1554859573
+              }
+            ]
+          },
+          "status": "OK"
+        }
+      },
+      "The Erie Belle": {
+        "type": "drink",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJYbsl5i9RKIgRCM5OOMfYDRY",
+        "reviews": null
+      },
+      "Bruce Bar and Grill": {
+        "type": "eat",
+        "description": [
+          "every",
+          "town",
+          "ontario",
+          "used",
+          "hotel",
+          "kincardine",
+          "local",
+          "people",
+          "occasionally",
+          "refer",
+          "bruce",
+          "inn",
+          "canada",
+          "south",
+          "blues",
+          "society",
+          "http",
+          "www",
+          "bluessociety",
+          "ca",
+          "puts",
+          "regular",
+          "concerts"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJycfpJTBRKIgRaQsYDxOC8TE",
+        "reviews": null
+      },
+      "Embassy Restaurant": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Gilley's Feed Lot Bar & Grill": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJpXSZ7RXEyIARxd7RMQbkiCE",
+        "reviews": null
+      },
+      "Jean's Family Restaurant": {
+        "type": "eat",
+        "description": [
+          "good",
+          "place",
+          "go",
+          "breakfast"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ1X9Pw0RRKIgRJLo23ROo81U",
+        "reviews": null
+      },
+      "Knotty Pine Restaurant": {
+        "type": "eat",
+        "description": [
+          "chinese",
+          "canadian",
+          "cuisine"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJtTlChUdRKIgRoZkepSuiK1g",
+        "reviews": null
+      },
+      "New Seasons Tavern & Restaurant": {
+        "type": "eat",
+        "description": [
+          "chinese",
+          "buffet",
+          "thursday",
+          "friday",
+          "saturday",
+          "nights"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJuVfyKi5RKIgRVFRWdI5qUok",
+        "reviews": null
+      },
+      "Shipwreck Lee's Bistro": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJxx-mKjBRKIgRTrhFC0F0ONE",
+        "reviews": null
+      },
+      "Victoria Park Restaurant": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJq626xTFRKIgRdxE-sPoJSaU",
+        "reviews": null
+      },
+      "Watercress Bistro": {
+        "type": "eat",
+        "description": [
+          "formerly",
+          "shelley",
+          "open",
+          "4pm"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJqfQ0dDBRKIgRxx_TaeXhobM",
+        "reviews": null
+      },
+      "Tramonto.pasta": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJGYrnPDBRKIgRGpdf5ky24Q0",
+        "reviews": null
+      },
+      "Harbour Street Brasserie": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.harbourstreetbrasserie.com/",
+        "place_id": "ChIJJ6TXji9RKIgRuyuxlL0eFTc",
+        "reviews": null
+      },
+      "Hawg's Breath Saloon and Deli": {
+        "type": "drink",
+        "description": [
+          "eat",
+          "peanuts",
+          "throw",
+          "shells",
+          "floor"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJm1z4WDpRKIgRrNyy9MejuZM",
+        "reviews": null
+      },
+      "Best Western Governor's Inn": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ3X8Oh05RKIgRTXQL6LYPQ9M",
+        "reviews": null
+      },
+      "Sutton Park Inn": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ24eJtkRRKIgRsn4yGOY51Mo",
+        "reviews": null
+      },
+      "Harbour Motor Inn": {
+        "type": "sleep",
+        "description": [
+          "small",
+          "motel",
+          "right",
+          "across",
+          "lighthouse"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.harbourmotorinn.com/",
+        "place_id": "ChIJ11627y9RKIgROSEmAvWGw60",
+        "reviews": null
+      },
+      "Kincardinite Motel": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJVyoPP9RWKIgRKWhABpee43Q",
+        "reviews": null
+      },
+      "Lakeview Motel": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJCdHDNBFyaIgRoLiyetUgsxI",
+        "reviews": null
+      },
+      "Living Waters Cabins": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.livingwaterscabins.ca {{dead link|May 2016}}",
+        "place_id": "ChIJr-DZjdRWKIgRUt12RLZU-UE",
+        "reviews": null
+      },
+      "Maple Leaf Inn": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ41SBejhRKIgRyvbWgewGa88",
+        "reviews": null
+      },
+      "Save Inn Motel": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ7WAn8ERRKIgRZF6dniOQbjc",
+        "reviews": null
+      },
+      "Southsider Motel": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJH45_XNRWKIgRxDvBfCoVrWI",
+        "reviews": null
+      },
+      "Aintree Trailer Park": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://aintreepark.com",
+        "place_id": "ChIJEyEEEhRXKIgR_R4srOLHYzw",
+        "reviews": null
+      },
+      "Bluewater Trailer Park": {
+        "type": "sleep",
+        "description": [
+          "great",
+          "location",
+          "right",
+          "across",
+          "dunsmoor",
+          "park",
+          "beach"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJByNkECVRKIgRDX1H-9Bb7ws",
+        "reviews": null
+      },
+      "Green Acres Campground": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.greenacrescamp.com/",
+        "place_id": "ChIJA3UUwjpRKIgRdOD6KhzIdpg",
+        "reviews": null
+      }
+    }
+  }
+}

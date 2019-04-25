@@ -1,0 +1,906 @@
+{
+  "Gadag (district)": {
+    "size": 85,
+    "country": NaN,
+    "full_desc": [],
+    "attractions": {
+      "Dyamavva Durgava Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Ishwara Devastan Veereshwar nagr": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Jodumaruti Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Kalmeshwar Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Rajastani Parshwanathr Mandir": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shree Udachammanu Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Ambabhavani Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Balaji Mandir": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Banashankari Temple (NEW": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Banashankari Temple (OLD)": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Bhavani Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Brahma Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Chidanand Math": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Datta Mandir": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Durgadevei Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Durgavvan Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Dymavvan Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Ganji Basaveshwar Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Hanumanth Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Harithareshwar Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Ishwar Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Jagadamba Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Kalamman Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Kariyavvan Kallu": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Karugall Brahmdevaru": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Laxmi Narayan Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Madhrikeshwar Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Mailaralingan Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Mailaralinga Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Mukkalu Basaveshwar": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Nagareshwar Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Parvath Mallayyan Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Pete Virabhadra Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Rachanna Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Rachoteshwar Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Ram Devestan": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Rameshwar Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Tontadarya Math": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Trikuteshwar Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Tulajabhavani Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Veerabhadra Devar Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Veeranarayan Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Virabhadra Devastan": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Viroopaksheshwar Temple": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shri Vittal Mandir": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Vittal Mandir": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Chitra Theatre": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Karnatak Theatre": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Krishna Theatre": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Mahalaxmi Theatre": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shanti Theatre": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Venkatesh Theatre": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Amit Hotel Gadag": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Anand Lodge": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Durga Vihar Hotels, Boarding and Lodging Restaurant": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Geethanjali Residency": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Keshav Clarks Inn": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Hotel Shakti": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Hotel Vikram": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Hotel Welcome": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "My Food Continental": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "My Food": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Prasad Deluxe Lodge": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Prashant Hotel": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Preetam Hotel": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shanbag Lodge": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Supriya Lodge": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Trimurti Lodge": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ9ROJdDzrwjsR9qTiGoNjTuI",
+        "reviews": null
+      },
+      "Viswa Lodge": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      }
+    }
+  }
+}

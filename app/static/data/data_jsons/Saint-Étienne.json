@@ -1,0 +1,874 @@
+{
+  "Saint-\u00c9tienne": {
+    "size": 49,
+    "country": NaN,
+    "full_desc": [
+      "boivin",
+      "built",
+      "1547",
+      "remarkable",
+      "houses",
+      "remaining",
+      "sixteenth",
+      "century",
+      "saint",
+      "etienne",
+      "building",
+      "gothic",
+      "facade",
+      "renaissance",
+      "influence",
+      "ornamentation",
+      "rue",
+      "fernand",
+      "leger",
+      "42170",
+      "saint",
+      "priest",
+      "en",
+      "jarez",
+      "28",
+      "rue",
+      "pierre",
+      "et",
+      "dominique",
+      "ponchardier",
+      "planetarium",
+      "saint",
+      "etienne"
+    ],
+    "attractions": {
+      "Maison Fran\u00e7ois 1st": {
+        "type": "see",
+        "description": [
+          "boivin",
+          "built",
+          "1547",
+          "remarkable",
+          "houses",
+          "remaining",
+          "sixteenth",
+          "century",
+          "saint",
+          "etienne",
+          "building",
+          "gothic",
+          "facade",
+          "renaissance",
+          "influence",
+          "ornamentation"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Museum of Modern Art": {
+        "type": "see",
+        "description": [
+          "rue",
+          "fernand",
+          "leger",
+          "42170",
+          "saint",
+          "priest",
+          "en",
+          "jarez"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.mam-st-etienne.fr/",
+        "place_id": "ChIJqdVWemAtZUcRlnekK8ndtTo",
+        "reviews": {
+          "html_attributions": [],
+          "result": {
+            "rating": 4.4,
+            "reviews": [
+              {
+                "author_name": "LaRhonda Turner",
+                "author_url": "https://www.google.com/maps/contrib/116084034880780855975/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh3.googleusercontent.com/-1mvBRAAQPWg/AAAAAAAAAAI/AAAAAAAAHUw/qgxt6QKNvWc/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "a month ago",
+                "text": "Are you a lover of modern art of all mediums? Are you interested in Slovenian artists and the inspiration behind their works? If so, this museum is not to be missed. There are many interesting paintings, sculptures, video artworks, and other curiosities. If you are squeamish about you or your children seeing nudity, this gallery may not be your cup of tea. But if you are comfortable seeing a few naked body art works sprinkled in with the other art work, do stop by. The museum has a downstairs coffee bar/lounge and lecture hall for talks.  I really enjoyed the museum and its art works.",
+                "time": 1550798304
+              },
+              {
+                "author_name": "Peter Lebar",
+                "author_url": "https://www.google.com/maps/contrib/109268183407323205662/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh3.googleusercontent.com/-VvJJg0vo78I/AAAAAAAAAAI/AAAAAAAAAGo/kx6_exVItxY/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "2 months ago",
+                "text": "Half of the space is permanent exhibition and other half is actual and temporary, usually open three times a year for a few months; always interesting topic. \nOtherwise calm and chilly space, where time and thoughts run slower tempo.",
+                "time": 1549281230
+              },
+              {
+                "author_name": "Marija Mileti\u0107",
+                "author_url": "https://www.google.com/maps/contrib/108191945910809149435/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh4.googleusercontent.com/-pPUFaUf735A/AAAAAAAAAAI/AAAAAAAAAB0/u_8Uu3xTQX0/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "3 months ago",
+                "text": "I was left speechless. The exhibits are so beautifully pieced together that it is almost impossible to peel your eyes off them. You will need about an hour to go through the whole gallery, after which you can relax in the caf\u00e8 bellow the gallery itself. The gallery also provides a student discount, so be sure to bring your students' card!",
+                "time": 1546799127
+              },
+              {
+                "author_name": "Damiano Cerasuolo",
+                "author_url": "https://www.google.com/maps/contrib/116476688152627960210/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh5.googleusercontent.com/-dcfXeEWgSDo/AAAAAAAAAAI/AAAAAAAANi8/hu7vyj5QwRM/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "4 months ago",
+                "text": "Beautiful bulging and interesting permanent collection. You will need 30 minutes-1 hour to see it all. The temporary exhibition space is big and well organised. The thicket costs only 5 euros: an extra reason to have this insight into modern Slovenia. Visit the coffee downstairs if you have a little time.",
+                "time": 1544594804
+              },
+              {
+                "author_name": "Jani Peternelj",
+                "author_url": "https://www.google.com/maps/contrib/115352913943060820817/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh3.googleusercontent.com/-d-X82b2Wliw/AAAAAAAAAAI/AAAAAAAAC1k/vV0-3djtGxU/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "3 months ago",
+                "text": "One of my favourite places in Ljubljana to have a nice cup of coffee or tea and stay close to modern art. Highly recommended.",
+                "time": 1546246814
+              }
+            ]
+          },
+          "status": "OK"
+        }
+      },
+      "Museum Art & Industry": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://musees-scolaires.saint-etienne.fr/index.php?module=cms&action=getContent&id_heading_object=1033&newrub=366 {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Museum the Mine": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://musees-scolaires.saint-etienne.fr/index.php?module=cms&action=getContent&id_heading_object=1034&newrub=370 {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Museum of old Saint-Etienne": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.vieux-saint-etienne.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "L'Astronef": {
+        "type": "see",
+        "description": [
+          "28",
+          "rue",
+          "pierre",
+          "et",
+          "dominique",
+          "ponchardier",
+          "planetarium",
+          "saint",
+          "etienne"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.astronef.fr/ {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Bol' App\u00e9tit": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.bolappetit.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "Le bistrot de Paris": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "La Bouche Pleine": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Chez Les Fondus": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Le Clos Fleuri": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "L'Epicurien": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "L'Escargot d'Or": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://Restaurant-Escargot-Or.Com",
+        "place_id": null,
+        "reviews": null
+      },
+      "Flamiche": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.flamiche.com {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "La Mangoune": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.lamangoune.fr",
+        "place_id": null,
+        "reviews": null
+      },
+      "Nota Bene": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Le Praire": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Restaurant du Mus\u00e9e d'Art Moderne": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "El Sombrero": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.elsombrero.fr",
+        "place_id": "ChIJTcR_QzEXhIAReX4Wx73K0og",
+        "reviews": {
+          "html_attributions": [],
+          "result": {
+            "price_level": 1,
+            "rating": 4.3,
+            "reviews": [
+              {
+                "author_name": "Ed Antonelli",
+                "author_url": "https://www.google.com/maps/contrib/111839800604926919226/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh3.googleusercontent.com/-YSXfYsJMfy4/AAAAAAAAAAI/AAAAAAAAHiY/lgPjw7V5QaA/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 4,
+                "relative_time_description": "4 months ago",
+                "text": "One of those wonderful hole in the wall treasures. Authentic Mexican food that never disappoints. Staff is friendly and the food is great.",
+                "time": 1543165318
+              },
+              {
+                "author_name": "Kate Wick",
+                "author_url": "https://www.google.com/maps/contrib/101421624191849762470/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh4.googleusercontent.com/-2kMt62SsGPE/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rcoEsWnWDtjznd4Ed7l7_1VMNKTFg/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "in the last week",
+                "text": "Best Mexican food in Sonoma County!",
+                "time": 1554951223
+              },
+              {
+                "author_name": "Jared Mumm",
+                "author_url": "https://www.google.com/maps/contrib/112066059153314128360/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh3.googleusercontent.com/-ttEx-1E4qRo/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reJ3ZTNTTYrTM0GHMe3gqaLYYXzlg/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "a month ago",
+                "text": "Great el pastor. Consistently good Mexican food.",
+                "time": 1550333110
+              },
+              {
+                "author_name": "Edgar Mendoza",
+                "author_url": "https://www.google.com/maps/contrib/102218503838013685404/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh4.googleusercontent.com/-L4JyLwWQHFs/AAAAAAAAAAI/AAAAAAAAKDo/HTJ2cOv4tAY/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+                "rating": 4,
+                "relative_time_description": "4 months ago",
+                "text": "Where the locals eat. El Sombrero has been in business for over 30+ years. It is a locally family owned business and the food is great. If you want some good salsa, El Sombrero Is the place. I usually go for the tacos with tripas, chorizo, and a pastor are my favorites. Try it! I would have taken pictures but when I realized, it was too late.",
+                "time": 1544583192
+              },
+              {
+                "author_name": "Cynthia English",
+                "author_url": "https://www.google.com/maps/contrib/112755459425899485043/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-vcTIRk9qM88/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reg-TLM3ZW_eJPLsF2wAoTQDGzAcw/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "3 months ago",
+                "text": "Over 2 decades,where else can you get a tongue burrito ,the best.",
+                "time": 1545181563
+              }
+            ]
+          },
+          "status": "OK"
+        }
+      },
+      "Andre Barcet": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.restaurantandrebarcet.com {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Le Flore": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.leflore.fr",
+        "place_id": null,
+        "reviews": null
+      },
+      "Le Neuvi\u00e8me Art": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Restaurant Les Iris": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Restaurant Nouvelle": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Auberges de jeunesses Le Pertuiset": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Camping de Chantegrillet": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Foyer Clairvivre": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "R\u00e9sidence sociale Le Pax": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Agn\u00e8s H\u00f4tel": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Ar\u00e9na H\u00f4tel": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.hoteltenor.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Austria Hotel": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.hotel-austria.fr/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Le Baladin H\u00f4tel": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Central H\u00f4tel": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Le Chaudron Vert": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Furania H\u00f4tel": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "H\u00f4tel des Arts": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "H\u00f4tel Bellevue": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "H\u00f4tel le Carnot": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "H\u00f4tel le Cheval Noir": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "H\u00f4tel Tenor": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.hoteltenor.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Splendid Hotel": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "L'Albatros": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.hotel-albatros.fr/",
+        "place_id": "ChIJFa2X9or7MIgRggAEZDIKT50",
+        "reviews": {
+          "html_attributions": [],
+          "result": {
+            "price_level": 3,
+            "rating": 4.6,
+            "reviews": [
+              {
+                "author_name": "Beth Cannon",
+                "author_url": "https://www.google.com/maps/contrib/114893935174071398624/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh4.googleusercontent.com/-vRLRbJZiLgw/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3re7THFvWKBX1SJdTckgHpODCECeeA/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "2 weeks ago",
+                "text": "French food at this spot - yummy. It was so fresh. The staff was very friendly and attentive. The place has a great feel to it. Menu is similar to a restaurant in Jacksonville I liked.",
+                "time": 1553690584
+              },
+              {
+                "author_name": "Dean Trivisani",
+                "author_url": "https://www.google.com/maps/contrib/116528978692477741118/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh5.googleusercontent.com/-I6PcV0X3GLY/AAAAAAAAAAI/AAAAAAAAC7Q/JFdG1v7QwDg/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "a week ago",
+                "text": "Amazing food! Extremely authentic french traditional dishes and a wonderful atmosphere. Service was excellent and the prices were quite reasonable for the incredible quality of the food. You have to try the cheese platter!",
+                "time": 1554472601
+              },
+              {
+                "author_name": "David Brown",
+                "author_url": "https://www.google.com/maps/contrib/109568638430066337798/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh3.googleusercontent.com/-Fwrf00sTs9E/AAAAAAAAAAI/AAAAAAAAABY/PYJTurSlBQs/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "2 months ago",
+                "text": "Our group of 6 spent several hours at this French restaurant. The food was all wonderful, and the service was excellent. It seemed that each restaurant employee checked on us periodically. Our wait staff knew the menu perfectly and could describe flavors and make recommendations. The decor is European Modern and the food is the star f the show. Prices were reasonable for this high quality of food and service.",
+                "time": 1549041731
+              },
+              {
+                "author_name": "Sarah Freeman",
+                "author_url": "https://www.google.com/maps/contrib/115090496143164950400/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh5.googleusercontent.com/-bN69Tpe6oM8/AAAAAAAAAAI/AAAAAAAABug/kXP3euaAidg/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "in the last week",
+                "text": "Exceptional French cuisine served in a fun and trendy area of Cleveland. Knowledgeable and friendly staff and a beautiful restaurant. The cheese platter is 10/10!",
+                "time": 1554921377
+              },
+              {
+                "author_name": "Shruti Ramamoorthy",
+                "author_url": "https://www.google.com/maps/contrib/114631644668176684771/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-UXkgom1ncR4/AAAAAAAAAAI/AAAAAAAAFw0/Kl6pvdDMytw/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "2 weeks ago",
+                "text": "Absolutely loved this place. Please make reservations before visiting as this place is quite busy,no wonder why- the food is delicious,the ambience is great and the staff is very inviting and friendly. Vegetarians,the pasta is a must try!!",
+                "time": 1553388545
+              }
+            ]
+          },
+          "status": "OK"
+        }
+      },
+      "H\u00f4tel Astoria": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.astoria-saint-etienne.com/ {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "H\u00f4tel Brasserie d'Anjou": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "H\u00f4tel Terminus du Forez": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.hotel-terminusforez.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Mercure": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJXaXIhsBCzpQR7XHjYpWdjZs",
+        "reviews": null
+      },
+      "Mid": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Novotel Saint Etienne A\u00e9roport": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.novotel.com/novotel/fichehotel/fr/nov/0435/fiche_hotel.shtml {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Greece": null
+    }
+  }
+}

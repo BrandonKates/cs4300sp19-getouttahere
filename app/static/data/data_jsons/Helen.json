@@ -1,0 +1,1237 @@
+{
+  "Helen": {
+    "size": 71,
+    "country": NaN,
+    "full_desc": [
+      "waterfall",
+      "located",
+      "chattahoochee",
+      "national",
+      "forest",
+      "trail",
+      "waterfall",
+      "also",
+      "provided",
+      "visually",
+      "impaired",
+      "cabbage",
+      "patch",
+      "kids",
+      "born",
+      "located",
+      "neighboring",
+      "town",
+      "cleveland",
+      "park",
+      "home",
+      "many",
+      "different",
+      "species",
+      "bears",
+      "reptiles",
+      "alpine",
+      "model",
+      "railroad",
+      "granary",
+      "mill",
+      "built",
+      "1876",
+      "chattahoochee",
+      "2",
+      "miles",
+      "south",
+      "helen",
+      "museum",
+      "nature",
+      "preserve",
+      "heritage",
+      "site",
+      "old",
+      "store",
+      "museum",
+      "carries",
+      "scandinavian",
+      "gifts",
+      "plantation",
+      "style",
+      "museum",
+      "contains",
+      "memorabilia",
+      "movie",
+      "gone",
+      "wind",
+      "civil",
+      "war",
+      "park",
+      "offers",
+      "camping",
+      "hiking",
+      "biking",
+      "trails",
+      "trout",
+      "fishing",
+      "lodge",
+      "rooms",
+      "restaurant",
+      "rental",
+      "cabins",
+      "hiking",
+      "trail",
+      "leads",
+      "viewing",
+      "platform",
+      "base",
+      "two",
+      "falls",
+      "fly",
+      "fishing",
+      "mini",
+      "golf",
+      "best",
+      "described",
+      "german",
+      "mardi",
+      "gras",
+      "held",
+      "lent",
+      "trout",
+      "fishing",
+      "tournement",
+      "held",
+      "helen",
+      "every",
+      "year",
+      "volksmarch",
+      "group",
+      "oriented",
+      "hike",
+      "walk",
+      "contest",
+      "volksmarch",
+      "popular",
+      "european",
+      "countries",
+      "held",
+      "first",
+      "weekend",
+      "june",
+      "every",
+      "year",
+      "helen",
+      "hosts",
+      "one",
+      "longest",
+      "oktoberfest",
+      "south",
+      "oktoberfest",
+      "helen",
+      "starts",
+      "september",
+      "lasts",
+      "november",
+      "selling",
+      "handcrafted",
+      "cuckoo",
+      "clocks",
+      "rhythm",
+      "seiko",
+      "movement",
+      "clocks",
+      "beer",
+      "steins",
+      "russian",
+      "nesting",
+      "dolls",
+      "amber",
+      "jewelry",
+      "rare",
+      "german",
+      "pewter",
+      "nyform",
+      "trolls",
+      "well",
+      "many",
+      "items",
+      "ste",
+      "b",
+      "sautee",
+      "ga",
+      "helendorf",
+      "river",
+      "inn",
+      "conference",
+      "center",
+      "located",
+      "banks",
+      "chattahoochee",
+      "river",
+      "downtown",
+      "alpine",
+      "helen",
+      "georgia",
+      "northeast",
+      "georgia",
+      "mountains"
+    ],
+    "attractions": {
+      "Anna Ruby Falls": {
+        "type": "see",
+        "description": [
+          "waterfall",
+          "located",
+          "chattahoochee",
+          "national",
+          "forest",
+          "trail",
+          "waterfall",
+          "also",
+          "provided",
+          "visually",
+          "impaired"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.fs.fed.us/conf/rec/fow/20040804-fow.shtml",
+        "place_id": null,
+        "reviews": null
+      },
+      "Babyland General Hospital - Cabbage Patch Kids": {
+        "type": "see",
+        "description": [
+          "cabbage",
+          "patch",
+          "kids",
+          "born",
+          "located",
+          "neighboring",
+          "town",
+          "cleveland"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.cabbagepatchkids.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Black Forest Bear Park & Reptile Exhibit": {
+        "type": "see",
+        "description": [
+          "park",
+          "home",
+          "many",
+          "different",
+          "species",
+          "bears",
+          "reptiles"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.blackforestbearpark.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Charlemagne's Kingdom": {
+        "type": "see",
+        "description": [
+          "alpine",
+          "model",
+          "railroad"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.georgiamodelrailroad.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Nora Mill Granary & Country Store": {
+        "type": "see",
+        "description": [
+          "granary",
+          "mill",
+          "built",
+          "1876",
+          "chattahoochee",
+          "2",
+          "miles",
+          "south",
+          "helen"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.noramill.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Sautee Nacoochee Center": {
+        "type": "see",
+        "description": [
+          "museum",
+          "nature",
+          "preserve",
+          "heritage",
+          "site"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.snca.org/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Sautee Store": {
+        "type": "see",
+        "description": [
+          "old",
+          "store",
+          "museum",
+          "carries",
+          "scandinavian",
+          "gifts"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.sauteestore.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Scarlett's Secret": {
+        "type": "see",
+        "description": [
+          "plantation",
+          "style",
+          "museum",
+          "contains",
+          "memorabilia",
+          "movie",
+          "gone",
+          "wind",
+          "civil",
+          "war"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.scarlettsecret.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Unicoi State Park": {
+        "type": "do",
+        "description": [
+          "park",
+          "offers",
+          "camping",
+          "hiking",
+          "biking",
+          "trails",
+          "trout",
+          "fishing",
+          "lodge",
+          "rooms",
+          "restaurant",
+          "rental",
+          "cabins"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.unicoistatepark.org/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Ana Ruby Falls": {
+        "type": "do",
+        "description": [
+          "hiking",
+          "trail",
+          "leads",
+          "viewing",
+          "platform",
+          "base",
+          "two",
+          "falls"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.unicoistatepark.org/anna-ruby-falls.html",
+        "place_id": null,
+        "reviews": null
+      },
+      "Unicoi Outfitters": {
+        "type": "do",
+        "description": [
+          "fly",
+          "fishing"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.unicoioutfitters.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Upper Hightower Trout": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.upperhightowertrout.com/ {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Georgia Lake Trout": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.georgialaketrout.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Horseback Riding": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.sunburststables.com/",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Southeastern Expeditions": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.southeasternexpeditions.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Wildwood Outfitters": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.wildwoodoutfitters.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Helen Tubing": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.helentubing.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Cool River Tubing": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.coolrivertubing.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Innsbruck Golf Club": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.innsbruckgolfclub.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Helen Mini Golf": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://helenminigolf.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Pirates Cove": {
+        "type": "do",
+        "description": [
+          "mini",
+          "golf"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.piratescove.net/",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Lake Cruises": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.romanticlakecruises.com/ {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Fasching": {
+        "type": "do",
+        "description": [
+          "best",
+          "described",
+          "german",
+          "mardi",
+          "gras",
+          "held",
+          "lent"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.helenchamber.com/fasching.htm {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Annual Trout Tournament": {
+        "type": "do",
+        "description": [
+          "trout",
+          "fishing",
+          "tournement",
+          "held",
+          "helen",
+          "every",
+          "year"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.helentroutfestival.com/ {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "The Spring Volksmarch Walk": {
+        "type": "do",
+        "description": [
+          "volksmarch",
+          "group",
+          "oriented",
+          "hike",
+          "walk",
+          "contest",
+          "volksmarch",
+          "popular",
+          "european",
+          "countries"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.helenchamber.com/what_is_a_volksmarch.htm {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Helen to the Atlantic Balloon Race & Festival": {
+        "type": "do",
+        "description": [
+          "held",
+          "first",
+          "weekend",
+          "june",
+          "every",
+          "year"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://home.att.net/~helenballoon/ {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Oktoberfest": {
+        "type": "do",
+        "description": [
+          "helen",
+          "hosts",
+          "one",
+          "longest",
+          "oktoberfest",
+          "south",
+          "oktoberfest",
+          "helen",
+          "starts",
+          "september",
+          "lasts",
+          "november"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.helenchamber.com/oktoberfest.htm {{dead link|May 2016}}",
+        "place_id": "ChIJGYw_MUghTIYRyx7EdSGfDhY",
+        "reviews": null
+      },
+      "Scandinavian European Import Company": {
+        "type": "buy",
+        "description": [
+          "selling",
+          "handcrafted",
+          "cuckoo",
+          "clocks",
+          "rhythm",
+          "seiko",
+          "movement",
+          "clocks",
+          "beer",
+          "steins",
+          "russian",
+          "nesting",
+          "dolls",
+          "amber",
+          "jewelry",
+          "rare",
+          "german",
+          "pewter",
+          "nyform",
+          "trolls",
+          "well",
+          "many",
+          "items"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.clocksofhelen.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Nacoochee Grill": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.nacoocheegrill.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "The Helen House Restaurant": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://helenhouse.food.officelive.com/default.aspx {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Hofer's of Helen Bakery and Cafe": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.hofers.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "La Cabana Mexican Restaurant": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Viele Margaritas": {
+        "type": "buy",
+        "description": [
+          "ste",
+          "b"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Troll Tavern & Restaurant": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.trolltavern.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Safari Steakhouse": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Old Bavaria Inn Restaurant": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Jordano's Pizza": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Sunflower Restaurant": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJe9M-mG8XEDERK0sTsrLy6pc",
+        "reviews": null
+      },
+      "Hofbrau Riverfront Motel & Restaurant": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.riverfronthotel.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Alpine Village Inn": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.helengamotel.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Best Western Riverpark Inn & Conference Center": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.helengeorgialodging.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Castle Inn": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.castleinn-helen.com/",
+        "place_id": "ChIJZ5Wf8jipA2ARZH3mWVLHF6I",
+        "reviews": null
+      },
+      "Days Inn": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.helengadaysinn.com/",
+        "place_id": "ChIJE9_nTBR8FocRmi36g94O5sk",
+        "reviews": null
+      },
+      "Econo Lodge": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.hotelmotelhelenga.com/",
+        "place_id": "ChIJaYWFUbI7xIkR-8blMETJq0s",
+        "reviews": null
+      },
+      "Sylvan Valley Lodge": {
+        "type": "sleep",
+        "description": [
+          "sautee",
+          "ga"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.sylvanvalleylodge.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Hampton Inn on the River": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://hamptoninn1.hilton.com/en_US/hp/index.do",
+        "place_id": "ChIJF3j8TAX_W4gR737V2DsSe6Q",
+        "reviews": null
+      },
+      "Helendorf Inn": {
+        "type": "sleep",
+        "description": [
+          "helendorf",
+          "river",
+          "inn",
+          "conference",
+          "center",
+          "located",
+          "banks",
+          "chattahoochee",
+          "river",
+          "downtown",
+          "alpine",
+          "helen",
+          "georgia",
+          "northeast",
+          "georgia",
+          "mountains"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.helendorf.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "Motel 6": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.motel6.com/ms/check-availability.do?property=4303",
+        "place_id": "ChIJMSSQZcsmTIYRZJF23FIhNA4",
+        "reviews": null
+      },
+      "Quality Inn": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.qualityinnhelen.com/ {{dead link|May 2016}}",
+        "place_id": "ChIJD7qfOppQ4IYRSCkN9DKFacI",
+        "reviews": null
+      },
+      "Ramada Limited": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.helengaramadalimited.com/",
+        "place_id": "ChIJl8BomrhbYIgR5T_Y3jKd9Aw",
+        "reviews": null
+      },
+      "Riverbend Motel and Cabins": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.riverbendmotelandcabins.com",
+        "place_id": null,
+        "reviews": null
+      },
+      "Rodeway Inn": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.rodewayinn.com/hotel-helen-georgia-GA303?amp;prom",
+        "place_id": "ChIJLZtEINiAj4ARmxPqgbnOYS4",
+        "reviews": null
+      },
+      "Super 8": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.helengeorgialodging.com/",
+        "place_id": "ChIJBxWfCHa1NogRtL8YM4IvdqY",
+        "reviews": null
+      },
+      "Cedar Creek Cabin Rentals": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.cedarcreekcabinrentals.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "A Blue Ridge Cabins": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.blueridgecabinrentals.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Tanglewood Cabins": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.tanglewoodcabins.net/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Hooch Cabins": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.hoochcabins.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Cabin Rentals of Sautee & Old Pilgrim House": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.cabinrentalsofsautee.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Chimney shadows Cabins": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.chimneyshadows.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Frances Lee Cabin": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.vrbo.com/124598",
+        "place_id": null,
+        "reviews": null
+      },
+      "Georgia Mountain Rentals": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.georgiamtnrentals.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Lazy Bones Mountain Cabins": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.lazybonescabins.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Pinnacle Cabin Rentals": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.pinnaclecabinrental.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Sautee Resorts": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.sauteeresorts.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "North Ga Cabins": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.north-ga-cabins.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Sleepy Hollow Campground": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.campsleepyhollow.com/ {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Yonah Mountain Campgrounds": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.yonahcampground.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Jenny's Creek Campground": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.jennyscreek.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Creekwood RV Park & Cabins": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.creekwoodresort.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Leisure Acres Campground": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.leisureacrescampground.com/",
+        "place_id": null,
+        "reviews": null
+      }
+    }
+  }
+}

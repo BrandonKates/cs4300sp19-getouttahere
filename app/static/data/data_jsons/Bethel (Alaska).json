@@ -1,0 +1,947 @@
+{
+  "Bethel (Alaska)": {
+    "size": 42,
+    "country": NaN,
+    "full_desc": [
+      "one",
+      "largest",
+      "rivers",
+      "alaska",
+      "offers",
+      "great",
+      "views",
+      "activities",
+      "local",
+      "attraction",
+      "great",
+      "showcase",
+      "local",
+      "art",
+      "located",
+      "near",
+      "local",
+      "moravian",
+      "church",
+      "popular",
+      "local",
+      "attraction",
+      "group",
+      "abandoned",
+      "buildings",
+      "illegal",
+      "go",
+      "still",
+      "interesting",
+      "sight",
+      "see",
+      "cold",
+      "war",
+      "era",
+      "radio",
+      "towers",
+      "put",
+      "around",
+      "alaska",
+      "recently",
+      "air",
+      "force",
+      "national",
+      "guard",
+      "systematically",
+      "taking",
+      "across",
+      "state",
+      "recently",
+      "bethel",
+      "one",
+      "remaining",
+      "white",
+      "alice",
+      "state",
+      "alas",
+      "doomed",
+      "taken",
+      "currently",
+      "disassembled",
+      "unique",
+      "community",
+      "activity",
+      "number",
+      "years",
+      "ago",
+      "city",
+      "decided",
+      "spice",
+      "streets",
+      "bit",
+      "painting",
+      "dumpsters",
+      "neighborhood",
+      "definitely",
+      "interesting",
+      "sight",
+      "see",
+      "see",
+      "farthest",
+      "west",
+      "skate",
+      "parks",
+      "united",
+      "states",
+      "winter",
+      "go",
+      "dog",
+      "sledding",
+      "compete",
+      "bethel",
+      "annual",
+      "kuskokwim",
+      "300",
+      "race",
+      "village",
+      "aniak",
+      "back",
+      "city",
+      "bethel",
+      "dog",
+      "team",
+      "race",
+      "sled",
+      "also",
+      "go",
+      "town",
+      "basketball",
+      "games",
+      "high",
+      "school",
+      "basketball",
+      "season",
+      "used",
+      "small",
+      "park",
+      "kids",
+      "still",
+      "go",
+      "place",
+      "used",
+      "remains",
+      "still",
+      "unknown",
+      "taken",
+      "used",
+      "hangout",
+      "spot",
+      "lot",
+      "teenagers",
+      "became",
+      "cities",
+      "hazardous",
+      "spot",
+      "due",
+      "muffed",
+      "teenagers",
+      "going",
+      "bad",
+      "stuff",
+      "really",
+      "good",
+      "bikers",
+      "skate",
+      "park",
+      "good",
+      "great",
+      "best",
+      "pizza",
+      "town",
+      "takes",
+      "long",
+      "deliver",
+      "best",
+      "known",
+      "good",
+      "sushi",
+      "greek",
+      "restaurant",
+      "town",
+      "decent",
+      "gyros",
+      "superb",
+      "white",
+      "pizza",
+      "go",
+      "sandwiches",
+      "large",
+      "food",
+      "variety",
+      "quick",
+      "delivery",
+      "mediocre",
+      "burgers",
+      "one",
+      "better",
+      "restaurant",
+      "town",
+      "closest",
+      "thing",
+      "normal",
+      "hotel",
+      "visitor",
+      "unfamiliar",
+      "bush",
+      "find",
+      "bethel",
+      "big",
+      "plus",
+      "fact",
+      "restaurant",
+      "building",
+      "red",
+      "basket",
+      "formally",
+      "alba",
+      "pizza",
+      "get",
+      "little",
+      "loud",
+      "weekends",
+      "especially",
+      "around",
+      "pfd",
+      "time"
+    ],
+    "attractions": {
+      "Alaska Cab": null,
+      "City Cab": null,
+      "Kusko Cab": null,
+      "Quyana Cab": null,
+      "Taxi Cab": null,
+      "Crowley Marine Services Inc": null,
+      "Nicholsons Auto Inc.": null,
+      "Northstar Gas": null,
+      "Quick Food Center": null,
+      "Quick Stop": null,
+      "Kuskokwim River": {
+        "type": "see",
+        "description": [
+          "one",
+          "largest",
+          "rivers",
+          "alaska",
+          "offers",
+          "great",
+          "views",
+          "activities"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Bethel Art Guild": {
+        "type": "see",
+        "description": [
+          "local",
+          "attraction",
+          "great",
+          "showcase",
+          "local",
+          "art",
+          "located",
+          "near",
+          "local",
+          "moravian",
+          "church"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "BIA Buildings": {
+        "type": "see",
+        "description": [
+          "popular",
+          "local",
+          "attraction",
+          "group",
+          "abandoned",
+          "buildings",
+          "illegal",
+          "go",
+          "still",
+          "interesting",
+          "sight",
+          "see"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "White Alice": {
+        "type": "see",
+        "description": [
+          "cold",
+          "war",
+          "era",
+          "radio",
+          "towers",
+          "put",
+          "around",
+          "alaska",
+          "recently",
+          "air",
+          "force",
+          "national",
+          "guard",
+          "systematically",
+          "taking",
+          "across",
+          "state",
+          "recently",
+          "bethel",
+          "one",
+          "remaining",
+          "white",
+          "alice",
+          "state",
+          "alas",
+          "doomed",
+          "taken",
+          "currently",
+          "disassembled"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Bethel Dumpsters": {
+        "type": "see",
+        "description": [
+          "unique",
+          "community",
+          "activity",
+          "number",
+          "years",
+          "ago",
+          "city",
+          "decided",
+          "spice",
+          "streets",
+          "bit",
+          "painting",
+          "dumpsters",
+          "neighborhood",
+          "definitely",
+          "interesting",
+          "sight",
+          "see"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Skate park": {
+        "type": "see",
+        "description": [
+          "see",
+          "farthest",
+          "west",
+          "skate",
+          "parks",
+          "united",
+          "states"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Kuskokwim 300": {
+        "type": "do",
+        "description": [
+          "winter",
+          "go",
+          "dog",
+          "sledding",
+          "compete",
+          "bethel",
+          "annual",
+          "kuskokwim",
+          "300",
+          "race",
+          "village",
+          "aniak",
+          "back",
+          "city",
+          "bethel",
+          "dog",
+          "team",
+          "race",
+          "sled",
+          "also",
+          "go",
+          "town",
+          "basketball",
+          "games",
+          "high",
+          "school",
+          "basketball",
+          "season"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Pinky's Park": {
+        "type": "do",
+        "description": [
+          "used",
+          "small",
+          "park",
+          "kids",
+          "still",
+          "go",
+          "place",
+          "used",
+          "remains",
+          "still",
+          "unknown",
+          "taken",
+          "used",
+          "hangout",
+          "spot",
+          "lot",
+          "teenagers",
+          "became",
+          "cities",
+          "hazardous",
+          "spot",
+          "due",
+          "muffed",
+          "teenagers",
+          "going",
+          "bad",
+          "stuff"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "BMX": {
+        "type": "do",
+        "description": [
+          "really",
+          "good",
+          "bikers",
+          "skate",
+          "park",
+          "good",
+          "great"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Casa": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJdQ78X7R6WkcRoWmfZycQIQM",
+        "reviews": null
+      },
+      "Arctic Sun Restaurant": {
+        "type": "eat",
+        "description": [
+          "best",
+          "pizza",
+          "town",
+          "takes",
+          "long",
+          "deliver"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "V.I.P": {
+        "type": "eat",
+        "description": [
+          "best",
+          "known",
+          "good",
+          "sushi"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Dimtri's": {
+        "type": "eat",
+        "description": [
+          "greek",
+          "restaurant",
+          "town",
+          "decent",
+          "gyros",
+          "superb",
+          "white",
+          "pizza"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Subway": {
+        "type": "eat",
+        "description": [
+          "go",
+          "sandwiches"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ8-POppC7-IcRDtVnkkFpZ8M",
+        "reviews": {
+          "html_attributions": [],
+          "result": {
+            "price_level": 1,
+            "rating": 4.1,
+            "reviews": [
+              {
+                "author_name": "Marissa Zenda",
+                "author_url": "https://www.google.com/maps/contrib/108643508614156578943/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-p3pVREmBRCI/AAAAAAAAAAI/AAAAAAAAE50/oteN9J4I0_4/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg",
+                "rating": 2,
+                "relative_time_description": "a month ago",
+                "text": "The sandwich was a mess when i opened it up. Sauce was spilling out.",
+                "time": 1550450800
+              },
+              {
+                "author_name": "Gary Thorgerson",
+                "author_url": "https://www.google.com/maps/contrib/100280926783515088830/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-XhZz53AXrSc/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reROIRC9s6ZJPmaVNpREQArkRKhOQ/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "4 months ago",
+                "text": "Good food, good service, good price",
+                "time": 1544530888
+              },
+              {
+                "author_name": "Jason Goodland",
+                "author_url": "https://www.google.com/maps/contrib/117403313518079579333/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-QuBkjglvsuQ/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdfH00-RVPRiAvI48uRpEzwBowIrg/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "a year ago",
+                "text": "New management has done an amazing job taking this location to the next level.  Service is top notch and the food quality has improved exponentially!  Speed of service is noticably faster.  Definitely will be having more quick lunches here in the near future!",
+                "time": 1523514627
+              },
+              {
+                "author_name": "B. Duca",
+                "author_url": "https://www.google.com/maps/contrib/117941637422934963715/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh5.googleusercontent.com/-KONHNZRN5pU/AAAAAAAAAAI/AAAAAAAAAYE/lF7hMxxD8P4/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "8 months ago",
+                "text": "Agree! Food quality has gotten so much better since the old owner sold it.",
+                "time": 1532998805
+              },
+              {
+                "author_name": "Tiffany Affolter",
+                "author_url": "https://www.google.com/maps/contrib/110809993850101490273/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh4.googleusercontent.com/-ht2JppZ6c7E/AAAAAAAAAAI/AAAAAAAAEik/07R00lzRk-Y/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "5 months ago",
+                "text": "Very friendly/polite staff!",
+                "time": 1540854739
+              }
+            ]
+          },
+          "status": "OK"
+        }
+      },
+      "Red Basket": {
+        "type": "eat",
+        "description": [
+          "large",
+          "food",
+          "variety"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "123 Barbecue": {
+        "type": "eat",
+        "description": [
+          "quick",
+          "delivery",
+          "mediocre",
+          "burgers"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Panda 24": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Tundra": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Front street caf\u00e9": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Shogun": {
+        "type": "eat",
+        "description": [
+          "one",
+          "better",
+          "restaurant",
+          "town"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJy_02CHpkYIgRsAb8fpGf3E0",
+        "reviews": {
+          "html_attributions": [],
+          "result": {
+            "price_level": 2,
+            "rating": 3.9,
+            "reviews": [
+              {
+                "author_name": "Esther Familia",
+                "author_url": "https://www.google.com/maps/contrib/102708983467126543840/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh5.googleusercontent.com/-vc8bBpsnsnw/AAAAAAAAAAI/AAAAAAAAAAA/Ur95LOy69ug/s128-c0x00000000-cc-rp-mo-ba5/photo.jpg",
+                "rating": 4,
+                "relative_time_description": "a week ago",
+                "text": "What a fun place to go with a family that is really hungry and ready for some entertainment. This dining experience was entertaining from the start. Immediately as you get to the restaurant outside you have beautiful Japanese garden with some gorgeous prize-winning goldfishes. They kids had so much fun looking at them swimming and everything.  After all of that excitement we were able to be seated at a Japanese Hibachi Table with another family and kids so my children had a lot of fun interacting with everyone else around the table. As the chef came in he quickly started his show and it was fun interactive and very energetic. There was so much food!!!! Your portions are very large so make sure you come hungry. the typical Hibachi chicken dinner included rice vegetables and before that you get to have soup and salad. The only reason I took a star of was that the food was not as flavorful or authentic as I am used to but for being Japanese attraction chain spot it was sort of expected to be a little Bland however it was perfect for kiddos taste buds.",
+                "time": 1554090502
+              },
+              {
+                "author_name": "Jeff Green",
+                "author_url": "https://www.google.com/maps/contrib/109672358069218060704/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh5.googleusercontent.com/-RheUh2K22Dc/AAAAAAAAAAI/AAAAAAAAN4s/RNKaEblKRaA/s128-c0x00000000-cc-rp-mo-ba5/photo.jpg",
+                "rating": 4,
+                "relative_time_description": "a month ago",
+                "text": "The food is surprisingly better than one might think. The salad that comes out with the soup prior to the meal is delicious I really like the dressing here. I did not care for the sushi as it did not seem as fresh as some places. The steak and chicken combo I ordered was well-cooked and affordable.",
+                "time": 1551494396
+              },
+              {
+                "author_name": "Taleisa Dooley",
+                "author_url": "https://www.google.com/maps/contrib/102256320436352734396/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-OzsiB6tyBpg/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdBB7mFBJkReWeuTvDKKBCqS3qigw/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 1,
+                "relative_time_description": "a month ago",
+                "text": "We arrived around 5:30, no one else in the dining area except for a group that was finishing up. We waited 15-20min before getting our drinks. A party of 16 arrived after we got our drinks. We had already ordered when another group joined our table. We still had not received our salads or soup an HOUR after being seated, but the party\u2019s food was being cooked and served. Poor management. We were told that the party arrived before us, when they actually MOVED us from the table the party was sitting at to serve us quicker. The manager that I spoke with said \u201cthey knew what they wanted to eat, they had a list\u201d I DON\u2019T CARE if they had a list, we had ordered our food BEFORE the party placed their order. Waiting an hour and not receiving soups and salads is unacceptable in my book.",
+                "time": 1552441813
+              },
+              {
+                "author_name": "mickey gotti",
+                "author_url": "https://www.google.com/maps/contrib/101180829808803764520/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-sioW1NGfD08/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reZCh3dStCs6asL8n7diK2CSRdksQ/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+                "rating": 4,
+                "relative_time_description": "a month ago",
+                "text": "This place has always been pretty good. However the service has really gone down hill. No refills for the entire meal. Wrong food served. Appetizers brought after meal. Very small portions. Time to search for new place to eat.",
+                "time": 1551568492
+              },
+              {
+                "author_name": "Gerald Cardinal",
+                "author_url": "https://www.google.com/maps/contrib/109956687534193606697/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh5.googleusercontent.com/-iYWHM3LSIU0/AAAAAAAAAAI/AAAAAAAAATM/8lPpkniPIrs/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "2 months ago",
+                "text": "Yes yes!! Best sushi presentation in Tennessee. Chef Boy knows how to make a birthday special. I told him to surprise me and yes I was surprised with a great sushi dinner.. will always be my go to place for sushi!!",
+                "time": 1548632772
+              }
+            ]
+          },
+          "status": "OK"
+        }
+      },
+      "Corina's": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Family Restaurant": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "The Long House": {
+        "type": "sleep",
+        "description": [
+          "closest",
+          "thing",
+          "normal",
+          "hotel",
+          "visitor",
+          "unfamiliar",
+          "bush",
+          "find",
+          "bethel",
+          "big",
+          "plus",
+          "fact",
+          "restaurant",
+          "building",
+          "red",
+          "basket",
+          "formally",
+          "alba",
+          "pizza",
+          "get",
+          "little",
+          "loud",
+          "weekends",
+          "especially",
+          "around",
+          "pfd",
+          "time"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.longhousebethel.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Great Bear Bed & Breakfast": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Allanivik": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Suite 881": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Tundra Suites": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Riverview Bed and Breakfast": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Delta Cottages": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Bentley's Bed and Breakfast": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "White House Bed and Breakfast": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Lakeside Lodge": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      }
+    }
+  }
+}

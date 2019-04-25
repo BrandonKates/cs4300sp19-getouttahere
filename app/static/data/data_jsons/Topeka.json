@@ -1,0 +1,1066 @@
+{
+  "Topeka": {
+    "size": 52,
+    "country": "United States",
+    "full_desc": [
+      "brown",
+      "v",
+      "board",
+      "education",
+      "museum",
+      "highlights",
+      "historical",
+      "case",
+      "movement",
+      "segregation",
+      "public",
+      "schools",
+      "started",
+      "take",
+      "5",
+      "west",
+      "6th",
+      "bus",
+      "along",
+      "6th",
+      "street",
+      "society",
+      "take",
+      "4",
+      "west",
+      "10th",
+      "bus",
+      "along",
+      "10th",
+      "street",
+      "capital",
+      "capital",
+      "features",
+      "original",
+      "murals",
+      "well",
+      "tour",
+      "rotunda",
+      "many",
+      "restaurants",
+      "within",
+      "walking",
+      "distance",
+      "building",
+      "making",
+      "nice",
+      "afternoon",
+      "visit",
+      "take",
+      "4",
+      "west",
+      "10th",
+      "bus",
+      "along",
+      "10th",
+      "street",
+      "school",
+      "topeka",
+      "high",
+      "school",
+      "known",
+      "first",
+      "million",
+      "dollar",
+      "school",
+      "west",
+      "mississippi",
+      "river",
+      "campus",
+      "creative",
+      "displays",
+      "students",
+      "sculpture",
+      "projects",
+      "historic",
+      "train",
+      "station",
+      "exhibits",
+      "showing",
+      "history",
+      "city",
+      "topeka",
+      "santa",
+      "fe",
+      "union",
+      "pacific",
+      "train",
+      "service",
+      "exceptional",
+      "zoo",
+      "living",
+      "rainforest",
+      "giant",
+      "park",
+      "area",
+      "carousel",
+      "train",
+      "outside",
+      "zoo",
+      "gates",
+      "watersports",
+      "camping",
+      "small",
+      "waterpark",
+      "beach",
+      "four",
+      "facilities",
+      "exercise",
+      "sports",
+      "regularly",
+      "hosts",
+      "concerts",
+      "plays",
+      "performances",
+      "hosts",
+      "major",
+      "events",
+      "conventions",
+      "drag",
+      "dirt",
+      "road",
+      "racing",
+      "events",
+      "quaint",
+      "community",
+      "blackbox",
+      "theatre",
+      "regularly",
+      "puts",
+      "plays",
+      "musicals",
+      "specializes",
+      "children",
+      "camps",
+      "features",
+      "fun",
+      "outdoor",
+      "aquatic",
+      "center",
+      "blaisdell",
+      "pool",
+      "small",
+      "train",
+      "rose",
+      "garden",
+      "walking",
+      "trails",
+      "baseball",
+      "diamonds",
+      "playgrounds",
+      "greenhouse",
+      "dog",
+      "park",
+      "amphitheatre",
+      "occasional",
+      "music",
+      "performances",
+      "fegularly",
+      "puts",
+      "musicals",
+      "plays",
+      "comedy",
+      "acts",
+      "featuring",
+      "talented",
+      "local",
+      "performers",
+      "large",
+      "comfortable",
+      "library",
+      "building",
+      "featuring",
+      "tower",
+      "also",
+      "houses",
+      "local",
+      "art",
+      "screens",
+      "old",
+      "movies",
+      "free",
+      "walking",
+      "biking",
+      "trails",
+      "pool",
+      "baseball",
+      "diamonds",
+      "well",
+      "bmx",
+      "track",
+      "features",
+      "115",
+      "stores",
+      "including",
+      "old",
+      "navy",
+      "gap",
+      "macy",
+      "featuring",
+      "50",
+      "unique",
+      "shops",
+      "restaurants",
+      "including",
+      "classic",
+      "bean"
+    ],
+    "attractions": {
+      "Brown v. Board of Education Museum": {
+        "type": "see",
+        "description": [
+          "brown",
+          "v",
+          "board",
+          "education",
+          "museum",
+          "highlights",
+          "historical",
+          "case",
+          "movement",
+          "segregation",
+          "public",
+          "schools",
+          "started"
+        ],
+        "coordinates": [
+          "39.037909",
+          "-95.676446"
+        ],
+        "website": "http://www.nps.gov/brvb/",
+        "place_id": "ChIJQSqF5RcDv4cRRurR3keBSR4",
+        "reviews": null
+      },
+      "Kansas Historical Society and Museum": {
+        "type": "see",
+        "description": [
+          "take",
+          "5",
+          "west",
+          "6th",
+          "bus",
+          "along",
+          "6th",
+          "street",
+          "society"
+        ],
+        "coordinates": [
+          "39.056113",
+          "-95.775862"
+        ],
+        "website": "http://www.kshs.org/",
+        "place_id": "ChIJAyeHMPe3s4cRutT9dq9-POM",
+        "reviews": null
+      },
+      "Combat Air Museum": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "38.940377",
+          "-95.678143"
+        ],
+        "website": "http://combatairmuseum.org/",
+        "place_id": "ChIJYZ6nhC8cv4cRxRnij7in2kM",
+        "reviews": null
+      },
+      "Old Prairie Town at Ward-Meade Historic Site": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "39.063425",
+          "-95.683289"
+        ],
+        "website": "http://topekachamber.org/why-topeka/things-to-do/area-attractions/156 {{dead link|October 2016}}",
+        "place_id": "ChIJxYDzAawDv4cRTXRFzqZRuWs",
+        "reviews": null
+      },
+      "Kansas State Capitol": {
+        "type": "see",
+        "description": [
+          "take",
+          "4",
+          "west",
+          "10th",
+          "bus",
+          "along",
+          "10th",
+          "street",
+          "capital",
+          "capital",
+          "features",
+          "original",
+          "murals",
+          "well",
+          "tour",
+          "rotunda",
+          "many",
+          "restaurants",
+          "within",
+          "walking",
+          "distance",
+          "building",
+          "making",
+          "nice",
+          "afternoon",
+          "visit"
+        ],
+        "coordinates": [
+          "39.048121",
+          "-95.67805"
+        ],
+        "website": "http://www.kshs.org/places/capitol/",
+        "place_id": "ChIJq5AQTwUDv4cR-KPNpTKJmNs",
+        "reviews": null
+      },
+      "Topeka High School": {
+        "type": "see",
+        "description": [
+          "take",
+          "4",
+          "west",
+          "10th",
+          "bus",
+          "along",
+          "10th",
+          "street",
+          "school",
+          "topeka",
+          "high",
+          "school",
+          "known",
+          "first",
+          "million",
+          "dollar",
+          "school",
+          "west",
+          "mississippi",
+          "river"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "https://www.topeka.k12.ks.us/pc/cms/Schools/High/Topeka_High.html {{dead link|October 2016}}",
+        "place_id": "ChIJUQ0w_wIDv4cRxS6tEGRCKCU",
+        "reviews": null
+      },
+      "Washburn University": {
+        "type": "see",
+        "description": [
+          "campus",
+          "creative",
+          "displays",
+          "students",
+          "sculpture",
+          "projects"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.washburn.edu/washburn/contentm/modules/display_dynamic.php?params=MiwzLA== {{dead link|October 2016}}",
+        "place_id": "ChIJlZ0DrcMCv4cRXItPbJSuLA4",
+        "reviews": null
+      },
+      "Great Overland Station": {
+        "type": "see",
+        "description": [
+          "historic",
+          "train",
+          "station",
+          "exhibits",
+          "showing",
+          "history",
+          "city",
+          "topeka",
+          "santa",
+          "fe",
+          "union",
+          "pacific",
+          "train",
+          "service"
+        ],
+        "coordinates": [
+          "39.066294",
+          "-95.669418"
+        ],
+        "website": "http://www.greatoverlandstation.com/",
+        "place_id": "ChIJLXLcE6IDv4cRlpoIJiku0Z0",
+        "reviews": null
+      },
+      "Topeka Zoo": {
+        "type": "see",
+        "description": [
+          "exceptional",
+          "zoo",
+          "living",
+          "rainforest",
+          "giant",
+          "park",
+          "area",
+          "carousel",
+          "train",
+          "outside",
+          "zoo",
+          "gates"
+        ],
+        "coordinates": [
+          "39.05578",
+          "-95.72685"
+        ],
+        "website": "http://topekazoo.org/",
+        "place_id": "ChIJJTyqBIACv4cR2yMUL1adlm4",
+        "reviews": null
+      },
+      "Lake Shawnee": {
+        "type": "do",
+        "description": [
+          "watersports",
+          "camping",
+          "small",
+          "waterpark",
+          "beach"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.co.shawnee.ks.us/parksandrec/lakeShawnee.shtm {{dead link|October 2016}}",
+        "place_id": "ChIJc7-nt0Abv4cRgUt7SJZuxM4",
+        "reviews": null
+      },
+      "YMCA": {
+        "type": "do",
+        "description": [
+          "four",
+          "facilities",
+          "exercise",
+          "sports"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.ymcatopeka.org/",
+        "place_id": "ChIJjYgxdXWa3w8RRDiYty_otEU",
+        "reviews": null
+      },
+      "Topeka Performing Arts Center": {
+        "type": "do",
+        "description": [
+          "regularly",
+          "hosts",
+          "concerts",
+          "plays",
+          "performances"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.tpac.org/",
+        "place_id": "ChIJfwzmGg4Dv4cRRyP-eRvzhXo",
+        "reviews": null
+      },
+      "Kansas Expo Centre": {
+        "type": "do",
+        "description": [
+          "hosts",
+          "major",
+          "events",
+          "conventions"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.ksexpo.com/",
+        "place_id": "ChIJlYUEACEDv4cRU4B2JizDvRY",
+        "reviews": null
+      },
+      "Heartland Park": {
+        "type": "do",
+        "description": [
+          "drag",
+          "dirt",
+          "road",
+          "racing",
+          "events"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.hpt.com/",
+        "place_id": "ChIJC0lK5ikcv4cRfWcNeEfhHb8",
+        "reviews": null
+      },
+      "Helen Hocker Theater": {
+        "type": "do",
+        "description": [
+          "quaint",
+          "community",
+          "blackbox",
+          "theatre",
+          "regularly",
+          "puts",
+          "plays",
+          "musicals",
+          "specializes",
+          "children",
+          "camps"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.topeka.org/parksrec/hocker.shtml",
+        "place_id": "ChIJsakae4ACv4cRGu8T3bQP1FQ",
+        "reviews": null
+      },
+      "Gage Park": {
+        "type": "do",
+        "description": [
+          "features",
+          "fun",
+          "outdoor",
+          "aquatic",
+          "center",
+          "blaisdell",
+          "pool",
+          "small",
+          "train",
+          "rose",
+          "garden",
+          "walking",
+          "trails",
+          "baseball",
+          "diamonds",
+          "playgrounds",
+          "greenhouse",
+          "dog",
+          "park",
+          "amphitheatre",
+          "occasional",
+          "music",
+          "performances"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.topeka.org/parksrec/gage_park.shtml",
+        "place_id": "ChIJ54MFHYD9vocRUFy9EPU1E7U",
+        "reviews": null
+      },
+      "Topeka Civic Theatre": {
+        "type": "do",
+        "description": [
+          "fegularly",
+          "puts",
+          "musicals",
+          "plays",
+          "comedy",
+          "acts",
+          "featuring",
+          "talented",
+          "local",
+          "performers"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.topekacivictheatre.com/",
+        "place_id": "ChIJQVpC-4kCv4cRpf0NuA4n9NY",
+        "reviews": null
+      },
+      "Topeka and Shawnee County Public Library": {
+        "type": "do",
+        "description": [
+          "large",
+          "comfortable",
+          "library",
+          "building",
+          "featuring",
+          "tower",
+          "also",
+          "houses",
+          "local",
+          "art",
+          "screens",
+          "old",
+          "movies",
+          "free"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://tscpl.org",
+        "place_id": "ChIJE-8UR_oCv4cRc8JcBb9pr0U",
+        "reviews": null
+      },
+      "Shunga Park": {
+        "type": "do",
+        "description": [
+          "walking",
+          "biking",
+          "trails",
+          "pool",
+          "baseball",
+          "diamonds",
+          "well",
+          "bmx",
+          "track"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.washburn.edu/cas/art/cyoho/archive/AroundTopeka/shungatrail/index.html",
+        "place_id": "ChIJj3rdt7UCv4cRXqWYONjDNQo",
+        "reviews": null
+      },
+      "West Ridge Mall": {
+        "type": "buy",
+        "description": [
+          "features",
+          "115",
+          "stores",
+          "including",
+          "old",
+          "navy",
+          "gap",
+          "macy"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJQ8X9BiL9vocRXrxjIv1TQZE",
+        "reviews": null
+      },
+      "Fairlawn Plaza Mall": {
+        "type": "buy",
+        "description": [
+          "featuring",
+          "50",
+          "unique",
+          "shops",
+          "restaurants",
+          "including",
+          "classic",
+          "bean"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJcQNAHkT9vocRd5GINOCctTo",
+        "reviews": null
+      },
+      "Bobo's Drive In": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJn3iEgPQCv4cRBQw1Ua4Lxtg",
+        "reviews": null
+      },
+      "Boss Hawgs BBQ": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJzXuS4UP9vocRoU3RYzO18HU",
+        "reviews": null
+      },
+      "Globe Indian Cuisine": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ4futVRADv4cReOBn83BpXFA",
+        "reviews": null
+      },
+      "Horizon's Hamburger Palace": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJB2OWRIcEv4cR-tUBbMjP8uM",
+        "reviews": null
+      },
+      "Kiku Japanese Steak House": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJN-Jbgkb9vocR3oo5JtiXlg8",
+        "reviews": null
+      },
+      "Rosa's Mexican Food": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJGQBylOcCv4cR77am6sWg7co",
+        "reviews": null
+      },
+      "Taco's El Mexicano": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJEfUoXFkDv4cRbMR3rRa4NmI",
+        "reviews": null
+      },
+      "Grover's Smokehouse": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJdbnSpZwCv4cREiUpQggg8fo",
+        "reviews": null
+      },
+      "Tuptim Thai": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJUSPZhtMcv4cR5Q9cNV__J_4",
+        "reviews": null
+      },
+      "Annie's Place": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ9_C60FkZMisRyiCfpPX_NAY",
+        "reviews": null
+      },
+      "Daimaru Steakhouse and Sushi Bar": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJbUMpGdMcv4cRXJEF9iUc83w",
+        "reviews": null
+      },
+      "Jade Garden Chinese Restaurant": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ7Yu8-KMCv4cR_rX-mSj42WM",
+        "reviews": null
+      },
+      "Madison Street Diner": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.topekaramada.com",
+        "place_id": "ChIJwQ-A_QwDv4cRtkplvnZByU4",
+        "reviews": null
+      },
+      "Blind Tiger": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJSSvtSw56_ogRxm6VtTcL5d0",
+        "reviews": null
+      },
+      "North Star Steak House": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ-7i8i9oDv4cRrpoNWGyvahM",
+        "reviews": null
+      },
+      "PT's Coffee Roasting Co.": {
+        "type": "drink",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJe5QJsM4dv4cR4H2MUTHLnAI",
+        "reviews": null
+      },
+      "Margie's Java Cafe": {
+        "type": "drink",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJj8x_0ST9vocRwZ54F0c8avI",
+        "reviews": null
+      },
+      "Classic Bean": {
+        "type": "drink",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJKwbnsUb9vocRNbhhWS4H77Q",
+        "reviews": null
+      },
+      "Kaner Coffee": {
+        "type": "drink",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJaV-8uV8Cv4cRjXX2Jxf9mNo",
+        "reviews": null
+      },
+      "Lazio's Coffee Bar & Roasterie": {
+        "type": "drink",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ00PBqkD9vocRXJczg7qfu2E",
+        "reviews": null
+      },
+      "The Break Room": {
+        "type": "drink",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "39.046832",
+          "-95.675773"
+        ],
+        "website": "http://www.breakroomdowntown.com/",
+        "place_id": "ChIJNw-4PBADv4cRgHvkZHxmS60",
+        "reviews": null
+      },
+      "Uncle Bo's Blues Bar": {
+        "type": "drink",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.unclebos.com",
+        "place_id": "ChIJwQ-A_QwDv4cRc0tYMFmgrPM",
+        "reviews": null
+      },
+      "Capitol Plaza Hotel and Convention Center": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "39.035398",
+          "-95.684896"
+        ],
+        "website": "http://capitolplazahoteltopeka.com",
+        "place_id": "ChIJszV1jyEDv4cRZzfNcLYczCI",
+        "reviews": null
+      },
+      "Courtyard Topeka": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "39.030206",
+          "-95.763876"
+        ],
+        "website": "http://marriott.com/property/propertypage/FOECY",
+        "place_id": "ChIJ65pnASP9vocRFRe30qfJqJY",
+        "reviews": null
+      },
+      "Fairfield Inn Topeka": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "39.039473",
+          "-95.759662"
+        ],
+        "website": "http://marriott.com/property/propertypage/FOETO",
+        "place_id": "ChIJVVfTwhD9vocRWsmkVFZ6T6U",
+        "reviews": null
+      },
+      "Hyatt Place": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "39.055368",
+          "-95.763565"
+        ],
+        "website": "http://www.hyattplace.com",
+        "place_id": "ChIJu8SH3mUA2YgRJw82f9z1sUY",
+        "reviews": null
+      },
+      "Motel 6 Topeka Northwest": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "39.056107",
+          "-95.743946"
+        ],
+        "website": "http://www.motel6.com/reservations/motel_detail.asp?MotelId=0307",
+        "place_id": "ChIJqUWNnp39vocR3jGCN6de5Ug",
+        "reviews": null
+      },
+      "Motel 6 Topeka West": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "39.044783",
+          "-95.761176"
+        ],
+        "website": "http://www.motel6.com/reservations/motel_detail.asp?MotelId=1195",
+        "place_id": "ChIJqUWNnp39vocR3jGCN6de5Ug",
+        "reviews": null
+      },
+      "Residence Inn Topeka": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "39.037",
+          "-95.758219"
+        ],
+        "website": "http://marriott.com/property/propertypage/FOERI",
+        "place_id": "ChIJp57F5xb9vocREZahn284Vng",
+        "reviews": null
+      },
+      "Ramada Topeka Downtown Hotel and Convention Center": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          "39.051771",
+          "-95.668065"
+        ],
+        "website": "http://www.topekaramada.com",
+        "place_id": "ChIJwQ-A_QwDv4cRCGhc5lMy-f0",
+        "reviews": null
+      }
+    }
+  }
+}

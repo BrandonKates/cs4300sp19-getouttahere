@@ -1,0 +1,928 @@
+{
+  "Patiala": {
+    "size": 45,
+    "country": "India",
+    "full_desc": [
+      "gardens",
+      "designed",
+      "1876",
+      "kaur",
+      "sahib",
+      "ranbir",
+      "singh",
+      "younger",
+      "brother",
+      "maharaja",
+      "surround",
+      "colonial",
+      "buildings",
+      "marble",
+      "statue",
+      "maharaja",
+      "rajindera",
+      "today",
+      "baradari",
+      "palace",
+      "heritage",
+      "hotel",
+      "run",
+      "neemrana",
+      "hotels",
+      "group",
+      "palace",
+      "built",
+      "mid",
+      "19th",
+      "century",
+      "seat",
+      "patiala",
+      "royal",
+      "family",
+      "1",
+      "000",
+      "rooms",
+      "one",
+      "largest",
+      "royal",
+      "residences",
+      "world",
+      "today",
+      "houses",
+      "national",
+      "institute",
+      "sports",
+      "qila",
+      "mubarak",
+      "official",
+      "residence",
+      "maharaja",
+      "till",
+      "1862",
+      "complex",
+      "comprises",
+      "10",
+      "courtyards",
+      "several",
+      "historic",
+      "built",
+      "structures",
+      "notable",
+      "buildings",
+      "include",
+      "qila",
+      "androon",
+      "main",
+      "entrance",
+      "imposing",
+      "gate",
+      "sheesh",
+      "mahal",
+      "palace",
+      "mirrors",
+      "raan",
+      "baas",
+      "whole",
+      "set",
+      "frescoes",
+      "durbar",
+      "hall",
+      "latter",
+      "houses",
+      "collection",
+      "arms",
+      "local",
+      "traditional",
+      "gift",
+      "items",
+      "local",
+      "traditional",
+      "indian",
+      "shoes",
+      "located",
+      "near",
+      "leela",
+      "bhawan",
+      "best",
+      "locations",
+      "patiala",
+      "best",
+      "budget",
+      "restaurant",
+      "city",
+      "problem",
+      "self",
+      "service",
+      "find",
+      "mcd",
+      "omaxe",
+      "mall",
+      "provides",
+      "excellent",
+      "food",
+      "cost",
+      "sky",
+      "high",
+      "oldest",
+      "town",
+      "fresh",
+      "every",
+      "day",
+      "best",
+      "pure",
+      "get",
+      "good",
+      "budget",
+      "food",
+      "serious",
+      "competition",
+      "gopal",
+      "sweets",
+      "near",
+      "22",
+      "flyover",
+      "closed"
+    ],
+    "attractions": {
+      "railway station": null,
+      "Bus stand": null,
+      "Baradari Gardens": {
+        "type": "see",
+        "description": [
+          "gardens",
+          "designed",
+          "1876",
+          "kaur",
+          "sahib",
+          "ranbir",
+          "singh",
+          "younger",
+          "brother",
+          "maharaja",
+          "surround",
+          "colonial",
+          "buildings",
+          "marble",
+          "statue",
+          "maharaja",
+          "rajindera",
+          "today",
+          "baradari",
+          "palace",
+          "heritage",
+          "hotel",
+          "run",
+          "neemrana",
+          "hotels",
+          "group"
+        ],
+        "coordinates": [
+          30.337038,
+          76.389626
+        ],
+        "website": "nan",
+        "place_id": "ChIJ-Z8rMeooEDkRb5dXDvykTfM",
+        "reviews": null
+      },
+      "Gurudwara Dukhniwaran Sahib Ji": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJRT75hJEoEDkRXgLKT64sxtY",
+        "reviews": null
+      },
+      "Ijlas-e Khas": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJgegepu4oEDkRRuAjbRx8biI",
+        "reviews": null
+      },
+      "Maiji Di Sarai": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Mall Road": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ936UGOwoEDkRfPAs9I9ZzoY",
+        "reviews": null
+      },
+      "Old Moti Bagh Palace": {
+        "type": "see",
+        "description": [
+          "palace",
+          "built",
+          "mid",
+          "19th",
+          "century",
+          "seat",
+          "patiala",
+          "royal",
+          "family",
+          "1",
+          "000",
+          "rooms",
+          "one",
+          "largest",
+          "royal",
+          "residences",
+          "world",
+          "today",
+          "houses",
+          "national",
+          "institute",
+          "sports"
+        ],
+        "coordinates": [
+          30.307098,
+          76.394518
+        ],
+        "website": "nan",
+        "place_id": "ChIJSQ7ddxopEDkRB-fqYER9gj0",
+        "reviews": null
+      },
+      "Panj Bali Gurdwara": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJAdoT5PDXDzkRVBbjN0sXrd4",
+        "reviews": null
+      },
+      "Qila Bahadurgarh": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJdewd6vDXDzkRDc1GuUjq6aE",
+        "reviews": null
+      },
+      "Qila Mubarak complex": {
+        "type": "see",
+        "description": [
+          "qila",
+          "mubarak",
+          "official",
+          "residence",
+          "maharaja",
+          "till",
+          "1862",
+          "complex",
+          "comprises",
+          "10",
+          "courtyards",
+          "several",
+          "historic",
+          "built",
+          "structures",
+          "notable",
+          "buildings",
+          "include",
+          "qila",
+          "androon",
+          "main",
+          "entrance",
+          "imposing",
+          "gate",
+          "sheesh",
+          "mahal",
+          "palace",
+          "mirrors",
+          "raan",
+          "baas",
+          "whole",
+          "set",
+          "frescoes",
+          "durbar",
+          "hall",
+          "latter",
+          "houses",
+          "collection",
+          "arms"
+        ],
+        "coordinates": [
+          30.324196999999998,
+          76.403112
+        ],
+        "website": "nan",
+        "place_id": "ChIJfbguD_woEDkRrtNaWqgbywc",
+        "reviews": null
+      },
+      "Rajindera Kothi": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJq6qqzusoEDkR3GcyPSpm_fE",
+        "reviews": null
+      },
+      "Rang Mahal and Sheesh Mahal": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ6V9NoxopEDkRgThi6jTOE44",
+        "reviews": null
+      },
+      "Shahi Samadhan": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJPwMz3f0oEDkR9FpdN1W4bM8",
+        "reviews": null
+      },
+      "Temple Kali Mata Ji": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJyxVtzwMmEDkRq1o6OhcwsXQ",
+        "reviews": null
+      },
+      "Dhillon's Fun-World": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          30.302042999999998,
+          76.42456899999999
+        ],
+        "website": "nan",
+        "place_id": "ChIJF0xQ95MpEDkRsa0NEJNDCS8",
+        "reviews": null
+      },
+      "AC Market": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          30.3257,
+          76.399567
+        ],
+        "website": "nan",
+        "place_id": "ChIJOSWW45uDGjkR8JBKfnyidg4",
+        "reviews": null
+      },
+      "Bitly Bros. Gift House": {
+        "type": "buy",
+        "description": [
+          "local",
+          "traditional",
+          "gift",
+          "items"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Desi Jutti": {
+        "type": "buy",
+        "description": [
+          "local",
+          "traditional",
+          "indian",
+          "shoes"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJF7LFJeUoEDkRGiyTXHp-lbA",
+        "reviews": null
+      },
+      "Omaxe Mall": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          30.337458,
+          76.394226
+        ],
+        "website": "nan",
+        "place_id": "ChIJjbOKX-woEDkRlJpA6NewuxY",
+        "reviews": null
+      },
+      "Parandi": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJbxvC-vsoEDkRsFz5nGclTMs",
+        "reviews": null
+      },
+      "Patiala salwar": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJzfsYdfAoEDkRzbCaR-cOafc",
+        "reviews": null
+      },
+      "Phulkari": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJFTmdKJ8oEDkRULqlC5-Gk1c",
+        "reviews": null
+      },
+      "Punjabi suits": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ73aW7GgoEDkRCslrw5lQHls",
+        "reviews": null
+      },
+      "Reshmi naale": {
+        "type": "buy",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Amritsari Naan": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ4a1T1vooEDkRe95C8i__ZIE",
+        "reviews": null
+      },
+      "Dominos": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJPSLstUOQyzsR5Gc6dqSOXpA",
+        "reviews": null
+      },
+      "Gopal Sweets": {
+        "type": "drink",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJw4kQo8EoEDkRTLskBYdrZbw",
+        "reviews": null
+      },
+      "McDonald's": {
+        "type": "eat",
+        "description": [
+          "find",
+          "mcd",
+          "omaxe",
+          "mall"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJcR9wUxnLmjkRylkbrjkTEVU",
+        "reviews": {
+          "html_attributions": [],
+          "result": {
+            "price_level": 2,
+            "rating": 4,
+            "reviews": [
+              {
+                "author_name": "jaya ghosh",
+                "author_url": "https://www.google.com/maps/contrib/100243062570040447660/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh3.googleusercontent.com/-R5uXFpZRbzY/AAAAAAAAAAI/AAAAAAAADxs/ShjYMp3-y4s/s128-c0x00000000-cc-rp-mo-ba6/photo.jpg",
+                "rating": 3,
+                "relative_time_description": "3 months ago",
+                "text": "Situated in the heart of city.Awesome place to hangout with friends. Friends can sit together for long time . Burgers are awesome in taste. All food items are good in taste.",
+                "time": 1547214299
+              },
+              {
+                "author_name": "Hamdaan ahmad",
+                "author_url": "https://www.google.com/maps/contrib/116503253625271394043/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh4.googleusercontent.com/-W62wf-VY-6I/AAAAAAAAAAI/AAAAAAAAAIg/VN2tRiHuDAg/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "a month ago",
+                "text": "Love to come here, after my coaching classes. It is very nice place for sitting with friends",
+                "time": 1551080057
+              },
+              {
+                "author_name": "Nishi singh kathak",
+                "author_url": "https://www.google.com/maps/contrib/113973251162370643083/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-U9-7coQfPRU/AAAAAAAAAAI/AAAAAAAAq2o/-JdgvVso1ok/s128-c0x00000000-cc-rp-mo-ba5/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "a month ago",
+                "text": "Well !!!! Who doesn\u2019t know abt Mcdonald \ud83d\ude04\u2764\ufe0f and i think 90% foodies will prefer to take a quick hunger break here. I request those 10% to fill the gap sooner the better \ud83d\udd25 \ud83d\udd25\ud83d\udd25",
+                "time": 1552175374
+              },
+              {
+                "author_name": "Rishi Saxena",
+                "author_url": "https://www.google.com/maps/contrib/108376831038659617239/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh3.googleusercontent.com/-sHxqKKifitQ/AAAAAAAAAAI/AAAAAAAAAAs/GY8DkkAEvg0/s128-c0x00000000-cc-rp-mo-ba5/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "4 weeks ago",
+                "text": "It is situated in the Atlantis mall Civil lines......Prayagraj...... \nYou all are well aware of the fact that it is a place mostly crowded.... it promotes self service.... the menu is being displayed on the screen above counters.... very limited items are there in this mcD Allahabad...  but it will be freshly prepared and served hot.... drinking water is available for free but one have to ask for it..... its affordable...... one cannot have a cosy atmosphere or a silent atmosphere since its generally over crowded....\n\nI recommend you to taste ice creams...",
+                "time": 1552937606
+              },
+              {
+                "author_name": "Sahil Agrawal",
+                "author_url": "https://www.google.com/maps/contrib/114890936059341286056/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-ZN7G9Gaft90/AAAAAAAAAAI/AAAAAAAACeQ/j5zfc2hjfFc/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+                "rating": 2,
+                "relative_time_description": "in the last week",
+                "text": "I would prefer KFC for burgers. But if u want something lite than you ho for it.\nThe place is always crowded. Try the mcflurry and allu ticki",
+                "time": 1554859573
+              }
+            ]
+          },
+          "status": "OK"
+        }
+      },
+      "Mohan Continental": {
+        "type": "eat",
+        "description": [
+          "provides",
+          "excellent",
+          "food",
+          "cost",
+          "sky",
+          "high"
+        ],
+        "coordinates": [
+          30.334377000000003,
+          76.386791
+        ],
+        "website": "nan",
+        "place_id": "ChIJO3Fsa_weEDkRtgbKjDfSR_U",
+        "reviews": null
+      },
+      "Sadhu Ram di Kachori": {
+        "type": "eat",
+        "description": [
+          "oldest",
+          "town",
+          "fresh",
+          "every",
+          "day",
+          "best",
+          "pure",
+          "get"
+        ],
+        "coordinates": [
+          30.33105,
+          76.40275600000001
+        ],
+        "website": "nan",
+        "place_id": "ChIJo7wulvAoEDkRgm8E06YNmZo",
+        "reviews": null
+      },
+      "Sahni's": {
+        "type": "eat",
+        "description": [
+          "good",
+          "budget",
+          "food",
+          "serious",
+          "competition",
+          "gopal",
+          "sweets",
+          "near",
+          "22",
+          "flyover"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJy_IGFrkoEDkR9LCifIQ66Hg",
+        "reviews": null
+      },
+      "Subway": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          30.347571999999996,
+          76.440747
+        ],
+        "website": "nan",
+        "place_id": "ChIJ8-POppC7-IcRDtVnkkFpZ8M",
+        "reviews": {
+          "html_attributions": [],
+          "result": {
+            "price_level": 1,
+            "rating": 4.1,
+            "reviews": [
+              {
+                "author_name": "Marissa Zenda",
+                "author_url": "https://www.google.com/maps/contrib/108643508614156578943/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-p3pVREmBRCI/AAAAAAAAAAI/AAAAAAAAE50/oteN9J4I0_4/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg",
+                "rating": 2,
+                "relative_time_description": "a month ago",
+                "text": "The sandwich was a mess when i opened it up. Sauce was spilling out.",
+                "time": 1550450800
+              },
+              {
+                "author_name": "Gary Thorgerson",
+                "author_url": "https://www.google.com/maps/contrib/100280926783515088830/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-XhZz53AXrSc/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reROIRC9s6ZJPmaVNpREQArkRKhOQ/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "4 months ago",
+                "text": "Good food, good service, good price",
+                "time": 1544530888
+              },
+              {
+                "author_name": "Jason Goodland",
+                "author_url": "https://www.google.com/maps/contrib/117403313518079579333/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-QuBkjglvsuQ/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdfH00-RVPRiAvI48uRpEzwBowIrg/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "a year ago",
+                "text": "New management has done an amazing job taking this location to the next level.  Service is top notch and the food quality has improved exponentially!  Speed of service is noticably faster.  Definitely will be having more quick lunches here in the near future!",
+                "time": 1523514627
+              },
+              {
+                "author_name": "B. Duca",
+                "author_url": "https://www.google.com/maps/contrib/117941637422934963715/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh5.googleusercontent.com/-KONHNZRN5pU/AAAAAAAAAAI/AAAAAAAAAYE/lF7hMxxD8P4/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "8 months ago",
+                "text": "Agree! Food quality has gotten so much better since the old owner sold it.",
+                "time": 1532998805
+              },
+              {
+                "author_name": "Tiffany Affolter",
+                "author_url": "https://www.google.com/maps/contrib/110809993850101490273/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh4.googleusercontent.com/-ht2JppZ6c7E/AAAAAAAAAAI/AAAAAAAAEik/07R00lzRk-Y/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "5 months ago",
+                "text": "Very friendly/polite staff!",
+                "time": 1540854739
+              }
+            ]
+          },
+          "status": "OK"
+        }
+      },
+      "Jaggi Sweets": {
+        "type": "drink",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          30.326567999999998,
+          76.39914499999999
+        ],
+        "website": "nan",
+        "place_id": "ChIJKfRNL_soEDkRDAchGnVB2lY",
+        "reviews": null
+      },
+      "Manu lassi": {
+        "type": "drink",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          30.35493,
+          76.393825
+        ],
+        "website": "nan",
+        "place_id": "ChIJmWXpv50oEDkRLwmBxXJPoQQ",
+        "reviews": null
+      },
+      "Sahni Sweets": {
+        "type": "drink",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJy_IGFrkoEDkR9LCifIQ66Hg",
+        "reviews": null
+      },
+      "The Baradari Palace": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          30.337204999999997,
+          76.389744
+        ],
+        "website": "http://the-baradari-palace.neemranahotels.com/",
+        "place_id": "ChIJq6qqzusoEDkR3GcyPSpm_fE",
+        "reviews": null
+      },
+      "Green's Hotel": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          30.337394,
+          76.394699
+        ],
+        "website": "nan",
+        "place_id": "ChIJq9suWuwoEDkRcUE_uNRLl5g",
+        "reviews": null
+      },
+      "Hotel Eqbal Inn": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          30.332375,
+          76.418152
+        ],
+        "website": "http://www.hoteleqbal.com/",
+        "place_id": "ChIJBzcKZVooEDkRyO8EoXTQo_A",
+        "reviews": null
+      },
+      "Hotel Flyover Classic": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          30.344265999999998,
+          76.39914300000001
+        ],
+        "website": "http://hotelflyover.com/",
+        "place_id": "ChIJ0eFIg40oEDkRdRvwu9RVH2Q",
+        "reviews": null
+      },
+      "Hotel Garden Resorts": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          30.338231,
+          76.38629499999999
+        ],
+        "website": "nan",
+        "place_id": "ChIJ979rIsAoEDkRpiXzMoSFeKw",
+        "reviews": null
+      },
+      "Hotel Grand Park": {
+        "type": "sleep",
+        "description": [
+          "closed"
+        ],
+        "coordinates": [
+          30.345810999999998,
+          76.377082
+        ],
+        "website": "nan",
+        "place_id": "ChIJ3QvANQQWrjsR8oPmM87kq5E",
+        "reviews": null
+      },
+      "Hotel Narain Continental": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://hotelnarain.com/",
+        "place_id": "ChIJNxq7K-8oEDkRLTiLVtF_HcY",
+        "reviews": null
+      },
+      "Hotel Prince Palace": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          30.34034,
+          76.401303
+        ],
+        "website": "nan",
+        "place_id": "ChIJYTNcz_IoEDkRXu-1Xht7y2w",
+        "reviews": null
+      }
+    }
+  }
+}

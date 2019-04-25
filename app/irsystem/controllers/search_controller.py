@@ -15,7 +15,6 @@ doc_norms = np.load(tfidf_files+"doc_norms.npy").item()
 json_data = data_files + "data_jsons/"
 urban_rural = np.load(data_files+"urban_cities.npy").item()
 # Mapping of cities to their countries
-city_country_dict = np.load(tfidf_files+"city_country_dict.npy").item()
 climate = np.load(data_files+"city_climates.npy").item()
 	
 project_name = "Kanoe"
@@ -40,7 +39,6 @@ def search():
 		activities = ""
 	urban = request.args.get('urban')
 	if urban == None:
-		print("here")
 		urban = 1
 	urban = int(urban)
 	numLocs = request.args.get('numberLocs')
@@ -67,18 +65,9 @@ def search():
 			count = count + 1
 			#city_dict = {}
 			data_dict = {}
-			
-			# Get country data
-			country = str(city_country_dict.get(city))
-			if str(country) == 'nan' or str(country) == "None":
-				country = ' (Country Unknown)'
-			else:
-				country = ",  " + country
-			data_dict['country'] = country
-			
+
 			# Get attraction information
 			city_info = organize_city_info(city, json_data, advanced_query, 3)
-			city_info['country'] = country
 			city_info['city'] = city
 			city_info['score'] = score
 			
@@ -97,7 +86,6 @@ def get_climate(city):
 		return None
 		
 def is_urban(city):
-	
 	urban = urban_rural.get(city)
 	if urban is not None:
 		return urban
@@ -105,32 +93,17 @@ def is_urban(city):
 		return 1
 	
 def get_city_info(city, folder):
-	alphabet = ['A', 'B', 'C','D','E','F','G','H','I','J','K','L','M','N',
-						'O','P','Q','R','S','T','U','V','W','X','Y','Z']
-	firstletter = city[0]
-	if firstletter <= alphabet[0]:
-		filename = 'A.json'
-	else:
-		for i,letter in enumerate(alphabet[1:]):
-			if firstletter > alphabet[i] and firstletter <= letter:
-				filename = alphabet[i+1]+'.json'
-	if firstletter > alphabet[-1]:
-		filename='Z.json'
-	#print(firstletter, filename)
-	
-	with open(folder+filename, 'r') as f:
+	with open(folder+str(city) + '.json', 'r') as f:
 		data = json.load(f)
 		return data[city]
 		
 def attraction_score(query, desc):
-	#print(query, '\n', desc)
 	score = 1
 	for term in desc:
 		if term in query.lower():
 			score += 1
 	score /= len(desc) + 1
 	return score
-	
 	
 def organize_city_info(city, folder, query, num_attrs):
 	data = get_city_info(city, folder)
@@ -140,6 +113,7 @@ def organize_city_info(city, folder, query, num_attrs):
 		num_atts_flag = True
 		
 	output_dict = {}
+	output_dict['country'] = data['country']
 	output_dict['attractions'] = []
 	attractions = data['attractions']
 	
@@ -187,7 +161,6 @@ def organize_city_info(city, folder, query, num_attrs):
 	# Append top eat, do, and drink to list
 	attractions[top_eat]['name'] = top_eat
 	attractions[top_do]['name'] = top_do
-	print(attractions[top_drink])
 	attractions[top_drink]['name'] = top_drink
 
 	output_dict['attractions'].append(attractions[top_eat])

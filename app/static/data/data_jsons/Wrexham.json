@@ -1,0 +1,884 @@
+{
+  "Wrexham": {
+    "size": 42,
+    "country": "United Kingdom",
+    "full_desc": [
+      "open",
+      "march",
+      "oct",
+      "sa",
+      "ws",
+      "thurs",
+      "july",
+      "aug",
+      "garden",
+      "11am",
+      "6pm",
+      "house",
+      "12noon",
+      "5pm",
+      "18th",
+      "century",
+      "stately",
+      "home",
+      "18th",
+      "century",
+      "walled",
+      "garden",
+      "8",
+      "child",
+      "4",
+      "family",
+      "20",
+      "garden",
+      "adult",
+      "5",
+      "child",
+      "2",
+      "50",
+      "family",
+      "12",
+      "events",
+      "held",
+      "throughout",
+      "year",
+      "adults",
+      "8",
+      "children",
+      "4",
+      "50",
+      "recently",
+      "completed",
+      "refurbishment",
+      "holds",
+      "events",
+      "throughout",
+      "year",
+      "including",
+      "events",
+      "famous",
+      "comedians",
+      "andy",
+      "parsons",
+      "russel",
+      "kane",
+      "al",
+      "murray",
+      "roy",
+      "chubby",
+      "brown",
+      "venue",
+      "also",
+      "plays",
+      "host",
+      "orchestras",
+      "choirs",
+      "pantomimes",
+      "live",
+      "music",
+      "talk",
+      "lectures",
+      "holds",
+      "range",
+      "events",
+      "including",
+      "conferences",
+      "seminars",
+      "theatrical",
+      "comedy",
+      "music",
+      "talk",
+      "lecture",
+      "largest",
+      "live",
+      "music",
+      "venue",
+      "wales",
+      "played",
+      "host",
+      "number",
+      "events",
+      "years",
+      "including",
+      "lostprophets",
+      "magic",
+      "numbers",
+      "puddle",
+      "mudd",
+      "duffy",
+      "football",
+      "conference",
+      "play",
+      "home",
+      "games",
+      "town",
+      "racecourse",
+      "ground",
+      "play",
+      "co",
+      "operative",
+      "championship",
+      "one",
+      "next",
+      "season",
+      "play",
+      "home",
+      "games",
+      "town",
+      "racecourse",
+      "ground",
+      "thai",
+      "restaurant",
+      "though",
+      "rather",
+      "expensive",
+      "definitely",
+      "worth",
+      "italian",
+      "italian",
+      "brasserie",
+      "wine",
+      "bar",
+      "offers",
+      "fresh",
+      "seasonally",
+      "inspired",
+      "food",
+      "steak",
+      "house",
+      "popular",
+      "independent",
+      "sandwich",
+      "shop",
+      "located",
+      "town",
+      "community",
+      "owned",
+      "ran",
+      "pub",
+      "strong",
+      "presence",
+      "welsh",
+      "language",
+      "culture",
+      "live",
+      "music",
+      "every",
+      "weekend",
+      "various",
+      "events",
+      "week",
+      "food",
+      "also",
+      "served",
+      "lunch",
+      "times",
+      "evenings"
+    ],
+    "attractions": {
+      "St Giles' Church": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.wrexham.gov.uk/english/leisure_tourism/open_church_network/st_giles.htm",
+        "place_id": null,
+        "reviews": null
+      },
+      "Erddig Hall": {
+        "type": "see",
+        "description": [
+          "open",
+          "march",
+          "oct",
+          "sa",
+          "ws",
+          "thurs",
+          "july",
+          "aug",
+          "garden",
+          "11am",
+          "6pm",
+          "house",
+          "12noon",
+          "5pm",
+          "18th",
+          "century",
+          "stately",
+          "home",
+          "18th",
+          "century",
+          "walled",
+          "garden",
+          "8",
+          "child",
+          "4",
+          "family",
+          "20",
+          "garden",
+          "adult",
+          "5",
+          "child",
+          "2",
+          "50",
+          "family",
+          "12"
+        ],
+        "coordinates": [
+          "53.027302",
+          "-3.00296"
+        ],
+        "website": "http://www.nationaltrust.org.uk/erddig/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Oriel Wrexham(Arts Centre)": {
+        "type": "see",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.wrexham.gov.uk/english/community/arts_centre/arts_centre_home.htm",
+        "place_id": null,
+        "reviews": null
+      },
+      "Grove Park Theatre": {
+        "type": "see",
+        "description": [
+          "events",
+          "held",
+          "throughout",
+          "year",
+          "adults",
+          "8",
+          "children",
+          "4",
+          "50",
+          "recently",
+          "completed",
+          "refurbishment"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.groveparktheatre.co.uk/",
+        "place_id": null,
+        "reviews": null
+      },
+      "William Aston Hall": {
+        "type": "see",
+        "description": [
+          "holds",
+          "events",
+          "throughout",
+          "year",
+          "including",
+          "events",
+          "famous",
+          "comedians",
+          "andy",
+          "parsons",
+          "russel",
+          "kane",
+          "al",
+          "murray",
+          "roy",
+          "chubby",
+          "brown",
+          "venue",
+          "also",
+          "plays",
+          "host",
+          "orchestras",
+          "choirs",
+          "pantomimes",
+          "live",
+          "music",
+          "talk",
+          "lectures"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://glyndwr.ticketsolve.com/venues/25544392/shows",
+        "place_id": null,
+        "reviews": null
+      },
+      "Catrin Finch Centre": {
+        "type": "see",
+        "description": [
+          "holds",
+          "range",
+          "events",
+          "including",
+          "conferences",
+          "seminars",
+          "theatrical",
+          "comedy",
+          "music",
+          "talk",
+          "lecture"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://glyndwr.ticketsolve.com/venues/25544407/shows",
+        "place_id": null,
+        "reviews": null
+      },
+      "Central Station": {
+        "type": "see",
+        "description": [
+          "largest",
+          "live",
+          "music",
+          "venue",
+          "wales",
+          "played",
+          "host",
+          "number",
+          "events",
+          "years",
+          "including",
+          "lostprophets",
+          "magic",
+          "numbers",
+          "puddle",
+          "mudd",
+          "duffy"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.centralstationvenue.com/",
+        "place_id": "ChIJIcMXcJ8Sm0cRzDTXViXEp6s",
+        "reviews": null
+      },
+      "Wrexham FC": {
+        "type": "see",
+        "description": [
+          "football",
+          "conference",
+          "play",
+          "home",
+          "games",
+          "town",
+          "racecourse",
+          "ground"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.wrexhamafc.premiumtv.co.uk/page/Home/",
+        "place_id": null,
+        "reviews": null
+      },
+      "North Wales Crusaders": {
+        "type": "see",
+        "description": [
+          "play",
+          "co",
+          "operative",
+          "championship",
+          "one",
+          "next",
+          "season",
+          "play",
+          "home",
+          "games",
+          "town",
+          "racecourse",
+          "ground"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.crusadersrfl.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Motor Safari": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.motor-safari.co.uk/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Plas Power Adventure": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.plaspoweradventure.com/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Techniquest Glyndwr": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.tqg.org.uk/",
+        "place_id": null,
+        "reviews": null
+      },
+      "TenPin Bowling": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.tenpin.co.uk/home.stml",
+        "place_id": null,
+        "reviews": null
+      },
+      "North Wales Regional Tennis Centre": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.nwrtc.co.uk/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Clays Golf Course": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.claysgolf.co.uk/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Moss Valley Golf": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.mossvalleygolf.co.uk/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Wrexham Golf Club": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.wrexhamgolfclub.co.uk/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Queensway Leisure & Activity Centre": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.wrexham.gov.uk/english/leisure_tourism/queensway/queensway_index.htm {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Waterworld Leisure Centre": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.wrexham.gov.uk/english/leisure_tourism/waterworld/ {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Bellevue Park": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.wrexham.gov.uk/english/env_services/community_services/parks_pitches/bellevue_park.htm",
+        "place_id": null,
+        "reviews": null
+      },
+      "Acton Park": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.wrexham.gov.uk/english/env_services/community_services/parks_pitches/acton_park.htm",
+        "place_id": null,
+        "reviews": null
+      },
+      "Anise": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJZWVetItZkWsRDBR56a4aKSs",
+        "reviews": null
+      },
+      "Tava": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Khazana": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Jira": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Panahar": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJY_itJScG9YgReNlgxIdeVls",
+        "reviews": null
+      },
+      "Country Spice": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Black Peppers": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Eastern Sheraton": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Sleepy Panda": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Dao Siam": {
+        "type": "eat",
+        "description": [
+          "thai",
+          "restaurant",
+          "though",
+          "rather",
+          "expensive",
+          "definitely",
+          "worth"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Perelli's": {
+        "type": "eat",
+        "description": [
+          "italian"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "The Lemon Tree": {
+        "type": "eat",
+        "description": [
+          "italian"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ6ctF2z0OhEgRb1uEsLNi9tA",
+        "reviews": null
+      },
+      "Zaza": {
+        "type": "eat",
+        "description": [
+          "brasserie",
+          "wine",
+          "bar",
+          "offers",
+          "fresh",
+          "seasonally",
+          "inspired",
+          "food"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "Arnold's Bar & Grill": {
+        "type": "eat",
+        "description": [
+          "steak",
+          "house"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": null,
+        "reviews": null
+      },
+      "La Baguette": {
+        "type": "eat",
+        "description": [
+          "popular",
+          "independent",
+          "sandwich",
+          "shop",
+          "located",
+          "town"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJL5PC3ROBcUgRd8zCDyGZgNE",
+        "reviews": null
+      },
+      "Saith Seren": {
+        "type": "drink",
+        "description": [
+          "community",
+          "owned",
+          "ran",
+          "pub",
+          "strong",
+          "presence",
+          "welsh",
+          "language",
+          "culture",
+          "live",
+          "music",
+          "every",
+          "weekend",
+          "various",
+          "events",
+          "week",
+          "food",
+          "also",
+          "served",
+          "lunch",
+          "times",
+          "evenings"
+        ],
+        "coordinates": [
+          "53.04699",
+          "-2.99118"
+        ],
+        "website": "http://www.saithseren.co.uk {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Ramada Plaza Wrexham": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.qnhgroup.com/Page.php?pID=1001 {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Lemon Tree Hotel Wrexham": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.lemon-tree-hotel-wrexham.com/Home+page {{dead link|May 2016}}",
+        "place_id": null,
+        "reviews": null
+      },
+      "Grove Guest House": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.groveguesthotel.co.uk/",
+        "place_id": null,
+        "reviews": null
+      },
+      "Travelodge": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.travelodge.co.uk/hotels/info?hotelId=194",
+        "place_id": "ChIJ_Q5j3WjUiUgRbfXHWewL0XA",
+        "reviews": null
+      },
+      "Premier inn": {
+        "type": "sleep",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.premierinn.com/en/hotel/WREBEE/wrexham",
+        "place_id": null,
+        "reviews": null
+      }
+    }
+  }
+}

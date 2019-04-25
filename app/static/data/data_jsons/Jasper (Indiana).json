@@ -1,0 +1,867 @@
+{
+  "Jasper (Indiana)": {
+    "size": 46,
+    "country": NaN,
+    "full_desc": [
+      "huntingburg",
+      "event",
+      "center",
+      "downtown",
+      "jasper",
+      "jasper",
+      "9",
+      "holes",
+      "par",
+      "31",
+      "huntingburg",
+      "18",
+      "hole",
+      "par",
+      "70",
+      "semi",
+      "private",
+      "jasper",
+      "18",
+      "hole",
+      "par",
+      "71",
+      "jasper",
+      "18",
+      "holes",
+      "par",
+      "72",
+      "31",
+      "rooms",
+      "84",
+      "rooms",
+      "73",
+      "rooms",
+      "77",
+      "rooms",
+      "200",
+      "rooms",
+      "3",
+      "rooms",
+      "56",
+      "rooms",
+      "57",
+      "rooms",
+      "4",
+      "rooms",
+      "37",
+      "rooms",
+      "77",
+      "rooms",
+      "houseboats"
+    ],
+    "attractions": {
+      "Winter Antique Show": {
+        "type": "do",
+        "description": [
+          "huntingburg",
+          "event",
+          "center"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.huntingburgchamber.org",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Jasper Strassenfest": {
+        "type": "do",
+        "description": [
+          "downtown",
+          "jasper"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.jasperstrassenfest.org",
+        "place_id": "ChIJnyhK8E9ibogR-zOFLAFmX94",
+        "reviews": null
+      },
+      "Jasper O'Tannenbaum Days": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.jasperin.org",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Lighted Christmas Parade": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.huntingburgchamber.org",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Old Fashioned Christmas": {
+        "type": "do",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.huntingburgchamber.org",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Alvin C. Ruxer Municipal Golf Course": {
+        "type": "do",
+        "description": [
+          "jasper",
+          "9",
+          "holes",
+          "par",
+          "31"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJu7ThPDZibogRcCOSZy7Kapk",
+        "reviews": null
+      },
+      "Huntingburg Country Club": {
+        "type": "do",
+        "description": [
+          "huntingburg",
+          "18",
+          "hole",
+          "par",
+          "70",
+          "semi",
+          "private"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJyfXKXbdgbogRd73gU909ddY",
+        "reviews": null
+      },
+      "Buffalo Trace Golf Course": {
+        "type": "do",
+        "description": [
+          "jasper",
+          "18",
+          "hole",
+          "par",
+          "71"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJC-2Sn_dibogRs_gfxB5vc9I",
+        "reviews": null
+      },
+      "Sultan's Run Golf Club": {
+        "type": "do",
+        "description": [
+          "jasper",
+          "18",
+          "holes",
+          "par",
+          "72"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.sultansrun.com",
+        "place_id": "ChIJL8f1Nn5ibogR3i1DgdZR2kY",
+        "reviews": null
+      },
+      "Applebee's": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.applebees.com",
+        "place_id": "ChIJRX9WrJtjYIgRRmNSkF3Q1cg",
+        "reviews": {
+          "html_attributions": [],
+          "result": {
+            "price_level": 2,
+            "rating": 3.8,
+            "reviews": [
+              {
+                "author_name": "Bliss Masterson-Tyson",
+                "author_url": "https://www.google.com/maps/contrib/102863860841355551436/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh4.googleusercontent.com/-xUVeQUHpJ3E/AAAAAAAAAAI/AAAAAAAAFr8/KAq6-EkaWpI/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 3,
+                "relative_time_description": "a week ago",
+                "text": "Tried to order online and it wouldn't process so when I called 15 minutes later they said it was too late to place a phone order, I would have to come in to the restaurant.  I received good service at the restaurant but the steak was tough and had a lot to gristle in it. My ribs however were good as were the garlic mashed potatoes.",
+                "time": 1554521804
+              },
+              {
+                "author_name": "Southern Charmer",
+                "author_url": "https://www.google.com/maps/contrib/104937453948115550109/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-EoT5qOFbZqE/AAAAAAAAAAI/AAAAAAAACns/lor1xBpXigw/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "2 months ago",
+                "text": "Applebees is always a good choice with all the options available. What I love most is they have delicious low calorie options without sacrificing the quality or flavor. There are usually great drink specials as well. Don't forget the happy hour options either!",
+                "time": 1549988044
+              },
+              {
+                "author_name": "Ashley Center",
+                "author_url": "https://www.google.com/maps/contrib/117411322727554496444/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh5.googleusercontent.com/-dlCYeiNKVr8/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdV2GmJt-7-tr2M5d0silteHzPNJg/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 1,
+                "relative_time_description": "a month ago",
+                "text": "Normally don\u2019t have problems with Applebee\u2019s but this particular location did not impress or even fulfill its purpose. Stopped in after a day of travel and we were seated quickly and our food came out quickly but the boneless wings were completely uncooked on the inside. Manager finally came over and said he would take care of the meals but never came back to confirm it was taken care of or told the waitress it was taken care of. Employees were loud and yelling about shifts and schedules and using a table near ours as a break room table. It was very unprofessional and a disappointing evening.",
+                "time": 1550500769
+              },
+              {
+                "author_name": "Glenda Pinckard",
+                "author_url": "https://www.google.com/maps/contrib/105615316586172651436/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-Q5zJPe8K1sc/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rflilFPxernP_caKpw3SWhgIzCldw/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "3 months ago",
+                "text": "We went before the dinner on hour, it was basically empty except for the bar area. We had all you could ear of chicken tenders, ribs, Fry's, and slaw and my daughter had the chicken alfredo. Service was very good and very attentive to our needs. Very good place to eat. Just off the interstate so easy access.",
+                "time": 1546988546
+              },
+              {
+                "author_name": "Heath Joiner",
+                "author_url": "https://www.google.com/maps/contrib/117641841099755078841/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-tTyyaqpdvRU/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdiyPy-NvKqXBqiGfapKRldk4d9nQ/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+                "rating": 3,
+                "relative_time_description": "a month ago",
+                "text": "Food was ok, under seasoned. Had broccoli cheese soup (yummy) and bourbon chicken shrimp (less than yummy). Great service and fun atmosphere, though. I'll be back!",
+                "time": 1550295027
+              }
+            ]
+          },
+          "status": "OK"
+        }
+      },
+      "Azura Cafe' & Grill": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJozxrq0ZibogRsnFTz6yOOiU",
+        "reviews": null
+      },
+      "Brick Oven Pizza": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJMVEvpA9ibogRXSx_xxCtLkc",
+        "reviews": null
+      },
+      "Calumet Lake Pavilion": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJJYc_cvRibogRPnl4kDv5hbY",
+        "reviews": null
+      },
+      "China's Best": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ_2FQKt5ibogRMHL9HIm5mIU",
+        "reviews": null
+      },
+      "Corner Deli": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Denny's": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.dennys.com",
+        "place_id": "ChIJCan5n8e9xYARtthc0QvJX60",
+        "reviews": {
+          "html_attributions": [],
+          "result": {
+            "price_level": 1,
+            "rating": 4,
+            "reviews": [
+              {
+                "author_name": "Anurag Gupta",
+                "author_url": "https://www.google.com/maps/contrib/102201985923621668314/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-8f4xx00uz2Q/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdTFh3ccqdP0V7XVpbMMTr3tPzh8w/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "in the last week",
+                "text": "Went to this location while coming back from San Diego. It is located right in front of busy gas station. It\u2019s recently built so everything was new, nice and clean. Server was exceptionally helpful and food which we ordered was good. For sure, will stop by again whenever I am in that area or traveling to San Diego again. Next time I will click picture and upload it here.",
+                "time": 1554874298
+              },
+              {
+                "author_name": "Bondh20polo",
+                "author_url": "https://www.google.com/maps/contrib/106469216649593579277/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh5.googleusercontent.com/-3qi9deMU3Wk/AAAAAAAAAAI/AAAAAAAAADI/sC86h24P4NU/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "in the last week",
+                "text": "Great service.  Great food. Came at 500 a.m. so they were not busy",
+                "time": 1554585567
+              },
+              {
+                "author_name": "Wilber MelendezPacheco",
+                "author_url": "https://www.google.com/maps/contrib/108919721347303528363/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh3.googleusercontent.com/-SapG2jpCYeY/AAAAAAAAAAI/AAAAAAAAApw/p8Ux55kwsTI/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+                "rating": 3,
+                "relative_time_description": "a week ago",
+                "text": "Overall good, not great.\nCustomer service was lacking somewhat. Drink refills took longer than normal and so did ordering. Food tasted like it should.\nStaff interactions and layout of interior was nice.",
+                "time": 1554409829
+              },
+              {
+                "author_name": "Jacqueline Spencer",
+                "author_url": "https://www.google.com/maps/contrib/110614787069780252446/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-OShSzHOPhZg/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rd8qF7WdrmaQFavROOT1mtJ4Q37Yg/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 1,
+                "relative_time_description": "a month ago",
+                "text": "The breakfast was good but they serve coffee in dirty cups. It makes you wonder what else is dirty in their kitchen. We didn't leave a tip and will not go there again.",
+                "time": 1551720813
+              },
+              {
+                "author_name": "Linda Ball",
+                "author_url": "https://www.google.com/maps/contrib/104804873137202137698/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh4.googleusercontent.com/-tyd9myIvzwQ/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfe-RfuYk-Mu9eHlyuOGNNoeqfOuQ/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "in the last week",
+                "text": "The food was good along with great service. Enjoyable stop on our way back home to Vegas.",
+                "time": 1554900875
+              }
+            ]
+          },
+          "status": "OK"
+        }
+      },
+      "El Maguey": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJzTbn1OBibogR7aT3l4Pidgw",
+        "reviews": null
+      },
+      "Headquarters, Inc.": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJdxjww0VibogRWoleaAMW2r0",
+        "reviews": null
+      },
+      "Heichelbech's Restaurant & Bar": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Jasper Country Buffet": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ_2InTUBibogRcYz7K6X2uGY",
+        "reviews": null
+      },
+      "Jumbo Dragon Buffet": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJtUof_0ZibogRoz6prkohlAs",
+        "reviews": null
+      },
+      "JR's Bar & Restaurant": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJIRem6WC_QIYRT2IWaBeqsHI",
+        "reviews": null
+      },
+      "Late Nite's": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Los Cabos": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJafMyIaOLtocRHNwwZf0EOvs",
+        "reviews": null
+      },
+      "Mac-A-Doo's": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJM4NuMc1jbogR8iVPKA0de9g",
+        "reviews": null
+      },
+      "Mill House Restaurant": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJWdVGQ1libogR06yLPhixeZQ",
+        "reviews": null
+      },
+      "Pizza Hut": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.pizzahut.com",
+        "place_id": "ChIJky2trQx8FocR7DeC3obxxAI",
+        "reviews": {
+          "html_attributions": [],
+          "result": {
+            "price_level": 1,
+            "rating": 3.8,
+            "reviews": [
+              {
+                "author_name": "Ant Vision Production",
+                "author_url": "https://www.google.com/maps/contrib/107016442420268415858/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh5.googleusercontent.com/-Ns72b8LFxKg/AAAAAAAAAAI/AAAAAAAAE_g/bTyjVvomLwo/s128-c0x00000000-cc-rp-mo-ba5/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "2 months ago",
+                "text": "One of the best Pizza Huts in the area. First folks in so the buffet wasn\u2019t completely out yet. Though the food that was, was absolutely delicious & hot. Staff was friendly & on top of things. Restaurant was pretty clean & well organized.",
+                "time": 1549049411
+              },
+              {
+                "author_name": "Dee Wells",
+                "author_url": "https://www.google.com/maps/contrib/102887127556242791612/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh4.googleusercontent.com/-POwAdC-RTZQ/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfQ80HyLNQ-3Gvmg0c9N69D5WUEFA/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "3 weeks ago",
+                "text": "SO so ummy...and I love supporting young readers -- thanks, Hut! ...did I mention how very yummy the pizza was? Seriously. Good pizza \ud83e\udd70",
+                "time": 1553223197
+              },
+              {
+                "author_name": "Crystal Gilchrist",
+                "author_url": "https://www.google.com/maps/contrib/117430623163537749492/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-yVM3YgjXDZU/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfY6k1aAswDORETaI9dXi5zWMpZ_g/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "2 weeks ago",
+                "text": "Love their pizza! It's the best anywhere. The service at this one is amazing, too!",
+                "time": 1553692556
+              },
+              {
+                "author_name": "J T",
+                "author_url": "https://www.google.com/maps/contrib/109523823162218159679/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh3.googleusercontent.com/-aBompdT1kqQ/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rcn7Ttw4CI63gHYqnZTrXGM80v9wg/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "a week ago",
+                "text": "Food was good and so was the service. Waitress was great also!",
+                "time": 1554351550
+              },
+              {
+                "author_name": "Roxxie Rogers",
+                "author_url": "https://www.google.com/maps/contrib/101393995009945036221/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh5.googleusercontent.com/-6Ykh5jkk56I/AAAAAAAAAAI/AAAAAAAAA6o/-ECqPgAc7Go/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "a month ago",
+                "text": "Pizza hut has been always the best pizza and love the salads and sauces. Great services as well.",
+                "time": 1551523296
+              }
+            ]
+          },
+          "status": "OK"
+        }
+      },
+      "Pizza Shop": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJGQRxnUVibogR9FTviWwwdRk",
+        "reviews": null
+      },
+      "Schnitzelbank Restaurant": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.schnitzelbank.com",
+        "place_id": "ChIJ_2InTUBibogRcYz7K6X2uGY",
+        "reviews": null
+      },
+      "Shoney's": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJQwqrmhRaZ4gR1yrD1xFgod4",
+        "reviews": null
+      },
+      "Snap's Steakhouse": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ2ZuAZ1pibogRzXFcbdwhLjU",
+        "reviews": null
+      },
+      "Sultan's Run Deli": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJL8f1Nn5ibogR3i1DgdZR2kY",
+        "reviews": null
+      },
+      "Tony's Italian Bistro": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJeUszDZNgbogRu_AO3KvIDS0",
+        "reviews": null
+      },
+      "Yaggi's Restaurant & Bar": {
+        "type": "eat",
+        "description": [
+          "nan"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJzezxRZhLW4YRX6uB6IGcoSs",
+        "reviews": null
+      },
+      "Camelot Inn": {
+        "type": "sleep",
+        "description": [
+          "31",
+          "rooms"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJdbxiofZibogRuiZzCQVrao8",
+        "reviews": null
+      },
+      "Days Inn": {
+        "type": "sleep",
+        "description": [
+          "84",
+          "rooms"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.daysinn.com",
+        "place_id": "ChIJE9_nTBR8FocRmi36g94O5sk",
+        "reviews": null
+      },
+      "Hampton Inn": {
+        "type": "sleep",
+        "description": [
+          "73",
+          "rooms"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.hamptoninn.com",
+        "place_id": "ChIJ9wrGXyeQVoYR8nTI_BnXndY",
+        "reviews": null
+      },
+      "Holiday Inn Express Hotel & Suites": {
+        "type": "sleep",
+        "description": [
+          "77",
+          "rooms"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.hiexpress.com/jasperin",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Jasper Inn & Convention Center": {
+        "type": "sleep",
+        "description": [
+          "200",
+          "rooms"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.jasperinncc.com",
+        "place_id": "ChIJZSzWuXIrg1MRjsFKbxHK3ac",
+        "reviews": null
+      },
+      "Powers Inn Bed & Breakfast": {
+        "type": "sleep",
+        "description": [
+          "3",
+          "rooms"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ40Vsx09ibogRfnRsn9HkNQg",
+        "reviews": null
+      },
+      "Super 8 Motel": {
+        "type": "sleep",
+        "description": [
+          "56",
+          "rooms"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.super8.com/",
+        "place_id": "ChIJ-fdiOC45xIkRWgImRAlSGz8",
+        "reviews": null
+      },
+      "Comfort Inn": {
+        "type": "sleep",
+        "description": [
+          "57",
+          "rooms"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.comfortinnferdinand.com",
+        "place_id": "ChIJKXFH0xKNVoYRl_jnrPpNhHI",
+        "reviews": null
+      },
+      "Harvest Moon Bed & Breakfast": {
+        "type": "sleep",
+        "description": [
+          "4",
+          "rooms"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.harvestmoonbedandbreakfast.com",
+        "place_id": "not found",
+        "reviews": null
+      },
+      "Kordes Center": {
+        "type": "sleep",
+        "description": [
+          "37",
+          "rooms"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "nan",
+        "place_id": "ChIJ1RC95aVjbogRxNQUYyrW2QA",
+        "reviews": null
+      },
+      "Quality Inn": {
+        "type": "sleep",
+        "description": [
+          "77",
+          "rooms"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.qualityinn.com/hotel-huntingburg-indiana-IN177",
+        "place_id": "ChIJD7qfOppQ4IYRSCkN9DKFacI",
+        "reviews": null
+      },
+      "Hoosier Hills Marina": {
+        "type": "sleep",
+        "description": [
+          "houseboats"
+        ],
+        "coordinates": [
+          NaN,
+          NaN
+        ],
+        "website": "http://www.hoosierhillsmarina.com",
+        "place_id": "ChIJmxlhiVaQbogR1mMUFod2KzI",
+        "reviews": null
+      }
+    }
+  }
+}
