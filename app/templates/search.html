@@ -13,104 +13,102 @@
             <p>Student Name: ({{ netid }})</p>
         </div>
 		
-		<div class = "container">
-        <form class="form-inline global-search">
-            <h1 style="font-size: 55px; color: #4285F4">
-                Kanoe
-            </h1>
-            
-            <br><br>
-            
-            <div class="form-group">
-                <input id="input" type="text" name="search" class="form-control" placeholder="Your ideal trip" autocomplete = "">
-            </div><br><br><br>
-			
-			<button type = "button" class = "btn btn-info" data-toggle="collapse" data-target="#advsearch" aria-expanded="false" aria-controls="collapseExample">Advanced Search </button>
-			<br>
-			<div id = "advsearch" class = "collapse form-group" aria-expanded = "false" style = "height: 0px"><br>
-				<br><br>
-				<select id = "input2" name = "price" class = "form-control">
-					<option value = "" selected = "selected" hidden="hidden">Price Range</option>
-					<option value = "$">$</option>
-					<option value = "$$">$$</option>
-					<option value = "$$$">$$$</option>
-				</select><br><br>
-				<select id = "input3" name = "group" class = "form-control">
-					<option value = "" selected = "selected" hidden="hidden">Trip style</option>
-					<option value = "individual">Individual</option>
-					<option value = "family">Family</option>
-					<option value = "friends">Friends</option>
-					<option value = "individual">Romance</option>
-				</select><br><br>
-				<select id = "input4" name = "climate" class = "form-control">
-					<option value = "" selected = "selected" hidden="hidden">Climate</option>
-					<option value = "Arid">Arid</option>
-					<option value = "Cold (continental)">Cold</option>
-					<option value = "Polar">Polar</option>
-					<option value = "Warm summer">Warm summer</option>
-					<option value = "Temperate">Temperate</option>
-					<option value = "Tropical">Tropical</option>
-				</select><br><br>
-				<div class = "form-group">
-					Rural
-					<input type = "range" min = "0" max = "2" value = "1" name = "urban" class = "form-control" id = "urbanrange">
-					Urban
-				</div>
-				<br><br>
-				<input type = "text" id = "input2" name = "currentloc" class = "form-control" placeholder = "Your current location">
-				<br><br>
-				<input type = "number" name = "numberLocs" class = "form-control" min = "1" max = "12" placeholder = "Number of desired recommendations">
-			</div><br><br>
-            <button type="submit" class="btn btn-info"> Go! </button>
-        </form>		
-		<img class = "top img-responsive" alt = "Fisherman" src="/static/boat-canoe-fishermen.jpg">
-        <form class= "text-center">
-        {% if data %}
-			<div class = "row">
-				<div class = "col-md-12 center">
-					<h2 class = "display-3">{{output_message}}</h2>
-					<h3 class = "display-4">We found:</h2></br>
-				</div>
-			</div>
-			<div class = "row row-no-gutters">
-			{% for d in data %}  
-				<div class = "col-md-6 col-sm-6 col-xs-12" >
-					<div id = "card{{loop.index}}" class = "card">
-						<div class = "card-header">
-							{{d['city']}}
-							{{d['country']}}<br>
-							Similarity: {{d['score']}}
-						</div>
-						<div class = "container-fluid">
-							<div class = "row row-no-gutters">
-								{% for place in d['attractions'] %}
-									{{place['type']}}:  {{place['name']}}
-									{{place['reviews']['rating']}} 
-									<button type = "button" class = "btn btn-info" data-toggle="collapse" data-target= "#reviews{{place['name'][-3:]}}" aria-expanded="false" aria-controls="collapseExample">View Reviews</button>
-									<div id = "reviews{{place['name'][-3:]}}" class = "collapse" aria-expanded = "false" style = "height: 0px">
-										{% for review in place['reviews']['reviews'] %}
-											{{review['rating']}} stars:
-											{{review['text']}}<br>
-										{% endfor %}	
-									</div><br>
-									{% if place['website'] != 'nan': %}
-										<a href = {{place['website']}}>{{place['website']}}</a><br>
-									{% else %}
-										<a href = "http://www.google.com/search?q={{place['name']}}">Search for this place</a><br>
-									{% endif %}
-								{% endfor %}
-								</div>
-							
-						</div>
-						
-					</div>
+		<div class = "container-fluid">
+		<div class = "row">
+			<div class = "col-lg-3 col-md-4 col-sm-5 col-xs-12" id = "search-pane">
+				<h1 style="font-size: 55px; color: #4285F4" class = "text-center">
+						Kanoe
+				</h1>
+				<form class="form-inline global-search" id = "search-main">
+
+					<br><br>
 					
-				</div>
-            {% endfor %}
-			
+					<div class = "global-search" >
+						<input id="input" type="text" name="search" class="form-control" placeholder="Your ideal trip" autocomplete = "" id = "basic-search">
+					</div><br><br><br>
+					
+					<button type = "button" class = "btn btn-info form-control" data-toggle="collapse" data-target="#advsearch" aria-expanded="false" aria-controls="collapseExample">Advanced Search </button>
+					<br>
+					<div id = "advsearch" class = "collapse" aria-expanded = "false" style = "height: 0px"><br>
+						<br><br>
+						<select id = "input2" name = "price" class = "form-control">
+							<option value = "" selected = "selected" hidden="hidden">Price Range</option>
+							<option value = "$">$</option>
+							<option value = "$$">$$</option>
+							<option value = "$$$">$$$</option>
+						</select><br><br>
+						<select id = "input3" name = "group" class = "form-control">
+							<option value = "" selected = "selected" hidden="hidden">Trip style</option>
+							<option value = "individual">Individual</option>
+							<option value = "family">Family</option>
+							<option value = "friends">Friends</option>
+							<option value = "individual">Romance</option>
+						</select><br><br>
+						<select id = "input4" name = "climate" class = "form-control">
+							<option value = "" selected = "selected" hidden="hidden">Climate</option>
+							<option value = "Arid">Arid</option>
+							<option value = "Cold (continental)">Cold</option>
+							<option value = "Polar">Polar</option>
+							<option value = "Warm summer">Warm summer</option>
+							<option value = "Temperate">Temperate</option>
+							<option value = "Tropical">Tropical</option>
+						</select><br><br>
+						<div class = "form-group">
+							Rural
+							<input type = "range" min = "0" max = "2" value = "1" name = "urban" class = "form-control" id = "urbanrange">
+							Urban
+						</div>
+						<br><br>
+						<input type = "text" id = "input2" name = "currentloc" class = "form-control" placeholder = "Your current location">
+						<br><br>
+						<input type = "number" name = "numberLocs" class = "form-control" min = "1" max = "12" placeholder = "Number of desired recommendations">
+					</div><br><br>
+					<button type="submit" class="btn btn-info"> Go! </button>
+				</form>	
 			</div>
-        {% endif %}
-        </form>
+			<div class = "col-lg-9 col-md-8 col-sm-7 col-xs-12 h-100" id = "results-pane">
+			<img class = "top img-responsive" alt = "Fisherman" src="/static/boat-canoe-fishermen.jpg">
+			<form id = "results-main">
+			{% if data %}
+				{% for d in data %}  
+					
+						<div id = "card{{loop.index}}" class = "card row">
+							<div class = "card-header">
+								{{d['city']}}
+								{{d['country']}}<br>
+								Similarity: {{d['score']}}
+							</div>
+							<div class = "container-fluid card-body">
+								<div class = "row row-no-gutters">
+									{% for place in d['attractions'] %}
+										{{place['type']}}:  {{place['name']}}
+										{{place['reviews']['rating']}} 
+										<button type = "button" class = "btn btn-info" data-toggle="collapse" data-target= "#reviews{{place['name'][-3:]}}" aria-expanded="false" aria-controls="collapseExample">View Reviews</button>
+										<div id = "reviews{{place['name'][-3:]}}" class = "collapse" aria-expanded = "false" style = "height: 0px">
+											{% for review in place['reviews']['reviews'] %}
+												{{review['rating']}} stars:
+												{{review['text']}}<br>
+											{% endfor %}	
+										</div><br>
+										{% if place['website'] != 'nan': %}
+											<a href = {{place['website']}}>{{place['website']}}</a><br>
+										{% else %}
+											<a href = "http://www.google.com/search?q={{place['name']}}">Search for this place</a><br>
+										{% endif %}
+									{% endfor %}
+									</div>
+								
+							</div>
+							
+						
+						
+						</div>
+				{% endfor %}
+
+			{% endif %}
+			</form>
+			</div>
+		</div>
 		</div>
 
 		
