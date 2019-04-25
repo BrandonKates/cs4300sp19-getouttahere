@@ -15,7 +15,6 @@ doc_norms = np.load(tfidf_files+"doc_norms.npy").item()
 json_data = data_files + "data_jsons/"
 urban_rural = np.load(data_files+"urban_cities.npy").item()
 # Mapping of cities to their countries
-city_country_dict = np.load(tfidf_files+"city_country_dict.npy").item()
 climate = np.load(data_files+"city_climates.npy").item()
 	
 project_name = "Kanoe"
@@ -66,15 +65,7 @@ def search():
 			count = count + 1
 			#city_dict = {}
 			data_dict = {}
-			
-			# Get country data
-			country = str(city_country_dict.get(city))
-			if str(country) == 'nan' or str(country) == "None":
-				country = ' (Country Unknown)'
-			else:
-				country = ",  " + country
-			data_dict['country'] = country
-			
+
 			# Get attraction information
 			city_info = organize_city_info(city, json_data, advanced_query, 3)
 			city_info['city'] = city
@@ -95,7 +86,6 @@ def get_climate(city):
 		return None
 		
 def is_urban(city):
-	
 	urban = urban_rural.get(city)
 	if urban is not None:
 		return urban
@@ -114,14 +104,12 @@ def get_city_info(city, folder):
 				filename = alphabet[i+1]+'.json'
 	if firstletter > alphabet[-1]:
 		filename='Z.json'
-	#print(firstletter, filename)
 	
 	with open(folder+filename, 'r') as f:
 		data = json.load(f)
 		return data[city]
 		
 def attraction_score(query, desc):
-	#print(query, '\n', desc)
 	score = 1
 	for term in desc:
 		if term in query.lower():
@@ -132,7 +120,6 @@ def attraction_score(query, desc):
 	
 def organize_city_info(city, folder, query, num_attrs):
 	data = get_city_info(city, folder)
-	#print(data.keys())
 	num_atts_flag = False
 	if int(data['size']) < num_attrs:
 		num_attrs = data['size']
