@@ -45,21 +45,26 @@ def search():
 	
 	advanced_query = query + " " + price + " " + group + " " + climate 
 	
+	# What % of the score to deduct for not meeting certain input specs
+	urban_weight = 0.2
+	climate_weight = 0.5
+	
 	if not advanced_query:
 		data = []
 		output_message = ''
 	else:
 		results = index_search(advanced_query, inv_idx, idf, doc_norms)
 		data = []
-		count = 0
-		for city, score in results:
-			# Skip if not rural/urban as user specified
+		for i, (city, score) in enumerate(results):
+			# Decrease score if not rural/urban as user specified
 			if (urban==0 and is_urban(city)==1) or (urban==2 and is_urban(city)==0):
-				continue
-			# Skip if incorrect climate
+				score *= (1-urban_weight)
+			# Decrease score if incorrect climate
 			if climate != "" and climate != get_climate(city) and get_climate(city) is not None:
-				continue
-			count = count + 1
+				score *= (1-climate_weight)
+			results[i] = (city, score)
+			
+		for city, score in results:
 			#city_dict = {}
 			data_dict = {}
 
