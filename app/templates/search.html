@@ -98,6 +98,12 @@
 												{{review['text']}}<br>
 											{% endfor %}	
 										</div><br>
+										{% if place['matches'] != []: %}
+											Because you searched for:
+											{% for word in place['matches']%}
+												{{word }}
+											{% endfor %}
+										{% endif %} <br>
 										{% if place['website'] != 'nan': %}
 											<a href = {{place['website']}}>{{place['website']}}</a><br>
 										{% else %}
