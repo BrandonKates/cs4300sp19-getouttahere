@@ -93,7 +93,7 @@
 										<div class = "col-sm-4 col-xs-12">
 											<div class =  "attraction-info">
 											<div class = "text-capitalize text-center">{{place['type']}}</div><br>
-											{{place['name']}} <br>
+											{{place['name'].title()}} <br>
 											{% if place['reviews']['rating'] != null %}
 												Average Rating: {{place['reviews']['rating']}}/5<br>
 											{% endif %}
