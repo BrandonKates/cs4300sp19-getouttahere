@@ -93,8 +93,10 @@
 										<div class = "col-sm-4 col-xs-12">
 											<div class =  "attraction-info">
 											<div class = "text-capitalize text-center">{{place['type']}}</div><br>
-											{{place['name']}}
-											{{place['reviews']['rating']}}<br>
+											{{place['name']}} <br>
+											{% if place['reviews']['rating'] != null %}
+												Average Rating: {{place['reviews']['rating']}}/5<br>
+											{% endif %}
 											<button type = "button" class = "btn btn-info" data-toggle="collapse" data-target= "#reviews{{place['name'][-3:]}}" aria-expanded="false" aria-controls="collapseExample">View Reviews</button>
 											<div id = "reviews{{place['name'][-3:]}}" class = "collapse" aria-expanded = "false" style = "height: 0px">
 												{% for review in place['reviews']['reviews'] %}
