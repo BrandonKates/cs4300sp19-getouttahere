@@ -2,6 +2,8 @@ from . import *
 from app.irsystem.models.helpers import *
 from app.irsystem.models.helpers import NumpyEncoder as NumpyEncoder
 from nltk.tokenize import RegexpTokenizer
+from nltk.tokenize import word_tokenize
+from nltk.stem import PorterStemmer
 import numpy as np
 import os 
 import requests
@@ -43,7 +45,14 @@ def search():
 		numLocs = 4
 	numLocs = int(numLocs)
 	
-	advanced_query = query + " " + price + " " + group + " " + climate 
+	# Stem query words:
+	ps = PorterStemmer()
+	stems = ''
+
+	for term in query.lower().split():
+		stems += str(ps.stem(term) + " ")
+	
+	advanced_query = query + " " + stems + " " + price + " " + group + " " + climate 
 	
 	# What % of the score to deduct for not meeting certain input specs
 	urban_weight = 0.2
@@ -113,7 +122,6 @@ def organize_city_info(city, folder, query, num_attrs):
 	if int(data['size']) < num_attrs:
 		num_attrs = data['size']
 		num_atts_flag = True
-	print("LOOK HERE", num_attrs)
 	output_dict = {}
 	output_dict['country'] = data['country']
 	if output_dict['country'] != output_dict['country']:	#check if nan
@@ -139,7 +147,7 @@ def organize_city_info(city, folder, query, num_attrs):
 		desc = attractions[name]['description']
 		matches = get_matching_terms(query, desc)
 		attractions[name]['matches'] = matches
-		
+		#attractions[name]['matches'] = (desc, matches)
 		output_dict['attractions'].append(attractions[name])
 	
 	api_key = "AIzaSyCJiRPAPsSLaY46PvyNxzISQMXFZx6h-g8"
@@ -159,7 +167,6 @@ def get_matching_terms(query, desc):
 			if q not in matches_dict:
 				matches_dict[q] = 0
 			matches_dict[q] += 1
-	
 	# Make into tuple list to sort
 	matches_scores_list = [(key, matches_dict[key]) for key in matches_dict]
 	sorted_tuples = sorted(matches_scores_list, key=lambda x:x[1], reverse=True)
