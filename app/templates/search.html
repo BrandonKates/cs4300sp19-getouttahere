@@ -16,17 +16,18 @@
 		<script> $(function(){var tags = ["kayaking", "skiing"]; $( "#simpsearch" ).autocomplete({source: tags});});</script>
 	</head>
     <body>
-        <div class="topcorner">
-            <p>Project Name: {{ name }}</p>
-            <p>Student Name: ({{ netid }})</p>
-        </div>
-		
+        		
 		<div class = "container-fluid">
-		<div class = "row">
-			<div class = "col-lg-3 col-md-4 col-sm-5 col-xs-12" id = "search-pane">
+		<div class = "row" id = "header">
+			<div class = "col-md-4 col-lg-3 col-xs-12">
 				<h1 style="font-size: 55px; color: #4285F4" class = "text-center">
-					Kanoe
+						Kanoe
 				</h1>
+			</div>
+			
+		</div>
+		<div class = "row">
+			<div class = "col-lg-3 col-md-4 col-xs-12" id = "search-pane">
 				<form class="form-inline global-search" id = "search-main">
 
 					<br><br>
@@ -74,8 +75,8 @@
 					<button type="submit" class="btn btn-info"> Go! </button>
 				</form>	
 			</div>
-			<div class = "col-lg-9 col-md-8 col-sm-7 col-xs-12 h-100" id = "results-pane">
-			<img class = "top img-responsive" alt = "Fisherman" src="/static/boat-canoe-fishermen.jpg">
+			<div class = "col-lg-9 col-md-8 col-xs-12 h-100" id = "results-pane">
+			<img class = "image img-responsive" alt = "Fisherman" src="/static/boat-canoe-fishermen.jpg">
 			<form id = "results-main">
 			{% if data %}
 				{% for d in data %}  
@@ -113,8 +114,6 @@
 									</div>
 								
 							</div>
-							
-						
 						
 						</div>
 				{% endfor %}
@@ -123,6 +122,10 @@
 			</form>
 			</div>
 		</div>
+		</div>
+		<div id = "footer" class = "row">
+			<div class = "col-md-4">Project Name: {{ name }}</div>
+			<div class = "col-md-8">Student Name: ({{ netid }})</div>
 		</div>
 
 		
