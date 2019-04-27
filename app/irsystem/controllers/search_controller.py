@@ -113,7 +113,7 @@ def organize_city_info(city, folder, query, num_attrs):
 	if int(data['size']) < num_attrs:
 		num_attrs = data['size']
 		num_atts_flag = True
-		
+	print("LOOK HERE", num_attrs)
 	output_dict = {}
 	output_dict['country'] = data['country']
 	if output_dict['country'] != output_dict['country']:	#check if nan
