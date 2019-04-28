@@ -92,8 +92,9 @@
 					{% set outer_loop = loop %}
 						<div id = "card{{loop.index}}" class = "card row">
 							<div class = "card-header">
-								{{d['city']}}, {{d['country']}}<br><br>
-								
+								{{d['city']}}, {{d['country']}}
+								<button class = "btn btn-info similar-cities">Find Similar Cities</button>
+
 							</div>
 							<div class = "container-fluid card-body">
 								<div class = "row row-no-gutters">
@@ -157,9 +158,7 @@
 										</div>
 									{% endfor %}
 								</div>
-								
 							</div>
-						
 						</div>
 				{% endfor %}
 
@@ -173,6 +172,13 @@
 			<div class = "col-md-4">Project Name: {{ name }}</div>
 			<div class = "col-md-8">Student Name: ({{ netid }})</div>
 		</div>
+		<script>
+		$('simpsearch').tagsinput({
+		typeahead: {
+			source: ['vacations', 'testing', 'this', 'thing']
+		}
+		})
+		</script>
 
 		
     </body>
