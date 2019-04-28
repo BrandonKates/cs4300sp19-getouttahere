@@ -32,9 +32,9 @@ def search():
 	price = request.args.get('price')
 	if price == None:
 		price = ""
-	group = request.args.get('group')
-	if group == None:
-		group = ""
+	purpose = request.args.get('purpose')
+	if purpose == None:
+		purpose = ""
 	climate = request.args.get('climate')
 	if climate == None:
 		climate = ""
@@ -54,7 +54,7 @@ def search():
 	for term in query.lower().split():
 		stems += str(ps.stem(term) + " ")
 	
-	advanced_query = query + " " + stems + " " + group + " " + climate 
+	advanced_query = query + " " + stems + " " + purpose + " " + climate 
 	
 	# What % of the score to deduct for not meeting certain input specs
 	urban_weight = 0.2
@@ -85,7 +85,7 @@ def search():
 			data_dict = {}
 
 			# Get attraction information
-			city_info = organize_city_info(city, json_data, advanced_query, 3, price)
+			city_info = organize_city_info(city, json_data, advanced_query, 3, price, purpose)
 			city_info['city'] = city
 			city_info['score'] = score
 			
@@ -122,7 +122,7 @@ def attraction_score(query, desc):
 	score /= len(desc) + 1
 	return score
 	
-def organize_city_info(city, folder, query, num_attrs, price):
+def organize_city_info(city, folder, query, num_attrs, price, purpose):
 	data = get_city_info(city, folder)
 
 	num_atts_flag = False
