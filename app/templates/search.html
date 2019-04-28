@@ -40,7 +40,7 @@
 					<button type = "button" class = "btn btn-info form-control global-search" data-toggle="collapse" data-target="#advsearch" aria-expanded="false" aria-controls="collapseExample">Advanced Search </button>
 					<br>
 					<div id = "advsearch" class = "collapse" aria-expanded = "false" style = "height: 0px"><br>
-						<br>
+						
 						<select id = "input2" name = "price" class = "form-control">
 							<option value = "" selected = "selected" hidden="hidden">Price Range</option>
 							<option value = "$">$</option>
@@ -63,12 +63,14 @@
 							<option value = "Temperate">Temperate</option>
 							<option value = "Tropical">Tropical</option>
 						</select><br><br>
-						<div class = "form-group">
-							Rural
-							<input type = "range" min = "0" max = "2" value = "1" name = "urban" class = "form-control" id = "urbanrange">
-							Urban
+						
+						<div class = "form-inline">
+						Rural						
+						<input type = "range" min = "0" max = "2" value = "1" name = "urban" class = "form-control" id = "urbanrange">
+						Urban
 						</div>
-						<br><br>
+						
+						<br>
 						<input type = "text" id = "input2" name = "currentloc" class = "form-control" placeholder = "Your current location">
 						<br><br>
 						<input type = "number" name = "numberLocs" class = "form-control" min = "1" max = "12" placeholder = "Number of desired recommendations">
@@ -81,7 +83,7 @@
 			<form id = "results-main">
 			{% if data %}
 				{% for d in data %}  
-					
+					{% set outer_loop = loop %}
 						<div id = "card{{loop.index}}" class = "card row">
 							<div class = "card-header">
 								{{d['city']}}, {{d['country']}}<br><br>
@@ -90,31 +92,54 @@
 							<div class = "container-fluid card-body">
 								<div class = "row row-no-gutters">
 									{% for place in d['attractions'] %}
+										
 										<div class = "col-sm-4 col-xs-12">
 											<div class =  "attraction-info">
-											<div class = "text-capitalize text-center">{{place['type']}}</div><br>
+											<div class = "text-capitalize loc-heading">{{place['type']}}</div><br>
 											{{place['name'].title()}} <br>
 											{% if place['reviews']['rating'] != null %}
-												Average Rating: {{place['reviews']['rating']}}/5<br>
+												{% set rating = place['reviews']['rating']|round(1) %}
+												{% for _ in range(1,10)%}
+													{% if loop.index < rating %}
+														<img alt = "Star" class = "stars" src = "/static/icons8-star-filled-48.png">
+													{% endif%}
+												{% endfor %}
+												{% if rating - rating|round(0,'floor') != 0 %}
+													<img alt = "Star" class = "stars" src = "/static/icons8-star-half-48.png">
+												{% endif %}
+												
 											{% endif %}
-											<button type = "button" class = "btn btn-info" data-toggle="collapse" data-target= "#reviews{{place['name'][-3:]}}" aria-expanded="false" aria-controls="collapseExample">View Reviews</button>
-											<div id = "reviews{{place['name'][-3:]}}" class = "collapse" aria-expanded = "false" style = "height: 0px">
+											<button type = "button" class = "btn btn-info more-info" data-toggle="collapse" data-target= "#location-info{{outer_loop.index}}{{loop.index}}" aria-expanded="false" aria-controls="collapseExample">More info</button>
+											<br>
+											{% if place['website'] != 'nan': %}
+												<a href = {{place['website']}} class = "google-this btn btn-info">Website</a><br>
+											{% else %}
+												<a href = "http://www.google.com/search?q={{place['name']}}, {{d['city']}}" class = "google-this btn btn-info">Search for this place</a><br>
+											{% endif %}
+											</div>
+										</div>
+									{% endfor %}
+								</div>
+								
+								<div class = "row " id = "location-info">
+									{% for place in d['attractions'] %}
+										<div class = "col-md-12 collapse" id = "location-info{{outer_loop.index}}{{loop.index}}">
+											<br><br>
+											<div id = "because{{outer_loop.index}}{{loop.index}}">
+												Because you searched for:
+												{% for word in place['matches']%}
+													{{word}}
+												{% endfor %}
+											</div>
+											<div id = "reviews{{outer_loop.index}}{{loop.index}}">
+												
+												{% if place['reviews']['reviews']|length == 0 %}
+													No Reviews
+												{% endif %}
 												{% for review in place['reviews']['reviews'] %}
 													{{review['rating']}} stars:
 													{{review['text']}}<br>
 												{% endfor %}	
-											</div><br>
-											{% if place['matches'] != []: %}
-												Because you searched for:
-												{% for word in place['matches']%}
-													{{word }}
-												{% endfor %}
-											{% endif %} <br>
-											{% if place['website'] != 'nan': %}
-												<a href = {{place['website']}}>Website</a><br>
-											{% else %}
-												<a href = "http://www.google.com/search?q={{place['name']}}">Search for this place</a><br>
-											{% endif %}
 											</div>
 										</div>
 									{% endfor %}

@@ -31,7 +31,7 @@ width: 100%
 }
 
 .form-control {
-height: 40px;
+height: 35px;
 font-size: 1.75rem;
 width: auto;
 border-radius: 0px;
@@ -111,6 +111,40 @@ box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2);
 cursor: pointer;
 }
 
+.stars{
+height: 20px;
+}
+
+.ui-widget{
+border-radius: 0px;
+}
+.ui-widget .bootstrap-tagsinput{
+height: 40px;
+font-size: 1.75rem;
+width: auto;
+border-radius: 0px;
+padding: 0px;
+}
+.ui-widget .bootstrap-tagsinput input{
+height: 100%
+}
+
+.loc-heading{
+font-size: 1.5rem;
+}
+
+.more-info{
+position: absolute;
+bottom: 10px;
+left: 20px;
+}
+
+.google-this{
+position: absolute;
+bottom: 10px;
+right: 20px;
+}
+
 #search-pane{
 height: auto;
 min-height: 85%;
@@ -138,7 +172,6 @@ z-index: 2;
 }
 
 #results-pane .row{
-overflow: auto;
 }
 
 #header{
@@ -169,7 +202,9 @@ top: 50%;
 left: 0%;
 transform: translate(0, -50%);
 }
-
+#urbanrange{
+width: 60%;
+}
 
 @media (max-width: 768px){
 #search-pane{

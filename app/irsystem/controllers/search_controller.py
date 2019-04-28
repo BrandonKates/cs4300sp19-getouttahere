@@ -142,7 +142,7 @@ def organize_city_info(city, folder, query, num_attrs):
 	
 	for i in range(num_attrs):
 		(name, score) = sorted_scores[i]
-		
+		print(name,score) 
 		# Find all matching terms b/w query and description
 		desc = attractions[name]['description']
 		matches = get_matching_terms(query, desc)
