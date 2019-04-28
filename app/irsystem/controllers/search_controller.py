@@ -25,6 +25,7 @@ net_id = "ams698, bjk224, dpm247, ne236, sn529"
 @irsystem.route('/', methods=['GET'])
 def search():
 	query = request.args.get('search')
+	
 	if query == None:
 		query = ""
 	price = request.args.get('price')
@@ -58,11 +59,15 @@ def search():
 	urban_weight = 0.2
 	climate_weight = 0.5
 	
-	if not advanced_query:
+	if len(np.unique(advanced_query.split(" "))) == 1:
 		data = []
-		output_message = ''
+		output_message = ""
 	else:
 		results = index_search(advanced_query, inv_idx, idf, doc_norms)
+		output_message= ""
+
+		if len(results) == 0:
+			output_message = "No Results Found"
 		data = []
 		for i, (city, score) in enumerate(results):
 			# Decrease score if not rural/urban as user specified
@@ -86,7 +91,6 @@ def search():
 			numLocs -= 1
 			if numLocs == 0:
 				break
-		output_message= "You searched for places with " + advanced_query
 
 	return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data)
 
