@@ -54,7 +54,7 @@ def search():
 	for term in query.lower().split():
 		stems += str(ps.stem(term) + " ")
 	
-	advanced_query = query + " " + stems + " " + purpose + " " + climate 
+	advanced_query = query + " " + stems
 	
 	# What % of the score to deduct for not meeting certain input specs
 	urban_weight = 0.2
@@ -145,6 +145,12 @@ def organize_city_info(city, folder, query, num_attrs, price, purpose):
 			a_cost = attractions[key]['cost']
 			if price != "" and price != a_cost:
 				continue
+				
+			# Skip if incorrect trip purpose
+			a_purpose = attractions[key]['purpose']
+			if purpose != "" and purpose != a_purpose:
+				continue
+				
 			attractions[key]['name'] = key
 			score = attraction_score(query, value['description'])
 			attrac_scores.append((key, score))
@@ -153,14 +159,19 @@ def organize_city_info(city, folder, query, num_attrs, price, purpose):
 	if len(attrac_scores) < num_attrs:
 		for key, value in attractions.items():
 			if value is not None and key not in [i[0] for i in attrac_scores]:
-				if attractions[key]['cost'] == "":
-					attractions[key]['name'] = key
+				if price != "" or purpose != "":
+					if attractions[key]['cost'] == "" or attractions[key]['purpose'] == "":
+						attractions[key]['name'] = key
+						score = attraction_score(query, value['description'])
+						attrac_scores.append((key, score))
+				else:
+					attractions[key]['name']=key
 					score = attraction_score(query, value['description'])
 					attrac_scores.append((key, score))
 
 	# Sort by decreasing score
 	sorted_scores = sorted(attrac_scores, key=lambda x: x[1], reverse=True)
-
+	print(len(attrac_scores))
 	for i in range(num_attrs):
 		(name, score) = sorted_scores[i]
 		print(name,score) 
