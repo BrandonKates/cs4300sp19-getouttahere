@@ -37,7 +37,7 @@
 					<br><br>
 					
 					<div class = "ui-widget">
-						<input id="simpsearch" type="text" name="search" class="form-control" placeholder="Your ideal trip" autocomplete = "" id = "basic-search" data-role = "tagsinput">
+						<input id="simpsearch" type="text" name="search" class="" placeholder="Your ideal trip" autocomplete = "" id = "basic-search" data-role = "tagsinput">
 					</div><br><br>
 					
 					<button type = "button" class = "btn btn-info form-control global-search" data-toggle="collapse" data-target="#advsearch" aria-expanded="false" aria-controls="collapseExample">Advanced Search </button>
@@ -78,15 +78,36 @@
 						<br><br>
 						<input type = "number" name = "numberLocs" class = "form-control" min = "1" max = "12" placeholder = "Number of desired recommendations">
 					</div><br><br>
-					<button type="submit" class="btn btn-info form-control" id = "submit-button"> Go! </button>
+					<button type="submit" class="btn btn-info form-control" id = "submit-button" method = 'POST'> Go! </button>
 				</form>	
 			</div>
 			<div class = "col-lg-9 col-sm-8 col-xs-12 h-100" id = "results-pane">
 			<div class = "image-slideshow">
 				<div id = "error-message">{{output_message}}</div>
-				<img class = "image img-responsive" alt = "Fisherman" src="/static/boat-canoe-fishermen.jpg">
-			
+				{% for i in range(13) %}
+					<img class = "image img-responsive slide" alt = "Fisherman" src="/static/images/img{{loop.index}}.jpg">
+				{% endfor %}
 			</div>
+			<script>
+			//Slideshow based on W3schools slideshow code at https://www.w3schools.com/howto/howto_js_slideshow.asp
+			var slide_num = Math.floor(Math.random()*13);
+			slideshow();
+			
+			function slideshow(){
+				var i;
+				var slides = document.getElementsByClassName("slide");
+				for (i = 0; i < slides.length; i++) {
+					//slides[i].style.display = "none";
+					slides[i].style.opacity = 0
+				}
+				if (slide_num >= slides.length) {slide_num = 0} 
+
+				slide_num++;
+				slides[slide_num-1].style.opacity = 1; 
+				
+				setTimeout(slideshow, 7000); // Change image every 7 seconds
+			}
+			</script>
 			<form id = "results-main">
 			{% if data %}
 				{% for d in data %}  

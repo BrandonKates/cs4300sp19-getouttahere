@@ -22,7 +22,7 @@ climate = np.load(data_files+"city_climates.npy").item()
 project_name = "Kanoe"
 net_id = "ams698, bjk224, dpm247, ne236, sn529"
 
-@irsystem.route('/', methods=['GET'])
+@irsystem.route('/', methods=['GET','POST'])
 def search():
 	query = request.args.get('search')
 	
@@ -146,7 +146,6 @@ def organize_city_info(city, folder, query, num_attrs):
 	
 	for i in range(num_attrs):
 		(name, score) = sorted_scores[i]
-		print(name,score) 
 		# Find all matching terms b/w query and description
 		desc = attractions[name]['description']
 		matches = get_matching_terms(query, desc)
@@ -158,8 +157,8 @@ def organize_city_info(city, folder, query, num_attrs):
 	for att in range(len(output_dict['attractions'])):
 		place_id = output_dict['attractions'][att]['place_id']
 		if place_id is not None and place_id != 'not found':
-			#reviews = [{'reviews':["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."]}]
-			reviews = get_reviews(place_id, api_key).get('result')
+			reviews = [{'reviews':["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."]}]
+			#reviews = get_reviews(place_id, api_key).get('result')
 			output_dict['attractions'][att]['reviews'] = reviews
 			
 	return output_dict
