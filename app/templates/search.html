@@ -7,10 +7,7 @@
         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins" />
 		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto" />
-		
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-        
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script src="/static/bootstrap-tagsinput-latest/dist/bootstrap-tagsinput.js"></script>
@@ -86,59 +83,7 @@
 			<div class = "col-lg-9 col-sm-8 col-xs-12 h-100" id = "results-pane">
 			<div class = "image-slideshow" id = "slideshow">
 				<div id = "error-message">{{output_message}}</div>
-				<script>
-				var slide_num = Math.floor(Math.random()*13);
-				
-				function load_image(source, id){
-					var img = document.createElement("img");
-					img.src = source;
-					img.id = id
-					img.alt = "Slide";
-					img.classList.add("image");
-					img.classList.add("img-responsive");
-					img.classList.add("slide");
-					document.getElementById("slideshow").appendChild(img);
-					setTimeout(function(){
-					img.classList.add("in");
-					},0);
-
-				}
-				var sources = [];
-				for(i=1; i<= 13; i++){
-					sources.push("/static/images/img" + i + ".jpg");
-				}
-				var prev_id;
-				function slideshow(){
-					
-					
-					var i;
-					var id;
-					for (i = 0; i < sources.length; i++) {
-						id = "img" + String(i+1);
-						if(i == slide_num){
-							load_image(sources[i], id);
-							break;
-						}
-					}
-					curr_img = document.getElementById(id);
-					
-					//weird workaround for fade out not working
-					if(document.getElementById(prev_id) != null){
-						prev_img = document.getElementById(prev_id);
-						prev_img.style.opacity = 0;
-					}
-					prev_id = id;
-					if(document.getElementById("img" + String(slide_num - 2)) != null){ //unload image from 2 images ago
-						document.getElementById("img" + String(slide_num - 2)).remove()
-					}
-					slide_num++;
-
-					if (slide_num >= sources.length) {slide_num = 0;} 
-					setTimeout(slideshow, 7000); // Change image every 7 seconds
-	
-				}
-				slideshow();
-				</script>
+				<script src = "/static/scripts/slideshow.js"></script>
 				
 			</div>
 			<form id = "results-main">
