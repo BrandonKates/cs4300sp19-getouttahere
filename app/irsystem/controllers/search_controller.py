@@ -20,7 +20,8 @@ urban_rural = np.load(data_files+"urban_cities.npy").item()
 climate = np.load(data_files+"city_climates.npy").item()
 	
 project_name = "Kanoe"
-net_id = "ams698, bjk224, dpm247, ne236, sn529"
+net_id = """Alex Styler (ams698), Brandon Kates (bjk224), David Marchena (dpm247),
+	Noam Eshed (ne236), Sofia Nieves (sn529)"""
 
 @irsystem.route('/', methods=['GET'])
 def search():
