@@ -170,8 +170,13 @@ border-radius: 0px;
 font-size: 15px;
 }
 .slide{
-transition: opacity 1s;
+opacity: 0;
+transition: opacity 2s;
 }
+.slide.in{
+opacity: 1;
+}
+
 
 #search-pane{
 height: auto;
@@ -203,7 +208,7 @@ z-index: 2;
 }
 
 #header{
-box-shadow: 0 3px 3px -1px rgba(0,0,0,0.2);
+box-shadow: 0 2px 2px -1px rgba(0,0,0,0.2);
 height: 10%;
 min-height: 60px;
 position: relative;
