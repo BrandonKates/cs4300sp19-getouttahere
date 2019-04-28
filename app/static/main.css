@@ -150,6 +150,7 @@ font-size: 1.8rem;
 .buttons{
 height: auto;
 }
+
 .more-info{
 float: left;
 }
@@ -157,6 +158,7 @@ float: left;
 .google-this{
 float: right;
 }
+
 .starbox{
 float: right;
 }

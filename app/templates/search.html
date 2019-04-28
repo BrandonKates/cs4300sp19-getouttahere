@@ -92,7 +92,7 @@
 				function load_image(source, id){
 					var img = document.createElement("img");
 					img.src = source;
-					img.id = id
+					img.id = id;
 					img.alt = "Slide";
 					img.classList.add("image");
 					img.classList.add("img-responsive");
@@ -109,7 +109,10 @@
 				}
 				var prev_id;
 				function slideshow(){
-					
+					var to_unload = slide_num - 2;
+					if(to_unload <= 0){
+						to_unload = 11 + slide_num;
+					}
 					
 					var i;
 					var id;
@@ -128,8 +131,8 @@
 						prev_img.style.opacity = 0;
 					}
 					prev_id = id;
-					if(document.getElementById("img" + String(slide_num - 2)) != null){ //unload image from 2 images ago
-						document.getElementById("img" + String(slide_num - 2)).remove()
+					if(document.getElementById("img" + String(to_unload)) != null){ //unload image from 2 images ago
+						document.getElementById("img" + String(to_unload)).remove()
 					}
 					slide_num++;
 
