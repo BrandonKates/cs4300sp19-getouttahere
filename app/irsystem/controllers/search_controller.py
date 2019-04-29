@@ -7,6 +7,7 @@ from nltk.stem import PorterStemmer
 import numpy as np
 import os
 import requests
+import re
 
 dirpath = os.getcwd()
 data_files = dirpath + "/app/static/data/"
@@ -18,6 +19,7 @@ json_data = data_files + "data_jsons/"
 urban_rural = np.load(data_files+"urban_cities.npy").item()
 # Mapping of cities to their countries
 climate = np.load(data_files+"city_climates.npy").item()
+ps = PorterStemmer()
 
 project_name = "Kanoe"
 net_id = """Alex Styler (ams698), Brandon Kates (bjk224), David Marchena (dpm247),
@@ -48,23 +50,24 @@ def search():
 	numLocs = int(numLocs)
 
 	# Stem query words:
-	ps = PorterStemmer()
-	stems = ''
+	stem_query = ''
+	stem_dict = {}
 
-	for term in query.lower().split():
-		stems += str(ps.stem(term) + " ")
-
-	advanced_query = query + " " + stems
+	for term in query.lower().replace(',',' ').split():
+		s = ps.stem(term)
+		stem_query += str(s + " ")
+		stem_dict[s] = term
 
 	# What % of the score to deduct for not meeting certain input specs
 	urban_weight = 0.2
 	climate_weight = 0.5
 
-	if len(np.unique(advanced_query.split(" "))) == 1:
+	if len(np.unique(stem_query.split(" "))) == 1:
 		data = []
 		output_message = ""
 	else:
-		results = index_search(advanced_query, inv_idx, idf, doc_norms)
+		results = index_search(stem_query, inv_idx, idf, doc_norms)
+		print(len(results))
 		output_message= ""
 
 		if len(results) == 0:
@@ -78,6 +81,7 @@ def search():
 			# Decrease score if incorrect climate
 			if climate != "" and climate != get_climate(city) and get_climate(city) is not None:
 				score *= (1-climate_weight)
+
 			results[i] = (city, score)
 
 		for city, score in results:
@@ -85,8 +89,7 @@ def search():
 			data_dict = {}
 
 			# Get attraction information
-			# added climate and urban variables
-			city_info = organize_city_info(climate, urban, city, json_data, advanced_query, 3, price, purpose)
+			city_info = organize_city_info(climate, urban, city, json_data, stem_query, stem_dict, 3, price, purpose)
 			city_info['city'] = city
 			city_info['score'] = score
 
@@ -117,13 +120,20 @@ def get_city_info(city, folder):
 
 def attraction_score(query, desc):
 	score = 0
+	stemmed_desc = []
 	for term in desc:
-		if term in query.lower():
-			score += 1
-	score /= len(desc) + 1
+		stemmed_desc.append(ps.stem(term))
+
+	if len(stemmed_desc) == 0:
+		return 0
+	for q in query.lower().split():
+		for d in stemmed_desc:
+			if (q in d) or (d in q):
+				score += 1
+	score /= len(stemmed_desc)
 	return score
 
-def organize_city_info(climate, urban, city, folder, query, num_attrs, price, purpose):
+def organize_city_info(climate, urban, city, folder, query, stemmer, num_attrs, price, purpose):
 	data = get_city_info(city, folder)
 
 	num_atts_flag = False
@@ -172,12 +182,11 @@ def organize_city_info(climate, urban, city, folder, query, num_attrs, price, pu
 
 	# Sort by decreasing score
 	sorted_scores = sorted(attrac_scores, key=lambda x: x[1], reverse=True)
-	print(len(attrac_scores))
 	for i in range(num_attrs):
 		(name, score) = sorted_scores[i]
 		# Find all matching terms b/w query and description
 		desc = attractions[name]['description']
-		matches = get_matching_terms(query, desc)
+		matches = get_matching_terms(query, desc, stemmer)
 		attractions[name]['matches'] = matches
 		#attractions[name]['matches'] = (desc, matches)
 		output_dict['attractions'].append(attractions[name])
@@ -205,13 +214,20 @@ def organize_city_info(climate, urban, city, folder, query, num_attrs, price, pu
 
 	return output_dict
 
-def get_matching_terms(query, desc):
+def get_matching_terms(query, desc, stemmer):
 	matches_dict = {}
+
+	stemmed_desc = []
+	for term in desc:
+		stemmed_desc.append(ps.stem(term))
+
 	for q in query.lower().split():
-		if q in desc:
-			if q not in matches_dict:
-				matches_dict[q] = 0
-			matches_dict[q] += 1
+		for d in stemmed_desc:
+			if (q in d) or (d in q):
+				full = stemmer[q]
+				if full not in matches_dict:
+					matches_dict[full] = 0
+				matches_dict[full] += 1
 	# Make into tuple list to sort
 	matches_scores_list = [(key, matches_dict[key]) for key in matches_dict]
 	sorted_tuples = sorted(matches_scores_list, key=lambda x:x[1], reverse=True)
