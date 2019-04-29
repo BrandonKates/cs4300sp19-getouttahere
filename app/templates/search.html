@@ -11,9 +11,20 @@
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script src="/static/bootstrap-tagsinput-latest/dist/bootstrap-tagsinput.js"></script>
+        <script type="text/javascript" src="/static/scripts/destinationMap.js"></script>
+        <script src="/static/scripts/country_place.json"></script>
 		<script type = "text/javascript" src="/static/bootstrap-tagsinput-latest/typeahead.bundle.js"></script>
+
 		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+   integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+   crossorigin=""></script>
+
 		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 		<script> $(function(){var tags = ["kayaking", "skiing"]; $( "#simpsearch" ).autocomplete({source: tags});});</script>
 	</head>
@@ -113,7 +124,47 @@
 			</div>
 			<form id = "results-main">
 			{% if data %}
-				{% for d in data %}
+
+
+				<div id="map" ></div>
+
+				<style>
+   				  #map {
+  				height: 50%;
+ 				 width: 60%;
+				}
+				</style>
+
+
+				<script type="text/javascript">
+
+
+				var lat_lng = {{data|tojson|safe}};
+
+				cityLookup = places
+
+
+				var pairs = []
+
+				for (i = 0; i < lat_lng.length; i++) {
+
+					var city = lat_lng[i]['city']
+					if (city in cityLookup){
+
+						var lat = cityLookup[city][0]
+						var lon = cityLookup[city][1]
+						
+						if (lat != 0 || lon != 0)
+							pairs.push([parseFloat(lat),parseFloat(lon),city])
+					}
+
+				}
+				showMap(pairs)
+				</script>
+
+
+				{% for d in data %}  
+
 					{% set outer_loop = loop %}
 								<button id = "back{{outer_loop.index}}" class = "btn btn-info back" onclick = "showCards({{loop.index}})" type = "button">Go back</button>
 								<script>
@@ -235,9 +286,6 @@
 			<div class = "col-md-4">Project Name: {{ name }}</div>
 			<div class = "col-md-8">Student Name: ({{ netid }})</div>
 		</div>
-
-
-
     </body>
 
 </html>

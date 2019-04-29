@@ -1,46 +1,28 @@
- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
-   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
-   crossorigin=""/>
 
-    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
-   integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
-   crossorigin=""></script>
 
-   <body>
-  <div id="map"></div>
-</body>
 
-<style>
-    html, body, #map {
-  height: 80%;
-  width: 80%;
-}
-</style>
-
-<script>
-	
-pairs = [[0,-100,"place1"],[0,0,"place2"],[0,100,"place3"]]
-
+function showMap(pairs){
 
  var mymap = L.map('map').setView([0, 0], 1);
  L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(mymap);
 
- input_lat_lon_pairs(pairs)
+ input_lat_lon_pairs(pairs,mymap)
 
+}
 
-function input_lat_lon_pairs(pairs) {
+function input_lat_lon_pairs(pairs,mymap) {
    for (var i = 0; i < pairs.length; i++) {
-        add_marker(pairs[i][0],pairs[i][1],"<b>" + pairs[i][2] + "<b>")
+        add_marker(pairs[i][0],pairs[i][1],"<b>" + pairs[i][2] + "<b>",mymap)
       }
 }
 
 
-function add_marker(lon,lat,place) {
+function add_marker(lon,lat,place,mymap) {
 
   var canoeIcon = L.icon({
-    iconUrl: 'canoe_transparent.png',
+    iconUrl: '/static/images/canoe_transparent.png',
     iconSize:     [40, 60], // size of the icon
     shadowSize:   [50, 64] // size of the shadow
 });
@@ -77,6 +59,4 @@ var jsonTextOptions = {
   
 }
 
-
-</script>
  
