@@ -44,10 +44,6 @@ def search():
 		s = ps.stem(term)
 		stem_query += str(s + " ")
 		stem_dict[s] = term
-
-	# What % of the score to deduct for not meeting certain input specs
-	urban_weight = 0.2
-	climate_weight = 0.5
 	
 	output_message = ""
 	if len(np.unique(stem_query.split(" "))) == 1:
@@ -59,16 +55,6 @@ def search():
 		results = index_search(stem_query, inv_idx, idf, doc_norms)
 		if len(results) == 0:
 			output_message = "No Results Found"
-			
-		# Score modifiers based on urban and climate inputs
-		for i, (city, score) in enumerate(results):
-			# Decrease score if not rural/urban as user specified
-			if (urban==0 and is_urban(city)==1) or (urban==2 and is_urban(city)==0):
-				score *= (1-urban_weight)
-
-			# Decrease score if incorrect climate
-			if climate != "" and climate != get_climate(city) and get_climate(city) is not None:
-				score *= (1-climate_weight)
 
 		for city, score in results:
 			data_dict = {}
