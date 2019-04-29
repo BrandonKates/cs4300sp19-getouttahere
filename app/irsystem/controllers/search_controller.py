@@ -67,11 +67,12 @@ def search():
 		for i, (city, score) in enumerate(results):
 			# Decrease score if not rural/urban as user specified
 			if (urban==0 and is_urban(city)==1) or (urban==2 and is_urban(city)==0):
-				score *= 0.8
+				score *= 0.5
 
 			# Decrease score if incorrect climate
 			if climate != "" and climate != get_climate(city) and get_climate(city) is not None:
-				score *= 0.8
+				score *= 0.5
+			results[i] = (city, score)
 
 		for city, score in results:
 			data_dict = {}
@@ -153,9 +154,9 @@ def organize_city_info(climate, urban, city, folder, query, stemmer, num_attrs, 
 			attractions[key]['name'] = key
 			score = attraction_score(query, value['description'])
 			if price != "" and price != data['attractions'][key]['cost']:
-				score *= 0.8
+				score *= 0.5
 			if purpose != "" and purpose != data['attractions'][key]['purpose']:
-				score *= 0.8
+				score *= 0.5
 			attrac_scores.append((key, score))
 
 	# Sort by decreasing score
