@@ -41,7 +41,6 @@
 					<script>
 					//Typeahead code sourced from https://github.com/bootstrap-tagsinput/bootstrap-tagsinput/issues/555
 					$(document).ready(function(){
-					
 						var suggestions = ['vacation', 'skiing', 'testing', 'skunks'];
 						var bloodHoundObj = new Bloodhound({
 						  datumTokenizer: Bloodhound.tokenizers.whitespace,
@@ -115,16 +114,39 @@
 			{% if data %}
 				{% for d in data %}  
 					{% set outer_loop = loop %}
+								<button id = "back" class = "btn btn-info" onclick = "showCards()" type = "button" data-toggle="collapse" data-target= "#city-sims{{outer_loop.index}}" aria-expanded="false" aria-controls="collapseExample">Go back</button>
+								<script>
+								function showSimilars(){
+									var cards = document.getElementsByClassName("card");
+									for(var i=0; i< cards.length; i++){
+										cards[i].style.display = "none";
+									}
+									var goback = document.getElementById("back");
+									goback.style.display = "block";
+								}
+								function showCards(){
+									var cards = document.getElementsByClassName("card");
+									for(var i=0; i< cards.length; i++){
+										cards[i].style.display = "block";
+									}
+									var goback = document.getElementById("back");
+									goback.style.display = "none";
+								}
+								</script>
+								<div class = "row sim-container collapse" id = "city-sims{{outer_loop.index}}">
+								{% for c in sim_city_dict[d['city']] %}
+									<div id = "sim{{loop.index}}" class = "city-only col-sm-3">
+										{{c}}
+									</div>
+								{% endfor %}
+								</div>
 						<div id = "card{{loop.index}}" class = "card row">
 							<div class = "card-header">
 								{{d['city']}}, {{d['country']}}
-								{{sim_city_dict[d['city']]}}
-								<button class = "btn btn-info similar-cities" onclick = "showSimilars()">Find Similar Cities</button>
-								<script>
-								var cards = document.getElementsByClassName("card");
+								<button class = "btn btn-info similar-cities" onclick = "showSimilars()" type = "button" data-toggle="collapse" data-target= "#city-sims{{outer_loop.index}}" aria-expanded="false" aria-controls="collapseExample">Find Similar Cities</button>
 								
-								</script>
 							</div>
+							
 							<div class = "container-fluid card-body">
 								<div class = "row row-no-gutters">
 									{% for place in d['attractions'] %}
