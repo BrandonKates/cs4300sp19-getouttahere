@@ -256,6 +256,7 @@ def get_matching_terms(query, desc, stemmer):
 	return [x[0] for x in sorted_tuples]
 
 def matches_advanced(data, city, matches, price, purpose, climate, urban):	
+	print(purpose, data['attractions'][city]['purpose'])
 	if price != "" and price == data['attractions'][city]['cost']:
 		matches.append(price + ' price')
 	for p in data['attractions'][city]['purpose']:
@@ -348,20 +349,3 @@ def get_reviews(place_id, api_key):
 	"""Gets reviews for a location based on its google place id"""
 	reviews = requests.get("https://maps.googleapis.com/maps/api/place/details/json?placeid="+str(place_id)+"&language=en&fields=price_level,rating,review&key=" + api_key).json()
 	return reviews
-
-
-# Haversine formula example
-# Author: Wayne Dyck
-def distance(origin, destination):
-    lat1, lon1 = origin
-    lat2, lon2 = destination
-    radius = 3963.1676 # miles
-
-    dlat = math.radians(lat2-lat1)
-    dlon = math.radians(lon2-lon1)
-    a = math.sin(dlat/2) * math.sin(dlat/2) + math.cos(math.radians(lat1)) \
-        * math.cos(math.radians(lat2)) * math.sin(dlon/2) * math.sin(dlon/2)
-    c = 2 * math.atan2(math.sqrt(a), math.sqrt(1-a))
-    d = radius * c
-
-    return d
