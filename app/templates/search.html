@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
     <head>
         <title>Kanoe</title>
         <link rel="stylesheet" href="/static/bootstrap.min.css">
@@ -34,9 +34,9 @@
 		<div class = "container-fluid">
 		<div class = "row" id = "header">
 			<div class = "col-sm-4 col-lg-3 col-xs-12">
-				<h1 style="font-size: 55px; color: #4285F4" class = "text-center">
-          <img src="../static/images/canoe.png" width=60px>
-					<a href = "/" style = "text-decoration: none; color:#4285F4";><b>kanoe</b></a>
+				<h1 style="font-size: 55pt; color: #4285F4" class = "text-center">
+          <img src="../static/images/canoe.png" width=60>
+					<a href = "/" style = "text-decoration: none; color:#4285F4"><b>kanoe</b></a>
 				</h1>
 			</div>
 
@@ -76,7 +76,8 @@
 					</script>
 					<button type = "button" class = "btn btn-info form-control global-search" data-toggle="collapse" data-target="#advsearch" aria-expanded="false" aria-controls="collapseExample">Advanced Search </button>
 					<br>
-					<div id = "advsearch" class = "collapse" aria-expanded = "false" style = "height: 0px"><br>
+					<div id = "advsearch" class = "collapse" aria-expanded = "false" style = "height: 0">
+					<br>
 
 						<select id = "input2" name = "price" class = "form-control">
 							<option value = "" selected = "selected">Price Range</option>
@@ -267,7 +268,7 @@
 							</div>
 							
 							<div class = "container-fluid card-body" >
-								<div class = "row row-no-gutters" id = "city{{outer_loop.index}}" style = 'margin-bottom: 0px;'>
+								<div class = "row row-no-gutters" id = "city{{outer_loop.index}}" style = 'margin-bottom: 0;'>
 									{% for place in d['attractions'] %}
 
 										<div class = "col-sm-4 col-xs-12">
