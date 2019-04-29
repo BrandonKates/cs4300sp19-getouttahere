@@ -42,10 +42,6 @@
 					<script>
 					//Typeahead code sourced from https://github.com/bootstrap-tagsinput/bootstrap-tagsinput/issues/555
 					$(document).ready(function(){
-<<<<<<< HEAD
-=======
-
->>>>>>> 85a9246d955227037fc7d05de979e78fa7b5919b
 						var suggestions = ['vacation', 'skiing', 'testing', 'skunks'];
 						var bloodHoundObj = new Bloodhound({
 						  datumTokenizer: Bloodhound.tokenizers.whitespace,
@@ -154,6 +150,9 @@
 						<div id = "card{{loop.index}}" class = "card row">
 							<div class = "card-header">
 								{{d['city']}}, {{d['country']}}
+
+								<button class = "btn btn-info similar-cities" onclick = "showSimilars({{loop.index}})" type = "button">Find Similar Cities</button>
+								
 
 							</div>
 							
