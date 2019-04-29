@@ -126,19 +126,39 @@
 			</div>
 			<form id = "results-main">
 			{% if data %}
-				<button type = "button" id = "showmap" class = "btn btn-info" onclick = "showMap()">View map</button>
+				<button type = "button" style = "transition: 0.3s" id = "showmap" class = "btn btn-info" onclick = "expand_map()">View map</button>
 				<div id="map"></div>
-				<button type = "button" id = "hidemap" class = "btn btn-info" onclick = "hideMap()">Hide map</button>
-
-
 				<style>
    				  #map {
-  				height: 50%;
  				 width: 100%;
 				 top: 0%;
-				 opacity: 0;
+				 height: 0;
+				 transition: 0.3s;
 				}
 				</style>
+				<button type = "button" style = "display: none; transition: 0.3s;" id = "hidemap" class = "btn btn-info" onclick = "collapse_map()">Hide map</button>
+				<script>
+				function expand_map(){
+					var map = document.getElementById("map");
+					map.style.height =  "50%";
+					var show = document.getElementById("showmap");
+					show.style.display = "none";
+					var hide = document.getElementById("hidemap");
+					hide.style.display = "block";
+					
+				}
+				function collapse_map(){
+					var map = document.getElementById("map");
+					map.style.height =  "0";
+					var show = document.getElementById("showmap");
+					show.style.display = "block";
+					var hide = document.getElementById("hidemap");
+					hide.style.display = "none";
+					
+				}
+				</script>
+
+				
 				
 
 				<script type="text/javascript">
