@@ -1,0 +1,28 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: flaskweb
+  annotations:
+    kubernetes.io/ingress.global-static-ip-name: kanoe-ip
+  labels:
+    app: flask
+spec:
+  backend:
+    serviceName: kanoe-backend
+    servicePort: 5000
+  rules:
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: kanoe-backend
+  labels:
+    app: flask
+spec:
+  type: NodePort
+  selector:
+    app: flask
+    tier: web
+  ports:
+  - port: 5000
+    targetPort: 5000
