@@ -130,16 +130,17 @@
 				<style>
    				  #map {
  				 width: 100%;
-				 top: 0%;
 				 height: 0;
 				 transition: 0.3s;
+				 position: static;
 				}
+				
 				</style>
 				<button type = "button" style = "display: none; transition: 0.3s;" id = "hidemap" class = "btn btn-info" onclick = "collapse_map()">Hide map</button>
 				<script>
 				function expand_map(){
 					var map = document.getElementById("map");
-					map.style.height =  "50%";
+					map.style.height =  "300px";
 					var show = document.getElementById("showmap");
 					show.style.display = "none";
 					var hide = document.getElementById("hidemap");
