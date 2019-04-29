@@ -48,11 +48,11 @@ def search():
 	# What % of the score to deduct for not meeting certain input specs
 	urban_weight = 0.2
 	climate_weight = 0.5
-
+	
+	output_message = ""
 	if len(np.unique(stem_query.split(" "))) == 1:
 		data = []
 	else:
-		output_message = ""
 		data = []
 		
 		# Get city suggestions sorted by tf-idf score
@@ -136,9 +136,9 @@ def organize_city_info(climate, urban, city, folder, query, stemmer, num_attrs, 
 		if value is not None:
 			attractions[key]['name'] = key
 			score = attraction_score(query, value['description'])
-			if price != "" and price != a_cost:
+			if price != "" and price != data['attractions'][key]['cost']:
 				score *= 0.8
-			if purpose != "" and purpose != a_purpose:
+			if purpose != "" and purpose != data['attractions'][key]['purpose']:
 				score *= 0.8
 			attrac_scores.append((key, score))
 
@@ -152,7 +152,6 @@ def organize_city_info(climate, urban, city, folder, query, stemmer, num_attrs, 
 		# Find all matching terms b/w query and description
 		matches = get_matching_terms(query, attractions[name]['description'], stemmer)
 		matches_adv = matches_advanced(data, name, matches, price, purpose, climate, urban)
-		
 		attractions[name]['matches'] = matches_adv
 		output_dict['attractions'].append(attractions[name])
 
@@ -248,11 +247,11 @@ def get_matching_terms(query, desc, stemmer):
 	return [x[0] for x in sorted_tuples]
 
 def matches_advanced(data, city, matches, price, purpose, climate, urban):
-	if price == data['attractions'][city]['cost']:
+	if price != "" and price == data['attractions'][city]['cost']:
 		matches.append(price + ' price')
-	if purpose == data['attractions'][city]['purpose']:
+	if purpose != "" and purpose == data['attractions'][city]['purpose']:
 		matches.append('trip type: ' + purpose)
-	if climate == get_climate(city):
+	if climate != "" and climate == get_climate(city):
 		matches.append(climate + ' climate')
 		
 	# Urban scale from 0-2 in UI
