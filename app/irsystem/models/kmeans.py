@@ -10,15 +10,15 @@ from sklearn.neighbors import KNeighborsClassifier
 from tqdm import tqdm
 
 import os
-def load_data():
-	data_file = os.path.join(data_files, 'largecity_data.json')
+def load_data(path):
+	data_file = os.path.join(path, 'largecity_data.json')
 	data_dict = dict()
 	with open(data_file, 'r') as data:
 			data_dict = json.load(data)
 	return data_dicts
 
-def load_reviews():
-	with open(os.path.join(data_files,'reviews.json'), 'r') as data:
+def load_reviews(path):
+	with open(os.path.join(path,'reviews.json'), 'r') as data:
 		return json.load(data)
 
 def generate_reviews(data):
@@ -132,9 +132,9 @@ def main():
 	dirpath = os.getcwd()
 	data_files = os.path.join(dirpath, "/app/static/data/")
 	try:
-		reviews = load_reviews()
+		reviews = load_reviews(data_files)
 	except:
-		reviews = preprocess_reviews(generate_reviews(load_data()))
+		reviews = preprocess_reviews(generate_reviews(load_data(data_files)))
 	destination_corpus, y_dest = generate_destination_corpus(reviews)
 	attraction_corpus, y_att = generate_attraction_corpus(reviews)
 
