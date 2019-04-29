@@ -67,6 +67,7 @@ def search():
 		output_message = ""
 	else:
 		results = index_search(stem_query, inv_idx, idf, doc_norms)
+		print(len(results))
 		output_message= ""
 
 		if len(results) == 0:
@@ -80,6 +81,7 @@ def search():
 			# Decrease score if incorrect climate
 			if climate != "" and climate != get_climate(city) and get_climate(city) is not None:
 				score *= (1-climate_weight)
+				
 			results[i] = (city, score)
 			
 		for city, score in results:
@@ -118,10 +120,17 @@ def get_city_info(city, folder):
 		
 def attraction_score(query, desc):
 	score = 0
+	stemmed_desc = []
 	for term in desc:
-		if term in query.lower():
-			score += 1
-	score /= len(desc) + 1
+		stemmed_desc.append(ps.stem(term))
+
+	if len(stemmed_desc) == 0:
+		return 0
+	for q in query.lower().split():
+		for d in stemmed_desc:
+			if (q in d) or (d in q):
+				score += 1
+	score /= len(stemmed_desc)
 	return score
 	
 def organize_city_info(city, folder, query, stemmer, num_attrs, price, purpose):
@@ -200,11 +209,12 @@ def get_matching_terms(query, desc, stemmer):
 		stemmed_desc.append(ps.stem(term))
 	
 	for q in query.lower().split():
-		if q in stemmed_desc:
-			full = stemmer[q]
-			if full not in matches_dict:
-				matches_dict[full] = 0
-			matches_dict[full] += 1
+		for d in stemmed_desc:
+			if (q in d) or (d in q):
+				full = stemmer[q]
+				if full not in matches_dict:
+					matches_dict[full] = 0
+				matches_dict[full] += 1
 	# Make into tuple list to sort
 	matches_scores_list = [(key, matches_dict[key]) for key in matches_dict]
 	sorted_tuples = sorted(matches_scores_list, key=lambda x:x[1], reverse=True)
