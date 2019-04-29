@@ -67,11 +67,9 @@
 							typeaheadjs: {
 								name: 'suggestions',
 								hint: true,
-
 								source: bloodHoundObj.ttAdapter()
 							}
 						});
-
 					});
 					</script>
 					<button type = "button" class = "btn btn-info form-control global-search" data-toggle="collapse" data-target="#advsearch" aria-expanded="false" aria-controls="collapseExample">Advanced Search </button>
@@ -126,48 +124,59 @@
 			</div>
 			<form id = "results-main">
 			{% if data %}
-				<button type = "button" id = "showmap" class = "btn btn-info" onclick = "showMap()">View map</button>
+				<button type = "button" style = "transition: 0.3s" id = "showmap" class = "btn btn-info" onclick = "expand_map()">View map</button>
 				<div id="map"></div>
-				<button type = "button" id = "hidemap" class = "btn btn-info" onclick = "hideMap()">Hide map</button>
-
-
 				<style>
    				  #map {
-  				height: 50%;
  				 width: 100%;
 				 top: 0%;
-				 opacity: 0;
+				 height: 0;
+				 transition: 0.3s;
 				}
 				</style>
+				<button type = "button" style = "display: none; transition: 0.3s;" id = "hidemap" class = "btn btn-info" onclick = "collapse_map()">Hide map</button>
+				<script>
+				function expand_map(){
+					var map = document.getElementById("map");
+					map.style.height =  "50%";
+					var show = document.getElementById("showmap");
+					show.style.display = "none";
+					var hide = document.getElementById("hidemap");
+					hide.style.display = "block";
+					
+				}
+				function collapse_map(){
+					var map = document.getElementById("map");
+					map.style.height =  "0";
+					var show = document.getElementById("showmap");
+					show.style.display = "block";
+					var hide = document.getElementById("hidemap");
+					hide.style.display = "none";
+					
+				}
+				</script>
+
+				
 				
 
 				<script type="text/javascript">
 			
 				var lat = 43//({{latitude|string|safe}})
 				var lon = 55//({{longitude|string|safe}})
-
 				var homeCoords = null
-
 				if (lat && lon)
 					homeCoords = [lat,lon]
-
 				cityLookup = places
-
 				var lat_lng = {{data|tojson|safe}};
-
 				var pairs = []
-
 				for (i = 0; i < lat_lng.length; i++) {
-
 					var city = lat_lng[i]['city']
 					if (city in cityLookup){
-
 						var lat = cityLookup[city][0]
 						var lon = cityLookup[city][1]
 						
 						var desc = city
 						if (lat != 0 || lon != 0){
-
 							if (homeCoords){
 								desc = city + " - " + distance(homeCoords[0],homeCoords[1],lat,lon) + "miles";
 							}
@@ -177,11 +186,8 @@
 							pairs.push([parseFloat(lat),parseFloat(lon),desc])
 						}
 					}
-
 				}
-
 				showMap(homeCoords,pairs)
-
 			
 				</script>
 
@@ -191,7 +197,6 @@
 					{% set outer_loop = loop %}
 								<button id = "back{{outer_loop.index}}" class = "btn btn-info back" onclick = "showCards({{loop.index}})" type = "button">Go back</button>
 								<script>
-
 								function showSimilars(loop){
 									var cards = document.getElementsByClassName("card");
 									for(var i=0; i< cards.length; i++){
