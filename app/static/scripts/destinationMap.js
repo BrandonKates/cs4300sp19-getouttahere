@@ -3,7 +3,7 @@
 
 function showMap(home, pairs){
 
- var mymap = L.map('map').setView([0, 0], 1);
+ var mymap = L.map('map').setView([0, 0], 1.25);
  L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(mymap);
@@ -53,6 +53,7 @@ var jsonTextOptions = {
     var marker = L.marker([lon, lat],  {icon: canoeIcon}).addTo(mymap);
 
     marker.bindPopup(place);
+	//marker.openPopup();
 
     marker.on('mouseover', function (e) {
             this.openPopup();
