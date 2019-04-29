@@ -18,30 +18,31 @@
 		<script> $(function(){var tags = ["kayaking", "skiing"]; $( "#simpsearch" ).autocomplete({source: tags});});</script>
 	</head>
     <body>
-        		
+
 		<div class = "container-fluid">
 		<div class = "row" id = "header">
 			<div class = "col-sm-4 col-lg-3 col-xs-12">
 				<h1 style="font-size: 55px; color: #4285F4" class = "text-center">
+          <img src="../static/images/canoe.png" width=60px>
 					<a href = "/" style = "text-decoration: none; color:#4285F4";>Kanoe</a>
 				</h1>
 			</div>
-			
+
 		</div>
 		<div class = "row" style = "height: auto">
 			<div class = "col-lg-3 col-sm-4 col-xs-12" id = "search-pane">
 				<form class="form-inline global-search" id = "search-main">
 
 					<br><br>
-					
+
 					<div class = "" id = "bloodhound">
 						<input type="text" name="search" placeholder="Your ideal trip" id = "basic-search" data-role = "tagsinput">
-					
+
 					</div><br><br>
 					<script>
 					//Typeahead code sourced from https://github.com/bootstrap-tagsinput/bootstrap-tagsinput/issues/555
 					$(document).ready(function(){
-					
+
 						var suggestions = ['vacation', 'skiing', 'testing', 'skunks'];
 						var bloodHoundObj = new Bloodhound({
 						  datumTokenizer: Bloodhound.tokenizers.whitespace,
@@ -50,22 +51,22 @@
 						  // https://github.com/twitter/typeahead.js/blob/gh-pages/data/countries.json
 						  local: suggestions
 						});
-						bloodHoundObj.initialize();						
+						bloodHoundObj.initialize();
 						$('#basic-search').tagsinput({
 							typeaheadjs: {
 								name: 'suggestions',
 								hint: true,
-								
+
 								source: bloodHoundObj.ttAdapter()
 							}
 						});
-						
+
 					});
 					</script>
 					<button type = "button" class = "btn btn-info form-control global-search" data-toggle="collapse" data-target="#advsearch" aria-expanded="false" aria-controls="collapseExample">Advanced Search </button>
 					<br>
 					<div id = "advsearch" class = "collapse" aria-expanded = "false" style = "height: 0px"><br>
-						
+
 						<select id = "input2" name = "price" class = "form-control">
 							<option value = "" selected = "selected">Price Range</option>
 							<option value = "low">$</option>
@@ -90,30 +91,30 @@
 							<option value = "Temperate">Temperate</option>
 							<option value = "Tropical">Tropical</option>
 						</select><br><br>
-						
+
 						<div class = "form-inline">
-						Rural						
+						Rural
 						<input type = "range" min = "0" max = "2" value = "1" name = "urban" class = "form-control" id = "urbanrange">
 						Urban
 						</div>
-						
+
 						<br>
 						<input type = "text" id = "input2" name = "currentloc" class = "form-control" placeholder = "Your current location">
 						<br><br>
 						<input type = "number" name = "numberLocs" class = "form-control" min = "1" max = "12" placeholder = "Number of recommendations desired">
 					</div><br><br>
 					<button type="submit" class="btn btn-info form-control" id = "submit-button" method = 'POST'> Go! </button>
-				</form>	
+				</form>
 			</div>
 			<div class = "col-lg-9 col-sm-8 col-xs-12 h-100" id = "results-pane">
 			<div class = "image-slideshow" id = "slideshow">
 				<div id = "error-message">{{output_message}}</div>
 				<script src = "/static/scripts/slideshow.js"></script>
-				
+
 			</div>
 			<form id = "results-main">
 			{% if data %}
-				{% for d in data %}  
+				{% for d in data %}
 					{% set outer_loop = loop %}
 						<div id = "card{{loop.index}}" class = "card row">
 							<div class = "card-header">
@@ -122,19 +123,19 @@
 								<button class = "btn btn-info similar-cities" onclick = "showSimilars()">Find Similar Cities</button>
 								<script>
 								var cards = document.getElementsByClassName("card");
-								
+
 								</script>
 							</div>
 							<div class = "container-fluid card-body">
 								<div class = "row row-no-gutters">
 									{% for place in d['attractions'] %}
-										
+
 										<div class = "col-sm-4 col-xs-12">
 											<div class =  "attraction-info">
 											<div class = "loc-heading">
 											{{place['name']}}
 											<div class = "starbox">
-											
+
 											{% if place['reviews']['rating'] != null %}
 												{% set rating = place['reviews']['rating']|round(1) %}
 												{% for _ in range(1,10)%}
@@ -145,7 +146,7 @@
 												{% if rating - rating|round(0,'floor') != 0 %}
 													<img alt = "Star" class = "stars" src = "/static/icons8-star-half-48.png">
 												{% endif %}
-												
+
 											{% endif %}
 											</div>
 											</div><br>
@@ -163,7 +164,7 @@
 										</div>
 									{% endfor %}
 								</div>
-								
+
 								<div class = "row " id = "location-info">
 									{% for place in d['attractions'] %}
 										<div class = "col-md-12 collapse" id = "location-info{{outer_loop.index}}{{loop.index}}">
@@ -178,14 +179,14 @@
 												{% endfor %}
 											</div>
 											<div id = "reviews{{outer_loop.index}}{{loop.index}}">
-												
+
 												{% if place['reviews']['reviews']|length == 0 %}
 													No Reviews
 												{% endif %}
 												{% for review in place['reviews']['reviews'] %}
 													{{review['rating']}} stars:
 													{{review['text']}}<br>
-												{% endfor %}	
+												{% endfor %}
 											</div>
 										</div>
 									{% endfor %}
@@ -198,15 +199,15 @@
 			</form>
 			</div>
 		</div>
-		
+
 		</div>
 		<div id = "footer" class = "row">
 			<div class = "col-md-4">Project Name: {{ name }}</div>
 			<div class = "col-md-8">Student Name: ({{ netid }})</div>
 		</div>
-		
 
-		
+
+
     </body>
 
 </html>
