@@ -154,6 +154,7 @@
 						var lat = cityLookup[city][0]
 						var lon = cityLookup[city][1]
 						
+						if (lat != 0 || lon != 0)
 							pairs.push([parseFloat(lat),parseFloat(lon),city])
 					}
 
