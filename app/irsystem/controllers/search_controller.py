@@ -118,9 +118,14 @@ def get_city_info(city, folder):
 		
 def attraction_score(query, desc):
 	score = 0
+	stemmed_desc = []
 	for term in desc:
-		if term in query.lower():
-			score += 1
+		stemmed_desc.append(ps.stem(term))
+
+	for q in query.lower().split():
+		for d in stemmed_desc:
+			if (q in d) or (d in q):
+				score += 1
 	score /= len(desc) + 1
 	return score
 	
@@ -200,11 +205,12 @@ def get_matching_terms(query, desc, stemmer):
 		stemmed_desc.append(ps.stem(term))
 	
 	for q in query.lower().split():
-		if q in stemmed_desc:
-			full = stemmer[q]
-			if full not in matches_dict:
-				matches_dict[full] = 0
-			matches_dict[full] += 1
+		for d in stemmed_desc:
+			if (q in d) or (d in q):
+				full = stemmer[q]
+				if full not in matches_dict:
+					matches_dict[full] = 0
+				matches_dict[full] += 1
 	# Make into tuple list to sort
 	matches_scores_list = [(key, matches_dict[key]) for key in matches_dict]
 	sorted_tuples = sorted(matches_scores_list, key=lambda x:x[1], reverse=True)
