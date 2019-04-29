@@ -23,7 +23,7 @@
 		<div class = "row" id = "header">
 			<div class = "col-sm-4 col-lg-3 col-xs-12">
 				<h1 style="font-size: 55px; color: #4285F4" class = "text-center">
-					Kanoe
+					<a href = "/" style = "text-decoration: none; color:#4285F4";>Kanoe</a>
 				</h1>
 			</div>
 			
@@ -50,9 +50,7 @@
 						  // https://github.com/twitter/typeahead.js/blob/gh-pages/data/countries.json
 						  local: suggestions
 						});
-						bloodHoundObj.initialize();
-
-						
+						bloodHoundObj.initialize();						
 						$('#basic-search').tagsinput({
 							typeaheadjs: {
 								name: 'suggestions',
@@ -120,8 +118,12 @@
 						<div id = "card{{loop.index}}" class = "card row">
 							<div class = "card-header">
 								{{d['city']}}, {{d['country']}}
-								<button class = "btn btn-info similar-cities">Find Similar Cities</button>
+								{{sim_city_dict[d['city']]}}
+								<button class = "btn btn-info similar-cities" onclick = "showSimilars()">Find Similar Cities</button>
+								<script>
+								var cards = document.getElementsByClassName("card");
 								
+								</script>
 							</div>
 							<div class = "container-fluid card-body">
 								<div class = "row row-no-gutters">

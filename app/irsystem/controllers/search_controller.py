@@ -8,6 +8,7 @@ import numpy as np
 import os 
 import requests
 import re
+import pickle
 
 dirpath = os.getcwd()
 data_files = dirpath + "/app/static/data/"
@@ -20,6 +21,9 @@ urban_rural = np.load(data_files+"urban_cities.npy").item()
 # Mapping of cities to their countries
 climate = np.load(data_files+"city_climates.npy").item()
 ps = PorterStemmer()
+
+kmeans_att = pickle.load(open(os.path.join(data_files, "kmeans_att.pickle"), 'rb'))
+kmeans_dest = pickle.load(open(os.path.join(data_files, "kmeans_dest.pickle"), 'rb'))
 
 project_name = "Kanoe"
 net_id = """Alex Styler (ams698), Brandon Kates (bjk224), David Marchena (dpm247),
@@ -98,7 +102,7 @@ def search():
 			if numLocs == 0:
 				break
 
-	return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data)
+	return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data, sim_city_dict = kmeans_dest, sim_att_dict = kmeans_att)
 
 def get_climate(city):
 	if city in climate.keys():
@@ -143,7 +147,7 @@ def organize_city_info(city, folder, query, stemmer, num_attrs, price, purpose):
 	output_dict = {}
 	output_dict['country'] = data['country']
 	if output_dict['country'] != output_dict['country']:	#check if nan
-		output_dict['country'] = '(Country Unknown)'
+		output_dict['country'] = ''
 		
 	output_dict['attractions'] = []
 	
