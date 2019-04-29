@@ -13,6 +13,8 @@ from tqdm import tqdm
 from pathlib import Path
 
 def load_data(path):
+	print("Reading from %s" % os.path.join(path,'largecity_data.json'))
+
 	data_file = os.path.join(path, 'largecity_data.json')
 	data_dict = dict()
 	with open(data_file, 'r') as data:
@@ -20,6 +22,7 @@ def load_data(path):
 	return data_dicts
 
 def load_reviews(path):
+	print("Reading from %s" % os.path.join(path,'reviews.json'))
 	with open(os.path.join(path,'reviews.json'), 'r') as data:
 		return json.load(data)
 
@@ -137,6 +140,7 @@ def main():
 		reviews = load_reviews(data_files)
 	except:
 		reviews = preprocess_reviews(generate_reviews(load_data(data_files)))
+
 	destination_corpus, y_dest = generate_destination_corpus(reviews)
 	attraction_corpus, y_att = generate_attraction_corpus(reviews)
 
@@ -144,9 +148,11 @@ def main():
 	att_vec, X_att = tfidf(attraction_corpus)
 
 	kmeans_dest = run_all_kmeans(X_dest, y_dest, 6)
-	#kmeans_att = run_all_kmeans(X_att, y_att, 6)
+	kmeans_att = run_all_kmeans(X_att, y_att, 6)
 
+	print("Writing to %s\n" % os.path.join(data_files, "kmeans_dest.pickle"))
 	pickle.dump(kmeans_dest, open(os.path.join(data_files, "kmeans_dest.pickle"), 'wb'))
+	print("Writing to %s\n" % os.path.join(data_files, "kmeans_att.pickle"))
 	pickle.dump(kmeans_att, open(os.path.join(data_files, "kmeans_att.pickle"), 'wb'))
 
 if __name__ == "__main__":
