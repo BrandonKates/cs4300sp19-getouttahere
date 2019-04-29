@@ -133,18 +133,18 @@ margin-bottom: 10px;
 text-align: center;
 }
 
-.ui-widget .bootstrap-tagsinput{
+.bootstrap-tagsinput{
 padding-top: 10px;
-text-align: center;
+text-align: left;
 width: 100%;
 border-radius: 0px;
+height: auto;
 }
 
-.ui-widget .bootstrap-tagsinput input{
-height: 100%;
+.bootstrap-tagsinput input{
 width: 80%;
 font-size: 1.75rem;
-text-align: center;
+text-align: left;
 }
 
 .loc-heading{
@@ -190,6 +190,9 @@ font-family: "Roboto";
 
 }
 
+.tt-menu{
+display: none;
+}
 #search-pane{
 height: auto;
 min-height: 85%;
@@ -263,6 +266,10 @@ font-size: 30px;
 
 
 @media (max-width: 768px){
+	
+.attraction-info{
+margin-bottom: 20px;
+}
 #search-pane{
 height: auto;
 min-height: 0;

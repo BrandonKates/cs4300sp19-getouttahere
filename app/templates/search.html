@@ -11,6 +11,7 @@
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script src="/static/bootstrap-tagsinput-latest/dist/bootstrap-tagsinput.js"></script>
+		<script type = "text/javascript" src="/static/bootstrap-tagsinput-latest/typeahead.bundle.js"></script>
 		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -22,7 +23,7 @@
 		<div class = "row" id = "header">
 			<div class = "col-sm-4 col-lg-3 col-xs-12">
 				<h1 style="font-size: 55px; color: #4285F4" class = "text-center">
-						Kanoe
+					Kanoe
 				</h1>
 			</div>
 			
@@ -33,10 +34,36 @@
 
 					<br><br>
 					
-					<div class = "ui-widget">
-						<input id="simpsearch" type="text" name="search" class="" placeholder="Your ideal trip" autocomplete = "" id = "basic-search" data-role = "tagsinput">
-					</div><br><br>
+					<div class = "" id = "bloodhound">
+						<input type="text" name="search" placeholder="Your ideal trip" id = "basic-search" data-role = "tagsinput">
 					
+					</div><br><br>
+					<script>
+					//Typeahead code sourced from https://github.com/bootstrap-tagsinput/bootstrap-tagsinput/issues/555
+					$(document).ready(function(){
+					
+						var suggestions = ['vacation', 'skiing', 'testing', 'skunks'];
+						var bloodHoundObj = new Bloodhound({
+						  datumTokenizer: Bloodhound.tokenizers.whitespace,
+						  queryTokenizer: Bloodhound.tokenizers.whitespace,
+						  // url points to a json file that contains an array of country names, see
+						  // https://github.com/twitter/typeahead.js/blob/gh-pages/data/countries.json
+						  local: suggestions
+						});
+						bloodHoundObj.initialize();
+
+						
+						$('#bloodhound').tagsinput({
+							typeaheadjs: {
+								name: 'suggestions',
+								hint: true,
+								
+								source: bloodHoundObj.ttAdapter()
+							}
+						});
+						
+					});
+					</script>
 					<button type = "button" class = "btn btn-info form-control global-search" data-toggle="collapse" data-target="#advsearch" aria-expanded="false" aria-controls="collapseExample">Advanced Search </button>
 					<br>
 					<div id = "advsearch" class = "collapse" aria-expanded = "false" style = "height: 0px"><br>
@@ -94,7 +121,7 @@
 							<div class = "card-header">
 								{{d['city']}}, {{d['country']}}
 								<button class = "btn btn-info similar-cities">Find Similar Cities</button>
-
+								
 							</div>
 							<div class = "container-fluid card-body">
 								<div class = "row row-no-gutters">
@@ -172,13 +199,7 @@
 			<div class = "col-md-4">Project Name: {{ name }}</div>
 			<div class = "col-md-8">Student Name: ({{ netid }})</div>
 		</div>
-		<script>
-		$('simpsearch').tagsinput({
-		typeahead: {
-			source: ['vacations', 'testing', 'this', 'thing']
-		}
-		})
-		</script>
+		
 
 		
     </body>
