@@ -1,11 +1,11 @@
-from . import *  
+from . import *
 from app.irsystem.models.helpers import *
 from app.irsystem.models.helpers import NumpyEncoder as NumpyEncoder
 from nltk.tokenize import RegexpTokenizer
 from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
 import numpy as np
-import os 
+import os
 import requests
 import re
 import pickle
@@ -32,7 +32,7 @@ net_id = """Alex Styler (ams698), Brandon Kates (bjk224), David Marchena (dpm247
 @irsystem.route('/', methods=['GET','POST'])
 def search():
 	query = request.args.get('search')
-	
+
 	if query == None:
 		query = ""
 	price = request.args.get('price')
@@ -52,20 +52,20 @@ def search():
 	if numLocs == None or numLocs == '':
 		numLocs = 4
 	numLocs = int(numLocs)
-	
+
 	# Stem query words:
 	stem_query = ''
 	stem_dict = {}
-	
+
 	for term in query.lower().replace(',',' ').split():
 		s = ps.stem(term)
 		stem_query += str(s + " ")
 		stem_dict[s] = term
-		
+
 	# What % of the score to deduct for not meeting certain input specs
 	urban_weight = 0.2
 	climate_weight = 0.5
-	
+
 	if len(np.unique(stem_query.split(" "))) == 1:
 		data = []
 		output_message = ""
@@ -81,22 +81,22 @@ def search():
 			# Decrease score if not rural/urban as user specified
 			if (urban==0 and is_urban(city)==1) or (urban==2 and is_urban(city)==0):
 				score *= (1-urban_weight)
-				
+
 			# Decrease score if incorrect climate
 			if climate != "" and climate != get_climate(city) and get_climate(city) is not None:
 				score *= (1-climate_weight)
-				
+
 			results[i] = (city, score)
-			
+
 		for city, score in results:
 			#city_dict = {}
 			data_dict = {}
 
 			# Get attraction information
-			city_info = organize_city_info(city, json_data, stem_query, stem_dict, 3, price, purpose)
+			city_info = organize_city_info(climate, urban, city, json_data, stem_query, stem_dict, 3, price, purpose)
 			city_info['city'] = city
 			city_info['score'] = score
-			
+
 			data.append(city_info)
 			numLocs -= 1
 			if numLocs == 0:
@@ -109,19 +109,19 @@ def get_climate(city):
 		return climate[city]
 	else:
 		return None
-		
+
 def is_urban(city):
 	urban = urban_rural.get(city)
 	if urban is not None:
 		return urban
 	else:
 		return 1
-	
+
 def get_city_info(city, folder):
 	with open(folder+str(city) + '.json', 'r') as f:
 		data = json.load(f)
 		return data[city]
-		
+
 def attraction_score(query, desc):
 	score = 0
 	stemmed_desc = []
@@ -136,8 +136,8 @@ def attraction_score(query, desc):
 				score += 1
 	score /= len(stemmed_desc)
 	return score
-	
-def organize_city_info(city, folder, query, stemmer, num_attrs, price, purpose):
+
+def organize_city_info(climate, urban, city, folder, query, stemmer, num_attrs, price, purpose):
 	data = get_city_info(city, folder)
 
 	num_atts_flag = False
@@ -148,28 +148,28 @@ def organize_city_info(city, folder, query, stemmer, num_attrs, price, purpose):
 	output_dict['country'] = data['country']
 	if output_dict['country'] != output_dict['country']:	#check if nan
 		output_dict['country'] = ''
-		
+
 	output_dict['attractions'] = []
-	
+
 	attractions = data['attractions']
 	attrac_scores = []
 	for key, value in attractions.items():
 		if value is not None:
-		
+
 			# Skip attractions out of price range
 			a_cost = attractions[key]['cost']
 			if price != "" and price != a_cost:
 				continue
-				
+
 			# Skip if incorrect trip purpose
 			a_purpose = attractions[key]['purpose']
 			if purpose != "" and purpose != a_purpose:
 				continue
-				
+
 			attractions[key]['name'] = key
 			score = attraction_score(query, value['description'])
 			attrac_scores.append((key, score))
-	
+
 	# Add attractions with no cost if we don't have enough
 	if len(attrac_scores) < num_attrs:
 		for key, value in attractions.items():
@@ -194,7 +194,7 @@ def organize_city_info(city, folder, query, stemmer, num_attrs, price, purpose):
 		attractions[name]['matches'] = matches
 		#attractions[name]['matches'] = (desc, matches)
 		output_dict['attractions'].append(attractions[name])
-	
+
 	api_key = "AIzaSyCJiRPAPsSLaY46PvyNxzISQMXFZx6h-g8"
 	for att in range(len(output_dict['attractions'])):
 		place_id = output_dict['attractions'][att]['place_id']
@@ -202,16 +202,29 @@ def organize_city_info(city, folder, query, stemmer, num_attrs, price, purpose):
 			reviews = [{'reviews':["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."]}]
 			#reviews = get_reviews(place_id, api_key).get('result')
 			output_dict['attractions'][att]['reviews'] = reviews
-			
+			#SOFIA
+			#adds urban/rural variable
+			if (urban == is_urban(city)):
+				output_dict['attractions'][att]['urban'] = True
+			else:
+				output_dict['attractions'][att]['urban'] = False
+			#adds climate variable (climate can be none)
+			if (climate == get_climate(city)):
+				output_dict['attractions'][att]['climate'] = True
+			else:
+				output_dict['attractions'][att]['climate'] = False
+
+			#output_dict['attractions'][att]['matches'] = attractions[name]['matches']
+
 	return output_dict
 
 def get_matching_terms(query, desc, stemmer):
 	matches_dict = {}
-	
+
 	stemmed_desc = []
 	for term in desc:
 		stemmed_desc.append(ps.stem(term))
-	
+
 	for q in query.lower().split():
 		for d in stemmed_desc:
 			if (q in d) or (d in q):
@@ -224,46 +237,46 @@ def get_matching_terms(query, desc, stemmer):
 	sorted_tuples = sorted(matches_scores_list, key=lambda x:x[1], reverse=True)
 
 	return [x[0] for x in sorted_tuples]
-	
+
 def index_search(query, index, idf, doc_norms):
     """ Search the collection of documents for the given query
     Arguments
     =========
     query: string, the query we are looking for.
-    index: an inverted index 
-    idf: idf values 
+    index: an inverted index
+    idf: idf values
     doc_norms: document norms
-        
+
     Returns
     =======
     results, list of tuples (score, doc_id)
         Sorted list of results such that the first element has
         the highest score, and `doc_id` points to the document
         with the highest score.
-    
-    Note: 
-        
+
+    Note:
+
     """
     # Initialize output dictionary, keys = cities, vals = scores
     scores_array = {}
-    
+
     # Tokenize the query
     tokenizer = RegexpTokenizer(r"\w+")
     tokens = tokenizer.tokenize(query.lower())
-    
+
     # Calculate tf of query
     q_tf = {}
     for t in tokens:
         if t not in q_tf.keys():
             q_tf[t] = 0
         q_tf[t] += 1
-        
+
     # Calculate tf-idf vector of query
     q_tf_idf = []
     for k in q_tf.keys():
         if k in idf:
             q_tf_idf.append(q_tf[k]*idf[k])
-        
+
     q_norm = np.sqrt(np.sum(np.square(q_tf_idf)))
 
     # Update the score once per token
@@ -277,10 +290,10 @@ def index_search(query, index, idf, doc_norms):
                 scores_array[city] = 0
             # Fix this mysterious issue in the future
             #idf_t = idf[t]
-            
+
             if idf.get(t) is not None:
                 scores_array[city] += q_tf[t]*idf[t]*d_tf*idf[t]
-        
+
     # Normalize
     for key in scores_array.keys():
         scores_array[key] /= doc_norms[key]*q_norm+1
@@ -297,6 +310,6 @@ def get_reviews(place_id, api_key):
 	"""Gets reviews for a location based on its google place id"""
 	reviews = requests.get("https://maps.googleapis.com/maps/api/place/details/json?placeid="+str(place_id)+"&language=en&fields=price_level,rating,review&key=" + api_key).json()
 	return reviews
-	
-	
+
+
 #zip.close()
