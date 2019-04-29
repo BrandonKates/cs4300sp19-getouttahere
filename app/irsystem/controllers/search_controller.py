@@ -9,6 +9,8 @@ import os
 import requests
 import pickle
 import math
+import nltk
+nltk.download("stopwords")
 from nltk.corpus import stopwords
 
 stops = set(stopwords.words('english'))
@@ -88,9 +90,9 @@ def search():
 	lat = None
 	lon = None
 
-	if currentLoc != "":
-		lat = currentLoc[0]
-		lon = currentLoc[1]
+	#if currentLoc != "":
+	#	lat = currentLoc[0]
+	#	lon = currentLoc[1]
 
 	return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data, sim_city_dict = kmeans_dest, sim_att_dict = kmeans_att, latitude = lat, longitude = lon)
 

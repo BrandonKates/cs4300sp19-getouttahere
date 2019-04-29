@@ -116,6 +116,7 @@
 					</div><br><br>
 					<button type="submit" class="btn btn-info form-control" id = "submit-button" method = 'POST'> Go! </button>
 				</form>
+
 			</div>
 			<div class = "col-lg-9 col-sm-8 col-xs-12 h-100" id = "results-pane">
 			<div class = "image-slideshow" id = "slideshow">
@@ -125,23 +126,25 @@
 			</div>
 			<form id = "results-main">
 			{% if data %}
+				<button type = "button" id = "showmap" class = "btn btn-info" onclick = "showMap()">View map</button>
+				<div id="map"></div>
+				<button type = "button" id = "hidemap" class = "btn btn-info" onclick = "hideMap()">Hide map</button>
 
-
-				<div id="map" ></div>
 
 				<style>
    				  #map {
   				height: 50%;
- 				 width: 60%;
-				 
+ 				 width: 100%;
+				 top: 0%;
+				 opacity: 0;
 				}
 				</style>
-
+				
 
 				<script type="text/javascript">
 			
-				var lat = ({{latitude|string|safe}})
-				var lon = ({{longitude|string|safe}})
+				var lat = 43//({{latitude|string|safe}})
+				var lon = 55//({{longitude|string|safe}})
 
 				var homeCoords = null
 
