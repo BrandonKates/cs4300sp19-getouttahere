@@ -132,6 +132,7 @@
    				  #map {
   				height: 50%;
  				 width: 60%;
+				 display: none;
 				}
 				</style>
 
@@ -168,7 +169,6 @@
 					{% set outer_loop = loop %}
 								<button id = "back{{outer_loop.index}}" class = "btn btn-info back" onclick = "showCards({{loop.index}})" type = "button">Go back</button>
 								<script>
-								counter ++
 								function showSimilars(loop){
 									var cards = document.getElementsByClassName("card");
 									for(var i=0; i< cards.length; i++){
@@ -193,22 +193,38 @@
 								</script>
 								<div class = "row sim-container" id = "city-sims{{outer_loop.index}}">
 								{% for c in sim_city_dict[d['city']] %}
-									<div id = "sim{{loop.index}}" class = "city-only col-sm-3">
+									<a href = "/?search={{c}}"  style = "text-decoration: none; color: black;"><div id = "sim{{loop.index}}" class = "city-only col-xs-3">
 										{{c}}
+										<script>
+										/*var key = "AIzaSyDRD4hKAN9sdI3oKuR67aQKFHgl-p7EFNI";
+										var cx = "007880840922509643519:hc-844xdo6s";
+										$(document).ready(function(){
+										const Url = 'https://www.googleapis.com/customsearch/v1?key=' + key+ '&cx='+cx + '&q={{c}}'; 
+										var curr_img_data;
+										curr_img_data = $.get(Url, function(data,status){return('${data}')});
+										
+										console.log(curr_img_data)
+										
+										});*/
+			
+										</script>
 									</div>
+									</a>
+									
 								{% endfor %}
 								</div>
 						<div id = "card{{loop.index}}" class = "card row">
 							<div class = "card-header">
-								{{d['city']}}, {{d['country']}}
+								{{d['city']}}
+								{% if d['country'] != ""%}, {{d['country']}}{% endif %}
 
 								<button class = "btn btn-info similar-cities" onclick = "showSimilars({{loop.index}})" type = "button">Find Similar Cities</button>
 								
 
 							</div>
 							
-							<div class = "container-fluid card-body">
-								<div class = "row row-no-gutters">
+							<div class = "container-fluid card-body" >
+								<div class = "row row-no-gutters" id = "city{{outer_loop.index}}" style = 'margin-bottom: 0px;'>
 									{% for place in d['attractions'] %}
 
 										<div class = "col-sm-4 col-xs-12">
@@ -234,7 +250,7 @@
 											<div class = "text-capitalize">{{place['type']}}
 											</div><br><br>
 											<div class = "buttons">
-											<button type = "button" class = "btn btn-info more-info" data-toggle="collapse" data-target= "#location-info{{outer_loop.index}}{{loop.index}}" aria-expanded="false" aria-controls="collapseExample">More info</button>
+											<button type = "button" class = "btn btn-info more-info" data-toggle="collapse" data-target= "#location-info{{outer_loop.index}}{{loop.index}}" data-parent= "#city{{outer_loop.index}}" aria-expanded="false" aria-controls="collapseExample">More info</button>
 											{% if place['website'] != 'nan': %}
 												<a href = {{place['website']}} class = "google-this btn btn-info" target = "_blank">Website</a><br>
 											{% else %}
@@ -244,33 +260,48 @@
 											</div>
 										</div>
 									{% endfor %}
-								</div>
-
-								<div class = "row " id = "location-info">
+									<div class = "panel" style = "background: none;">
 									{% for place in d['attractions'] %}
-										<div class = "col-md-12 collapse" id = "location-info{{outer_loop.index}}{{loop.index}}">
-											<br><br>
-											<div id = "because{{outer_loop.index}}{{loop.index}}">
-												Because you searched for:
-												{% for word in place['matches']%}
-													{{word}}
-													{% if loop.index < place['matches']|length %}
-													,
+											<div class = "col-md-12 collapse more" id = "location-info{{outer_loop.index}}{{loop.index}}">
+												<h3> {{place['name']}} </h3>
+												
+												Place description contains:
+												{% for _ in range(1,8) %}
+													{% if loop.index < 7 %}
+														{{place['description'][loop.index]}}, 
 													{% endif %}
+													{% if loop.index == 7 %}
+														{{place['description'][loop.index]}}
+													{% endif %}
+													
 												{% endfor %}
-											</div>
-											<div id = "reviews{{outer_loop.index}}{{loop.index}}">
+												<div class = "row">
+												
+												<div id = "because{{outer_loop.index}}{{loop.index}}" class = "col-xs-4">
+													<h4>Because you searched for:</h4>
+													{% for word in place['matches']%}
+														{{word}}
+														{% if loop.index < place['matches']|length %}
+														,
+														{% endif %}
+													{% endfor %}
+												</div>
+												
+												<div id = "reviews{{outer_loop.index}}{{loop.index}}" class = "col-xs-8">
 
-												{% if place['reviews']['reviews']|length == 0 %}
-													No Reviews
-												{% endif %}
-												{% for review in place['reviews']['reviews'] %}
-													{{review['rating']}} stars:
-													{{review['text']}}<br>
-												{% endfor %}
+													{% if place['reviews']['reviews']|length == 0 %}
+														<h4>No reviews available</h4>
+													{% endif %}
+													{% for review in place['reviews']['reviews'] %}
+														{{review['rating']}} stars:
+														{{review['text']}}<br>
+													{% endfor %}
+												</div>
+												</div>
+												<br>
 											</div>
-										</div>
 									{% endfor %}
+									</div>
 								</div>
 							</div>
 						</div>
@@ -281,10 +312,6 @@
 			</div>
 		</div>
 
-		</div>
-		<div id = "footer" class = "row">
-			<div class = "col-md-4">Project Name: {{ name }}</div>
-			<div class = "col-md-8">Student Name: ({{ netid }})</div>
 		</div>
     </body>
 

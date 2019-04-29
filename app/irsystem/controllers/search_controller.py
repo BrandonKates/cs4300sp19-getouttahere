@@ -199,7 +199,7 @@ def get_city_info(city, folder):
 	"""
 	with open(folder+str(city) + '.json', 'r') as f:
 		data = json.load(f)
-		return data[city]
+		return data.get(city)
 
 def attraction_score(query, desc):
 	"""

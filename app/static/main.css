@@ -10,7 +10,6 @@
 text-align:center;
 }
 body {
-padding-bottom: 15px;
 font-family: 'Roboto', sans-serif;
 }
 .global-search {
@@ -70,12 +69,14 @@ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 transition: 0.3s;
 overflow: auto;
 padding: 10px;
+padding-bottom: 0px;
 z-index: 3;
 }
 
 .card-body{
 height: auto;
 padding: 10px;
+padding-bottom: 0px;
 }
 
 .card-body row{
@@ -106,6 +107,7 @@ background: rgb(255,255,255);
 margin: 0px;
 }
 .attraction-info{
+margin-top: 10px;
 padding: 10px;
 box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
 min-height: 175px;
@@ -158,6 +160,16 @@ height: auto;
 float: left;
 }
 
+.more{
+margin-top: 10px;
+margin-bottom: 10px;
+overflow: auto;
+background-color: white;
+box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+
+}
+
+
 .google-this{
 float: right;
 }
@@ -202,18 +214,27 @@ transform: translate(50%, -50%);
 .city-only{
 margin: 0;
 margin: 2%;
-width: 100px;
-height: 100px;
-background: rgb(255,250,245);
-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+width: 150px;
+height: 150px;
+font-size: 20px;
+font-family: 'Poppins';
+background: rgb(255,255,255);
+box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
 transition: 0.3s;
 overflow: auto;
 padding: 10px;
 z-index: 3;
+text-align: center;
+}
+
+.city-only:hover{
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+cursor: pointer;
+
 }
 #search-pane{
 height: auto;
-min-height: 85%;
+min-height: 90%;
 padding: 0px;
 box-shadow: 3px 0 3px -1px rgba(0,0,0,0.2);
 z-index: 3;
@@ -231,7 +252,7 @@ width: 100%;
 width: 100%;
 }
 #results-pane{
-height: 85%;
+height: 90%;
 padding: 0px;
 overflow: auto;
 z-index: 2;
@@ -256,19 +277,7 @@ top: 50%;
 left: 0%;
 transform: translate(0, -50%);
 }
-#footer{
-margin-left: auto;
-margin-right: auto;
-box-shadow: 0 -2px 2px -1px rgba(0,0,0,0.2);
-height: 5%;
-position: relative;
-z-index: 10;
-}
-#footer div{
-top: 50%;
-left: 0%;
-transform: translate(0, -50%);
-}
+
 #urbanrange{
 width: 60%;
 }
