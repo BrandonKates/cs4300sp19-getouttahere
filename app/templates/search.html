@@ -164,11 +164,16 @@
 						var lon = cityLookup[city][1]
 						
 						var desc = city
-						if (lat != 0 || lon != 0)
+						if (lat != 0 || lon != 0){
+
 							if (homeCoords){
-								desc = desc + " - " + distance(homeCoords[1],homeCoords[0],lat,lon) + "miles"
+								desc = city + " - " + distance(homeCoords[0],homeCoords[1],lat,lon) + "miles";
+							}
+							else {
+								desc = city;
 							}
 							pairs.push([parseFloat(lat),parseFloat(lon),desc])
+						}
 					}
 
 				}
