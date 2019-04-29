@@ -1,5 +1,6 @@
 import json
 import pickle
+import os
 
 from nltk.corpus import stopwords 
 from nltk.tokenize import RegexpTokenizer
@@ -9,7 +10,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.neighbors import KNeighborsClassifier
 from tqdm import tqdm
 
-import os
+from pathlib import Path
+
 def load_data(path):
 	data_file = os.path.join(path, 'largecity_data.json')
 	data_dict = dict()
@@ -129,8 +131,8 @@ def run_all_kmeans(X, y, k):
 	return all_nearest_neighbors
 
 def main():
-	dirpath = os.getcwd()
-	data_files = os.path.join(dirpath, "/app/static/data/")
+	base_path = Path(__file__).parent
+	data_files = (base_path / "../../static/data").resolve()
 	try:
 		reviews = load_reviews(data_files)
 	except:
@@ -142,10 +144,10 @@ def main():
 	att_vec, X_att = tfidf(attraction_corpus)
 
 	kmeans_dest = run_all_kmeans(X_dest, y_dest, 6)
-	kmeans_att = run_all_kmeans(X_att, y_att, 6)
+	#kmeans_att = run_all_kmeans(X_att, y_att, 6)
 
-	pickle.dump(kmeans_dest, open("kmeans_dest.pickle", 'wb'))
-	pickle.dump(kmeans_att, open("kmeans_att.pickle",'wb'))
+	pickle.dump(kmeans_dest, open(os.path.join(data_files, "kmeans_dest.pickle"), 'wb'))
+	pickle.dump(kmeans_att, open(os.path.join(data_files, "kmeans_att.pickle"), 'wb'))
 
 if __name__ == "__main__":
 	main()
