@@ -268,7 +268,7 @@ z-index: 2;
 #header{
 box-shadow: 0 2px 2px -1px rgba(0,0,0,0.2);
 height: 10%;
-min-height: 60px;
+min-height: 80px;
 position: relative;
 z-index: 4;
 font-weight: bold;
