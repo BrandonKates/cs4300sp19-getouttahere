@@ -243,7 +243,6 @@ def get_matching_terms(query, desc, stemmer):
 	return [x[0] for x in sorted_tuples]
 
 def matches_advanced(data, city, matches, price, purpose, climate, urban):	
-	print(purpose, data['attractions'][city]['purpose'])
 	if price != "" and price == data['attractions'][city]['cost']:
 		matches.append(price + ' price')
 	for p in data['attractions'][city]['purpose']:
