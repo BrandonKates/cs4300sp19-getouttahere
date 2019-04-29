@@ -29,12 +29,15 @@ function add_marker(lon,lat,place,mymap) {
 
   var canoeIcon = L.icon({
     iconUrl: '/static/images/canoe_transparent.png',
+    autoPan: false,
     iconSize:     [40, 60], // size of the icon
     shadowSize:   [50, 64] // size of the shadow
 });
 
   var jsonMarkerOptions = {
     radius: 8,
+    autoPan: false,
+    draggable: true,
     fillColor: "#ff7800",
     color: "#000",
     weight: 1,
@@ -45,15 +48,16 @@ function add_marker(lon,lat,place,mymap) {
 var jsonTextOptions = {
     radius: 8,
     fillColor: "#ff7800",
+    autoPan: false,
     color: "#000",
     weight: 1,
     opacity: 1,
     fillOpacity: 0.8
 };
-    var marker = L.marker([lon, lat],  {icon: canoeIcon}).addTo(mymap);
+    var marker = L.marker([lon, lat],  {icon: canoeIcon}, {autoPan: false}).addTo(mymap);
 
-    marker.bindPopup(place);
-	//marker.openPopup();
+
+    marker.bindPopup(place,{autoPan:false});
 
     marker.on('mouseover', function (e) {
             this.openPopup();
