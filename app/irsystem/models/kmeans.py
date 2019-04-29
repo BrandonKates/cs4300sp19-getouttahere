@@ -150,9 +150,9 @@ def main():
 	kmeans_dest = run_all_kmeans(X_dest, y_dest, 6)
 	kmeans_att = run_all_kmeans(X_att, y_att, 6)
 
-	print("Writing to %s\n" % os.path.join(data_files, "kmeans_dest.pickle"))
+	print("Writing to %s" % os.path.join(data_files, "kmeans_dest.pickle"))
 	pickle.dump(kmeans_dest, open(os.path.join(data_files, "kmeans_dest.pickle"), 'wb'))
-	print("Writing to %s\n" % os.path.join(data_files, "kmeans_att.pickle"))
+	print("Writing to %s" % os.path.join(data_files, "kmeans_att.pickle"))
 	pickle.dump(kmeans_att, open(os.path.join(data_files, "kmeans_att.pickle"), 'wb'))
 
 if __name__ == "__main__":
