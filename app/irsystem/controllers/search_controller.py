@@ -201,8 +201,7 @@ def organize_city_info(climate, urban, city, folder, query, num_attrs, price, pu
 			else:
 				output_dict['attractions'][att]['climate'] = False
 
-
-
+			#output_dict['attractions'][att]['matches'] = attractions[name]['matches']
 
 	return output_dict
 
