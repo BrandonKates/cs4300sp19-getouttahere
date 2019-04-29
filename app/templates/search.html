@@ -109,7 +109,7 @@
 						</div>
 
 						<br>
-						<input type = "text" id = "input2" name = "currentloc" class = "form-control" placeholder = "Your current location">
+						<input type = "text" id = "inputLocation" name = "currentloc" class = "form-control" placeholder = "Your location: Lat,Lon">
 						<br><br>
 						<input type = "number" name = "numberLocs" class = "form-control" min = "1" max = "12" placeholder = "Number of recommendations desired">
 					</div><br><br>
@@ -138,11 +138,19 @@
 
 				<script type="text/javascript">
 
+	
+				
+				var lat = ({{latitude|string|safe}})
+				var lon = ({{longitude|string|safe}})
 
-				var lat_lng = {{data|tojson|safe}};
+				var homeCoords = null
+
+				if (lat && lon)
+					homeCoords = [lat,lon]
 
 				cityLookup = places
 
+				var lat_lng = {{data|tojson|safe}};
 
 				var pairs = []
 
@@ -154,12 +162,19 @@
 						var lat = cityLookup[city][0]
 						var lon = cityLookup[city][1]
 						
+						var desc = city
 						if (lat != 0 || lon != 0)
-							pairs.push([parseFloat(lat),parseFloat(lon),city])
+							if (homeCoords){
+								desc = desc + " - " + distance(homeCoords[1],homeCoords[0],lat,lon) + "miles"
+							}
+							pairs.push([parseFloat(lat),parseFloat(lon),desc])
 					}
 
 				}
-				showMap(pairs)
+
+				showMap(homeCoords,pairs)
+
+			
 				</script>
 
 
@@ -168,7 +183,7 @@
 					{% set outer_loop = loop %}
 								<button id = "back{{outer_loop.index}}" class = "btn btn-info back" onclick = "showCards({{loop.index}})" type = "button">Go back</button>
 								<script>
-								counter ++
+								// counter ++
 								function showSimilars(loop){
 									var cards = document.getElementsByClassName("card");
 									for(var i=0; i< cards.length; i++){
