@@ -9,6 +9,9 @@ import os
 import requests
 import pickle
 import math
+from nltk.corpus import stopwords
+
+stops = set(stopwords.words('english'))
 
 dirpath = os.getcwd()
 data_files = dirpath + "/app/static/data/"
@@ -84,9 +87,9 @@ def search():
 	lat = None
 	lon = None
 
-	if currentLoc!=None:
-		lat = currentLoc[0]
-		lon = currentLoc[1]
+	#if currentLoc != "":
+		#lat = currentLoc[0]
+		#lon = currentLoc[1]
 
 	return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data, sim_city_dict = kmeans_dest, sim_att_dict = kmeans_att, latitude = lat, longitude = lon)
 
@@ -115,10 +118,11 @@ def get_inputs():
 		numLocs = 4
 	numLocs = int(numLocs)
 	currentLoc = request.args.get('currentloc')
+	if currentLoc == None:
+		currentLoc = ""
 	if currentLoc != None:
 		currentLoc =  currentLoc.strip().split(",")
-	else:
-		currentLoc = None
+
 	return query, price, purpose, climate, urban, numLocs, currentLoc
 
 
@@ -302,7 +306,6 @@ def index_search(query, index, idf, doc_norms):
     # Tokenize the query
     tokenizer = RegexpTokenizer(r"\w+")
     tokens = tokenizer.tokenize(query.lower())
-
     # Calculate tf of query
     q_tf = {}
     for t in tokens:

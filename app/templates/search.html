@@ -304,7 +304,7 @@
 													{% for word in place['matches']%}
 														{{word}}
 														{% if loop.index < place['matches']|length %}
-														,
+														<br>
 														{% endif %}
 													{% endfor %}
 												</div>
@@ -313,10 +313,23 @@
 
 													{% if place['reviews']['reviews']|length == 0 %}
 														<h4>No reviews available</h4>
+														
+													{% else %}
+														<h4>Reviews:</h4>
 													{% endif %}
 													{% for review in place['reviews']['reviews'] %}
-														{{review['rating']}} stars:
-														{{review['text']}}<br>
+														
+														{% set rating = review['rating']|round(1) %}
+														{% for _ in range(1,10)%}
+														{% if loop.index < rating %}
+															<img alt = "Star" class = "star starsmall" src = "/static/icons8-star-filled-48.png">
+														{% endif%}
+														{% endfor %}
+														{% if rating - rating|round(0,'floor') != 0 %}
+															<img alt = "Star" class = "stars starsmall" src = "/static/icons8-star-half-48.png">
+														{% endif %}
+			
+														{{review['text'][:80]}}...<br>
 													{% endfor %}
 												</div>
 												</div>
