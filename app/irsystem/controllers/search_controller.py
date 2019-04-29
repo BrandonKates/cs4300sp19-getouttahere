@@ -8,6 +8,7 @@ import numpy as np
 import os
 import requests
 import pickle
+import math
 
 dirpath = os.getcwd()
 data_files = dirpath + "/app/static/data/"
@@ -34,7 +35,7 @@ def search():
 	the top cities for the query. For each city, it also returns top attractions
 	located there.
 	"""
-	query, price, purpose, climate, urban, numLocs = get_inputs()
+	query, price, purpose, climate, urban, numLocs, currentLoc = get_inputs()
 	
 	# Stem query words:
 	stem_query = ''
@@ -75,11 +76,19 @@ def search():
 			city_info['score'] = score
 
 			data.append(city_info)
+
+			
 			numLocs -= 1
 			if numLocs == 0:
 				break
+	lat = None
+	lon = None
 
-	return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data, sim_city_dict = kmeans_dest, sim_att_dict = kmeans_att)
+	if currentLoc!=None:
+		lat = currentLoc[0]
+		lon = currentLoc[1]
+
+	return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data, sim_city_dict = kmeans_dest, sim_att_dict = kmeans_att, latitude = lat, longitude = lon)
 
 def get_inputs():
 	"""
@@ -105,8 +114,12 @@ def get_inputs():
 	if numLocs == None or numLocs == '':
 		numLocs = 4
 	numLocs = int(numLocs)
-	
-	return query, price, purpose, climate, urban, numLocs
+	currentLoc = request.args.get('currentloc')
+	if currentLoc != None:
+		currentLoc =  currentLoc.strip().split(",")
+	else:
+		currentLoc = None
+	return query, price, purpose, climate, urban, numLocs, currentLoc
 
 
 def organize_city_info(climate, urban, city, folder, query, stemmer, num_attrs, price, purpose):

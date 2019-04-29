@@ -1,15 +1,18 @@
 
 
 
-function showMap(pairs){
+function showMap(home, pairs){
 
  var mymap = L.map('map').setView([0, 0], 1);
  L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(mymap);
 
- input_lat_lon_pairs(pairs,mymap)
+ input_lat_lon_pairs(pairs,mymap);
 
+ if (home!=null && home.length == 2){
+     add_home_marker(home[0],home[1],mymap);
+ }
 }
 
 function input_lat_lon_pairs(pairs,mymap) {
@@ -18,6 +21,9 @@ function input_lat_lon_pairs(pairs,mymap) {
       }
 }
 
+function add_home_marker(lon,lat, mymap) {
+    var iconCircle = L.circleMarker([lon, lat]).addTo(mymap);
+}
 
 function add_marker(lon,lat,place,mymap) {
 
@@ -55,8 +61,23 @@ var jsonTextOptions = {
      marker.on('mouseout', function (e) {
             this.closePopup();
         });
-
-  
 }
 
- 
+//Credits: https://www.movable-type.co.uk/scripts/latlong.html
+  function distance(lat1,lon1,lat2,lon2) {
+  var R = 3958.8; // Radius of the earth in miles
+  var dLat = deg2rad(lat2-lat1);  // deg2rad below
+  var dLon = deg2rad(lon2-lon1); 
+  var a = 
+    Math.sin(dLat/2) * Math.sin(dLat/2) +
+    Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) * 
+    Math.sin(dLon/2) * Math.sin(dLon/2)
+    ; 
+  var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
+  var d = R * c; // Distance in miles
+  return d.toFixed(2);
+}
+
+function deg2rad(deg) {
+  return deg * (Math.PI/180)
+}

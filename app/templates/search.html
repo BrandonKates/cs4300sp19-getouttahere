@@ -21,11 +21,12 @@
    integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
    crossorigin=""/>
 
-    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
-   integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
-   crossorigin=""></script>
+	    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+	   integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+	   crossorigin=""></script>
 
-		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+
 		<script> $(function(){var tags = ["kayaking", "skiing"]; $( "#simpsearch" ).autocomplete({source: tags});});</script>
 	</head>
     <body>
@@ -109,7 +110,7 @@
 						</div>
 
 						<br>
-						<input type = "text" id = "input2" name = "currentloc" class = "form-control" placeholder = "Your current location">
+						<input type = "text" id = "inputLocation" name = "currentloc" class = "form-control" placeholder = "Your location: Lat,Lon">
 						<br><br>
 						<input type = "number" name = "numberLocs" class = "form-control" min = "1" max = "12" placeholder = "Number of recommendations desired">
 					</div><br><br>
@@ -139,11 +140,19 @@
 
 				<script type="text/javascript">
 
+	
+				
+				var lat = ({{latitude|string|safe}})
+				var lon = ({{longitude|string|safe}})
 
-				var lat_lng = {{data|tojson|safe}};
+				var homeCoords = null
+
+				if (lat && lon)
+					homeCoords = [lat,lon]
 
 				cityLookup = places
 
+				var lat_lng = {{data|tojson|safe}};
 
 				var pairs = []
 
@@ -155,12 +164,24 @@
 						var lat = cityLookup[city][0]
 						var lon = cityLookup[city][1]
 						
-						if (lat != 0 || lon != 0)
-							pairs.push([parseFloat(lat),parseFloat(lon),city])
+						var desc = city
+						if (lat != 0 || lon != 0){
+
+							if (homeCoords){
+								desc = city + " - " + distance(homeCoords[0],homeCoords[1],lat,lon) + "miles";
+							}
+							else {
+								desc = city;
+							}
+							pairs.push([parseFloat(lat),parseFloat(lon),desc])
+						}
 					}
 
 				}
-				showMap(pairs)
+
+				showMap(homeCoords,pairs)
+
+			
 				</script>
 
 
@@ -169,6 +190,7 @@
 					{% set outer_loop = loop %}
 								<button id = "back{{outer_loop.index}}" class = "btn btn-info back" onclick = "showCards({{loop.index}})" type = "button">Go back</button>
 								<script>
+
 								function showSimilars(loop){
 									var cards = document.getElementsByClassName("card");
 									for(var i=0; i< cards.length; i++){
