@@ -151,7 +151,9 @@ def organize_city_info(climate, urban, city, folder, query, stemmer, num_attrs, 
 		
 		# Find all matching terms b/w query and description
 		matches = get_matching_terms(query, attractions[name]['description'], stemmer)
-		attractions[name]['matches'] = matches
+		matches_adv = matches_advanced(data, name, matches, price, purpose, climate, urban)
+		
+		attractions[name]['matches'] = matches_adv
 		output_dict['attractions'].append(attractions[name])
 
 	# Get reviews for each attraction
@@ -245,6 +247,26 @@ def get_matching_terms(query, desc, stemmer):
 
 	return [x[0] for x in sorted_tuples]
 
+def matches_advanced(data, city, matches, price, purpose, climate, urban):
+	if price == data['attractions'][city]['cost']:
+		matches.append(price + ' price')
+	if purpose == data['attractions'][city]['purpose']:
+		matches.append('trip type: ' + purpose)
+	if climate == get_climate(city):
+		matches.append(climate + ' climate')
+		
+	# Urban scale from 0-2 in UI
+	urban_poss = ['rural', 'urban']
+	if urban == 1:
+		urban = 2
+	elif urban == 2:
+		urban = 1
+	if urban == is_urban(city):
+		matches.append(urban_poss[urban])
+	
+	return matches
+	
+
 def index_search(query, index, idf, doc_norms):
     """ Search the collection of documents for the given query
     Arguments
@@ -317,6 +339,3 @@ def get_reviews(place_id, api_key):
 	"""Gets reviews for a location based on its google place id"""
 	reviews = requests.get("https://maps.googleapis.com/maps/api/place/details/json?placeid="+str(place_id)+"&language=en&fields=price_level,rating,review&key=" + api_key).json()
 	return reviews
-
-
-#zip.close()
