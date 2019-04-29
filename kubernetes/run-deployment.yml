@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: flask
-        image: bmets/kanoe:v1
+        image: bmets/kanoe
         env:
         - name: APP_SETTINGS
           value: config.DevelopmentConfig
