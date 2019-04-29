@@ -1,4 +1,5 @@
 import json
+import pickle
 
 from nltk.corpus import stopwords 
 from nltk.tokenize import RegexpTokenizer
@@ -10,16 +11,14 @@ from tqdm import tqdm
 
 import os
 def load_data():
-	dirpath = os.getcwd()
-	data_path = + "/app/static/data"
-	data_file = os.path.join(app.instance_path, data_path, data_file)
+	data_file = os.path.join(data_files, 'largecity_data.json')
 	data_dict = dict()
 	with open(data_file, 'r') as data:
 			data_dict = json.load(data)
 	return data_dicts
 
 def load_reviews():
-	with open('reviews.json', 'r') as data:
+	with open(os.path.join(data_files,'reviews.json'), 'r') as data:
 		return json.load(data)
 
 def generate_reviews(data):
@@ -130,6 +129,8 @@ def run_all_kmeans(X, y, k):
 	return all_nearest_neighbors
 
 def main():
+	dirpath = os.getcwd()
+	data_files = os.path.join(dirpath, "/app/static/data/")
 	try:
 		reviews = load_reviews()
 	except:
@@ -145,6 +146,7 @@ def main():
 
 	pickle.dump(kmeans_dest, open("kmeans_dest.pickle", 'wb'))
 	pickle.dump(kmeans_att, open("kmeans_att.pickle",'wb'))
+
 if __name__ == "__main__":
 	main()
 
