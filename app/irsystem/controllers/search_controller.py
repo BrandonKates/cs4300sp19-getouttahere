@@ -67,16 +67,13 @@ def search():
 		output_message = ""
 	else:
 		results = index_search(stem_query, inv_idx, idf, doc_norms)
+		print(len(results))
 		output_message= ""
 
 		if len(results) == 0:
 			output_message = "No Results Found"
 		data = []
 		for i, (city, score) in enumerate(results):
-			# Normalize for number of attractions
-			city_info = get_city_info(city, json_data) 
-			score = score/(int(city_info['size']))
-		
 			# Decrease score if not rural/urban as user specified
 			if (urban==0 and is_urban(city)==1) or (urban==2 and is_urban(city)==0):
 				score *= (1-urban_weight)
@@ -84,6 +81,7 @@ def search():
 			# Decrease score if incorrect climate
 			if climate != "" and climate != get_climate(city) and get_climate(city) is not None:
 				score *= (1-climate_weight)
+				
 			results[i] = (city, score)
 			
 		for city, score in results:
@@ -126,11 +124,13 @@ def attraction_score(query, desc):
 	for term in desc:
 		stemmed_desc.append(ps.stem(term))
 
+	if len(stemmed_desc) == 0:
+		return 0
 	for q in query.lower().split():
 		for d in stemmed_desc:
 			if (q in d) or (d in q):
 				score += 1
-	score /= len(desc) + 1
+	score /= len(stemmed_desc)
 	return score
 	
 def organize_city_info(city, folder, query, stemmer, num_attrs, price, purpose):
