@@ -45,9 +45,10 @@ def search():
 	stem_dict = {}
 
 	for term in query.lower().replace(',',' ').split():
-		s = ps.stem(term)
-		stem_query += str(s + " ")
-		stem_dict[s] = term
+		if term not in stops:
+			s = ps.stem(term)
+			stem_query += str(s + " ")
+			stem_dict[s] = term
 	
 	output_message = ""
 	if len(np.unique(stem_query.split(" "))) == 1:
@@ -87,9 +88,9 @@ def search():
 	lat = None
 	lon = None
 
-	#if currentLoc != "":
-		#lat = currentLoc[0]
-		#lon = currentLoc[1]
+	if currentLoc != "":
+		lat = currentLoc[0]
+		lon = currentLoc[1]
 
 	return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data, sim_city_dict = kmeans_dest, sim_att_dict = kmeans_att, latitude = lat, longitude = lon)
 
@@ -173,8 +174,8 @@ def organize_city_info(climate, urban, city, folder, query, stemmer, num_attrs, 
 	for att in range(len(output_dict['attractions'])):
 		place_id = output_dict['attractions'][att]['place_id']
 		if place_id is not None and place_id != 'not found':
-			#reviews = [{'reviews':["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."]}]
-			reviews = get_reviews(place_id, api_key).get('result')
+			reviews = [{'reviews':["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."]}]
+			#reviews = get_reviews(place_id, api_key).get('result')
 			output_dict['attractions'][att]['reviews'] = reviews
 			#SOFIA
 			#adds urban/rural variable
@@ -260,7 +261,7 @@ def get_matching_terms(query, desc, stemmer):
 	return [x[0] for x in sorted_tuples]
 
 def matches_advanced(data, city, matches, price, purpose, climate, urban):	
-	print(purpose, data['attractions'][city]['purpose'])
+	#print(purpose, data['attractions'][city]['purpose'])
 	if price != "" and price == data['attractions'][city]['cost']:
 		matches.append(price + ' price')
 	for p in data['attractions'][city]['purpose']:

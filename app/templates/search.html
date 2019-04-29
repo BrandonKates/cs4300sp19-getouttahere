@@ -133,15 +133,13 @@
    				  #map {
   				height: 50%;
  				 width: 60%;
-				 display: none;
+				 
 				}
 				</style>
 
 
 				<script type="text/javascript">
-
-	
-				
+			
 				var lat = ({{latitude|string|safe}})
 				var lon = ({{longitude|string|safe}})
 
@@ -287,6 +285,7 @@
 											<div class = "col-md-12 collapse more" id = "location-info{{outer_loop.index}}{{loop.index}}">
 												<h3> {{place['name']}} </h3>
 												
+												{% if place['description']|length > 7 %}
 												Place description contains:
 												{% for _ in range(1,8) %}
 													{% if loop.index < 7 %}
@@ -297,6 +296,7 @@
 													{% endif %}
 													
 												{% endfor %}
+												{% endif %}
 												<div class = "row">
 												
 												<div id = "because{{outer_loop.index}}{{loop.index}}" class = "col-xs-4">
@@ -304,9 +304,10 @@
 													{% for word in place['matches']%}
 														{{word}}
 														{% if loop.index < place['matches']|length %}
-														<br>
+														, 
 														{% endif %}
 													{% endfor %}
+													
 												</div>
 												
 												<div id = "reviews{{outer_loop.index}}{{loop.index}}" class = "col-xs-8">
