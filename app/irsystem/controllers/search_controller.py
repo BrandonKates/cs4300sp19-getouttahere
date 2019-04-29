@@ -55,6 +55,16 @@ def search():
 		results = index_search(stem_query, inv_idx, idf, doc_norms)
 		if len(results) == 0:
 			output_message = "No Results Found"
+			
+		# Score modifiers based on urban and climate inputs
+		for i, (city, score) in enumerate(results):
+			# Decrease score if not rural/urban as user specified
+			if (urban==0 and is_urban(city)==1) or (urban==2 and is_urban(city)==0):
+				score *= 0.8
+
+			# Decrease score if incorrect climate
+			if climate != "" and climate != get_climate(city) and get_climate(city) is not None:
+				score *= 0.8
 
 		for city, score in results:
 			data_dict = {}
