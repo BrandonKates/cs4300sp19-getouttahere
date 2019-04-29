@@ -172,6 +172,9 @@
 												Because you searched for:
 												{% for word in place['matches']%}
 													{{word}}
+													{% if loop.index < place['matches']|length %}
+													,
+													{% endif %}
 												{% endfor %}
 											</div>
 											<div id = "reviews{{outer_loop.index}}{{loop.index}}">
