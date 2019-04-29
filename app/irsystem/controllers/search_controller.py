@@ -73,6 +73,10 @@ def search():
 			output_message = "No Results Found"
 		data = []
 		for i, (city, score) in enumerate(results):
+			# Normalize for number of attractions
+			city_info = get_city_info(city, json_data) 
+			score = score/(int(city_info['size']))
+		
 			# Decrease score if not rural/urban as user specified
 			if (urban==0 and is_urban(city)==1) or (urban==2 and is_urban(city)==0):
 				score *= (1-urban_weight)
