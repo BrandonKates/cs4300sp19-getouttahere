@@ -8,11 +8,13 @@ function showMap(home, pairs){
 attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(mymap);
 
- input_lat_lon_pairs(pairs,mymap);
-
  if (home!=null && home.length == 2){
      add_home_marker(home[0],home[1],mymap);
  }
+
+ input_lat_lon_pairs(pairs,mymap);
+
+
 }
 
 function input_lat_lon_pairs(pairs,mymap) {
@@ -21,22 +23,21 @@ function input_lat_lon_pairs(pairs,mymap) {
       }
 }
 
-function add_home_marker(lon,lat, mymap) {
-    var iconCircle = L.circleMarker([lon, lat]).addTo(mymap);
+function add_home_marker(lon,lat,mymap) {
+    
+    var iconCircle = L.circleMarker([parseFloat(lat), parseFloat(lon)]).addTo(mymap);
 }
 
 function add_marker(lon,lat,place,mymap) {
 
   var canoeIcon = L.icon({
     iconUrl: '/static/images/canoe_transparent.png',
-    autoPan: false,
     iconSize:     [40, 60], // size of the icon
     shadowSize:   [50, 64] // size of the shadow
 });
 
   var jsonMarkerOptions = {
     radius: 8,
-    autoPan: false,
     draggable: true,
     fillColor: "#ff7800",
     color: "#000",
@@ -48,13 +49,12 @@ function add_marker(lon,lat,place,mymap) {
 var jsonTextOptions = {
     radius: 8,
     fillColor: "#ff7800",
-    autoPan: false,
     color: "#000",
     weight: 1,
     opacity: 1,
     fillOpacity: 0.8
 };
-    var marker = L.marker([lon, lat],  {icon: canoeIcon}, {autoPan: false}).addTo(mymap);
+    var marker = L.marker([lon, lat], {icon: canoeIcon}).addTo(mymap);
 
 
     marker.bindPopup(place,{autoPan:false});
