@@ -54,7 +54,7 @@ max-height: 100%;
 .btn{
 background-color: #4285F4;
 border: none;
-border-radius: 10px 2px 10px;
+border-radius: 10px 0px 10px 0px;
 }
 .step-links a{
 color: #4285F4;
@@ -238,7 +238,7 @@ height: 15px;
 }
 #search-pane{
 height: auto;
-min-height: 90%;
+height: 100%;
 padding: 0px;
 box-shadow: 3px 0 3px -1px rgba(0,0,0,0.2);
 z-index: 3;
@@ -256,14 +256,13 @@ width: 100%;
 width: 100%;
 }
 #results-pane{
-min-height: 400px;
+min-height: 600px;
+height: 90%;
 padding: 0px;
-overflow: auto;
 z-index: 2;
+overflow: auto;
 }
-#results-main{
-height:100%;
-}
+
 #results-pane .row{
 }
 
@@ -300,6 +299,7 @@ display: none;
 position: absolute;
 top: 0px;
 left: 0px;
+border-radius: 0px 0px 10px 0px;
 }
 
 #showmap, #hidemap{
