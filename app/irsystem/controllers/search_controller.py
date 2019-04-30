@@ -178,6 +178,7 @@ def organize_city_info(climate, urban, city, folder, query, stemmer, num_attrs, 
 	
 	# Save & return the top reviews
 	for i in range(num_attrs):
+		if i >= len(sorted_scores): break
 		(name, score) = sorted_scores[i]
 		
 		# Find all matching terms b/w query and description
