@@ -47,31 +47,10 @@
 
 					<br><br>
 
-					<div class = "" id = "bloodhound">
-						<input type="text" name="search" placeholder="Your ideal trip" id = "basic-search" data-role = "tagsinput">
-
-					</div><br><br>
-					<script>
-					//Typeahead code sourced from https://github.com/bootstrap-tagsinput/bootstrap-tagsinput/issues/555
-					$(document).ready(function(){
-						var suggestions = ['vacation', 'skiing', 'testing', 'skunks'];
-						var bloodHoundObj = new Bloodhound({
-						  datumTokenizer: Bloodhound.tokenizers.whitespace,
-						  queryTokenizer: Bloodhound.tokenizers.whitespace,
-						  // url points to a json file that contains an array of country names, see
-						  // https://github.com/twitter/typeahead.js/blob/gh-pages/data/countries.json
-						  local: suggestions
-						});
-						bloodHoundObj.initialize();
-						$('#basic-search').tagsinput({
-							typeaheadjs: {
-								name: 'suggestions',
-								hint: true,
-								source: bloodHoundObj.ttAdapter()
-							}
-						});
-					});
-					</script>
+					
+					<input type="text" name="search" placeholder="Your ideal trip" id = "basic-search" data-role = "tagsinput" required>
+					<br><br>
+					
 					<button type = "button" class = "btn btn-info form-control global-search" data-toggle="collapse" data-target="#advsearch" aria-expanded="false" aria-controls="collapseExample">Advanced Search </button>
 					<br>
 					<div id = "advsearch" class = "collapse" aria-expanded = "false" style = "height: 0">
