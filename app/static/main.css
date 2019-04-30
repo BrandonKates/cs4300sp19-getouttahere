@@ -306,7 +306,21 @@ border-radius: 0px 0px 10px 0px;
 border-radius: 0px 0px 10px 0px;
 
 }
-
+#proto1, #proto2{
+position: absolute;
+right: 10px;
+top: 5px;
+width: 150px;
+}
+#proto2{
+top: 40px;
+}
+.github{
+position: absolute;
+right: 200px;
+top: 20px;
+height: 40px;
+}
 
 @media (max-width: 768px){
 	
