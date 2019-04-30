@@ -88,12 +88,12 @@ def search():
 			numLocs -= 1
 			if numLocs == 0:
 				break
-	lat = None
-	lon = None
+	lat = 0
+	lon = 0
 
-	#if currentLoc != "":
-	#	lat = currentLoc[0]
-	#	lon = currentLoc[1]
+	if currentLoc != None and len(currentLoc) == 2:
+		lat = currentLoc[0]
+		lon = currentLoc[1]
 
 	return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data, sim_city_dict = kmeans_dest, sim_att_dict = kmeans_att, latitude = lat, longitude = lon)
 
@@ -122,9 +122,9 @@ def get_inputs():
 		numLocs = 4
 	numLocs = int(numLocs)
 	currentLoc = request.args.get('currentloc')
-	if currentLoc == None:
-		currentLoc = ""
-	if currentLoc != None:
+	if currentLoc == None or len(currentLoc.strip().split(",")) != 2:
+		currentLoc = None
+	else:
 		currentLoc =  currentLoc.strip().split(",")
 
 	return query, price, purpose, climate, urban, numLocs, currentLoc

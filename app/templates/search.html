@@ -163,14 +163,19 @@
 
 				<script type="text/javascript">
 			
-				var lat = 43//({{latitude|string|safe}})
-				var lon = 55//({{longitude|string|safe}})
+				var Latitude = {{latitude|string|safe}};
+				var Longitude = {{longitude|string|safe}};
+
 				var homeCoords = null
-				if (lat && lon)
-					homeCoords = [lat,lon]
+
+				if (Latitude && Longitude)
+					homeCoords = [Latitude,Longitude]
+
+
 				cityLookup = places
 				var lat_lng = {{data|tojson|safe}};
 				var pairs = []
+
 				for (i = 0; i < lat_lng.length; i++) {
 					var city = lat_lng[i]['city']
 					if (city in cityLookup){
