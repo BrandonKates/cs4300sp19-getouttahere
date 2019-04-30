@@ -23,9 +23,8 @@ function input_lat_lon_pairs(pairs,mymap) {
       }
 }
 
-function add_home_marker(lon,lat,mymap) {
-    
-    var iconCircle = L.circleMarker([parseFloat(lat), parseFloat(lon)]).addTo(mymap);
+function add_home_marker(lat,lon,mymap) {
+    var iconCircle = L.marker([lat, lon], {autoPan:false}).addTo(mymap);
 }
 
 function add_marker(lon,lat,place,mymap) {
