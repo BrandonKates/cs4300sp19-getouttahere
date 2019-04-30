@@ -67,16 +67,14 @@ def search():
 			
 		# Score modifiers based on urban and climate inputs
 		for i, (city, score) in enumerate(results):
-			# Decrease score if not rural/urban as user specified
+			# Increase score if rural/urban as user specified
 			if (urban==0 and is_urban(city)==0) or (urban==2 and is_urban(city)==2):
-				
 				score *= 2
-
-			# Decrease score if incorrect climate
-			
+				
+			# Increase score if correct climate
 			if climate != "" and climate == get_climate(city) and get_climate(city) is not None:
-				
 				score *= 2
+				
 			results[i] = (city, score)
 		
 		sorted_results = sorted(results, key=lambda x: x[1], reverse=True)
@@ -166,9 +164,9 @@ def organize_city_info(climate, urban, city, folder, query, stemmer, num_attrs, 
 			score = attraction_score(query, value['description'])
 			cost_match = price == data['attractions'][key]['cost']
 			if price != "" and cost_match:
-			
 				score *= 2
 			purpose_match = purpose in set(data['attractions'][key]['purpose'])
+			
 			if purpose != "" and  purpose_match:
 				score *= 2
 			attrac_scores.append((key, score))
@@ -279,7 +277,9 @@ def get_matching_terms(query, desc, stemmer):
 	return [x[0] for x in sorted_tuples]
 
 def matches_advanced(data, city, matches, price, purpose, climate, urban):	
-	#print(purpose, data['attractions'][city]['purpose'])
+	"""
+	Checks for search matches in the advanced search inputs
+	"""
 	if price != "" and price == data['attractions'][city]['cost']:
 		matches.append(price + ' price')
 	for p in data['attractions'][city]['purpose']:
