@@ -33,9 +33,9 @@
 
 		<div class = "container-fluid">
 		<div class = "row" id = "header">
-			<div class = "col-sm-4 col-lg-3 col-xs-12">
-				<h1 style="font-size: 55pt; color: #4285F4" class = "text-center">
-          <img src="../static/images/canoe.png" width=60>
+			<div class = "col-sm-4 col-lg-3 col-xs-12" style = "padding: 0;">
+				<h1 style="font-size: 45pt; color: #4285F4;" class = "text-center">
+					<img src="../static/images/canoe.png" width=60>
 					<a href = "/" style = "text-decoration: none; color:#4285F4"><b>kanoe</b></a>
 				</h1>
 			</div>
@@ -111,7 +111,6 @@
 						<br>
 						<input type = "text" id = "inputLocation" name = "currentloc" class = "form-control" placeholder = "Your location: Lat,Lon">
 						<br><br>
-						<input type = "number" name = "numberLocs" class = "form-control" min = "1" max = "12" placeholder = "Number of recommendations desired">
 					</div><br><br>
 					<button type="submit" class="btn btn-info form-control" id = "submit-button" method = 'POST'> Go! </button>
 				</form>
@@ -134,7 +133,9 @@
 				 transition: 0.3s;
 				 position: static;
 				}
-				
+				#map .leaflet-pane{
+				transform: translate3d(0px, 200px, 0px);
+				}
 				</style>
 				<button type = "button" style = "display: none; transition: 0.3s;" id = "hidemap" class = "btn btn-info" onclick = "collapse_map()">Hide map</button>
 				<script>

@@ -3,14 +3,13 @@
 
 function showMap(home, pairs){
 
- var mymap = L.map('map').setView([0, 0], 1);
+ var mymap = L.map('map').setView([0, 0], 1.25);
  L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(mymap);
 
  if (home!=null && home.length == 2){
      add_home_marker(home[0],home[1],mymap);
-     alert(home[1])
  }
 
  input_lat_lon_pairs(pairs,mymap);
@@ -56,6 +55,7 @@ var jsonTextOptions = {
     fillOpacity: 0.8
 };
     var marker = L.marker([lon, lat], {icon: canoeIcon}).addTo(mymap);
+
 
     marker.bindPopup(place,{autoPan:false});
 

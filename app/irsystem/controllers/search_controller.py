@@ -24,6 +24,7 @@ doc_norms = np.load(tfidf_files+"doc_norms.npy").item()
 json_data = data_files + "data_jsons/"
 urban_rural = np.load(data_files+"urban_cities.npy").item()
 climate = np.load(data_files+"city_climates.npy").item()
+
 ps = PorterStemmer()
 
 kmeans_att = pickle.load(open(os.path.join(data_files, "kmeans_att.pickle"), 'rb'))
@@ -41,6 +42,7 @@ def search():
 	located there.
 	"""
 	query, price, purpose, climate, urban, numLocs, currentLoc = get_inputs()
+	
 	
 	# Stem query words:
 	stem_query = ''
@@ -66,15 +68,21 @@ def search():
 		# Score modifiers based on urban and climate inputs
 		for i, (city, score) in enumerate(results):
 			# Decrease score if not rural/urban as user specified
-			if (urban==0 and is_urban(city)==1) or (urban==2 and is_urban(city)==0):
-				score *= 0.5
+			if (urban==0 and is_urban(city)==0) or (urban==2 and is_urban(city)==2):
+				
+				score *= 2
 
 			# Decrease score if incorrect climate
-			if climate != "" and climate != get_climate(city) and get_climate(city) is not None:
-				score *= 0.5
+			
+			if climate != "" and climate == get_climate(city) and get_climate(city) is not None:
+				
+				score *= 2
 			results[i] = (city, score)
+		
+		sorted_results = sorted(results, key=lambda x: x[1], reverse=True)
 
-		for city, score in results:
+		for city, score in sorted_results:
+			
 			data_dict = {}
 			
 			# Get city attraction information
@@ -91,9 +99,11 @@ def search():
 	lat = 0
 	lon = 0
 
+
 	if currentLoc != None and len(currentLoc) == 2:
 		lat = currentLoc[0]
 		lon = currentLoc[1]
+
 
 	return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data, sim_city_dict = kmeans_dest, sim_att_dict = kmeans_att, latitude = lat, longitude = lon)
 
@@ -122,6 +132,7 @@ def get_inputs():
 		numLocs = 4
 	numLocs = int(numLocs)
 	currentLoc = request.args.get('currentloc')
+
 	if currentLoc == None or len(currentLoc.strip().split(",")) != 2:
 		currentLoc = None
 	else:
@@ -153,10 +164,13 @@ def organize_city_info(climate, urban, city, folder, query, stemmer, num_attrs, 
 		if value is not None:
 			attractions[key]['name'] = key
 			score = attraction_score(query, value['description'])
-			if price != "" and price != data['attractions'][key]['cost']:
-				score *= 0.5
-			if purpose != "" and purpose != data['attractions'][key]['purpose']:
-				score *= 0.5
+			cost_match = price == data['attractions'][key]['cost']
+			if price != "" and cost_match:
+			
+				score *= 2
+			purpose_match = purpose in set(data['attractions'][key]['purpose'])
+			if purpose != "" and  purpose_match:
+				score *= 2
 			attrac_scores.append((key, score))
 
 	# Sort by decreasing score
