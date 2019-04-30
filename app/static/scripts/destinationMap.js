@@ -1,6 +1,3 @@
-
-
-
 function showMap(home, pairs){
 
  var mymap = L.map('map').setView([0, 0], 1.25);
@@ -13,8 +10,6 @@ attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contri
  }
 
  input_lat_lon_pairs(pairs,mymap);
-
-
 }
 
 function input_lat_lon_pairs(pairs,mymap) {
