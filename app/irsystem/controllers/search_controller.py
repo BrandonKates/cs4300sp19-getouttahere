@@ -162,7 +162,6 @@ def organize_city_info(climate, urban, city, folder, query, stemmer, num_attrs, 
 			if price != "" and cost_match:
 				score *= 2
 			purpose_match = purpose in set(data['attractions'][key]['purpose'])
-			#print(purpose_match)
 			if purpose != "" and  purpose_match:
 				score *= 2
 			attrac_scores.append((key, score))
