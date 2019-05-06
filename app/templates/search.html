@@ -228,7 +228,14 @@
 						<div id = "card{{loop.index}}" class = "card row">
 							<div class = "card-header">
 								{{d['city']}}
-								{% if d['country'] != ""%}, {{d['country']}}{% endif %}
+								{% if d['country'] != ""%}, {{d['country']}}{% endif %}<br>
+								
+								This city has:
+								{% for term in d['query_matches'] %}
+									{{d['query_matches'][term]}} {{term}} places	
+								{% endfor %}
+								<br>
+								<font size="3">Score: {{d['score']}}</font><br>
 								
 								{% if sim_city_dict[d['city']] %}
 								<button class = "btn btn-info similar-cities" onclick = "showSimilars({{loop.index}})" type = "button">Find Similar Cities</button>
@@ -277,7 +284,6 @@
 									{% for place in d['attractions'] %}
 											<div class = "col-md-12 collapse more" id = "location-info{{outer_loop.index}}{{loop.index}}">
 												<h3> {{place['name']}} </h3>
-												
 												{% if place['description']|length > 7 %}
 												Place description contains:
 												{% for _ in range(1,8) %}

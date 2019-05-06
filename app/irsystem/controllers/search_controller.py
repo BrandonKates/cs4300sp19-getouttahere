@@ -84,13 +84,14 @@ def search():
 			data_dict = {}
 			
 			# Get city attraction information
-			city_info = organize_city_info(climate, urban, city, json_data, stem_query, stem_dict, 3, price, purpose)
+			city_info, query_matches = organize_city_info(climate, urban, city, json_data, stem_query, stem_dict, 3, price, purpose)
 			city_info['city'] = city
 			city_info['score'] = score
-
+			city_info['query_matches'] = query_matches
+			
 			data.append(city_info)
 
-			
+			print(len(city_info), city_info.keys(), city_info['score'])
 			numLocs -= 1
 			if numLocs == 0:
 				break
@@ -158,11 +159,15 @@ def organize_city_info(climate, urban, city, folder, query, stemmer, num_attrs, 
 
 	attractions = data['attractions']
 	attrac_scores = []
+	query_match_attrs = {}
+	# Calculate score for each attraction and find out how many attractions containing
+	# each key words
 	for key, value in attractions.items():
 		if value is not None:
 			attractions[key]['name'] = key
 			score = attraction_score(query, value['description'])
 			cost_match = price == data['attractions'][key]['cost']
+			# Weigh score if cost and/or purpose match advanced search
 			if price != "" and cost_match:
 				score *= 2
 			purpose_match = purpose in set(data['attractions'][key]['purpose'])
@@ -170,7 +175,13 @@ def organize_city_info(climate, urban, city, folder, query, stemmer, num_attrs, 
 			if purpose != "" and  purpose_match:
 				score *= 2
 			attrac_scores.append((key, score))
-
+			
+			for q in query.split():
+				if q in value['description']:
+					if q not in query_match_attrs:
+						query_match_attrs[q] = 0
+					query_match_attrs[q] += 1
+	
 	# Sort by decreasing score
 	sorted_scores = sorted(attrac_scores, key=lambda x: x[1], reverse=True)
 	
@@ -205,7 +216,7 @@ def organize_city_info(climate, urban, city, folder, query, stemmer, num_attrs, 
 			else:
 				output_dict['attractions'][att]['climate'] = False
 
-	return output_dict
+	return output_dict, query_match_attrs
 
 def get_climate(city):
 	"""
