@@ -230,10 +230,11 @@
 								{{d['city']}}
 								{% if d['country'] != ""%}, {{d['country']}}{% endif %}<br>
 								
-								This city has:
+								<font size="3">This city description mentions:<br>
 								{% for term in d['query_matches'] %}
-									{{d['query_matches'][term]}} {{term}} places	
+									{{d['query_matches'][term]}} {{term}} times <br>
 								{% endfor %}
+								</font>
 								<br>
 								<font size="3">Score: {{d['score']}}</font><br>
 								
