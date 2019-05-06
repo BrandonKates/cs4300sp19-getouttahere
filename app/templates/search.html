@@ -230,13 +230,13 @@
 								{{d['city']}}
 								{% if d['country'] != ""%}, {{d['country']}}{% endif %}<br>
 								
-								<font size="3">This city description mentions:<br>
-								{% for term in d['query_matches'] %}
-									{{d['query_matches'][term]}} {{term}} times <br>
+								<font size="3">Score: {{d['score']}}</font><br>
+								
+								<font size="2.5">Score breadkdown:<br>
+								{% for term in d['tfidf_breakdown'] %}
+									{{term}} {{d['tfidf_breakdown'][term]}} ({{d['tfidf_breakdown'][term]/d['score']}}% of score) <br>
 								{% endfor %}
 								</font>
-								<br>
-								<font size="3">Score: {{d['score']}}</font><br>
 								
 								{% if sim_city_dict[d['city']] %}
 								<button class = "btn btn-info similar-cities" onclick = "showSimilars({{loop.index}})" type = "button">Find Similar Cities</button>

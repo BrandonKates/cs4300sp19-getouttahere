@@ -61,7 +61,7 @@ def search():
 		data = []
 		
 		# Get city suggestions sorted by tf-idf score
-		results = index_search(stem_query, inv_idx, idf, doc_norms)
+		results, term_tfidf_scores= index_search(stem_query, inv_idx, idf, doc_norms)
 		if len(results) == 0:
 			output_message = "No Results Found"
 			
@@ -84,11 +84,10 @@ def search():
 			data_dict = {}
 			
 			# Get city attraction information
-			city_info, query_matches = organize_city_info(climate, urban, city, json_data, stem_query, stem_dict, 3, price, purpose)
+			city_info  = organize_city_info(climate, urban, city, json_data, stem_query, stem_dict, 3, price, purpose)
 			city_info['city'] = city
 			city_info['score'] = score
-			city_info['query_matches'] = query_matches
-			
+			city_info['tfidf_breakdown'] = term_tfidf_scores[city]
 			data.append(city_info)
 
 			numLocs -= 1
@@ -158,9 +157,7 @@ def organize_city_info(climate, urban, city, folder, query, stemmer, num_attrs, 
 
 	attractions = data['attractions']
 	attrac_scores = []
-	query_match_attrs = {}
-	# Calculate score for each attraction and find out how many attractions containing
-	# each key words
+	# Calculate score for each attraction
 	for key, value in attractions.items():
 		if value is not None:
 			attractions[key]['name'] = key
@@ -174,20 +171,11 @@ def organize_city_info(climate, urban, city, folder, query, stemmer, num_attrs, 
 			if purpose != "" and  purpose_match:
 				score *= 2
 			attrac_scores.append((key, score))
-			
-			stemmed_desc = []
-			for term in value['description']:
-				stemmed_desc.append(ps.stem(term))
-			for q in query.lower().split():
-				for d in stemmed_desc:
-					if q == d:
-						if stemmer[q] not in query_match_attrs:
-							query_match_attrs[stemmer[q]] = 0
-						query_match_attrs[stemmer[q]] += 1
+
 	
 	# Sort by decreasing score
 	sorted_scores = sorted(attrac_scores, key=lambda x: x[1], reverse=True)
-	
+
 	# Save & return the top reviews
 	for i in range(num_attrs):
 		if i >= len(sorted_scores): break
@@ -219,7 +207,7 @@ def organize_city_info(climate, urban, city, folder, query, stemmer, num_attrs, 
 			else:
 				output_dict['attractions'][att]['climate'] = False
 
-	return output_dict, query_match_attrs
+	return output_dict
 
 def get_climate(city):
 	"""
@@ -355,6 +343,8 @@ def index_search(query, index, idf, doc_norms):
     q_norm = np.sqrt(np.sum(np.square(q_tf_idf)))
 
     # Update the score once per token
+
+    term_tfidf_scores = {}
     for t in tokens:
         # Skip if there are no docs containing the token
         if t not in index.keys():
@@ -363,15 +353,21 @@ def index_search(query, index, idf, doc_norms):
         for (city, d_tf) in index[t]:
             if city not in scores_array:
                 scores_array[city] = 0
+                term_tfidf_scores[city] = {}
             # Fix this mysterious issue in the future
             #idf_t = idf[t]
 
             if idf.get(t) is not None:
                 scores_array[city] += q_tf[t]*idf[t]*d_tf*idf[t]
+                if t not in term_tfidf_scores[city]:
+                    term_tfidf_scores[city][t] = 0
+                term_tfidf_scores[city][t] += q_tf[t]*idf[t]*d_tf*idf[t]
 
     # Normalize
     for key in scores_array.keys():
         scores_array[key] /= doc_norms[key]*q_norm+1
+        for term in term_tfidf_scores[key]:
+            term_tfidf_scores[key][term] /= doc_norms[key]*q_norm+1
 
     # Put in output form as list (city, score)
     output_results = []
@@ -379,7 +375,7 @@ def index_search(query, index, idf, doc_norms):
         output_results.append((key, scores_array[key]))
     output_results.sort(key = lambda t: t[1], reverse=True)
 
-    return output_results
+    return output_results, term_tfidf_scores
 
 def get_reviews(place_id, api_key):
 	"""Gets reviews for a location based on its google place id"""
