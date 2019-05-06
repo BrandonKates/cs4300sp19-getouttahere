@@ -176,11 +176,14 @@ def organize_city_info(climate, urban, city, folder, query, stemmer, num_attrs, 
 				score *= 2
 			attrac_scores.append((key, score))
 			
-			for q in query.split():
-				if q in value['description']:
+			stemmed_desc = []
+			for term in value['description']:
+				stemmed_desc.append(ps.stem(term))
+			for q in query.lower().split():
+				if q in stemmed_desc:
 					if q not in query_match_attrs:
-						query_match_attrs[q] = 0
-					query_match_attrs[q] += 1
+						query_match_attrs[stemmer[q]] = 0
+					query_match_attrs[stemmer[q]] += 1
 	
 	# Sort by decreasing score
 	sorted_scores = sorted(attrac_scores, key=lambda x: x[1], reverse=True)
