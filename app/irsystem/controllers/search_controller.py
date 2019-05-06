@@ -61,7 +61,7 @@ def search():
 		data = []
 		
 		# Get city suggestions sorted by tf-idf score
-		results, term_tfidf_scores= index_search(stem_query, inv_idx, idf, doc_norms)
+		results, term_tfidf_scores, term_percents = index_search(stem_query, inv_idx, idf, doc_norms)
 		if len(results) == 0:
 			output_message = "No Results Found"
 			
@@ -88,6 +88,8 @@ def search():
 			city_info['city'] = city
 			city_info['score'] = score
 			city_info['tfidf_breakdown'] = term_tfidf_scores[city]
+			city_info['term_percents'] = term_percents[city]
+            
 			data.append(city_info)
 
 			numLocs -= 1
@@ -375,7 +377,14 @@ def index_search(query, index, idf, doc_norms):
         output_results.append((key, scores_array[key]))
     output_results.sort(key = lambda t: t[1], reverse=True)
 
-    return output_results, term_tfidf_scores
+    term_percents = {}
+    for city in term_tfidf_scores:
+        term_percents[city] = {}
+        for t in term_tfidf_scores[city]:
+            term_tfidf_scores[city][t] = round(term_tfidf_scores[city][t], 2)
+            term_percents[city][t] = int(round(100*term_tfidf_scores[city][t]/scores_array[city]))
+            
+    return output_results, term_tfidf_scores, term_percents
 
 def get_reviews(place_id, api_key):
 	"""Gets reviews for a location based on its google place id"""
