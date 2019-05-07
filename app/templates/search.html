@@ -232,7 +232,7 @@
 								
 								<font size="3">Score: {{d['score']}}</font><br>
 								
-								<font size="2.5">Score breadkdown:<br>
+								<font size="2.5">Score breakdown:<br>
 								{% for term in d['tfidf_breakdown'] %}
 									{{term}} {{d['tfidf_breakdown'][term]}} ({{d['term_percents'][term]}}% of score) <br>
 								{% endfor %}
