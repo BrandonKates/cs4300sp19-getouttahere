@@ -4,14 +4,20 @@ from app.irsystem.models.helpers import NumpyEncoder as NumpyEncoder
 from nltk.tokenize import RegexpTokenizer
 from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import numpy as np
 import os
 import requests
 import pickle
 import math
 import nltk
+import inspect
 nltk.download("stopwords")
+nltk.download("averaged_perceptron_tagger")
+nltk.download("vader_lexicon")
 from nltk.corpus import stopwords
+
+sid = SentimentIntensityAnalyzer()
 
 stops = set(stopwords.words('english'))
 
@@ -89,12 +95,22 @@ def search():
 			city_info['score'] = score
 			city_info['tfidf_breakdown'] = term_tfidf_scores[city]
 			city_info['term_percents'] = term_percents[city]
+			
+			if city_info.get("overall_attractionscore") is None:
+				city_info["overall_attractionscore"] = 0
             
 			data.append(city_info)
 
 			numLocs -= 1
 			if numLocs == 0:
 				break
+		#print(data)
+		data = sorted(data, key = lambda x: (x['overall_attractionscore'] + x['score'])/2, reverse = True)
+		for city in data:
+			print(city['overall_attractionscore'])
+		#	overall_attractionscore = 0
+		#	for attraction in city['attractions']:
+		#		num_reviews += len(attraction['reviews'])
 	lat = 0
 	lon = 0
 
@@ -191,25 +207,50 @@ def organize_city_info(climate, urban, city, folder, query, stemmer, num_attrs, 
 
 	# Get reviews for each attraction
 	api_key = "AIzaSyCJiRPAPsSLaY46PvyNxzISQMXFZx6h-g8"
+	tokenizer = RegexpTokenizer(r"\w+")
+	grammar = "NP: {<DT>?<JJ>*<NN>}"
+	parser = nltk.RegexpParser(grammar)
+	
+	#the way the parser is set up, the only subtrees are noun phrases
+	is_np = lambda phr: str(type(phr)) == "<class 'nltk.tree.Tree'>"
+	
 	for att in range(len(output_dict['attractions'])):
 		place_id = output_dict['attractions'][att]['place_id']
 		if place_id is not None and place_id != 'not found':
 			#reviews = [{'reviews':["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."]}]
 			reviews = get_reviews(place_id, api_key).get('result')
 			output_dict['attractions'][att]['reviews'] = reviews
-			#SOFIA
-			#adds urban/rural variable
-			if (urban == is_urban(city)):
-				output_dict['attractions'][att]['urban'] = True
-			else:
-				output_dict['attractions'][att]['urban'] = False
-			#adds climate variable (climate can be none)
-			if (climate == get_climate(city)):
-				output_dict['attractions'][att]['climate'] = True
-			else:
-				output_dict['attractions'][att]['climate'] = False
+			phrases = []
+			#get noun phrases from reviews
+			if reviews.get('reviews') is not None:
+				for r in reviews['reviews']:
+					tokenized_review = tokenizer.tokenize(r['text'])
+					tagged_review = nltk.pos_tag(tokenized_review)
+					parsed_review = parser.parse(tagged_review)
+					parsed_review = [phrase.leaves() for phrase in parsed_review if is_np(phrase)]
+					for phrase in parsed_review:
+						words_only = [word for word,pos in phrase]
+						if len(words_only) >= 2:
+							np = " ".join(words_only)
+							phrases.append(np)
+						
+			#get rid of duplicate phrases and sort by sentiment polarity score
+			phrases = set(phrases)
+			phrases = [(phrase, sid.polarity_scores(phrase)['compound']) for phrase in phrases]
+			phrases = sorted(phrases, key = lambda x: x[1], reverse = True)
+			
+			overall_score = 0
+			
+			if len(phrases) > 0:
+				overall_score = sum(n for _,n in phrases)/len(phrases)
+			
+			
+			output_dict['attractions'][att]['good-reviews'] = [phrase for phrase, score in phrases if score > 0.2]
+			output_dict['attractions'][att]['bad-reviews'] = [phrase for phrase, score in phrases if score < -0.2]
+			output_dict['overall_attractionscore'] = overall_score
 
 	return output_dict
+	
 
 def get_climate(city):
 	"""

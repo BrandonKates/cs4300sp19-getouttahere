@@ -27,8 +27,7 @@
 
 		<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 
-		<script> $(function(){var tags = ["kayaking", "skiing"]; $( "#simpsearch" ).autocomplete({source: tags});});</script>
-	</head>
+		</head>
     <body>
 
 		<div class = "container-fluid">
@@ -230,11 +229,14 @@
 								{{d['city']}}
 								{% if d['country'] != ""%}, {{d['country']}}{% endif %}<br>
 								
-								<font size="3">Score: {{d['score']}}</font><br>
+								<font size="3">Similarity Score: {{'%0.3f' | format(d['score']|float)}}</font><br>
+								<font size="3">Review Sentiment Score: {{'%0.3f' | format(d['overall_attractionscore']|float)}}</font><br>
 								
 								<font size="2.5">Score breakdown:<br>
 								{% for term in d['tfidf_breakdown'] %}
-									{{term}} {{d['tfidf_breakdown'][term]}} ({{d['term_percents'][term]}}% of score) <br>
+									{% if d['tfidf_breakdown'][term] != 0 %}
+										{{term}} {{d['tfidf_breakdown'][term]}} ({{d['term_percents'][term]}}% of score) <br>
+									{% endif %}
 								{% endfor %}
 								</font>
 								
@@ -248,7 +250,7 @@
 								<div class = "row row-no-gutters" id = "city{{outer_loop.index}}" style = 'margin-bottom: 0;'>
 									{% for place in d['attractions'] %}
 
-										<div class = "col-sm-4 col-xs-12">
+										<div class = "col-md-4 col-sm-12 col-xs-12">
 											<div class =  "attraction-info">
 											<div class = "loc-heading">
 											{{place['name']}}
@@ -307,7 +309,18 @@
 														, 
 														{% endif %}
 													{% endfor %}
-													
+													<br>
+													{% if place['reviews']['reviews']|length > 0 %}
+														<h4>Good things people are saying:</h4>
+														{% for item in place['good-reviews'] %}
+															"{{item}}"
+														{% endfor %}
+														
+														<h4>Bad things people are saying:</h4>
+														{% for item in place['bad-reviews'] %}
+															"{{item}}"
+														{% endfor %}
+													{% endif %}
 												</div>
 												
 												<div id = "reviews{{outer_loop.index}}{{loop.index}}" class = "col-xs-8">
@@ -330,8 +343,9 @@
 															<img alt = "Star" class = "stars starsmall" src = "/static/icons8-star-half-48.png">
 														{% endif %}
 			
-														{{review['text'][:80]}}...<br>
+														{{review['text'][:200]}}...<br>
 													{% endfor %}
+													
 												</div>
 												</div>
 												<br>
@@ -346,6 +360,7 @@
 			{% endif %}
 			</form>
 			</div>
+		
 		</div>
 
 		</div>
